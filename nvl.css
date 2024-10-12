@@ -1,0 +1,20 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 4pt;
+}
+
+table {
+    display: table;
+    width: 100%;
+}
+
+th {
+    cursor: pointer;
+    display: table-cell;
+    background-color: goldenrod;
+}
+
+tr:hover {
+    background-color: peachpuff;
+}
