@@ -1,3 +1,4 @@
+import logging
 from datetime import datetime
 
 DIVISIONS = {
@@ -38,15 +39,21 @@ class Game(object):
         self.division = attrs['division'] if 'division' in attrs else ""
         self.home_sets = attrs['home_sets'] if 'home_sets' in attrs else 0
         self.away_sets = attrs['away_sets'] if 'away_sets' in attrs else 0
-        self.home_points = attrs['home_points'] if 'home_points' in attrs else 0
-        self.away_points = attrs['away_points'] if 'away_points' in attrs else 0
+
+        self.home_points = attrs['home_points'] if 'home_points' in attrs else ["-"] * 5
+        self.away_points = attrs['away_points'] if 'away_points' in attrs else ["-"] * 5
+        # fill to 5 sets with dashes
+        self.home_points.extend("-" * (5-len(self.home_points)))
+        self.away_points.extend("-" * (5-len(self.away_points)))
+
+        self.logger = logging.getLogger('nvl')
 
     def __str__(self):
         return " | ".join(
             [
                 self.date(),
                 self.time(),
-                self.number,
+                f"{self.number:8}",
                 f"{self.home} vs {self.away}",
                 self.division,
                 self.venue,
@@ -54,6 +61,9 @@ class Game(object):
                 self.r2,
             ]
         )
+
+    def __hash__(self):
+        return hash(self.division+self.home+self.away+self.date())
 
     def __eq__(self, other):
         if other.__class__ is not Game:
@@ -68,6 +78,9 @@ class Game(object):
             and self.r2 == other.r2
         )
 
+    def __lt__(self, other):
+        return self.timestamp < other.timestamp
+
     def __add__(self, other):
         """
         NON-COMMUTATIVE: Gets the results of 'other' into 'self'
@@ -76,6 +89,15 @@ class Game(object):
         self.home_points = other.home_points
         self.away_sets = other.away_sets
         self.away_points = other.away_points
+        if other.r1:
+            self.r1 = other.r1
+        if other.r2:
+            self.r2 = other.r2
+        if other.venue:
+            self.venue = other.venue
+        if self.timestamp != other.timestamp:
+            self.logger.warning(f"Modifying date from {self.date()} {self.time()} to {other.date()} {other.time()}")
+            self.timestamp = other.timestamp
         return self
 
     def to_dict(self):
@@ -85,8 +107,8 @@ class Game(object):
             "timestamp": self.timestamp.timestamp(),
             "date": self.date(),
             "time": self.time(),
-            "ref1": self.r1,
-            "ref2": self.r2,
+            "r1": self.r1,
+            "r2": self.r2,
             "venue": self.venue,
             "number": self.number,
             "division": self.division,
@@ -103,7 +125,11 @@ class Game(object):
                 self.time(),
                 self.number,
                 self.home,
+                str(self.home_sets),
+                " ".join(self.home_points),
                 self.away,
+                str(self.away_sets),
+                " ".join(self.away_points),
                 self.division,
                 self.venue,
                 self.r1,
@@ -134,22 +160,26 @@ class Game(object):
         self.home_points = results[2::2]
         self.away_points = results[3::2]
 
+        # fill to 5 sets with dashes
+        self.home_points.extend("-" * (5-len(self.home_points)))
+        self.away_points.extend("-" * (5-len(self.away_points)))
+
     def as_table_row(self):
         return (
-            f"<tr>\n"
+            f"<tr><div>\n"
             f"<td rowspan='2'>{self.date()}</td>\n"
             f"<td rowspan='2'>{self.time()}</td>\n"
             f"<td rowspan='2'>{self.number}</td>\n"
             f"<td rowspan='2'>{self.division}</td>\n"
             f"<td>{self.home}</td>\n"
-            f"<td>{self.home_sets}</td>\n"
-            f"<td>{self.home_points}</td>\n"
+            f"<td class='sets'>{self.home_sets}</td>\n"
+            f"<td>{'</td><td>'.join(self.home_points)}</td>\n"
             f"<td rowspan='2'>{self.venue}</td>\n"
             f"<td rowspan='2'>{self.r1}</td>\n"
             f"<td rowspan='2'>{self.r2}</td>\n"
             "</tr>\n<tr>"
             f"<td>{self.away}</td>\n"
-            f"<td>{self.away_sets}</td>\n"
-            f"<td>{self.away_points}</td>\n"
-            "</tr>\n"
+            f"<td class='sets'>{self.away_sets}</td>\n"
+            f"<td>{'</td><td>'.join(self.away_points)}</td>\n"
+            "</div></tr>\n"
         )

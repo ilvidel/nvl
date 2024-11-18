@@ -1,3 +1,6 @@
+h1 {
+    text-align: center;
+}
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -6,7 +9,9 @@ table, th, td {
 
 table {
     display: table;
-    width: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 th {
@@ -15,6 +20,11 @@ th {
     background-color: goldenrod;
 }
 
-tr:hover {
+div:hover {
     background-color: peachpuff;
 }
+
+td.sets {
+    font-weight: bold;
+}
+

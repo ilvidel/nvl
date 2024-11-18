@@ -6,6 +6,15 @@ import bs4
 
 import generator
 from game import Game, DIVISIONS
+import logging
+
+logging.basicConfig(
+    level=logging.WARNING,
+    format="[{levelname:^8.8}] {message}",
+    style="{",
+    datefmt="%Y-%m-%d %H:%M:%S"
+)
+logger = logging.getLogger('nvl')
 
 
 # def save_page(category_id):
@@ -21,33 +30,36 @@ from game import Game, DIVISIONS
 #         f.writelines(response.text)
 
 def load_file(fname):
+    logger.debug(f"Reading from {fname}")
     with open(fname, "r") as f:
         text = f.read()
     return text
 
 def load_json(fname):
+    logger.debug(f"Reading from {fname}")
     with open(fname, "r") as f:
         content = json.load(f)
     print(f"Loaded {len(content)} games from {fname}")
     return [Game(g) for g in content]
 
 
-# def write_csv(games):
-#     with open("nvl.csv", "w") as f:
-#         header = "Date,Time,ID,Home,Away,Category,Division,Venue,Ref1, Ref2\n"
-#         f.write(header)
-#         for g in games:
-#             f.write(f"{g.csv()}\n")
-#
+def write_csv(games):
+    with open("nvl.csv", "w") as f:
+        header = "Date,Time,ID,Home,Sets,Points,Away,Sets,Points,Division,Venue,Ref1,Ref2,\n"
+        f.write(header)
+        for g in games:
+            f.write(f"{g.csv()}\n")
+
 
 
 def write_json(matches, filename):
-    print(f"Writing {filename}")
     with open(filename, "w") as f:
         f.write(json.dumps([m.to_dict() for m in matches], indent=2))
+    logger.info(f"Wrote {len(matches)} games to {filename}")
 
 
 def parse_games(games, div):
+    logger.info(f"Parsing {len(games)} games in {div}...")
     game_list = []
     for entry in games:
         game = Game()
@@ -55,6 +67,9 @@ def parse_games(games, div):
         game.away = entry.attrs['data-away-team']
         date = entry.attrs['data-date']
         game.division = div
+        logger.debug(f"Found home team: {game.home}")
+        logger.debug(f"Found away team: {game.away}")
+        logger.debug(f"Found game date: {game.date()}")
 
         # parse the insides of the game
         soup = bs4.BeautifulSoup(entry.renderContents(), features="html5lib")
@@ -64,25 +79,32 @@ def parse_games(games, div):
         for tag in lis:
             if tag.find('br'):
                 time = tag.contents[0].strip()
+                logger.debug(f"Found game time: {time}")
                 game.set_timestamp(f"{date}T{time}")
                 game.number = tag.contents[2].strip().replace(" - Super League Live", "").strip()
+                logger.debug(f"Found game number: {game.number}")
 
         for tag in spans:
             if 'Venue' in tag.text:
                 txt = tag.text[len('venue:'):].replace(",", "").replace("\n", "")
                 game.venue = re.sub("  +", "-", txt).strip()
+                logger.debug(f"Found game venue: {game.venue}")
 
             if 'Referee 1' in tag.text:
-                game.r1 = tag.text.split(':')[1].strip()
+                game.r1 = tag.text.split(':')[1].replace("(Pending)", "").strip()
+                logger.debug(f"Found game R1: {game.r1}")
 
             if 'Referee 2' in tag.text:
-                game.r2 = tag.text.split(':')[1].strip()
+                game.r2 = tag.text.split(':')[1].replace("(Pending)", "").strip()
+                logger.debug(f"Found game R2: {game.r2}")
 
+        logger.info(f"Adding game: {game}")
         game_list.append(game)
     return game_list
 
 
 def parse_results(games, div):
+    logger.info(f"Parsing {len(games)} results in {div}...")
     game_list = []
     for entry in games:
         game = Game()
@@ -91,6 +113,9 @@ def parse_results(games, div):
         date = entry.attrs['data-date']
         game.set_timestamp(f"{date}T00:00")
         game.division = div
+        logger.debug(f"Found home team: {game.home}")
+        logger.debug(f"Found away team: {game.away}")
+        logger.debug(f"Found game date: {date}")
 
         # parse the insides of the game
         soup = bs4.BeautifulSoup(entry.renderContents(), features="html5lib")
@@ -101,15 +126,21 @@ def parse_results(games, div):
             if tag.attrs:  # skip tags with attributes
                 continue
             if tag.text.isnumeric():
-                results.append(int(tag.text))
+                results.append(tag.text)
             if "Referee 1" in tag.text:
-                game.r1 = tag.text.split(":")[1].strip()
+                game.r1 = tag.text.split(":")[1].replace("(Pending)", "").strip()
+                logger.debug(f"Found game R1: {game.r1}")
             if "Referee 2" in tag.text:
-                game.r2 = tag.text.split(":")[1].strip()
+                game.r2 = tag.text.split(":")[1].replace("(Pending)", "").strip()
+                logger.debug(f"Found game R2: {game.r2}")
             if "Venue" in tag.text:
                 game.venue = tag.text.split(":")[1].strip()
+                logger.debug(f"Found game venue: {game.venue}")
         game.set_results(results)
+        logger.debug(f"Found game results: {results}")
+
         game_list.append(game)
+        logger.info(f"Parsed results for: {game}")
     return game_list
 
 
@@ -122,11 +153,11 @@ def merge_results(database, results):
     missing = []
     for res in results:
         if res not in database:
-            print(f"Warning: Game {res} not found in database, adding")
+            logger.warning(f"Game {res} not found in database. Adding")
             missing.append(res)
             continue
         index = database.index(res)
-        print(f"Adding results for: {res}")
+        logger.info(f"Adding results for: {res}")
         # database[index] += res
         database[index].home_sets = res.home_sets
         database[index].home_points = res.home_points
@@ -146,11 +177,28 @@ def merge_results(database, results):
     return database
 
 
+def look_for_updates(database, unplayed):
+    for g in unplayed:
+        filtro = list(filter(lambda x: x.number == g.number, database))
+        try:
+            index = database.index(filtro[0])
+        except IndexError as ie:
+            logger.error(f"No game matching number '{g.number}': {g}")
+            continue
+        except ValueError as ve:
+            logger.error(f"Game not found in database: {g}")
+            continue
+        if database[index] != g:
+            logger.warning(f"Unmatched game {g.number}, merging")
+            logger.debug(g)
+            logger.debug(database[index])
+            database[index] += g
+
 
 if __name__ == "__main__":
     unplayed_games = []
     played_games = []
-    for cid, division in DIVISIONS.items():
+    for _, division in DIVISIONS.items():
         # parse the unplayed games
         filename = division.replace(" ", "_").lower() + ".html"
         html = load_file(filename)
@@ -175,7 +223,10 @@ if __name__ == "__main__":
     # merge the games
     games = load_json("nvl.json")  # this will be my database
     games = merge_results(games, played_games)
-    # look_for_updates(games, unplayed_games)
+    look_for_updates(games, unplayed_games)
 
     # generate the final page
     generator.generate_html(games)
+    write_json(sorted(set(games)), "nvl.json")
+
+    write_csv(sorted(games, key=lambda x: x.division))

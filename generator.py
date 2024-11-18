@@ -15,7 +15,7 @@ header = """
           <th onclick="sortTable(1)">Time</th>
           <th onclick="sortTable(2)">ID</th>
           <th onclick="sortTable(3)">Division</th>
-          <th onclick="sortTable(5)" colspan='3'>Teams & Results</th>
+          <th onclick="sortTable(5)" colspan='7'>Teams & Results</th>
           <th onclick="sortTable(7)">Venue</th>
           <th onclick="sortTable(8)">Ref 1</th>
           <th onclick="sortTable(9)">Ref 2</th>
@@ -23,18 +23,19 @@ header = """
       </thead>
       <tbody>
 """
-footer = """
-      </tbody>
-    </table>
-  </body>
-</html>      
-"""
-
 
 def generate_html(games):
     body = ""
     for g in sorted(games, key=lambda x: x.timestamp):
         body += g.as_table_row()
+
+    footer = f"""
+          </tbody>
+        </table>
+        {len(games)} rows
+      </body>
+    </html>      
+    """
 
     print("Saving calendar...")
     with open("calendar.html", "w") as f:
