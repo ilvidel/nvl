@@ -45,7 +45,7 @@ def load_json(fname):
 
 def write_csv(games):
     with open("nvl.csv", "w") as f:
-        header = "Date,Time,ID,Home,Sets,Points,Away,Sets,Points,Division,Venue,Ref1,Ref2,\n"
+        header = "Date,Time,ID,Home,Sets,Points,Away,Sets,Points,Division,Category,Venue,Ref1,Ref2,\n"
         f.write(header)
         for g in games:
             f.write(f"{g.csv()}\n")
