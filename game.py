@@ -37,6 +37,7 @@ class Game(object):
         self.venue = attrs['venue'] if 'venue' in attrs else ""
         self.number = attrs['number'] if 'number' in attrs else ""
         self.division = attrs['division'] if 'division' in attrs else ""
+        self.category = "women" if "women" in self.division else "men" # this may cause problems with unknwon categories
         self.home_sets = attrs['home_sets'] if 'home_sets' in attrs else 0
         self.away_sets = attrs['away_sets'] if 'away_sets' in attrs else 0
 
@@ -112,6 +113,7 @@ class Game(object):
             "venue": self.venue,
             "number": self.number,
             "division": self.division,
+            "category": self.category,
             "home_sets": self.home_sets,
             "away_sets": self.away_sets,
             "home_points": self.home_points,
@@ -131,18 +133,40 @@ class Game(object):
                 str(self.away_sets),
                 " ".join(self.away_points),
                 self.division,
+                self.category,
                 self.venue,
                 self.r1,
                 self.r2,
             ]
         )
 
-    def set_timestamp(self, date_str):
+    @staticmethod
+    def from_csv(line):
+        g = Game()
+        g.set_timestamp(f"{line['date']}T{line['time']}", numerical=True)
+        g.number=line['ID']
+        g.home=line['home']
+        g.home_sets=line['home_sets']
+        g.home_points = line['home_points'].split()
+        g.away=line['away']
+        g.away_sets=line['away_sets']
+        g.away_points = line['away_points'].split()
+        g.venue=line['venue']
+        g.category=line['category']
+        g.division=line['division']
+        g.r1=line['r1']
+        g.r2=line['r2']
+        return g
+
+    def set_timestamp(self, date_str, numerical=False):
         date_str = date_str.replace("th", "")
-        date_str = date_str.replace("st", "")
-        date_str = date_str.replace("nd", "")
-        date_str = date_str.replace("rd", "")
-        fmt = "%a %d %B %YT%H:%M"
+        date_str = date_str.replace("1st", "1")
+        date_str = date_str.replace("2nd", "2")
+        date_str = date_str.replace("3rd", "3")
+        if numerical:
+            fmt = "%Y-%m-%dT%H:%M"
+        else:
+            fmt = "%a %d %B %YT%H:%M"
         self.timestamp = datetime.strptime(date_str, fmt)
 
     def date(self):
