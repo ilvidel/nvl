@@ -3,6 +3,7 @@ import statistics
 
 import pandas
 import plotly.express as px
+import plotly.graph_objects as go
 
 from game import Game
 
@@ -27,9 +28,8 @@ class MyPlotter:
         for game in self.games:
             total = sum(
                 [int(x) for x in game.home_points + game.away_points if x.isnumeric()])
-            if total < 75: # this result is wrong and should be ignored
-                print(
-                    f"{game.division} {game.category} Date: {game.date()} Home: {game.home} ({game.home_points}) Away: {game.away} ({game.away_points})")
+            if total < 75:  # this result is wrong and should be ignored
+                print(game)
                 continue
             points.append(total)
             sex.append(game.category)
@@ -122,16 +122,28 @@ class MyPlotter:
 
     def plot_number_of_games_per_division(self):
         """Number of games played per year, per division"""
-        years = [g.timestamp.year for g in self.games]
+        # years = [g.timestamp.year for g in self.games]
+        count = {}
+        for g in self.games:
+            div = g.division
+            year = g.timestamp.year
+            if div not in count: count[div] = []
+            count[div].append(year)
 
-        for y in years:
-            super = [x.division for x in
-                     filter(lambda g: g.timestamp.year == y, self.games)]
+        print(count.keys())
 
-        df = pandas.DataFrame(dict(count=count, years=years))
-        fig = px.bar(
-            df, x='years', y='count', color='count',
-            color_continuous_scale='sunsetdark',
+        fig = go.Figure()
+        fig.add_trace(go.Histogram(x=count['shield'], name="Shield"))
+        fig.add_trace(go.Histogram(x=count['cup'], name="Cup"))
+        fig.add_trace(go.Histogram(x=count['division_3'], name="Division 3"))
+        fig.add_trace(go.Histogram(x=count['division_2'], name="Division 2"))
+        fig.add_trace(go.Histogram(x=count['division_1'], name="Division 1"))
+        fig.add_trace(go.Histogram(x=count['superleague'], name="Super"))
+        fig.update_layout(
+            barmode='stack',
+            bargap=.2,
+            xaxis_title_text='Year',  # xaxis label
+            yaxis_title_text='Number of Games',  # yaxis label
             title="Number of games per year, per division")
         fig.show()
 
@@ -147,8 +159,8 @@ class MyPlotter:
         }
 
         # TODO: maybe remove the forfeited games (either 3-0 or 0-3)
-        # where one team has 0 total points. That skews the percentage
-        # and I think it's an outlier
+        # where one team has 0 total points. Or add them as sections.
+        # They skew the result and I think it's an outlier
         for game in self.games:
             if game.home_sets == '3':
                 if game.away_sets == '0':
@@ -189,6 +201,30 @@ class MyPlotter:
         fig.show()
         return fig
 
+    def plot_number_of_teams(self):
+        """Plot number of teams per year"""
+        count = {}
+        for g in self.games:
+            if g.division=='playoffs': continue
+            year = g.timestamp.year
+            if year not in count: count[year] = {
+                'superleague': set(),
+                'division_1': set(),
+                'division_2': set(),
+                'division_3': set(),
+                'cup': set(),
+                'shield': set(),
+            }
+            count[year][g.division].add(g.home)
+            count[year][g.division].add(g.away)
+
+        # df = pandas.DataFrame(dict(
+        #     years=count.keys(),
+        #     divisions=['superleague', 'division_1', 'division_2', 'division_3', 'cup', 'shield'],
+        #     count=count.values()
+        # ))
+        fig = px.bar(count)
+        fig.show()
 
 if __name__ == "__main__":
     plotter = MyPlotter()
@@ -196,5 +232,6 @@ if __name__ == "__main__":
     # plotter.plot_home_victories()
     # plotter.plot_home_victories_per_division()
     # plotter.plot_number_of_games()
-    plotter.plot_results()
-    # plotter.plot_number_of_games_per_division()  # TODO
+    # plotter.plot_results()
+    # plotter.plot_number_of_games_per_division()
+    plotter.plot_number_of_teams()
