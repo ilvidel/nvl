@@ -1,5 +1,179 @@
 [
   {
+    "home": "DARKSTAR Derbyshire",
+    "away": "Lionhearts Vinarius",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Lenny Barry",
+    "r2": "Debra Smart",
+    "venue": "Ruth Gorse Academy",
+    "number": "",
+    "division": "Super League Women",
+    "category": "men",
+    "home_sets": "2",
+    "away_sets": "3",
+    "home_points": [
+      "25",
+      "18",
+      "26",
+      "17",
+      "12"
+    ],
+    "away_points": [
+      "20",
+      "25",
+      "24",
+      "25",
+      "15"
+    ]
+  },
+  {
+    "home": "Malory Eagles UEL",
+    "away": "Essex Rebels",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Nick Heckford",
+    "r2": "Ian Cheesbrough",
+    "venue": "ACS Cobham International School",
+    "number": "",
+    "division": "Super League Women",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "1",
+    "home_points": [
+      "10",
+      "25",
+      "25",
+      "25",
+      "-"
+    ],
+    "away_points": [
+      "25",
+      "21",
+      "22",
+      "21",
+      "-"
+    ]
+  },
+  {
+    "home": "Leeds Gorse",
+    "away": "Durham Palatinates",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Joseph Gore",
+    "r2": "Lenny Barry",
+    "venue": "Ruth Gorse Academy",
+    "number": "",
+    "division": "Super League Women",
+    "category": "men",
+    "home_sets": "2",
+    "away_sets": "3",
+    "home_points": [
+      "20",
+      "25",
+      "21",
+      "25",
+      "13"
+    ],
+    "away_points": [
+      "25",
+      "17",
+      "25",
+      "15",
+      "15"
+    ]
+  },
+  {
+    "home": "Cambridge ARU",
+    "away": "Wessex",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "Glynn Archibald",
+    "r2": "Maya Stancheva",
+    "venue": "Stephen Perse Foundation",
+    "number": "",
+    "division": "Super League Women",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "0",
+    "home_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "14",
+      "14",
+      "10",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "Malory Eagles UEL",
+    "away": "Durham Palatinates",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "Ryszard Dabrowski",
+    "r2": "Patrick Koroma",
+    "venue": "Ernest Bevin College",
+    "number": "",
+    "division": "Super League Women",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "0",
+    "home_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "23",
+      "17",
+      "20",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "University of Nottingham Volleyball",
+    "away": "Lionhearts Vinarius",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "John Boughton",
+    "r2": "Roberto Rigante",
+    "venue": "Jubilee Campus Sports Centre",
+    "number": "",
+    "division": "Super League Women",
+    "category": "men",
+    "home_sets": "1",
+    "away_sets": "3",
+    "home_points": [
+      "19",
+      "25",
+      "15",
+      "22",
+      "-"
+    ],
+    "away_points": [
+      "25",
+      "23",
+      "25",
+      "25",
+      "-"
+    ]
+  },
+  {
     "home": "Team SideOut Polonia (London)",
     "away": "Malory Eagles UEL",
     "timestamp": 1732320000.0,
@@ -10,6 +184,7 @@
     "venue": "University of East London (Sports Dock)",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -38,12 +213,42 @@
     "venue": "Stephen Perse Foundation",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
       "16",
       "17",
       "23",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "DARKSTAR Derbyshire",
+    "away": "Leeds Gorse",
+    "timestamp": 1732320000.0,
+    "date": "2024-11-23",
+    "time": "00:00",
+    "r1": "Phil Cobb",
+    "r2": "Ben Hill",
+    "venue": "Derby University Sports Centre",
+    "number": "",
+    "division": "Super League Women",
+    "category": "men",
+    "home_sets": "0",
+    "away_sets": "3",
+    "home_points": [
+      "0",
+      "22",
+      "16",
       "-",
       "-"
     ],
@@ -66,6 +271,7 @@
     "venue": "Graham Sports Centre",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -84,34 +290,6 @@
     ]
   },
   {
-    "home": "DARKSTAR Derbyshire",
-    "away": "Leeds Gorse",
-    "timestamp": 1732320000.0,
-    "date": "2024-11-23",
-    "time": "00:00",
-    "r1": "Phil Cobb",
-    "r2": "Ben Hill",
-    "venue": "Derby University Sports Centre",
-    "number": "",
-    "division": "Super League Women",
-    "home_sets": "0",
-    "away_sets": "3",
-    "home_points": [
-      "0",
-      "22",
-      "16",
-      "-",
-      "-"
-    ],
-    "away_points": [
-      "25",
-      "25",
-      "25",
-      "-",
-      "-"
-    ]
-  },
-  {
     "home": "University of Nottingham Volleyball",
     "away": "Cambridge ARU",
     "timestamp": 1731801600.0,
@@ -122,6 +300,7 @@
     "venue": "David Ross Sports Village",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -150,6 +329,7 @@
     "venue": "The Stephen Longfellow Academy",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -178,6 +358,7 @@
     "venue": "Graham Sports Centre",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -206,6 +387,7 @@
     "venue": "Mulberry Shoreditch Academy",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -234,6 +416,7 @@
     "venue": "The Stephen Longfellow Academy",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -262,6 +445,7 @@
     "venue": "Graham Sports Centre",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -290,6 +474,7 @@
     "venue": "Derby University Sports Centre",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -318,6 +503,7 @@
     "venue": "Essex Sport Arena",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -346,6 +532,7 @@
     "venue": "Moberly Sports Centre",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -374,6 +561,7 @@
     "venue": "Mulberry Shoreditch Academy",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -402,6 +590,7 @@
     "venue": "Jubilee Campus Sports Centre",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -430,6 +619,7 @@
     "venue": "University of Essex Sports Centre",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -458,6 +648,7 @@
     "venue": "Ruth Gorse Academy",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -486,6 +677,7 @@
     "venue": "University of East London (Sports Dock)",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -514,6 +706,7 @@
     "venue": "Graham Sports Centre",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -542,6 +735,7 @@
     "venue": "Moberly Sports Centre",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -560,34 +754,6 @@
     ]
   },
   {
-    "home": "University of Nottingham Volleyball",
-    "away": "Durham Palatinates",
-    "timestamp": 1729897200.0,
-    "date": "2024-10-26",
-    "time": "00:00",
-    "r1": "Stephen Smith",
-    "r2": "William Perugini",
-    "venue": "David Ross Sports Village",
-    "number": "",
-    "division": "Super League Women",
-    "home_sets": "3",
-    "away_sets": "1",
-    "home_points": [
-      "25",
-      "22",
-      "25",
-      "25",
-      "-"
-    ],
-    "away_points": [
-      "23",
-      "25",
-      "21",
-      "18",
-      "-"
-    ]
-  },
-  {
     "home": "Cambridge ARU",
     "away": "Leeds Gorse",
     "timestamp": 1729897200.0,
@@ -598,6 +764,7 @@
     "venue": "Stephen Perse Foundation",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -616,6 +783,35 @@
     ]
   },
   {
+    "home": "University of Nottingham Volleyball",
+    "away": "Durham Palatinates",
+    "timestamp": 1729897200.0,
+    "date": "2024-10-26",
+    "time": "00:00",
+    "r1": "Stephen Smith",
+    "r2": "William Perugini",
+    "venue": "David Ross Sports Village",
+    "number": "",
+    "division": "Super League Women",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "1",
+    "home_points": [
+      "25",
+      "22",
+      "25",
+      "25",
+      "-"
+    ],
+    "away_points": [
+      "23",
+      "25",
+      "21",
+      "18",
+      "-"
+    ]
+  },
+  {
     "home": "Essex Rebels",
     "away": "DARKSTAR Derbyshire",
     "timestamp": 1729378800.0,
@@ -626,6 +822,7 @@
     "venue": "University of Essex Sports Centre",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -654,6 +851,7 @@
     "venue": "Mulberry Shoreditch Academy",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -682,6 +880,7 @@
     "venue": "Ernest Bevin College",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -710,6 +909,7 @@
     "venue": "Parkstone Grammar School",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -738,6 +938,7 @@
     "venue": "National Volleyball Centre",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -766,6 +967,7 @@
     "venue": "National Volleyball Centre",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -794,6 +996,7 @@
     "venue": "National Volleyball Centre",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -822,6 +1025,7 @@
     "venue": "National Volleyball Centre",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -850,6 +1054,7 @@
     "venue": "National Volleyball Centre",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -878,6 +1083,7 @@
     "venue": "Parkstone Grammar School",
     "number": "",
     "division": "Super League Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -896,6 +1102,180 @@
     ]
   },
   {
+    "home": "University of Nottingham",
+    "away": "Stockport",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Pete Whyard",
+    "r2": "Elia Gironacci",
+    "venue": "University of Nottingham Sutton Bonington Campus",
+    "number": "",
+    "division": "Super League Men",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "2",
+    "home_points": [
+      "25",
+      "17",
+      "25",
+      "25",
+      "15"
+    ],
+    "away_points": [
+      "27",
+      "25",
+      "15",
+      "19",
+      "6"
+    ]
+  },
+  {
+    "home": "Malory Eagles UEL",
+    "away": "Essex Rebels",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Ian Cheesbrough",
+    "r2": "Nick Heckford",
+    "venue": "ACS Cobham International School",
+    "number": "",
+    "division": "Super League Men",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "2",
+    "home_points": [
+      "25",
+      "24",
+      "25",
+      "17",
+      "15"
+    ],
+    "away_points": [
+      "22",
+      "26",
+      "23",
+      "25",
+      "9"
+    ]
+  },
+  {
+    "home": "Richmond Docklands",
+    "away": "Durham Palatinates",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Dominik Biegajlo",
+    "r2": "Gabriel Dan",
+    "venue": "University of Westminster Sports Hall Harrow Campus",
+    "number": "",
+    "division": "Super League Men",
+    "category": "men",
+    "home_sets": "0",
+    "away_sets": "3",
+    "home_points": [
+      "23",
+      "23",
+      "14",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "University of Nottingham",
+    "away": "London Giants",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "Roberto Rigante",
+    "r2": "John Boughton",
+    "venue": "Jubilee Campus Sports Centre",
+    "number": "",
+    "division": "Super League Men",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "1",
+    "home_points": [
+      "25",
+      "25",
+      "17",
+      "25",
+      "-"
+    ],
+    "away_points": [
+      "17",
+      "20",
+      "25",
+      "19",
+      "-"
+    ]
+  },
+  {
+    "home": "IBB Polonia London",
+    "away": "Durham Palatinates",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "Dominik Biegajlo",
+    "r2": "Huaxi Liu",
+    "venue": "Northolt High school",
+    "number": "",
+    "division": "Super League Men",
+    "category": "men",
+    "home_sets": "1",
+    "away_sets": "3",
+    "home_points": [
+      "25",
+      "22",
+      "13",
+      "19",
+      "-"
+    ],
+    "away_points": [
+      "23",
+      "25",
+      "25",
+      "25",
+      "-"
+    ]
+  },
+  {
+    "home": "Richmond Docklands",
+    "away": "Newcastle Knights",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "Peter Parsons",
+    "r2": "Alexandru Calin",
+    "venue": "Westminster University Harrow Campus",
+    "number": "",
+    "division": "Super League Men",
+    "category": "men",
+    "home_sets": "1",
+    "away_sets": "3",
+    "home_points": [
+      "15",
+      "22",
+      "25",
+      "22",
+      "-"
+    ],
+    "away_points": [
+      "25",
+      "25",
+      "21",
+      "25",
+      "-"
+    ]
+  },
+  {
     "home": "London Giants",
     "away": "Richmond Docklands",
     "timestamp": 1732406400.0,
@@ -906,6 +1286,7 @@
     "venue": "Crystal Palace National Sports Centre",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -934,6 +1315,7 @@
     "venue": "Essex Sport Arena",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -962,6 +1344,7 @@
     "venue": "Crystal Palace National Sports Centre",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -990,6 +1373,7 @@
     "venue": "Graham Sports Centre",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -1018,6 +1402,7 @@
     "venue": "Ernest Bevin College",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -1046,6 +1431,7 @@
     "venue": "Newcastle University Sports Centre",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -1074,6 +1460,7 @@
     "venue": "Crystal Palace National Sports Centre",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -1102,6 +1489,7 @@
     "venue": "Life Leisure Brinnington Park",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -1130,6 +1518,7 @@
     "venue": "Essex Sport Arena",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -1158,6 +1547,7 @@
     "venue": "St John Payne School",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -1186,6 +1576,7 @@
     "venue": "Jubilee Campus Sports Centre",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -1214,6 +1605,7 @@
     "venue": "Northumbria University",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -1242,6 +1634,7 @@
     "venue": "Clapham Leisure Centre",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -1270,6 +1663,7 @@
     "venue": "David Ross Sports Village",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -1298,6 +1692,7 @@
     "venue": "Life Leisure Brinnington Park",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -1326,6 +1721,7 @@
     "venue": "University of Essex Sports Centre",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -1354,6 +1750,7 @@
     "venue": "St John Payne School",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -1382,6 +1779,7 @@
     "venue": "Ernest Bevin College",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -1410,6 +1808,7 @@
     "venue": "National Volleyball Centre",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -1438,6 +1837,7 @@
     "venue": "National Volleyball Centre",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -1466,6 +1866,7 @@
     "venue": "National Volleyball Centre",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -1494,6 +1895,7 @@
     "venue": "National Volleyball Centre",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -1522,6 +1924,7 @@
     "venue": "National Volleyball Centre",
     "number": "",
     "division": "Super League Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -1540,6 +1943,209 @@
     ]
   },
   {
+    "home": "Lincoln Cannons",
+    "away": "Tamworth Spartans",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Igors Maksimovs",
+    "r2": "Stivan Kolev",
+    "venue": "Riseholme College (Showground Campus)",
+    "number": "",
+    "division": "Division 1 Men",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "0",
+    "home_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "18",
+      "20",
+      "18",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "Bristol",
+    "away": "Cambridge ARU",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Francesca Bentley",
+    "r2": "Jacky Pang",
+    "venue": "Avanti Gardens School",
+    "number": "",
+    "division": "Division 1 Men",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "1",
+    "home_points": [
+      "17",
+      "25",
+      "25",
+      "26",
+      "-"
+    ],
+    "away_points": [
+      "25",
+      "20",
+      "18",
+      "24",
+      "-"
+    ]
+  },
+  {
+    "home": "Exeter Storm",
+    "away": "Cambridge ARU",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "Francesca Bentley",
+    "r2": "Connor Bromley",
+    "venue": "Riverside Leisure Centre",
+    "number": "",
+    "division": "Division 1 Men",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "2",
+    "home_points": [
+      "21",
+      "25",
+      "22",
+      "25",
+      "15"
+    ],
+    "away_points": [
+      "25",
+      "22",
+      "25",
+      "20",
+      "12"
+    ]
+  },
+  {
+    "home": "London Baks",
+    "away": "Black Country",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "Gianni Sutton",
+    "r2": "Mark Trelfa",
+    "venue": "Castle Green Sport Centre",
+    "number": "",
+    "division": "Division 1 Men",
+    "category": "men",
+    "home_sets": "0",
+    "away_sets": "3",
+    "home_points": [
+      "17",
+      "23",
+      "21",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "Hull Thunder",
+    "away": "Leeds Gorse",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "Stivan Kolev",
+    "r2": "Diane Hollows",
+    "venue": "Steve Prescott Sport Centre",
+    "number": "",
+    "division": "Division 1 Men",
+    "category": "men",
+    "home_sets": "0",
+    "away_sets": "3",
+    "home_points": [
+      "17",
+      "21",
+      "19",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "Lincoln Cannons",
+    "away": "London Aces",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "Simon Cowie",
+    "r2": "Igors Maksimovs",
+    "venue": "Riseholme College (Showground Campus)",
+    "number": "",
+    "division": "Division 1 Men",
+    "category": "men",
+    "home_sets": "0",
+    "away_sets": "3",
+    "home_points": [
+      "19",
+      "17",
+      "20",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "Bristol",
+    "away": "Newcastle Staffs",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "Sam Yip",
+    "r2": "Richard Parkes",
+    "venue": "Avanti Gardens School",
+    "number": "",
+    "division": "Division 1 Men",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "1",
+    "home_points": [
+      "23",
+      "25",
+      "25",
+      "25",
+      "-"
+    ],
+    "away_points": [
+      "25",
+      "20",
+      "16",
+      "23",
+      "-"
+    ]
+  },
+  {
     "home": "Leeds Gorse",
     "away": "Newcastle Staffs",
     "timestamp": 1732406400.0,
@@ -1550,6 +2156,7 @@
     "venue": "The Ruth Gorse Academy",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -1578,6 +2185,7 @@
     "venue": "Stephen Perse Foundation",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -1606,6 +2214,7 @@
     "venue": "Castle Green Sport Centre",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -1634,6 +2243,7 @@
     "venue": "Sir Stanley Matthews Sports Centre",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -1662,6 +2272,7 @@
     "venue": "The Ruth Gorse Academy",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -1690,6 +2301,7 @@
     "venue": "Wilnecote Leisure Centre",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -1718,6 +2330,7 @@
     "venue": "Avanti Gardens School",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -1736,34 +2349,6 @@
     ]
   },
   {
-    "home": "Exeter Storm",
-    "away": "Leeds Gorse",
-    "timestamp": 1731715200.0,
-    "date": "2024-11-16",
-    "time": "00:00",
-    "r1": "Richard Parkes",
-    "r2": "Su Brennand",
-    "venue": "Riverside Leisure Centre",
-    "number": "",
-    "division": "Division 1 Men",
-    "home_sets": "0",
-    "away_sets": "3",
-    "home_points": [
-      "16",
-      "15",
-      "25",
-      "-",
-      "-"
-    ],
-    "away_points": [
-      "25",
-      "25",
-      "27",
-      "-",
-      "-"
-    ]
-  },
-  {
     "home": "Lincoln Cannons",
     "away": "London Baks",
     "timestamp": 1731715200.0,
@@ -1774,6 +2359,7 @@
     "venue": "Riseholme College (Showground Campus)",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -1792,6 +2378,35 @@
     ]
   },
   {
+    "home": "Exeter Storm",
+    "away": "Leeds Gorse",
+    "timestamp": 1731715200.0,
+    "date": "2024-11-16",
+    "time": "00:00",
+    "r1": "Richard Parkes",
+    "r2": "Su Brennand",
+    "venue": "Riverside Leisure Centre",
+    "number": "",
+    "division": "Division 1 Men",
+    "category": "men",
+    "home_sets": "0",
+    "away_sets": "3",
+    "home_points": [
+      "16",
+      "15",
+      "25",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "25",
+      "25",
+      "27",
+      "-",
+      "-"
+    ]
+  },
+  {
     "home": "London Aces",
     "away": "Cambridge ARU",
     "timestamp": 1731715200.0,
@@ -1802,6 +2417,7 @@
     "venue": "Lambeth Academy",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -1830,6 +2446,7 @@
     "venue": "Redhill School Sports Hall",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -1858,6 +2475,7 @@
     "venue": "Avanti Gardens School",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -1886,6 +2504,7 @@
     "venue": "Steve Prescott Sports Centre",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -1914,6 +2533,7 @@
     "venue": "Sir Stanley Matthews Sports Centre",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -1942,6 +2562,7 @@
     "venue": "Lambeth Academy",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -1970,6 +2591,7 @@
     "venue": "Riverside Leisure Centre",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -1998,6 +2620,7 @@
     "venue": "Castle Green Sport Centre",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -2026,6 +2649,7 @@
     "venue": "Lambeth Academy",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -2054,6 +2678,7 @@
     "venue": "North Cambridge Academy",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -2082,6 +2707,7 @@
     "venue": "Riseholme College (Showground Campus)",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -2110,6 +2736,7 @@
     "venue": "Sir Stanley Matthews Sports Centre",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -2138,6 +2765,7 @@
     "venue": "Lambeth Academy",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -2166,6 +2794,7 @@
     "venue": "The Ruth Gorse Academy",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -2194,6 +2823,7 @@
     "venue": "Wilnecote Leisure Centre",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -2222,6 +2852,7 @@
     "venue": "The Stephen Longfellow Academy",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -2250,6 +2881,7 @@
     "venue": "Avanti Gardens School",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -2278,6 +2910,7 @@
     "venue": "Riverside Leisure Centre",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -2306,6 +2939,7 @@
     "venue": "Steve Prescott Sport Centre",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -2334,6 +2968,7 @@
     "venue": "Redhill School Sports Hall",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -2362,6 +2997,7 @@
     "venue": "North Cambridge Academy",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -2390,6 +3026,7 @@
     "venue": "Castle Green Sport Centre",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -2418,6 +3055,7 @@
     "venue": "Redhill School Sports Hall",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -2446,6 +3084,7 @@
     "venue": "North Cambridge Academy",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -2474,6 +3113,7 @@
     "venue": "Wilnecote Leisure Centre",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -2502,6 +3142,7 @@
     "venue": "Steve Prescott Sports Centre",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -2530,6 +3171,7 @@
     "venue": "Castle Green Sport Centre",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -2558,6 +3200,7 @@
     "venue": "The Ruth Gorse Academy",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -2586,6 +3229,7 @@
     "venue": "Castle Green Sport Centre",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -2614,6 +3258,7 @@
     "venue": "Lambeth Academy",
     "number": "",
     "division": "Division 1 Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -2633,6 +3278,122 @@
   },
   {
     "home": "Coventry & Warwick Riga",
+    "away": "Stockport",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Glynn Archibald",
+    "r2": "Alex Iftime",
+    "venue": "Alan Higgs Centre",
+    "number": "",
+    "division": "Division 1 Women",
+    "category": "men",
+    "home_sets": "0",
+    "away_sets": "3",
+    "home_points": [
+      "25",
+      "19",
+      "16",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "27",
+      "25",
+      "25",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "Essex Trinity",
+    "away": "London Inter Crocs",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Herman Prada",
+    "r2": "",
+    "venue": "St John Payne School",
+    "number": "",
+    "division": "Division 1 Women",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "0",
+    "home_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "18",
+      "14",
+      "22",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "Southampton",
+    "away": "Richmond",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Ludwik Kowalewski",
+    "r2": "Alexandru Calin",
+    "venue": "Itchen College Sports Centre",
+    "number": "",
+    "division": "Division 1 Women",
+    "category": "men",
+    "home_sets": "1",
+    "away_sets": "3",
+    "home_points": [
+      "16",
+      "21",
+      "25",
+      "16",
+      "-"
+    ],
+    "away_points": [
+      "25",
+      "25",
+      "21",
+      "25",
+      "-"
+    ]
+  },
+  {
+    "home": "Stockport",
+    "away": "Leicester Athena Phoenix",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "Debra Smart",
+    "r2": "Paul Fagan",
+    "venue": "Life Leisure Brinnington Park",
+    "number": "",
+    "division": "Division 1 Women",
+    "category": "men",
+    "home_sets": "2",
+    "away_sets": "3",
+    "home_points": [
+      "17",
+      "25",
+      "25",
+      "19",
+      "14"
+    ],
+    "away_points": [
+      "25",
+      "21",
+      "23",
+      "25",
+      "16"
+    ]
+  },
+  {
+    "home": "Coventry & Warwick Riga",
     "away": "Southampton",
     "timestamp": 1732406400.0,
     "date": "2024-11-24",
@@ -2642,6 +3403,7 @@
     "venue": "Centre AT7",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -2670,6 +3432,7 @@
     "venue": "Haverstock School",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -2698,6 +3461,7 @@
     "venue": "Clapham Leisure Centre",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -2726,6 +3490,7 @@
     "venue": "Kingston College Arena",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -2754,6 +3519,7 @@
     "venue": "New College Leicester",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -2782,6 +3548,7 @@
     "venue": "Haverstock School",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -2810,6 +3577,7 @@
     "venue": "Litherland High School",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -2838,6 +3606,7 @@
     "venue": "St John Payne School",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -2866,6 +3635,7 @@
     "venue": "Newcastle University Sports Centre",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -2894,6 +3664,7 @@
     "venue": "Crystal Palace National Sports Centre",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -2922,6 +3693,7 @@
     "venue": "Life Leisure Brinnington Park",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -2950,6 +3722,7 @@
     "venue": "St John Payne School",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -2978,6 +3751,7 @@
     "venue": "Woodlands Community School",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -3006,6 +3780,7 @@
     "venue": "Litherland High School",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -3034,6 +3809,7 @@
     "venue": "Life Leisure Brinnington Park",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -3062,6 +3838,7 @@
     "venue": "Litherland High School",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -3090,6 +3867,7 @@
     "venue": "Itchen College Sports Centre",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -3118,6 +3896,7 @@
     "venue": "Northumbria University",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -3146,6 +3925,7 @@
     "venue": "Woodlands Community School",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -3174,6 +3954,7 @@
     "venue": "Life Leisure Brinnington Park",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -3202,6 +3983,7 @@
     "venue": "New College Leicester",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -3230,6 +4012,7 @@
     "venue": "Alan Higgs Centre",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -3258,6 +4041,7 @@
     "venue": "Alan Higgs Centre",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -3286,6 +4070,7 @@
     "venue": "Itchen College Sports Centre",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -3314,6 +4099,7 @@
     "venue": "Centre AT7",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -3342,6 +4128,7 @@
     "venue": "New College Leicester",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -3370,6 +4157,7 @@
     "venue": "Haverstock School",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -3398,6 +4186,7 @@
     "venue": "New College Leicester",
     "number": "",
     "division": "Division 1 Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -3416,6 +4205,35 @@
     ]
   },
   {
+    "home": "Southampton",
+    "away": "Richmond Bucks",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Alexandru Calin",
+    "r2": "Ludwik Kowalewski",
+    "venue": "Itchen College Sports Centre",
+    "number": "",
+    "division": "Division 2 South Men",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "0",
+    "home_points": [
+      "26",
+      "25",
+      "25",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "24",
+      "15",
+      "19",
+      "-",
+      "-"
+    ]
+  },
+  {
     "home": "Cardiff Panthers",
     "away": "Wiltshire Mavericks",
     "timestamp": 1732406400.0,
@@ -3426,6 +4244,7 @@
     "venue": "Fitzalan Highschool",
     "number": "",
     "division": "Division 2 South Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -3454,6 +4273,7 @@
     "venue": "Kingston College Arena",
     "number": "",
     "division": "Division 2 South Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -3482,6 +4302,7 @@
     "venue": "Lampton School",
     "number": "",
     "division": "Division 2 South Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -3510,6 +4331,7 @@
     "venue": "Parkstone Grammar School",
     "number": "",
     "division": "Division 2 South Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -3538,6 +4360,7 @@
     "venue": "Kingston College Arena",
     "number": "",
     "division": "Division 2 South Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -3566,6 +4389,7 @@
     "venue": "Parkstone Grammar School",
     "number": "",
     "division": "Division 2 South Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -3594,6 +4418,7 @@
     "venue": "Parkstone Grammar School",
     "number": "",
     "division": "Division 2 South Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -3622,6 +4447,7 @@
     "venue": "Fitzalan Highschool",
     "number": "",
     "division": "Division 2 South Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -3650,6 +4476,7 @@
     "venue": "Lavington School",
     "number": "",
     "division": "Division 2 South Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -3678,6 +4505,7 @@
     "venue": "Lavington School",
     "number": "",
     "division": "Division 2 South Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -3706,6 +4534,7 @@
     "venue": "Lampton School",
     "number": "",
     "division": "Division 2 South Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -3734,6 +4563,7 @@
     "venue": "St. James School",
     "number": "",
     "division": "Division 2 South Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -3752,6 +4582,64 @@
     ]
   },
   {
+    "home": "Manchester Marvels",
+    "away": "Harrogate",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Erfan Jamali",
+    "r2": "Toby Reeves Hall",
+    "venue": "Dean Trust Ardwick",
+    "number": "",
+    "division": "Division 2 North Men",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "0",
+    "home_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "15",
+      "14",
+      "20",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "DARKSTAR Derbyshire",
+    "away": "Newcastle Staffs 2",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "David Gardner",
+    "r2": "Ana Pal",
+    "venue": "Derby University Sports Centre",
+    "number": "",
+    "division": "Division 2 North Men",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "1",
+    "home_points": [
+      "25",
+      "25",
+      "25",
+      "25",
+      "-"
+    ],
+    "away_points": [
+      "19",
+      "18",
+      "27",
+      "19",
+      "-"
+    ]
+  },
+  {
     "home": "Leeds Gorse 2",
     "away": "Kings of Court",
     "timestamp": 1732406400.0,
@@ -3762,6 +4650,7 @@
     "venue": "Ruth Gorse Academy",
     "number": "",
     "division": "Division 2 North Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -3790,6 +4679,7 @@
     "venue": "Dean Trust Ardwick",
     "number": "",
     "division": "Division 2 North Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -3818,6 +4708,7 @@
     "venue": "Dean Trust Ardwick",
     "number": "",
     "division": "Division 2 North Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -3846,6 +4737,7 @@
     "venue": "Vivacity Werrington Leisure Centre",
     "number": "",
     "division": "Division 2 North Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -3874,6 +4766,7 @@
     "venue": "St Edmund Arrowsmith Catholic High School",
     "number": "",
     "division": "Division 2 North Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -3902,6 +4795,7 @@
     "venue": "Derby University Sports Centre",
     "number": "",
     "division": "Division 2 North Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -3930,6 +4824,7 @@
     "venue": "Sir Stanley Matthews Sports Centre",
     "number": "",
     "division": "Division 2 North Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -3958,6 +4853,7 @@
     "venue": "Dean Trust Ardwick",
     "number": "",
     "division": "Division 2 North Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -3986,6 +4882,7 @@
     "venue": "St Edmund Arrowsmith Catholic High School",
     "number": "",
     "division": "Division 2 North Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -4014,6 +4911,7 @@
     "venue": "Ruth Gorse Academy",
     "number": "",
     "division": "Division 2 North Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -4042,6 +4940,7 @@
     "venue": "Sir Stanley Matthews Sports Centre",
     "number": "",
     "division": "Division 2 North Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -4070,6 +4969,7 @@
     "venue": "Rossett Sports Centre",
     "number": "",
     "division": "Division 2 North Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -4088,6 +4988,93 @@
     ]
   },
   {
+    "home": "Northampton",
+    "away": "MK City",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "James Cole",
+    "r2": "Stephen Smith",
+    "venue": "Moulton College",
+    "number": "",
+    "division": "Division 2 Central Men",
+    "category": "men",
+    "home_sets": "2",
+    "away_sets": "3",
+    "home_points": [
+      "30",
+      "25",
+      "22",
+      "21",
+      "12"
+    ],
+    "away_points": [
+      "28",
+      "23",
+      "25",
+      "25",
+      "15"
+    ]
+  },
+  {
+    "home": "Newmarket",
+    "away": "Coventry and Warwick Riga",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Stephen Watts",
+    "r2": "Pete Saunders",
+    "venue": "Newmarket Leisure Centre",
+    "number": "",
+    "division": "Division 2 Central Men",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "2",
+    "home_points": [
+      "25",
+      "25",
+      "19",
+      "19",
+      "15"
+    ],
+    "away_points": [
+      "18",
+      "23",
+      "25",
+      "25",
+      "13"
+    ]
+  },
+  {
+    "home": "Cambridge",
+    "away": "Rhinos Volleyball Cambridge",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "Maya Stancheva",
+    "r2": "Glynn Archibald",
+    "venue": "Stephen Perse Foundation",
+    "number": "",
+    "division": "Division 2 Central Men",
+    "category": "men",
+    "home_sets": "1",
+    "away_sets": "3",
+    "home_points": [
+      "25",
+      "13",
+      "16",
+      "18",
+      "-"
+    ],
+    "away_points": [
+      "22",
+      "25",
+      "25",
+      "25",
+      "-"
+    ]
+  },
+  {
     "home": "Cambridge",
     "away": "Northampton",
     "timestamp": 1732406400.0,
@@ -4098,6 +5085,7 @@
     "venue": "North Cambridge Academy",
     "number": "",
     "division": "Division 2 Central Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -4126,6 +5114,7 @@
     "venue": "Newmarket Leisure Centre",
     "number": "",
     "division": "Division 2 Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -4154,6 +5143,7 @@
     "venue": "Moulton College",
     "number": "",
     "division": "Division 2 Central Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -4182,6 +5172,7 @@
     "venue": "Newmarket Leisure Centre",
     "number": "",
     "division": "Division 2 Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -4210,6 +5201,7 @@
     "venue": "UEA Norwich Sportspark",
     "number": "",
     "division": "Division 2 Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -4238,6 +5230,7 @@
     "venue": "Parkin Sports Centre",
     "number": "",
     "division": "Division 2 Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -4266,6 +5259,7 @@
     "venue": "Glebe Farm School",
     "number": "",
     "division": "Division 2 Central Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -4294,6 +5288,7 @@
     "venue": "Chesterton Sports Centre",
     "number": "",
     "division": "Division 2 Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -4322,6 +5317,7 @@
     "venue": "North Cambridge Academy",
     "number": "",
     "division": "Division 2 Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -4350,6 +5346,7 @@
     "venue": "Alan Higgs Centre",
     "number": "",
     "division": "Division 2 Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -4378,6 +5375,7 @@
     "venue": "Parkin Sports Centre",
     "number": "",
     "division": "Division 2 Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -4406,6 +5404,7 @@
     "venue": "Alan Higgs Centre",
     "number": "",
     "division": "Division 2 Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -4434,6 +5433,7 @@
     "venue": "Newmarket Leisure Centre",
     "number": "",
     "division": "Division 2 Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -4462,6 +5462,7 @@
     "venue": "UEA Norwich Sportspark",
     "number": "",
     "division": "Division 2 Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -4490,6 +5491,7 @@
     "venue": "Parkin Sports Centre",
     "number": "",
     "division": "Division 2 Central Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -4518,6 +5520,7 @@
     "venue": "North Cambridge Academy",
     "number": "",
     "division": "Division 2 Central Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -4546,6 +5549,7 @@
     "venue": "UEA Norwich Sportspark",
     "number": "",
     "division": "Division 2 Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -4574,6 +5578,7 @@
     "venue": "North Cambridge Academy",
     "number": "",
     "division": "Division 2 Central Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -4602,6 +5607,7 @@
     "venue": "Parkin Sports Centre",
     "number": "",
     "division": "Division 2 Central Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -4621,6 +5627,93 @@
   },
   {
     "home": "Manchester Marvels Mayhem",
+    "away": "Tamworth Spartans",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Toby Reeves Hall",
+    "r2": "Erfan Jamali",
+    "venue": "Dean Trust Ardwick",
+    "number": "",
+    "division": "Division 2 North Women",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "1",
+    "home_points": [
+      "25",
+      "25",
+      "23",
+      "25",
+      "-"
+    ],
+    "away_points": [
+      "11",
+      "17",
+      "25",
+      "23",
+      "-"
+    ]
+  },
+  {
+    "home": "The Miners Doncaster",
+    "away": "Everton Narwhals",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Simon Cowie",
+    "r2": "Diane Hollows",
+    "venue": "Campsmount Academy",
+    "number": "",
+    "division": "Division 2 North Women",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "0",
+    "home_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "23",
+      "17",
+      "23",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "Newcastle Staffs",
+    "away": "The Miners Doncaster",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "Abdul Salam Safadi",
+    "r2": "Sebastian Struski",
+    "venue": "Sir Stanley Matthews Sports Centre",
+    "number": "",
+    "division": "Division 2 North Women",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "1",
+    "home_points": [
+      "18",
+      "25",
+      "25",
+      "25",
+      "-"
+    ],
+    "away_points": [
+      "25",
+      "22",
+      "23",
+      "20",
+      "-"
+    ]
+  },
+  {
+    "home": "Manchester Marvels Mayhem",
     "away": "Sheffield",
     "timestamp": 1732406400.0,
     "date": "2024-11-24",
@@ -4630,6 +5723,7 @@
     "venue": "Dean Trust Ardwick",
     "number": "",
     "division": "Division 2 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -4658,6 +5752,7 @@
     "venue": "Campsmount Academy",
     "number": "",
     "division": "Division 2 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -4686,6 +5781,7 @@
     "venue": "Wilnecote Leisure Centre",
     "number": "",
     "division": "Division 2 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -4714,6 +5810,7 @@
     "venue": "Dean Trust Ardwick",
     "number": "",
     "division": "Division 2 North Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -4742,6 +5839,7 @@
     "venue": "Litherland High School",
     "number": "",
     "division": "Division 2 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -4770,6 +5868,7 @@
     "venue": "Campsmount Academy",
     "number": "",
     "division": "Division 2 North Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -4798,6 +5897,7 @@
     "venue": "Dean Trust Ardwick",
     "number": "",
     "division": "Division 2 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -4826,6 +5926,7 @@
     "venue": "Sir Stanley Matthews Sports Centre",
     "number": "",
     "division": "Division 2 North Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -4854,6 +5955,7 @@
     "venue": "Parkin Sports Centre",
     "number": "",
     "division": "Division 2 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -4882,6 +5984,7 @@
     "venue": "Dean Trust Ardwick",
     "number": "",
     "division": "Division 2 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -4910,6 +6013,7 @@
     "venue": "Parkin Sports Centre",
     "number": "",
     "division": "Division 2 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -4938,6 +6042,7 @@
     "venue": "Wilnecote Leisure Centre",
     "number": "",
     "division": "Division 2 North Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -4966,6 +6071,7 @@
     "venue": "Urmston Grammar School",
     "number": "",
     "division": "Division 2 North Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -4994,6 +6100,7 @@
     "venue": "Urmston Grammar School",
     "number": "",
     "division": "Division 2 North Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -5022,6 +6129,7 @@
     "venue": "Urmston Grammar School",
     "number": "",
     "division": "Division 2 North Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -5050,6 +6158,7 @@
     "venue": "Wilnecote Leisure Centre",
     "number": "",
     "division": "Division 2 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -5078,6 +6187,7 @@
     "venue": "Litherland High School",
     "number": "",
     "division": "Division 2 North Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -5097,6 +6207,122 @@
   },
   {
     "home": "Cheltenham & Gloucester",
+    "away": "Cardiff Falcons",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Janet Leach",
+    "r2": "Su Brennand",
+    "venue": "Bournside School",
+    "number": "",
+    "division": "Division 2 West Women",
+    "category": "men",
+    "home_sets": "2",
+    "away_sets": "3",
+    "home_points": [
+      "26",
+      "14",
+      "18",
+      "25",
+      "11"
+    ],
+    "away_points": [
+      "24",
+      "25",
+      "25",
+      "20",
+      "15"
+    ]
+  },
+  {
+    "home": "Black Country",
+    "away": "Bedminster",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Rita Grimes",
+    "r2": "Carl Brookes",
+    "venue": "Redhill School Sports Hall",
+    "number": "",
+    "division": "Division 2 West Women",
+    "category": "men",
+    "home_sets": "0",
+    "away_sets": "3",
+    "home_points": [
+      "21",
+      "17",
+      "13",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "Team South Wales",
+    "away": "Oxford Eagles",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "Ignacio Diez",
+    "r2": "Jayne Jones",
+    "venue": "Eastern Community Campus",
+    "number": "",
+    "division": "Division 2 West Women",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "0",
+    "home_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "14",
+      "21",
+      "17",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "Bristol",
+    "away": "Black Country",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "Richard Parkes",
+    "r2": "Sam Yip",
+    "venue": "Avanti Gardens School",
+    "number": "",
+    "division": "Division 2 West Women",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "0",
+    "home_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "14",
+      "12",
+      "19",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "Cheltenham & Gloucester",
     "away": "Team South Wales",
     "timestamp": 1732406400.0,
     "date": "2024-11-24",
@@ -5106,6 +6332,7 @@
     "venue": "Bournside School",
     "number": "",
     "division": "Division 2 West Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -5134,6 +6361,7 @@
     "venue": "Fitzalan Highschool",
     "number": "",
     "division": "Division 2 West Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -5162,6 +6390,7 @@
     "venue": "Bucks New University Sports Centre",
     "number": "",
     "division": "Division 2 West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -5190,6 +6419,7 @@
     "venue": "Oasis Academy Brislington",
     "number": "",
     "division": "Division 2 West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -5218,6 +6448,7 @@
     "venue": "Oasis Academy Brislington",
     "number": "",
     "division": "Division 2 West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -5246,6 +6477,7 @@
     "venue": "Avanti Gardens School",
     "number": "",
     "division": "Division 2 West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -5274,6 +6506,7 @@
     "venue": "Avanti Gardens School",
     "number": "",
     "division": "Division 2 West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -5302,6 +6535,7 @@
     "venue": "Fitzalan Highschool",
     "number": "",
     "division": "Division 2 West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -5330,6 +6564,7 @@
     "venue": "Avanti Gardens School",
     "number": "",
     "division": "Division 2 West Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -5358,6 +6593,7 @@
     "venue": "Oxford High School",
     "number": "",
     "division": "Division 2 West Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -5386,6 +6622,7 @@
     "venue": "Bournside School",
     "number": "",
     "division": "Division 2 West Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -5414,6 +6651,7 @@
     "venue": "Fitzalan Highschool",
     "number": "",
     "division": "Division 2 West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -5442,6 +6680,7 @@
     "venue": "Oxford High School",
     "number": "",
     "division": "Division 2 West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -5460,6 +6699,93 @@
     ]
   },
   {
+    "home": "Onyx London",
+    "away": "Cambridge",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Nicolas Vecchione",
+    "r2": "Huaxi Liu",
+    "venue": "Harrow Club",
+    "number": "",
+    "division": "Division 2 East Women",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "1",
+    "home_points": [
+      "25",
+      "25",
+      "19",
+      "25",
+      "-"
+    ],
+    "away_points": [
+      "22",
+      "21",
+      "25",
+      "23",
+      "-"
+    ]
+  },
+  {
+    "home": "Norwich Spikers",
+    "away": "Richmond 2",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "",
+    "r2": "",
+    "venue": "Easton & Otley College",
+    "number": "",
+    "division": "Division 2 East Women",
+    "category": "men",
+    "home_sets": "1",
+    "away_sets": "3",
+    "home_points": [
+      "21",
+      "25",
+      "25",
+      "19",
+      "-"
+    ],
+    "away_points": [
+      "25",
+      "23",
+      "27",
+      "25",
+      "-"
+    ]
+  },
+  {
+    "home": "Northampton",
+    "away": "MK City",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Stephen Smith",
+    "r2": "James Cole",
+    "venue": "Moulton College",
+    "number": "",
+    "division": "Division 2 East Women",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "1",
+    "home_points": [
+      "23",
+      "25",
+      "25",
+      "25",
+      "-"
+    ],
+    "away_points": [
+      "25",
+      "23",
+      "17",
+      "23",
+      "-"
+    ]
+  },
+  {
     "home": "Cambridge",
     "away": "Richmond 2",
     "timestamp": 1732406400.0,
@@ -5470,6 +6796,7 @@
     "venue": "North Cambridge Academy",
     "number": "",
     "division": "Division 2 East Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -5498,6 +6825,7 @@
     "venue": "Dartford Technology College",
     "number": "",
     "division": "Division 2 East Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -5526,6 +6854,7 @@
     "venue": "Glebe Farm School",
     "number": "",
     "division": "Division 2 East Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -5554,6 +6883,7 @@
     "venue": "Dartford Technology College",
     "number": "",
     "division": "Division 2 East Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -5582,6 +6912,7 @@
     "venue": "Queens School",
     "number": "",
     "division": "Division 2 East Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -5610,6 +6941,7 @@
     "venue": "UEA Norwich Sportspark",
     "number": "",
     "division": "Division 2 East Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -5638,6 +6970,7 @@
     "venue": "Kensington Aldridge Academy",
     "number": "",
     "division": "Division 2 East Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -5666,6 +6999,7 @@
     "venue": "North Cambridge Academy",
     "number": "",
     "division": "Division 2 East Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -5694,6 +7028,7 @@
     "venue": "Kensington Aldridge Academy",
     "number": "",
     "division": "Division 2 East Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -5722,6 +7057,7 @@
     "venue": "Moulton College",
     "number": "",
     "division": "Division 2 East Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -5750,6 +7086,7 @@
     "venue": "Queens School",
     "number": "",
     "division": "Division 2 East Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -5778,6 +7115,7 @@
     "venue": "UEA Norwich Sportspark",
     "number": "",
     "division": "Division 2 East Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -5806,6 +7144,7 @@
     "venue": "Kingston College Arena",
     "number": "",
     "division": "Division 2 East Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -5834,6 +7173,7 @@
     "venue": "Queens School",
     "number": "",
     "division": "Division 2 East Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -5862,6 +7202,7 @@
     "venue": "Dartford Technology College",
     "number": "",
     "division": "Division 2 East Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -5890,6 +7231,7 @@
     "venue": "North Cambridge Academy",
     "number": "",
     "division": "Division 2 East Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -5918,6 +7260,7 @@
     "venue": "Dudley Evolve",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -5946,6 +7289,7 @@
     "venue": "Dudley Evolve",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -5974,6 +7318,7 @@
     "venue": "Dudley Evolve",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -6002,6 +7347,7 @@
     "venue": "Wilnecote Leisure Centre",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -6030,6 +7376,7 @@
     "venue": "Wilnecote Leisure Centre",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -6058,6 +7405,7 @@
     "venue": "Wilnecote Leisure Centre",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -6086,6 +7434,7 @@
     "venue": "Limehurst Academy",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -6114,6 +7463,7 @@
     "venue": "Limehurst Academy",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -6142,6 +7492,7 @@
     "venue": "Limehurst Academy",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -6170,6 +7521,7 @@
     "venue": "Dudley Evolve",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -6198,6 +7550,7 @@
     "venue": "Belper Leisure Centre",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -6226,6 +7579,7 @@
     "venue": "Belper Leisure Centre",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -6254,6 +7608,7 @@
     "venue": "Dudley Evolve",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -6282,6 +7637,7 @@
     "venue": "Dudley Evolve",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -6310,6 +7666,7 @@
     "venue": "Belper Leisure Centre",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -6338,6 +7695,7 @@
     "venue": "Redhill School Sports Hall",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -6366,6 +7724,7 @@
     "venue": "Redhill School Sports Hall",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -6394,6 +7753,7 @@
     "venue": "Redhill School Sports Hall",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -6422,6 +7782,7 @@
     "venue": "Ellesmere Port Church of England Academy",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -6450,6 +7811,7 @@
     "venue": "Ellesmere Port Church of England Academy",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -6478,6 +7840,7 @@
     "venue": "Limehurst Academy",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -6506,6 +7869,7 @@
     "venue": "Dudley Evolve",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -6534,6 +7898,7 @@
     "venue": "Ellesmere Port Church of England Academy",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -6562,6 +7927,7 @@
     "venue": "Limehurst Academy",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -6590,6 +7956,7 @@
     "venue": "Dudley Evolve",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -6618,6 +7985,7 @@
     "venue": "Limehurst Academy",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -6646,6 +8014,7 @@
     "venue": "Dudley Evolve",
     "number": "",
     "division": "Division 3 North Central Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -6664,6 +8033,93 @@
     ]
   },
   {
+    "home": "Essex Estonians",
+    "away": "Onyx London",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "",
+    "r2": "",
+    "venue": "St John Payne School",
+    "number": "",
+    "division": "Division 3 South East Men",
+    "category": "men",
+    "home_sets": "0",
+    "away_sets": "3",
+    "home_points": [
+      "19",
+      "23",
+      "18",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "London Wildcats",
+    "away": "Onyx London",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "",
+    "r2": "",
+    "venue": "St John Payne School",
+    "number": "",
+    "division": "Division 3 South East Men",
+    "category": "men",
+    "home_sets": "2",
+    "away_sets": "3",
+    "home_points": [
+      "20",
+      "25",
+      "18",
+      "25",
+      "12"
+    ],
+    "away_points": [
+      "25",
+      "23",
+      "25",
+      "21",
+      "15"
+    ]
+  },
+  {
+    "home": "Essex Estonians",
+    "away": "London Wildcats",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "",
+    "r2": "",
+    "venue": "St John Payne School",
+    "number": "",
+    "division": "Division 3 South East Men",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "0",
+    "home_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "12",
+      "20",
+      "13",
+      "-",
+      "-"
+    ]
+  },
+  {
     "home": "Dartford Crossers",
     "away": "Worthing",
     "timestamp": 1732320000.0,
@@ -6674,6 +8130,7 @@
     "venue": "Worthing High School",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -6702,6 +8159,7 @@
     "venue": "Worthing High School",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -6730,6 +8188,7 @@
     "venue": "Worthing High School",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -6758,6 +8217,7 @@
     "venue": "Kensington Aldridge Academy",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -6786,6 +8246,7 @@
     "venue": "Kensington Aldridge Academy",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -6814,6 +8275,7 @@
     "venue": "Kensington Aldridge Academy",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -6842,6 +8304,7 @@
     "venue": "Priory Community Sports Centre",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -6870,6 +8333,7 @@
     "venue": "Priory Community Sports Centre",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -6898,6 +8362,7 @@
     "venue": "Priory Community Sports Centre",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -6926,6 +8391,7 @@
     "venue": "Tendring Technology College",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -6954,6 +8420,7 @@
     "venue": "Tendring Technology College",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -6982,6 +8449,7 @@
     "venue": "Tendring Technology College",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -7010,6 +8478,7 @@
     "venue": "Kensington Aldridge Academy",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -7038,6 +8507,7 @@
     "venue": "Kensington Aldridge Academy",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -7066,6 +8536,7 @@
     "venue": "Kensington Aldridge Academy",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -7094,6 +8565,7 @@
     "venue": "Leigh Academy Blackheath",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -7122,6 +8594,7 @@
     "venue": "St John Payne School",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -7150,6 +8623,7 @@
     "venue": "Leigh Academy Blackheath",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -7178,6 +8652,7 @@
     "venue": "St John Payne School",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -7206,6 +8681,7 @@
     "venue": "Leigh Academy Blackheath",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -7234,6 +8710,7 @@
     "venue": "St John Payne School",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -7262,6 +8739,7 @@
     "venue": "Worthing High School",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -7290,6 +8768,7 @@
     "venue": "Worthing High School",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -7318,6 +8797,7 @@
     "venue": "Worthing High School",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -7346,6 +8826,7 @@
     "venue": "Maidstone Grammar School for Girls",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -7374,6 +8855,7 @@
     "venue": "Maidstone Grammar School for Girls",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -7402,6 +8884,7 @@
     "venue": "Maidstone Grammar School for Girls",
     "number": "",
     "division": "Division 3 South East Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -7421,6 +8904,93 @@
   },
   {
     "home": "Reading Aces",
+    "away": "Weymouth",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Peter Parsons",
+    "r2": "Andres Hernandez",
+    "venue": "Kendrick School",
+    "number": "",
+    "division": "Division 3 South West Men",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "0",
+    "home_points": [
+      "25",
+      "25",
+      "27",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "13",
+      "15",
+      "25",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "Nuneaton Inferno",
+    "away": "Weymouth",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Andres Hernandez",
+    "r2": "Peter Parsons",
+    "venue": "Kendrick School",
+    "number": "",
+    "division": "Division 3 South West Men",
+    "category": "men",
+    "home_sets": "0",
+    "away_sets": "3",
+    "home_points": [
+      "18",
+      "14",
+      "18",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "Reading Aces",
+    "away": "Nuneaton Inferno",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Peter Parsons",
+    "r2": "Andres Hernandez",
+    "venue": "Kendrick School",
+    "number": "",
+    "division": "Division 3 South West Men",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "0",
+    "home_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "15",
+      "23",
+      "16",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "Reading Aces",
     "away": "Bedminster",
     "timestamp": 1732406400.0,
     "date": "2024-11-24",
@@ -7430,6 +9000,7 @@
     "venue": "Kendrick School",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -7458,6 +9029,7 @@
     "venue": "Kendrick School",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -7486,6 +9058,7 @@
     "venue": "Kendrick School",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -7514,6 +9087,7 @@
     "venue": "Alan Higgs Centre",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -7542,6 +9116,7 @@
     "venue": "Redlands Community Sports Hub",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -7570,6 +9145,7 @@
     "venue": "Alan Higgs Centre",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -7598,6 +9174,7 @@
     "venue": "Alan Higgs Centre",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -7626,6 +9203,7 @@
     "venue": "Redlands Community Sports Hub",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -7654,6 +9232,7 @@
     "venue": "Redlands Community Sports Hub",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -7682,6 +9261,7 @@
     "venue": "Bristol Brunel Academy",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -7710,6 +9290,7 @@
     "venue": "Oxford High School",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -7738,6 +9319,7 @@
     "venue": "Bristol Brunel Academy",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -7766,6 +9348,7 @@
     "venue": "Oxford High School",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -7794,6 +9377,7 @@
     "venue": "Bristol Brunel Academy",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -7822,6 +9406,7 @@
     "venue": "Oxford High School",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -7850,6 +9435,7 @@
     "venue": "Alan Higgs Centre",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -7878,6 +9464,7 @@
     "venue": "Alan Higgs Centre",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -7906,6 +9493,7 @@
     "venue": "Oasis Academy Brislington",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -7934,6 +9522,7 @@
     "venue": "Oasis Academy Brislington",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -7962,6 +9551,7 @@
     "venue": "Alan Higgs Centre",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -7990,6 +9580,7 @@
     "venue": "Oasis Academy Brislington",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -8018,6 +9609,7 @@
     "venue": "Avanti Gardens School",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -8046,6 +9638,7 @@
     "venue": "Avanti Gardens School",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -8074,6 +9667,7 @@
     "venue": "Avanti Gardens School",
     "number": "",
     "division": "Division 3 South West Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -8092,6 +9686,151 @@
     ]
   },
   {
+    "home": "Manchester Moss Side",
+    "away": "Sheffield 2",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Paul Fagan",
+    "r2": "Alexia Borcoman",
+    "venue": "Moss Side Leisure Centre",
+    "number": "",
+    "division": "Division 3 North West Men",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "0",
+    "home_points": [
+      "25",
+      "26",
+      "25",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "21",
+      "24",
+      "14",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "Urmston Grammar",
+    "away": "Sheffield 2",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Alexia Borcoman",
+    "r2": "Paul Fagan",
+    "venue": "Moss Side Leisure Centre",
+    "number": "",
+    "division": "Division 3 North West Men",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "0",
+    "home_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "5",
+      "17",
+      "11",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "Manchester Moss Side",
+    "away": "Urmston Grammar",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Paul Fagan",
+    "r2": "Alexia Borcoman",
+    "venue": "Moss Side Leisure Centre",
+    "number": "",
+    "division": "Division 3 North West Men",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "0",
+    "home_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "23",
+      "20",
+      "14",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "Everton Dugongs",
+    "away": "York Vikings",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "Lenny Barry",
+    "r2": "Jamie Hollick",
+    "venue": "Holly Lodge Girl's College",
+    "number": "",
+    "division": "Division 3 North West Men",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "1",
+    "home_points": [
+      "27",
+      "25",
+      "25",
+      "25",
+      "-"
+    ],
+    "away_points": [
+      "29",
+      "19",
+      "14",
+      "21",
+      "-"
+    ]
+  },
+  {
+    "home": "Liverpool",
+    "away": "York Vikings",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "Jamie Hollick",
+    "r2": "Lenny Barry",
+    "venue": "Holly Lodge Girl's College",
+    "number": "",
+    "division": "Division 3 North West Men",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "1",
+    "home_points": [
+      "25",
+      "30",
+      "22",
+      "25",
+      "-"
+    ],
+    "away_points": [
+      "23",
+      "28",
+      "25",
+      "18",
+      "-"
+    ]
+  },
+  {
     "home": "Sheffield Springers",
     "away": "Liverpool",
     "timestamp": 1731715200.0,
@@ -8102,6 +9841,7 @@
     "venue": "All Saints Sports Centre",
     "number": "",
     "division": "Division 3 North West Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -8130,6 +9870,7 @@
     "venue": "All Saints Sports Centre",
     "number": "",
     "division": "Division 3 North West Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -8158,6 +9899,7 @@
     "venue": "Joseph Rowntree School",
     "number": "",
     "division": "Division 3 North West Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -8186,6 +9928,7 @@
     "venue": "All Saints Sports Centre",
     "number": "",
     "division": "Division 3 North West Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -8214,6 +9957,7 @@
     "venue": "Joseph Rowntree School",
     "number": "",
     "division": "Division 3 North West Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -8242,6 +9986,7 @@
     "venue": "Joseph Rowntree School",
     "number": "",
     "division": "Division 3 North West Men",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -8270,6 +10015,7 @@
     "venue": "Litherland High School",
     "number": "",
     "division": "Division 3 North West Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -8298,6 +10044,7 @@
     "venue": "Litherland High School",
     "number": "",
     "division": "Division 3 North West Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -8326,6 +10073,7 @@
     "venue": "Litherland High School",
     "number": "",
     "division": "Division 3 North West Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -8354,6 +10102,7 @@
     "venue": "Urmston Grammar School",
     "number": "",
     "division": "Division 3 North West Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -8382,6 +10131,7 @@
     "venue": "Urmston Grammar School",
     "number": "",
     "division": "Division 3 North West Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -8410,6 +10160,7 @@
     "venue": "Urmston Grammar School",
     "number": "",
     "division": "Division 3 North West Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -8438,6 +10189,7 @@
     "venue": "Fairfield High School",
     "number": "",
     "division": "Division 3 North West Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -8466,6 +10218,7 @@
     "venue": "Fairfield High School",
     "number": "",
     "division": "Division 3 North West Men",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -8494,6 +10247,7 @@
     "venue": "Fairfield High School",
     "number": "",
     "division": "Division 3 North West Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -8522,6 +10276,7 @@
     "venue": "All Saints Sports Centre",
     "number": "",
     "division": "Division 3 North West Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -8550,6 +10305,7 @@
     "venue": "All Saints Sports Centre",
     "number": "",
     "division": "Division 3 North West Men",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -8578,6 +10334,7 @@
     "venue": "All Saints Sports Centre",
     "number": "",
     "division": "Division 3 North West Men",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -8596,6 +10353,93 @@
     ]
   },
   {
+    "home": "Leicester Athena Nova",
+    "away": "Black Country 2",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "Elia Gironacci",
+    "r2": "Ana Pal",
+    "venue": "New College Leicester",
+    "number": "",
+    "division": "Division 3 Central Women",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "0",
+    "home_points": [
+      "26",
+      "25",
+      "25",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "24",
+      "18",
+      "12",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "home": "Ashfield Vipers",
+    "away": "Black Country 2",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "Ana Pal",
+    "r2": "Elia Gironacci",
+    "venue": "New College Leicester",
+    "number": "",
+    "division": "Division 3 Central Women",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "1",
+    "home_points": [
+      "25",
+      "20",
+      "29",
+      "25",
+      "-"
+    ],
+    "away_points": [
+      "13",
+      "25",
+      "27",
+      "16",
+      "-"
+    ]
+  },
+  {
+    "home": "Leicester Athena Nova",
+    "away": "Ashfield Vipers",
+    "timestamp": 1732924800.0,
+    "date": "2024-11-30",
+    "time": "00:00",
+    "r1": "Elia Gironacci",
+    "r2": "Ana Pal",
+    "venue": "New College Leicester",
+    "number": "",
+    "division": "Division 3 Central Women",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "0",
+    "home_points": [
+      "25",
+      "26",
+      "25",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "19",
+      "24",
+      "16",
+      "-",
+      "-"
+    ]
+  },
+  {
     "home": "Black Country 2",
     "away": "Lincoln Cannons",
     "timestamp": 1732406400.0,
@@ -8606,6 +10450,7 @@
     "venue": "Redhill School Sports Hall",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -8634,6 +10479,7 @@
     "venue": "Redhill School Sports Hall",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -8662,6 +10508,7 @@
     "venue": "Redhill School Sports Hall",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -8690,6 +10537,7 @@
     "venue": "North Cambridge Academy",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -8718,6 +10566,7 @@
     "venue": "Harvey Hadden Sports Complex",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -8746,6 +10595,7 @@
     "venue": "North Cambridge Academy",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -8774,6 +10624,7 @@
     "venue": "Harvey Hadden Sports Complex",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -8802,6 +10653,7 @@
     "venue": "North Cambridge Academy",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -8830,6 +10682,7 @@
     "venue": "Harvey Hadden Sports Complex",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -8858,6 +10711,7 @@
     "venue": "Harvey Hadden Sports Complex",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -8886,6 +10740,7 @@
     "venue": "Harvey Hadden Sports Complex",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -8914,6 +10769,7 @@
     "venue": "Harvey Hadden Sports Complex",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -8942,6 +10798,7 @@
     "venue": "Riseholme College (Showground Campus)",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -8970,6 +10827,7 @@
     "venue": "Riseholme College (Showground Campus)",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -8998,6 +10856,7 @@
     "venue": "Ashfield School",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -9026,6 +10885,7 @@
     "venue": "Harvey Hadden Sports Complex",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -9054,6 +10914,7 @@
     "venue": "Ashfield School",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -9082,6 +10943,7 @@
     "venue": "Riseholme College (Showground Campus)",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -9110,6 +10972,7 @@
     "venue": "Harvey Hadden Sports Complex",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -9138,6 +11001,7 @@
     "venue": "Ashfield School",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -9166,6 +11030,7 @@
     "venue": "Harvey Hadden Sports Complex",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -9194,6 +11059,7 @@
     "venue": "Redhill School Sports Hall",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -9222,6 +11088,7 @@
     "venue": "Redhill School Sports Hall",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -9250,6 +11117,7 @@
     "venue": "Redhill School Sports Hall",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -9278,6 +11146,7 @@
     "venue": "Riseholme College (Showground Campus)",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -9306,6 +11175,7 @@
     "venue": "Riseholme College (Showground Campus)",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -9334,6 +11204,7 @@
     "venue": "Riseholme College (Showground Campus)",
     "number": "",
     "division": "Division 3 Central Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -9362,6 +11233,7 @@
     "venue": "Moss Side Leisure Centre",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": 0,
     "away_sets": 0,
     "home_points": [
@@ -9390,6 +11262,7 @@
     "venue": "Moss Side Leisure Centre",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -9418,6 +11291,7 @@
     "venue": "Moss Side Leisure Centre",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -9446,6 +11320,7 @@
     "venue": "Steve Prescott Sports Centre",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -9474,6 +11349,7 @@
     "venue": "Steve Prescott Sports Centre",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -9502,6 +11378,7 @@
     "venue": "Steve Prescott Sports Centre",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -9530,6 +11407,7 @@
     "venue": "Ellesmere Port Church of England Academy",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -9558,6 +11436,7 @@
     "venue": "Ellesmere Port Church of England Academy",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -9586,6 +11465,7 @@
     "venue": "Ellesmere Port Church of England Academy",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -9614,6 +11494,7 @@
     "venue": "Fairfield High School",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -9642,6 +11523,7 @@
     "venue": "Fairfield High School",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -9670,6 +11552,7 @@
     "venue": "Fairfield High School",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -9698,6 +11581,7 @@
     "venue": "Moss Side Leisure Centre",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -9726,6 +11610,7 @@
     "venue": "Moss Side Leisure Centre",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -9754,6 +11639,7 @@
     "venue": "Ruth Gorse Academy",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -9782,6 +11668,7 @@
     "venue": "Keele University Sports Centre",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -9810,6 +11697,7 @@
     "venue": "Ruth Gorse Academy",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -9838,6 +11726,7 @@
     "venue": "Moss Side Leisure Centre",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -9866,6 +11755,7 @@
     "venue": "Madeley High School",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -9894,6 +11784,7 @@
     "venue": "Ruth Gorse Academy",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -9922,6 +11813,7 @@
     "venue": "Keele University Sports Centre",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -9950,6 +11842,7 @@
     "venue": "The Stephen Longfellow Academy",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -9978,6 +11871,7 @@
     "venue": "Fairfield High School",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -10006,6 +11900,7 @@
     "venue": "Fairfield High School",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -10034,6 +11929,7 @@
     "venue": "Fairfield High School",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -10062,6 +11958,7 @@
     "venue": "Joseph Rowntree School",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -10090,6 +11987,7 @@
     "venue": "Joseph Rowntree School",
     "number": "",
     "division": "Division 3 North Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -10108,6 +12006,93 @@
     ]
   },
   {
+    "home": "Dartford Warriors",
+    "away": "Invicta",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Tomasz Gierlach",
+    "r2": "Sam Yip",
+    "venue": "Dartford Technology College",
+    "number": "",
+    "division": "Division 3 South East Women",
+    "category": "men",
+    "home_sets": "2",
+    "away_sets": "3",
+    "home_points": [
+      "25",
+      "21",
+      "26",
+      "25",
+      "4"
+    ],
+    "away_points": [
+      "18",
+      "25",
+      "28",
+      "15",
+      "15"
+    ]
+  },
+  {
+    "home": "Richmond 3",
+    "away": "Invicta",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Sam Yip",
+    "r2": "Tomasz Gierlach",
+    "venue": "Dartford Technology College",
+    "number": "",
+    "division": "Division 3 South East Women",
+    "category": "men",
+    "home_sets": "1",
+    "away_sets": "3",
+    "home_points": [
+      "19",
+      "15",
+      "25",
+      "5",
+      "-"
+    ],
+    "away_points": [
+      "25",
+      "25",
+      "18",
+      "25",
+      "-"
+    ]
+  },
+  {
+    "home": "Dartford Warriors",
+    "away": "Richmond 3",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Tomasz Gierlach",
+    "r2": "Sam Yip",
+    "venue": "Dartford Technology College",
+    "number": "",
+    "division": "Division 3 South East Women",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "0",
+    "home_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "18",
+      "19",
+      "17",
+      "-",
+      "-"
+    ]
+  },
+  {
     "home": "Ashcombe Dorking",
     "away": "Dartford Warriors",
     "timestamp": 1732320000.0,
@@ -10118,6 +12103,7 @@
     "venue": "The Ashcombe Volleyball Centre",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -10146,6 +12132,7 @@
     "venue": "The Ashcombe Volleyball Centre",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -10174,6 +12161,7 @@
     "venue": "The Ashcombe Volleyball Centre",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -10202,6 +12190,7 @@
     "venue": "Maidstone Grammar School for Girls",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -10230,6 +12219,7 @@
     "venue": "Maidstone Grammar School for Girls",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -10258,6 +12248,7 @@
     "venue": "Maidstone Grammar School for Girls",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -10286,6 +12277,7 @@
     "venue": "Worthing High School",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -10314,6 +12306,7 @@
     "venue": "Worthing High School",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -10342,6 +12335,7 @@
     "venue": "Worthing High School",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -10370,6 +12364,7 @@
     "venue": "Maidstone Grammar School for Girls",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -10398,6 +12393,7 @@
     "venue": "Kingston College Arena",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -10426,6 +12422,7 @@
     "venue": "Maidstone Grammar School for Girls",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -10454,6 +12451,7 @@
     "venue": "Kingston College Arena",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -10482,6 +12480,7 @@
     "venue": "Maidstone Grammar School for Girls",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -10510,6 +12509,7 @@
     "venue": "Kingston College Arena",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -10538,6 +12538,7 @@
     "venue": "Maidstone Grammar School for Girls",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -10566,6 +12567,7 @@
     "venue": "Maidstone Grammar School for Girls",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -10594,6 +12596,7 @@
     "venue": "Maidstone Grammar School for Girls",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -10622,6 +12625,7 @@
     "venue": "St. James School",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -10650,6 +12654,7 @@
     "venue": "Tendring Technology College",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -10678,6 +12683,7 @@
     "venue": "St. James School",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -10706,6 +12712,7 @@
     "venue": "Tendring Technology College",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -10734,6 +12741,7 @@
     "venue": "St. James School",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -10762,6 +12770,7 @@
     "venue": "Tendring Technology College",
     "number": "",
     "division": "Division 3 South East Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -10780,6 +12789,93 @@
     ]
   },
   {
+    "home": "Bedminster 2",
+    "away": "Plymouth",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Ignacio Diez",
+    "r2": "Timothy Hebborn",
+    "venue": "Bristol Brunel Academy",
+    "number": "",
+    "division": "Division 3 South West Women",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "1",
+    "home_points": [
+      "24",
+      "25",
+      "25",
+      "25",
+      "-"
+    ],
+    "away_points": [
+      "26",
+      "21",
+      "15",
+      "17",
+      "-"
+    ]
+  },
+  {
+    "home": "City of Bristol",
+    "away": "Plymouth",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Timothy Hebborn",
+    "r2": "Ignacio Diez",
+    "venue": "Bristol Brunel Academy",
+    "number": "",
+    "division": "Division 3 South West Women",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "2",
+    "home_points": [
+      "17",
+      "30",
+      "25",
+      "25",
+      "15"
+    ],
+    "away_points": [
+      "25",
+      "28",
+      "22",
+      "27",
+      "13"
+    ]
+  },
+  {
+    "home": "Bedminster 2",
+    "away": "City of Bristol",
+    "timestamp": 1733011200.0,
+    "date": "2024-12-01",
+    "time": "00:00",
+    "r1": "Ignacio Diez",
+    "r2": "Timothy Hebborn",
+    "venue": "Bristol Brunel Academy",
+    "number": "",
+    "division": "Division 3 South West Women",
+    "category": "men",
+    "home_sets": "3",
+    "away_sets": "0",
+    "home_points": [
+      "25",
+      "25",
+      "25",
+      "-",
+      "-"
+    ],
+    "away_points": [
+      "19",
+      "17",
+      "23",
+      "-",
+      "-"
+    ]
+  },
+  {
     "home": "Plymouth",
     "away": "Reading Aces",
     "timestamp": 1731801600.0,
@@ -10790,6 +12886,7 @@
     "venue": "Coombe Dean School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -10818,6 +12915,7 @@
     "venue": "Bristol Brunel Academy",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -10846,6 +12944,7 @@
     "venue": "Coombe Dean School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -10874,6 +12973,7 @@
     "venue": "Bristol Brunel Academy",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -10902,6 +13002,7 @@
     "venue": "Coombe Dean School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -10930,6 +13031,7 @@
     "venue": "Bristol Brunel Academy",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -10958,6 +13060,7 @@
     "venue": "Avanti Gardens School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -10986,6 +13089,7 @@
     "venue": "Avanti Gardens School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -11014,6 +13118,7 @@
     "venue": "Avanti Gardens School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -11042,6 +13147,7 @@
     "venue": "Coombe Dean School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -11070,6 +13176,7 @@
     "venue": "Coombe Dean School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
@@ -11098,6 +13205,7 @@
     "venue": "Coombe Dean School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -11126,6 +13234,7 @@
     "venue": "Kendrick School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -11154,6 +13263,7 @@
     "venue": "Kendrick School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "1",
     "away_sets": "3",
     "home_points": [
@@ -11182,6 +13292,7 @@
     "venue": "Kendrick School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -11210,6 +13321,7 @@
     "venue": "Coombe Dean School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -11238,6 +13350,7 @@
     "venue": "Coombe Dean School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -11266,6 +13379,7 @@
     "venue": "Coombe Dean School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "2",
     "away_sets": "3",
     "home_points": [
@@ -11294,6 +13408,7 @@
     "venue": "Avanti Gardens School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -11322,6 +13437,7 @@
     "venue": "Avanti Gardens School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -11350,6 +13466,7 @@
     "venue": "Avanti Gardens School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "2",
     "home_points": [
@@ -11378,6 +13495,7 @@
     "venue": "Woodlands Community School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "0",
     "home_points": [
@@ -11406,6 +13524,7 @@
     "venue": "Woodlands Community School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "3",
     "away_sets": "1",
     "home_points": [
@@ -11434,6 +13553,7 @@
     "venue": "Woodlands Community School",
     "number": "",
     "division": "Division 3 South West Women",
+    "category": "men",
     "home_sets": "0",
     "away_sets": "3",
     "home_points": [
