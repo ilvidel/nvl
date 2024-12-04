@@ -134,7 +134,7 @@ def parse_results(games, div):
                 game.r2 = tag.text.split(":")[1].replace("(Pending)", "").strip()
                 logger.debug(f"Found game R2: {game.r2}")
             if "Venue" in tag.text:
-                game.venue = tag.text.split(":")[1].strip()
+                game.venue = tag.text.split(":")[1].strip().replace(",", "")
                 logger.debug(f"Found game venue: {game.venue}")
         game.set_results(results)
         logger.debug(f"Found game results: {results}")
@@ -229,4 +229,4 @@ if __name__ == "__main__":
     generator.generate_html(games)
     write_json(sorted(set(games)), "nvl.json")
 
-    write_csv(sorted(games, key=lambda x: x.division))
+    write_csv(sorted(games, key=lambda x: x.timestamp))
