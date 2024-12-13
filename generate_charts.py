@@ -32,13 +32,14 @@ class MyPlotter:
             total = sum(
                 [int(x) for x in game.home_points + game.away_points if x.isnumeric()])
             if total < 75:  # this result is wrong and should be ignored
-                print(game)
+                print(game.csv())
                 continue
-            if game.home_sets=='2' and game.away_sets=='2':
+            if game.home_sets == '2' and game.away_sets == '2':
                 # Apparently, games cancelled because of COVID were, for some reason,
                 # entered in the system with impossible results in the form:
                 # Home: 2 - 23 25 23 25 15
                 # Away: 2 - 25 23 25 23 15
+                print(game.csv())
                 continue
             points.append(total)
             sex.append(game.category)
@@ -57,7 +58,7 @@ class MyPlotter:
             # nbins=300,
             marginal="rug",  # can be `box`, `violin` or 'rug'
             title="Total points played per game")
-        fig.update_layout(barmode='group') # stack, group, overlay or relative
+        fig.update_layout(barmode='group')  # stack, group, overlay or relative
         fig.show()
 
     def plot_points_histogram(self):
@@ -73,10 +74,10 @@ class MyPlotter:
                 [int(x) for x in game.home_points + game.away_points if x.isnumeric()])
             if total < 75:  # this result is wrong and should be ignored
                 continue
-            if game.home_sets=='2' and game.away_sets=='2':
+            if game.home_sets == '2' and game.away_sets == '2':
                 continue
             points.append(total)
-            sets.append(f"{int(game.home_sets)+int(game.away_sets)} sets")
+            sets.append(f"{int(game.home_sets) + int(game.away_sets)} sets")
 
         df = pandas.DataFrame(dict(points=points, sets=sets))
         fig = px.histogram(
@@ -86,7 +87,7 @@ class MyPlotter:
             marginal="rug",  # can be `box`, `violin` or 'rug'
             nbins=300,
             title="Total points played per game")
-        fig.update_layout(barmode='stack') # stack, group, overlay or relative
+        fig.update_layout(barmode='stack')  # stack, group, overlay or relative
         fig.show()
 
     def plot_home_victories(self):
@@ -268,13 +269,34 @@ class MyPlotter:
 
     def plot_games_per_referee(self):
         """Plot number of games per referee"""
-        # TODO
-        # fig = px.histogram(
-        #     self.dataframe,
-        #     x='r1',
-        #     title="Games per referee"
-        # )
-        # fig.show()
+        from collections import Counter
+        refs = []
+        for g in self.games:
+            if g.r2 and not g.r2.isnumeric() and not g.r2=='TBC':
+                refs.append(g.r2)
+            if g.r1 and not g.r1.isnumeric() and not g.r1=='TBC':
+                refs.append(g.r1)
+
+        c = Counter(refs)
+
+        df = pandas.DataFrame(
+            dict(refs=c.keys(), count=c.values())
+        )
+
+        fig = px.bar(
+            df,
+            y='refs',
+            x='count',
+            title="Games per referee",
+            color='count',
+            color_continuous_scale='rdbu',
+        )
+        fig.update_layout(
+            yaxis={'categoryorder': 'total ascending', 'title': 'Referee'},
+            xaxis={'title': 'Number of Games'}
+        )
+
+        fig.show()
 
     def plot_referees_per_year(self):
         """Plot total number of referees per year"""
@@ -305,7 +327,7 @@ class MyPlotter:
             divisions=divs,
             refs=refs
         ))
-        fig = px.histogram(df, x='years', y='refs', color='divisions', hover_data='refs')
+        fig = px.histogram(df, x='years', y='refs', color='divisions', hover_data='refs', title="Number of Referees")
         fig.show()
 
     """
@@ -344,9 +366,10 @@ class MyPlotter:
         fig.save_svg("figure.svg")
     """
 
+
 if __name__ == "__main__":
     plotter = MyPlotter()
-    plotter.plot_total_points()
+    # plotter.plot_total_points()
     # plotter.plot_points_histogram()
     # plotter.plot_results()
     # plotter.plot_home_victories()
@@ -354,7 +377,7 @@ if __name__ == "__main__":
     # plotter.plot_number_of_games()
     # plotter.plot_number_of_games_per_division()
     # plotter.plot_number_of_teams() # fixme: not working yet
-    # plotter.plot_games_per_referee() # todo
+    plotter.plot_games_per_referee()
     # plotter.plot_referees_per_year()
 
     # plotter.plot_holoviews()
