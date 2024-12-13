@@ -81,8 +81,11 @@ def parse_games(games, div):
                 time = tag.contents[0].strip()
                 logger.debug(f"Found game time: {time}")
                 game.set_timestamp(f"{date}T{time}")
-                game.number = tag.contents[2].strip().replace(" - Super League Live", "").strip()
-                logger.debug(f"Found game number: {game.number}")
+                try:
+                    game.number = tag.contents[2].strip().replace(" - Super League Live", "").strip()
+                    logger.debug(f"Found game number: {game.number}")
+                except IndexError:
+                    game.number = ""
 
         for tag in spans:
             if 'Venue' in tag.text:
