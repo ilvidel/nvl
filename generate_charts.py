@@ -1,8 +1,10 @@
 import csv
+import json
 import statistics
-
+import openchord as ocd
 import pandas
 import plotly.express as px
+import plotly.graph_objects as go
 
 from game import Game
 
@@ -16,6 +18,8 @@ class MyPlotter:
             for g in csv_games:
                 self.games.append(Game.from_csv(g))
 
+        self.dataframe = pandas.read_csv("past.csv")
+
     def plot_total_points(self):
         """
         Histogram of the total number of points per game
@@ -27,9 +31,8 @@ class MyPlotter:
         for game in self.games:
             total = sum(
                 [int(x) for x in game.home_points + game.away_points if x.isnumeric()])
-            if total < 75: # this result is wrong and should be ignored
-                print(
-                    f"{game.division} {game.category} Date: {game.date()} Home: {game.home} ({game.home_points}) Away: {game.away} ({game.away_points})")
+            if total < 75:  # this result is wrong and should be ignored
+                print(game)
                 continue
             points.append(total)
             sex.append(game.category)
@@ -43,9 +46,11 @@ class MyPlotter:
         df = pandas.DataFrame(dict(points=points, gender=sex))
         fig = px.histogram(
             df, x="points", color="gender",
+            color_discrete_sequence=['hotpink', 'dodgerblue'],
+            opacity=.7,
+            marginal="rug",  # can be `box`, `violin` or 'rug'
             title="Total points played per game")
         fig.update_layout(barmode='overlay')
-        fig.update_traces(opacity=0.75)
         fig.show()
 
     def plot_home_victories(self):
@@ -122,16 +127,27 @@ class MyPlotter:
 
     def plot_number_of_games_per_division(self):
         """Number of games played per year, per division"""
-        years = [g.timestamp.year for g in self.games]
+        count = {}
+        for g in self.games:
+            div = g.division
+            year = g.timestamp.year
+            if div not in count: count[div] = []
+            count[div].append(year)
 
-        for y in years:
-            super = [x.division for x in
-                     filter(lambda g: g.timestamp.year == y, self.games)]
+        print(count.keys())
 
-        df = pandas.DataFrame(dict(count=count, years=years))
-        fig = px.bar(
-            df, x='years', y='count', color='count',
-            color_continuous_scale='sunsetdark',
+        fig = go.Figure()
+        fig.add_trace(go.Histogram(x=count['shield'], name="Shield"))
+        fig.add_trace(go.Histogram(x=count['cup'], name="Cup"))
+        fig.add_trace(go.Histogram(x=count['division_3'], name="Division 3"))
+        fig.add_trace(go.Histogram(x=count['division_2'], name="Division 2"))
+        fig.add_trace(go.Histogram(x=count['division_1'], name="Division 1"))
+        fig.add_trace(go.Histogram(x=count['superleague'], name="Super"))
+        fig.update_layout(
+            barmode='stack',
+            bargap=.2,
+            xaxis_title_text='Year',  # xaxis label
+            yaxis_title_text='Number of Games',  # yaxis label
             title="Number of games per year, per division")
         fig.show()
 
@@ -147,8 +163,8 @@ class MyPlotter:
         }
 
         # TODO: maybe remove the forfeited games (either 3-0 or 0-3)
-        # where one team has 0 total points. That skews the percentage
-        # and I think it's an outlier
+        # where one team has 0 total points. Or add them as sections.
+        # They skew the result and I think it's an outlier
         for game in self.games:
             if game.home_sets == '3':
                 if game.away_sets == '0':
@@ -189,12 +205,120 @@ class MyPlotter:
         fig.show()
         return fig
 
+    def plot_number_of_teams(self):
+        """Plot number of teams per year"""
+        count = {}
+        for g in self.games:
+            if g.division == 'playoffs': continue
+            year = g.timestamp.year
+            if year not in count: count[year] = {
+                'superleague': set(),
+                'division_1': set(),
+                'division_2': set(),
+                'division_3': set(),
+                'cup': set(),
+                'shield': set(),
+            }
+            count[year][g.division].add(g.home)
+            count[year][g.division].add(g.away)
+
+        # df = pandas.DataFrame(dict(
+        #     years=count.keys(),
+        #     divisions=['superleague', 'division_1', 'division_2', 'division_3', 'cup', 'shield'],
+        #     count=count.values()
+        # ))
+        fig = px.bar(count)
+        fig.show()
+
+    def plot_games_per_referee(self):
+        """Plot number of games per referee"""
+        # TODO
+        # fig = px.histogram(
+        #     self.dataframe,
+        #     x='r1',
+        #     title="Games per referee"
+        # )
+        # fig.show()
+
+    def plot_referees_per_year(self):
+        """Plot total number of referees per year"""
+        # years = [g.timestamp.year for g in self.games]
+        count = {}
+        for g in self.games:
+            div = g.division
+            r1 = g.r1
+            r2 = g.r2
+
+            if not r1 and not r2: continue
+
+            y = g.timestamp.year
+            if y not in count: count[y] = {}
+            if div not in count[y]: count[y][div] = set()
+            if r1: count[y][div].add(r1)
+            if r2: count[y][div].add(r2)
+
+        years, divs, refs = [], [], []
+        for y in count:
+            for d in count[y]:
+                years.append(str(y))
+                divs.append(d)
+                refs.append(str(len(count[y][d])))
+
+        df = pandas.DataFrame(dict(
+            years=years,
+            divisions=divs,
+            refs=refs
+        ))
+        fig = px.histogram(df, x='years', y='refs', color='divisions', hover_data='refs')
+        fig.show()
+
+    """
+    def plot_holoviews(self):
+        import pandas as pd
+        import holoviews as hv
+        from holoviews import opts, dim
+        from bokeh.sampledata.les_mis import data
+
+        hv.extension('bokeh')
+        hv.output(size=200)
+
+        links = pd.DataFrame(data['links'])
+        hv.Chord(links)
+        nodes = hv.Dataset(pd.DataFrame(data['nodes']), 'index')
+        nodes.data.head()
+        chord = hv.Chord((links, nodes)).select(value=(5, None))
+        chord.opts(
+            opts.Chord(cmap='Category20', edge_cmap='Category20', edge_color=dim('source').str(),
+                       labels='name', node_color=dim('index').str()))
+
+    def plot_openchord(self):
+        import openchord as ocd
+
+        adjacency_matrix = [[3, 18, 9, 0, 23],
+                            [18, 0, 12, 5, 29],
+                            [9, 12, 0, 27, 10],
+                            [0, 5, 27, 0, 0],
+                            [23, 29, 10, 0, 0]]
+        labels = ['Emma', 'Isabella', 'Ava', 'Olivia', 'Sophia']
+
+        fig = ocd.Chord(adjacency_matrix, labels)
+        fig.colormap = ['#636EFA', '#EF553B', '#00CC96', '#AB63FA', '#FFA15A', '#19D3F3', '#FF6692', '#B6E880',
+                        '#FF97FF', '#FECB52']
+        fig.show()
+        fig.save_svg("figure.svg")
+    """
 
 if __name__ == "__main__":
     plotter = MyPlotter()
     # plotter.plot_total_points()
+    # plotter.plot_results()
     # plotter.plot_home_victories()
     # plotter.plot_home_victories_per_division()
     # plotter.plot_number_of_games()
-    plotter.plot_results()
-    # plotter.plot_number_of_games_per_division()  # TODO
+    # plotter.plot_number_of_games_per_division()
+    # plotter.plot_number_of_teams() # fixme: not working yet
+    # plotter.plot_games_per_referee() # todo
+    # plotter.plot_referees_per_year()
+
+    # plotter.plot_holoviews()
+    # plotter.plot_openchord()
