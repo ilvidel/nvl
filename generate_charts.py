@@ -34,12 +34,18 @@ class MyPlotter:
             if total < 75:  # this result is wrong and should be ignored
                 print(game)
                 continue
+            if game.home_sets=='2' and game.away_sets=='2':
+                # Apparently, games cancelled because of COVID were, for some reason,
+                # entered in the system with impossible results in the form:
+                # Home: 2 - 23 25 23 25 15
+                # Away: 2 - 25 23 25 23 15
+                continue
             points.append(total)
             sex.append(game.category)
 
         print(f"MAX: {max(points)}")
         print(f"MIN: {min(points)}")
-        print(f"AVG: {statistics.mean(points)}")
+        print(f"AVG: {int(statistics.mean(points))}")
         print(f"Median: {statistics.median(points)}")
         print(f"Mode: {statistics.mode(points)}")
 
@@ -47,10 +53,40 @@ class MyPlotter:
         fig = px.histogram(
             df, x="points", color="gender",
             color_discrete_sequence=['hotpink', 'dodgerblue'],
-            opacity=.7,
+            opacity=.5,
+            # nbins=300,
             marginal="rug",  # can be `box`, `violin` or 'rug'
             title="Total points played per game")
-        fig.update_layout(barmode='overlay')
+        fig.update_layout(barmode='group') # stack, group, overlay or relative
+        fig.show()
+
+    def plot_points_histogram(self):
+        """
+        Histogram of the total number of points per game, per number of sets
+        (the sum of home points and away points)
+        """
+        points = []
+        sets = []
+
+        for game in self.games:
+            total = sum(
+                [int(x) for x in game.home_points + game.away_points if x.isnumeric()])
+            if total < 75:  # this result is wrong and should be ignored
+                continue
+            if game.home_sets=='2' and game.away_sets=='2':
+                continue
+            points.append(total)
+            sets.append(f"{int(game.home_sets)+int(game.away_sets)} sets")
+
+        df = pandas.DataFrame(dict(points=points, sets=sets))
+        fig = px.histogram(
+            df, x="points", color="sets",
+            # color_discrete_sequence=['hotpink', 'dodgerblue'],
+            opacity=.7,
+            marginal="rug",  # can be `box`, `violin` or 'rug'
+            nbins=300,
+            title="Total points played per game")
+        fig.update_layout(barmode='stack') # stack, group, overlay or relative
         fig.show()
 
     def plot_home_victories(self):
@@ -310,7 +346,8 @@ class MyPlotter:
 
 if __name__ == "__main__":
     plotter = MyPlotter()
-    # plotter.plot_total_points()
+    plotter.plot_total_points()
+    # plotter.plot_points_histogram()
     # plotter.plot_results()
     # plotter.plot_home_victories()
     # plotter.plot_home_victories_per_division()
