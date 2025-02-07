@@ -1,4 +1,4 @@
-date,time,ID,home,home_sets,home_points,away,away_sets,away_points,division,category,venue,r1,r2
+Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2005-09-17,00:00,,Leeds Gorse,3,25 25 25 - -,Cambridge ARU,0,18 19 10 - -,division_2,women,TBC,,
 2005-09-24,00:00,,Team SideOut Polonia (London),3,25 18 25 25 0,Malory Eagles UEL,1,14 25 22 20 0,division_1,women,St Benedicts School,,
 2005-09-25,00:00,,City of Bristol,3,25 25 25 - -,Southampton,0,20 15 17 - -,division_3,women,Talacre Community Sports Centre,,

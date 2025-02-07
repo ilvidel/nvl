@@ -1,4 +1,5 @@
 import logging
+import sys
 from datetime import datetime
 
 DIVISIONS = {
@@ -25,6 +26,7 @@ DIVISIONS = {
     # "196557": "National Shield Men",
     # "196560": "National Shield Women",
 }
+
 
 
 class Game(object):
@@ -75,8 +77,8 @@ class Game(object):
             and self.date() == other.date()
             and self.home == other.home
             and self.away == other.away
-            and self.r1 == other.r1
-            and self.r2 == other.r2
+            # and self.r1 == other.r1
+            # and self.r2 == other.r2
         )
 
     def __lt__(self, other):
@@ -84,22 +86,71 @@ class Game(object):
 
     def __add__(self, other):
         """
-        NON-COMMUTATIVE: Gets the results of 'other' into 'self'
+        Merge self and 'other'
         """
-        self.home_sets = other.home_sets
-        self.home_points = other.home_points
-        self.away_sets = other.away_sets
-        self.away_points = other.away_points
-        if other.r1:
-            self.r1 = other.r1
-        if other.r2:
-            self.r2 = other.r2
-        if other.venue:
-            self.venue = other.venue
         if self.timestamp != other.timestamp:
-            self.logger.warning(f"Modifying date from {self.date()} {self.time()} to {other.date()} {other.time()}")
-            self.timestamp = other.timestamp
-        return self
+            self.logger.error(f"Timestamps differ!: {self.timestamp} / {other.timestamp}")
+        if self.division != other.division:
+            self.logger.error(f"Divisions differ!: {self.division} / {other.division}")
+        if self.number != other.number:
+            self.logger.error(f"Game Numbers differ!: {self.number} / {other.number}")
+        if self.home != other.home:
+            self.logger.error(f"Home Teams differ!: {self.home} / {other.home}")
+        if self.away != other.away:
+            self.logger.error(f"Away Teams differ!: {self.away} / {other.away}")
+        if self.r1 != other.r1:
+            self.logger.error(f"R1 differ!: {self.r1} / {other.r1}")
+        if self.r2 != other.r2:
+            self.logger.error(f"R2 differ!: {self.r2} / {other.r2}")
+        if self.venue != other.venue:
+            self.logger.error(f"Venues differ!: {self.venue} / {other.venue}")
+
+        game = Game()
+        game.timestamp = self.pick(self.timestamp, other.timestamp, "time")
+        game.number = self.pick(self.number, other.number, "number")
+        game.home = self.pick(self.home, other.home, "home")
+        game.away = self.pick(self.away, other.away, "away")
+        game.home_sets = self.pick(self.home_sets, other.home_sets, "home sets")
+        game.home_points = self.pick(self.home_points, other.home_points, "home points")
+        game.away_sets = self.pick(self.away_sets, other.away_sets, "away sets")
+        game.away_points = self.pick(self.away_points, other.away_points, "away points")
+        game.venue = self.pick(self.venue, other.venue, "venue")
+        game.r1 = self.pick(self.r1, other.r1, "R1")
+        game.r2 = self.pick(self.r2, other.r2, "R2")
+        game.category = self.pick(self.category, other.category, "category")
+        game.division = self.pick(self.division, other.division, "division")
+
+        print(f"\nAdding:\n{self.csv()}\n{other.csv()}")
+        print(f"Result:\n{game.csv()}")
+        # answer = input("Continue? [y/n]:")
+        # if answer != "y":
+        #     sys.exit(-1)
+        return game
+
+        # self.home_sets = other.home_sets
+        # self.home_points = other.home_points
+        # self.away_sets = other.away_sets
+        # self.away_points = other.away_points
+        # if other.r1:
+        #     self.r1 = other.r1
+        # if other.r2:
+        #     self.r2 = other.r2
+        # if other.venue:
+        #     self.venue = other.venue
+        # if self.timestamp != other.timestamp:
+        #     self.logger.warning(f"[{self.number}] Modifying date from {self.date()} {self.time()} to {other.date()} {other.time()}")
+        #     self.timestamp = other.timestamp
+        # return self
+
+    def pick(self, a, b, name):
+        if not a and b:
+            return b
+        if not b and a:
+            return a
+        if not a and not b:
+            self.logger.debug(f"Both values for {name} ({a}, {b}) are undefined")
+            return ""
+        return b
 
     def to_dict(self):
         return {
@@ -121,7 +172,8 @@ class Game(object):
         }
 
     def csv(self):
-        return ",".join(
+        try:
+            text =  ",".join(
             [
                 self.date(),
                 self.time(),
@@ -139,23 +191,27 @@ class Game(object):
                 self.r2,
             ]
         )
+        except TypeError as e:
+            self.logger.error(e)
+            self.logger.error(self.to_dict())
+        return text
 
     @staticmethod
     def from_csv(line):
         g = Game()
-        g.set_timestamp(f"{line['date']}T{line['time']}", numerical=True)
+        g.set_timestamp(f"{line['Date']}T{line['Time']}", numerical=True)
         g.number=line['ID']
-        g.home=line['home']
-        g.home_sets=line['home_sets']
-        g.home_points = line['home_points'].split()
-        g.away=line['away']
-        g.away_sets=line['away_sets']
-        g.away_points = line['away_points'].split()
-        g.venue=line['venue']
-        g.category=line['category']
-        g.division=line['division']
-        g.r1=line['r1']
-        g.r2=line['r2']
+        g.home=line['Home']
+        g.home_sets=line['HSets']
+        g.home_points = line['HPoints'].split()
+        g.away=line['Away']
+        g.away_sets=line['ASets']
+        g.away_points = line['APoints'].split()
+        g.venue=line['Venue']
+        g.category=line['Category']
+        g.division=line['Division']
+        g.r1=line['R1']
+        g.r2=line['R2']
         return g
 
     def set_timestamp(self, date_str, numerical=False):

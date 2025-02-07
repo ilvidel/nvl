@@ -1,0 +1,79 @@
+shield women
+Date: 2008-01-06
+Home Sheffield ([256, 25, 25, -, -])
+Away: Dartford Crossers ([0, 0, 0, -, -])
+
+superleague men
+Date: 2013-04-28
+Home: Northumbria University ([13, 0, 0, -, -])
+Away: IBB Polonia London ([15, 0, 0, -, -])
+
+superleague men
+Date: 2015-04-26
+Home: Northumbria University ([15, 0, 0, -, -])
+Away: Sheffield ([12, 0, 0, -, -])
+
+superleague women
+Date: 2017-04-23
+Home: Durham Palatinates ([15, 0, 0, -, -])
+Away: Team SideOut Polonia (London) ([9, 0, 0, -, -])
+
+superleague men
+Date: 2017-04-23
+Home: Northumbria University ([12, 0, 0, -, -])
+Away: Sheffield ([15, 0, 0, -, -])
+
+superleague women
+Date: 2018-04-22
+Home: Durham Palatinates ([15, 0, 0, -, -])
+Away: Team SideOut Polonia (London) ([5, 0, 0, -, -])
+
+superleague women
+Date: 2018-05-06
+Home: Northumbria University ([13, 0, 0, -, -])
+Away: Durham Palatinates ([15, 0, 0, -, -])
+
+division_1 men
+Date: 2023-04-01
+Home: London Aces ([0, 0, -, -, -])
+Away: Manchester Marvels ([0, 0, -, -, -])
+
+division_2 women
+Date: 2023-04-09
+Home: Urbond VC Portsmouth ([-, -, -, -, -])
+Away: Essex Trinity ([-, -, -, -, -])
+
+cup men
+Date: 2023-08-02
+Home: Wolverhampton ([0, 0, 0, 0, 0])
+Away: Brighton ([0, 0, 0, 0, 0])
+
+cup men
+Date: 2023-09-09
+Home: London Wildcats ([-, -, -, -, -])
+Away: London Bears ([-, -, -, -, -])
+
+cup women
+Date: 2023-09-10
+Home: Reading Aces ([-, -, -, -, -])
+Away: London Bears ([-, -, -, -, -])
+
+cup men
+Date: 2023-09-23
+Home: Team SideOut (London) ([-, -, -, -, -])
+Away: Army ([-, -, -, -, -])
+
+shield men
+Date: 2023-11-11
+Home: London Bears ([-, -, -, -, -])
+Away: Men ([-, -, -, -, -])
+
+shield women
+Date: 2023-12-02
+Home: Waterloo Thunder Volleyball Club ([-, -, -, -, -])
+Away: Onyx London ([-, -, -, -, -])
+
+cup women
+Date: 2022-09-25
+Home: Ashcombe Dorking (3 - 25 25 25)
+Away: UK Armed Forces (2 - 0 0 0)

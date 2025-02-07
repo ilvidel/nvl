@@ -1,3 +1,5 @@
+import datetime
+
 import game
 
 header = """
@@ -26,13 +28,14 @@ header = """
 
 def generate_html(games):
     body = ""
-    for g in sorted(games, key=lambda x: x.timestamp):
+    # for g in sorted(games, key=lambda x: x.timestamp):
+    for g in sorted(games, key=lambda x: (x.timestamp, x.division, x.number)):
         body += g.as_table_row()
 
     footer = f"""
           </tbody>
         </table>
-        {len(games)} rows
+        {len(games)} rows - {str(datetime.datetime.now())}
       </body>
     </html>      
     """

@@ -1,11 +1,10 @@
 import csv
 import json
 import statistics
-import openchord as ocd
 import pandas
 import plotly.express as px
 import plotly.graph_objects as go
-
+import igraph as ig
 from game import Game
 
 
@@ -272,9 +271,9 @@ class MyPlotter:
         from collections import Counter
         refs = []
         for g in self.games:
-            if g.r2 and not g.r2.isnumeric() and not g.r2=='TBC':
+            if g.r2 and not g.r2.isnumeric() and not g.r2 == 'TBC':
                 refs.append(g.r2)
-            if g.r1 and not g.r1.isnumeric() and not g.r1=='TBC':
+            if g.r1 and not g.r1.isnumeric() and not g.r1 == 'TBC':
                 refs.append(g.r1)
 
         c = Counter(refs)
@@ -366,19 +365,58 @@ class MyPlotter:
         fig.save_svg("figure.svg")
     """
 
+    def generate_community_graph(self):
+        # Extract edges between Home and Away teams
+        edges = list(zip(self.dataframe['Home'], self.dataframe['Away']))
+
+        # Create a graph from the edge list
+        g = ig.Graph.TupleList(edges, directed=False)
+
+        # Detect communities
+        # communities = g.community_multilevel()
+        communities = g.community_edge_betweenness()
+        communities = communities.as_clustering()
+
+        #colorize communities
+        num_communities = len(communities)
+        palette = ig.RainbowPalette(n=num_communities)
+        for i, community in enumerate(communities):
+            g.vs[community]["color"] = i
+            community_edges = g.es.select(_within=community)
+            community_edges["color"] = i
+
+        # Assign community membership to vertices
+        g.vs['community'] = communities.membership
+
+        # Plot the graph with communities
+        layout = g.layout('fr', niter=5000)
+        ig.plot(
+            communities,
+            layout=layout,
+            palette=palette,
+            vertex_label=g.vs['name'],
+            vertex_label_size=6,
+            vertex_size=5,
+            vertex_color=[f"#{c:06x}" for c in g.vs['community']],
+            bbox=(1920, 1080),   # Increase the size of the plot
+            margin=50,           # Add margin to reduce clutter at the edges
+            target = "/tmp/communities_teams.pdf"
+        )
+
 
 if __name__ == "__main__":
     plotter = MyPlotter()
-    # plotter.plot_total_points()
-    # plotter.plot_points_histogram()
-    # plotter.plot_results()
-    # plotter.plot_home_victories()
-    # plotter.plot_home_victories_per_division()
-    # plotter.plot_number_of_games()
-    # plotter.plot_number_of_games_per_division()
+    plotter.plot_total_points()
+    plotter.plot_points_histogram()
+    plotter.plot_results()
+    plotter.plot_home_victories()
+    plotter.plot_home_victories_per_division()
+    plotter.plot_number_of_games()
+    plotter.plot_number_of_games_per_division()
     # plotter.plot_number_of_teams() # fixme: not working yet
     plotter.plot_games_per_referee()
-    # plotter.plot_referees_per_year()
+    plotter.plot_referees_per_year()
+    # plotter.generate_community_graph()
 
     # plotter.plot_holoviews()
     # plotter.plot_openchord()

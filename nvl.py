@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+import csv
+import datetime
 import json
 import re
 
@@ -35,27 +37,32 @@ def load_file(fname):
         text = f.read()
     return text
 
-def load_json(fname):
-    logger.debug(f"Reading from {fname}")
-    with open(fname, "r") as f:
-        content = json.load(f)
-    print(f"Loaded {len(content)} games from {fname}")
-    return [Game(g) for g in content]
+# def load_json(fname):
+#     logger.debug(f"Reading from {fname}")
+#     with open(fname, "r") as f:
+#         content = json.load(f)
+#     print(f"Loaded {len(content)} games from {fname}")
+#     return [Game(g) for g in content]
 
+# def write_json(matches, filename):
+#     with open(filename, "w") as f:
+#         f.write(json.dumps([m.to_dict() for m in matches], indent=2))
+#     logger.info(f"Wrote {len(matches)} games to {filename}")
 
-def write_csv(games):
-    with open("nvl.csv", "w") as f:
-        header = "Date,Time,ID,Home,Sets,Points,Away,Sets,Points,Division,Category,Venue,Ref1,Ref2,\n"
+def load_csv(filename):
+    games = []
+    with open(filename, "r") as csv_file:
+        csv_games = csv.DictReader(csv_file)
+        for g in csv_games:
+            games.append(Game.from_csv(g))
+    return games
+
+def write_csv(games, filename):
+    with open(filename, "w") as f:
+        header = "Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2,\n"
         f.write(header)
         for g in games:
             f.write(f"{g.csv()}\n")
-
-
-
-def write_json(matches, filename):
-    with open(filename, "w") as f:
-        f.write(json.dumps([m.to_dict() for m in matches], indent=2))
-    logger.info(f"Wrote {len(matches)} games to {filename}")
 
 
 def parse_games(games, div):
@@ -161,18 +168,18 @@ def merge_results(database, results):
             continue
         index = database.index(res)
         logger.info(f"Adding results for: {res}")
-        # database[index] += res
-        database[index].home_sets = res.home_sets
-        database[index].home_points = res.home_points
-        database[index].away_sets = res.away_sets
-        database[index].away_points = res.away_points
-
-        if not database[index].r1:
-            database[index].r1 = res.r1
-        if not database[index].r2:
-            database[index].r2 = res.r2
-        if not database[index].venue:
-            database[index].venue = res.venue
+        database[index] += res
+        # database[index].home_sets = res.home_sets
+        # database[index].home_points = res.home_points
+        # database[index].away_sets = res.away_sets
+        # database[index].away_points = res.away_points
+        #
+        # if not database[index].r1:
+        #     database[index].r1 = res.r1
+        # if not database[index].r2:
+        #     database[index].r2 = res.r2
+        # if not database[index].venue:
+        #     database[index].venue = res.venue
 
     database.extend(missing)
     # with open("missing.json", "w") as f:
@@ -182,15 +189,21 @@ def merge_results(database, results):
 
 def look_for_updates(database, unplayed):
     for g in unplayed:
-        filtro = list(filter(lambda x: x.number == g.number, database))
+        index = -1
+        if g.number:
+            filtro = list(filter(lambda x: x.number == g.number, database))
+        else:
+            filtro = list(filter(lambda x: x.home == g.home and x.away==g.away and x.division==g.division, database))
+
         try:
             index = database.index(filtro[0])
         except IndexError as ie:
             logger.error(f"No game matching number '{g.number}': {g}")
-            continue
+            database.append(g)
         except ValueError as ve:
             logger.error(f"Game not found in database: {g}")
-            continue
+            database.append(g)
+
         if database[index] != g:
             logger.warning(f"Unmatched game {g.number}, merging")
             logger.debug(g)
@@ -199,6 +212,7 @@ def look_for_updates(database, unplayed):
 
 
 if __name__ == "__main__":
+    start = datetime.datetime.now()
     unplayed_games = []
     played_games = []
     for _, division in DIVISIONS.items():
@@ -217,19 +231,21 @@ if __name__ == "__main__":
         played_games.extend(parse_results(raw_games, division))
 
     # save games to file
-    write_json(unplayed_games, "unplayed.json")
-    write_json(played_games, "results.json")
-
-    unplayed_games = load_json("unplayed.json")
-    played_games = load_json("results.json")
+    # write_json(unplayed_games, "unplayed.json")
+    # write_json(played_games, "results.json")
+    write_csv(unplayed_games, "unplayed.csv")
+    write_csv(played_games, "results.csv")
 
     # merge the games
-    games = load_json("nvl.json")  # this will be my database
+    # games = load_json("nvl.json")  # this will be my database
+    games = load_csv("nvl.csv")  # this will be my database
     games = merge_results(games, played_games)
     look_for_updates(games, unplayed_games)
 
     # generate the final page
     generator.generate_html(games)
-    write_json(sorted(set(games)), "nvl.json")
+    # write_json(sorted(set(games)), "nvl.json")
+    write_csv(sorted(games, key=lambda x: x.timestamp), "nvl.csv")
 
-    write_csv(sorted(games, key=lambda x: x.timestamp))
+    end = datetime.datetime.now()
+    print(f"{(end - start).total_seconds()} seconds")

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 import time
