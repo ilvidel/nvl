@@ -696,7 +696,7 @@ class MyPlotter:
         r2 = len(list(filter(lambda g: g.r2 == ref_name, self.games)))
         both = len(list(filter(lambda g: g.r1 == ref_name and g.r2 == ref_name, self.games)))
 
-        donut_colors = ['gold', 'mediumturquoise', 'darkorange']
+        donut_colors = ["#26547C", "#EF476F", "#FFD166", "#06D6A0"]
         labels = ["Ref1", "Ref2", "Both"]
         values = [r1, r2, both]
         fig = go.Figure(data=[go.Pie(
@@ -706,6 +706,53 @@ class MyPlotter:
             sort=False, # do not sort by value
             hole=0.5,
             title=f"Roles for {ref_name}"
+        )])
+        fig.update_traces(
+            textinfo="label+percent+value",
+            marker=dict(colors=donut_colors)
+        )
+        fig.show()
+
+    def plot_referee_games_by_division(self, ref_name):
+        """Plot the number of games by a particular referee, per division"""
+        # TODO: split by category as well, in similar color shade
+        games = list(filter(lambda g: g.r1==ref_name or g.r2==ref_name, self.games))
+        sl = len(list(filter(lambda g: "Super" in g.division, games)))
+        div1 = len(list(filter(lambda g: "Division 1" in g.division, games)))
+        div2 = len(list(filter(lambda g: "Division 2" in g.division, games)))
+        div3 = len(list(filter(lambda g: "Division 3" in g.division, games)))
+
+        donut_colors = ["#26547C", "#EF476F", "#FFD166", "#06D6A0"]
+        labels = ["SuperLeague", "Div1", "Div2", "Div3"]
+        values = [sl, div1, div2, div3]
+        fig = go.Figure(data=[go.Pie(
+            labels=labels,
+            values=values,
+            sort=False, # do not sort by value
+            hole=0.5,
+            title=f"Number of Games {ref_name}"
+        )])
+        fig.update_traces(
+            textinfo="label+percent+value",
+            marker=dict(colors=donut_colors)
+        )
+        fig.show()
+
+    def plot_referee_games_by_category(self, ref_name):
+        """Plot the number of games by a particular referee, per division"""
+        games = list(filter(lambda g: g.r1==ref_name or g.r2==ref_name, self.games))
+        men = len(list(filter(lambda g: "men" == g.category, games)))
+        ladies = len(list(filter(lambda g: "women" == g.category, games)))
+
+        donut_colors = ["#26547C", "#EF476F", "#FFD166", "#06D6A0"]
+        labels = ["Men", "Ladies"]
+        values = [men, ladies]
+        fig = go.Figure(data=[go.Pie(
+            labels=labels,
+            values=values,
+            sort=False, # do not sort by value
+            hole=0.5,
+            title=f"Number of Games by {ref_name}"
         )])
         fig.update_traces(
             textinfo="label+percent+value",
@@ -740,4 +787,6 @@ if __name__ == "__main__":
 
     # REFEREES - Individual charts
     for r in plotter.referee_subset:
-        plotter.plot_referee_role(r)
+        # plotter.plot_referee_role(r)
+        # plotter.plot_referee_games_by_division(r)
+        plotter.plot_referee_games_by_category(r)
