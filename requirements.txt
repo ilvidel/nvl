@@ -1,10 +1,9 @@
 bs4
 datetime
 holoviews
+html5lib
+matplotlib
 pandas
-plotly.express
 plotly
 selenium
 statistics
-logging
-html5lib
