@@ -21,6 +21,29 @@ class MyPlotter:
 
         self.dataframe = pandas.read_csv("nvl.csv")
 
+        self.referee_subset = [
+            "Aileen Barry",
+            "Alistair Mitchell",
+            "Ben Hill",
+            "Daniel Sarnik",
+            "Fiona Cotterill",
+            "Francesca Bentley",
+            "Ignacio Diez",
+            "Jacky Pang",
+            "Janet Leach",
+            "Jayne Jones",
+            "Mel Melville-brown",
+            "Neil Bentley",
+            "Nick Heckford",
+            "Peter Parsons",
+            "Richard Burbedge",
+            "Richard Parkes",
+            "Rita Grimes",
+            "Su Brennand",
+            "Timothy Hebborn",
+            "William Perugini",
+        ]
+
     def plot_total_points(self):
         """
         Histogram of the total number of points per game
@@ -549,29 +572,7 @@ class MyPlotter:
 
     def referee_network(self):
         bad = ["TBC", 119979, 116921, 119791, "119979", "116921", "119791", ""]
-        good = [
-            "Aileen Barry",
-            "Alessia Garnero",
-            "Alistair Mitchell",
-            "Ben Hill",
-            "Daniel Sarnik",
-            "Fiona Cotterill",
-            "Francesca Bentley",
-            "Ignacio Diez",
-            "Jacky Pang",
-            "Janet Leach",
-            "Jayne Jones",
-            "Mel Melville-brown",
-            "Neil Bentley",
-            "Nick Heckford",
-            "Peter Parsons",
-            "Richard Burbedge",
-            "Richard Parkes",
-            "Rita Grimes",
-            "Su Brennand",
-            "Timothy Hebborn",
-            "William Perugini",
-        ]
+
         edges = {}
         vertices = set()
         for g in self.games:
@@ -629,10 +630,9 @@ class MyPlotter:
             # vertex_size=10,
         )
 
-
     def teams_network(self):
         bad = ["TBC"]
-        good = [        ]
+        good = []
         edges = {}
         vertices = set()
         for g in self.games:
@@ -690,6 +690,30 @@ class MyPlotter:
             # vertex_size=10,
         )
 
+    def plot_referee_role(self, ref_name):
+        """Plot the number of R1 vs R2 roles for a particular referee"""
+        r1 = len(list(filter(lambda g: g.r1 == ref_name, self.games)))
+        r2 = len(list(filter(lambda g: g.r2 == ref_name, self.games)))
+        both = len(list(filter(lambda g: g.r1 == ref_name and g.r2 == ref_name, self.games)))
+
+        donut_colors = ['gold', 'mediumturquoise', 'darkorange']
+        labels = ["Ref1", "Ref2", "Both"]
+        values = [r1, r2, both]
+        fig = go.Figure(data=[go.Pie(
+            labels=labels,
+            values=values,
+            direction='clockwise',
+            sort=False, # do not sort by value
+            hole=0.5,
+            title=f"Roles for {ref_name}"
+        )])
+        fig.update_traces(
+            textinfo="label+percent+value",
+            marker=dict(colors=donut_colors)
+        )
+        fig.show()
+
+
 if __name__ == "__main__":
     plotter = MyPlotter()
     # plotter.plot_total_points()
@@ -703,13 +727,17 @@ if __name__ == "__main__":
     # plotter.plot_games_per_referee()
     # plotter.plot_referees_per_year()
 
-    # plotter.generate_community_graph()
-    # plotter.generate_connected_components_graph()
+    # plotter.generate_community_graph() # fixme: not working yet
+    # plotter.generate_connected_components_graph() # fixme: not working yet
 
-    plotter.plot_referee_network(directed=False)
+    # plotter.plot_referee_network(directed=False)
     # plotter.plot_teams_network()
 
     # plotter.plot_observations()
 
     # plotter.plot_holoviews()
     # plotter.plot_openchord()
+
+    # REFEREES - Individual charts
+    for r in plotter.referee_subset:
+        plotter.plot_referee_role(r)
