@@ -1,10 +1,12 @@
 import csv
-import json
-import statistics
+
+import igraph as ig
+import matplotlib.pyplot as plt
 import pandas
 import plotly.express as px
 import plotly.graph_objects as go
-import igraph as ig
+import statistics
+
 from game import Game
 
 
@@ -12,12 +14,12 @@ class MyPlotter:
 
     def __init__(self):
         self.games = []
-        with open("past.csv", "r") as csv_file:
+        with open("nvl.csv", "r") as csv_file:
             csv_games = csv.DictReader(csv_file)
             for g in csv_games:
                 self.games.append(Game.from_csv(g))
 
-        self.dataframe = pandas.read_csv("past.csv")
+        self.dataframe = pandas.read_csv("nvl.csv")
 
     def plot_total_points(self):
         """
@@ -377,7 +379,7 @@ class MyPlotter:
         communities = g.community_edge_betweenness()
         communities = communities.as_clustering()
 
-        #colorize communities
+        # colorize communities
         num_communities = len(communities)
         palette = ig.RainbowPalette(n=num_communities)
         for i, community in enumerate(communities):
@@ -398,25 +400,316 @@ class MyPlotter:
             vertex_label_size=6,
             vertex_size=5,
             vertex_color=[f"#{c:06x}" for c in g.vs['community']],
-            bbox=(1920, 1080),   # Increase the size of the plot
-            margin=50,           # Add margin to reduce clutter at the edges
-            target = "/tmp/communities_teams.pdf"
+            bbox=(1920, 1080),  # Increase the size of the plot
+            margin=50,  # Add margin to reduce clutter at the edges
+            target="/tmp/communities_teams.pdf"
+        )
+
+    def generate_connected_components_graph(self):
+        # Extract edges between Home and Away teams
+        good_edges = []
+        edges = list(zip(self.dataframe['R1'], self.dataframe['R2']))
+        print(len(edges))
+
+        bad = ["TBC", 119979, 116921, 119791, "119979", "116921", "119791"]
+        good = ["Ignacio Diez", "Jayne Jones", "Richard Burbedge", "Neil Bentley",
+                "Francesca Bentley",
+                "Alistair Mitchell",
+                "Nick Heckford",
+                "Timothy Hebborn",
+                "Peter Parsons",
+                "Su Brennand",
+                "Janet Leach",
+                "Jacky Pang",
+                "Richard Parkes",
+                "Fiona Cotterill",
+                "Ben Hill",
+                "William Perugini",
+                "Rita Grimes",
+                "Aileen Barry",
+                "Alessia Garnero",
+                "Daniel Sarnik",
+                "Mel Melville-brown",
+                ]
+        for t in edges:
+            if any([type(x) is int for x in t]):
+                print(f"Removing: {t}")
+                continue
+            elif any([type(x) is float for x in t]):
+                print(f"Removing: {t}")
+                continue
+            elif any([x in bad for x in t]):
+                print(f"Removing: {t}")
+                continue
+            # if t[0] in good and t[1] in good:
+            good_edges.append(t)
+        print(len(good_edges))
+
+        # Create a graph from the edge list
+        g = ig.Graph.TupleList(good_edges, directed=True)
+
+        # generate communities
+        communities = g.community_edge_betweenness()
+
+        # convert into a vertex clustering
+        communities = communities.as_clustering()
+
+        # print who belongs where
+        for j, community in enumerate(communities):
+            print(f"Community {j}:")
+            for v in community:
+                g.vs["label"] = g.vs["name"]
+                print(f"\t{g.vs[v].index} {g.vs[v]['name']}")
+
+        # colorize communities
+        num_communities = len(communities)
+        palette = ig.RainbowPalette(n=num_communities)
+        for j, community in enumerate(communities):
+            g.vs[community]["color"] = j
+            community_edges = g.es.select(_within=community)
+            community_edges["color"] = j
+
+        # plot
+        fig1, ax1 = plt.subplots()
+        ig.plot(
+            communities,
+            layout="kk",
+            target=ax1,
+            palette=palette,
+            mark_groups=True,
+            vertex_size=15,
+            vertex_label_dist=3,
+            edge_width=0.5,
+        )
+        fig1.set_size_inches(20, 20)
+        fig1.savefig("teams.pdf")
+
+    def plot_observations(self):
+        """Number of games played per year, per division"""
+        count = {}
+        names = [
+            # "Aileen Barry",
+            # "Ana Pal",
+            # "Fiona Cotterill",
+            # "Stephen Watts",
+            # "Giorgio Scatigna-Gianfagna",
+            # "Elia Gironacci",
+            # "Cherie Cheung",
+            # "Rita Grimes",
+            # "Nicolas Vecchione",
+            # "Domitilla Di Stefano",
+            "Ignacio Diez", "Nick Heckford", "Diane Hollows", "Glynn Archibald", "Lenny Barry", "Debra Smart"
+        ]
+        division_name = {
+            'Division 1 Men': "Div1",
+            'Division 1 Women': "Div1",
+            'Division 2 Central Men': "Div2",
+            'Division 2 East Women': "Div2",
+            'Division 2 North Men': "Div2",
+            'Division 2 North Women': "Div2",
+            'Division 2 South Men': "Div2",
+            'Division 2 West Women': "Div2",
+            'Division 3 Central Women': "Div3",
+            'Division 3 North Central Men': "Div3",
+            'Division 3 North West Men': "Div3",
+            'Division 3 North Women': "Div3",
+            'Division 3 South East Men': "Div3",
+            'Division 3 South West Men': "Div3",
+            'Division 3 South West Women': "Div3",
+            'Division 3 South East Women': "Div3",
+            'Super League Men': "SuperLeague",
+            'Super League Women': "SuperLeague"
+        }
+
+        for g in self.games:
+            div = division_name[g.division]
+            if g.r1 in names:
+                if div not in count: count[div] = []
+                count[div].append(g.r1)
+            if g.r2 in names:
+                if div not in count: count[div] = []
+                count[div].append(g.r2)
+
+        print(count.keys())
+
+        fig = go.Figure()
+        # for i in set(division_name.values()):
+        #     fig.add_trace(go.Histogram(x=count[i], name=i))
+        fig.add_trace(go.Histogram(x=count["Div3"], name="Div3"))
+        fig.add_trace(go.Histogram(x=count["Div2"], name="Div2"))
+        fig.add_trace(go.Histogram(x=count["Div1"], name="Div1"))
+        fig.add_trace(go.Histogram(x=count["SuperLeague"], name="SuperLeague"))
+        fig.update_layout(
+            barmode='stack',
+            bargap=.2,
+            xaxis_title_text='Referee',  # xaxis label
+            yaxis_title_text='Number of Games',  # yaxis label
+            title="Number of games per referee, per division")
+        fig.show()
+
+    def referee_network(self):
+        bad = ["TBC", 119979, 116921, 119791, "119979", "116921", "119791", ""]
+        good = [
+            "Aileen Barry",
+            "Alessia Garnero",
+            "Alistair Mitchell",
+            "Ben Hill",
+            "Daniel Sarnik",
+            "Fiona Cotterill",
+            "Francesca Bentley",
+            "Ignacio Diez",
+            "Jacky Pang",
+            "Janet Leach",
+            "Jayne Jones",
+            "Mel Melville-brown",
+            "Neil Bentley",
+            "Nick Heckford",
+            "Peter Parsons",
+            "Richard Burbedge",
+            "Richard Parkes",
+            "Rita Grimes",
+            "Su Brennand",
+            "Timothy Hebborn",
+            "William Perugini",
+        ]
+        edges = {}
+        vertices = set()
+        for g in self.games:
+            if g.r1 in bad or g.r2 in bad: continue
+
+            # comment this out to get a reduced set of refs
+            # if g.r1 not in good or g.r2 not in good: continue
+
+            if g.r1 not in edges:
+                edges[g.r1] = {}
+            if g.r2 not in edges[g.r1]:
+                edges[g.r1][g.r2] = 0
+            vertices.add(g.r1)
+            vertices.add(g.r2)
+            edges[g.r1][g.r2] += 1
+        return edges, list(vertices)
+
+    def plot_referee_network(self, directed=False):
+        ref_matrix, refs = self.referee_network()
+        g = ig.Graph(directed=directed)
+        g.add_vertices(refs)
+
+        for r1 in ref_matrix:
+            for r2, w in ref_matrix[r1].items():
+                g.add_edge(r1, r2, weight=w)
+
+        # Detect communities
+        communities = g.community_edge_betweenness(directed=directed)
+        communities = communities.as_clustering()
+        # Assign community membership to vertices
+        g.vs['community'] = communities.membership
+
+        # colorize
+        num_communities = len(communities)
+        palette = ig.RainbowPalette(n=num_communities)
+        for i, community in enumerate(communities):
+            g.vs[community]["color"] = i
+            community_edges = g.es.select(_within=community)
+            community_edges["color"] = i
+
+        ig.plot(
+            communities,
+            layout='dh',
+            bbox=(1920, 1080),  # Increase the size of the plot,
+            edge_label=g.es['weight'],
+            edge_label_color=g.es['color'],
+            edge_width=g.es['weight'],
+            margin=100,  # Add margin to reduce clutter at the edges,
+            mark_groups=True,
+            palette=palette,
+            target="referee_network_communities.png",
+            vertex_label=g.vs['name'],
+            vertex_label_dist=2,
+            # vertex_label_size=10,
+            # vertex_size=10,
         )
 
 
+    def teams_network(self):
+        bad = ["TBC"]
+        good = [        ]
+        edges = {}
+        vertices = set()
+        for g in self.games:
+            if g.home in bad or g.away in bad: continue
+
+            # comment this out to get a reduced set of refs
+            # if g.r1 not in good or g.r2 not in good: continue
+
+            if g.home not in edges:
+                edges[g.home] = {}
+            if g.away not in edges[g.home]:
+                edges[g.home][g.away] = 0
+            vertices.add(g.home)
+            vertices.add(g.away)
+            edges[g.home][g.away] += 1
+        return edges, list(vertices)
+
+    def plot_teams_network(self):
+        team_matrix, teams = self.teams_network()
+        g = ig.Graph(directed=False)
+        g.add_vertices(teams)
+
+        for home in team_matrix:
+            for away, w in team_matrix[home].items():
+                g.add_edge(home, away, weight=w)
+
+        # Detect communities
+        communities = g.community_edge_betweenness(directed=False)
+        communities = communities.as_clustering()
+        # Assign community membership to vertices
+        g.vs['community'] = communities.membership
+
+        # colorize
+        num_communities = len(communities)
+        palette = ig.RainbowPalette(n=num_communities)
+        for i, community in enumerate(communities):
+            g.vs[community]["color"] = i
+            community_edges = g.es.select(_within=community)
+            community_edges["color"] = i
+
+        ig.plot(
+            communities,
+            layout='dh',
+            bbox=(1920, 1080),  # Increase the size of the plot,
+            # edge_label=g.es['weight'],
+            # edge_label_color=g.es['color'],
+            # edge_width=g.es['weight'],
+            margin=100,  # Add margin to reduce clutter at the edges,
+            mark_groups=True,
+            palette=palette,
+            target="referee_team_communities.png",
+            vertex_label=g.vs['name'],
+            vertex_label_dist=2,
+            # vertex_label_size=10,
+            # vertex_size=10,
+        )
+
 if __name__ == "__main__":
     plotter = MyPlotter()
-    plotter.plot_total_points()
-    plotter.plot_points_histogram()
-    plotter.plot_results()
-    plotter.plot_home_victories()
-    plotter.plot_home_victories_per_division()
-    plotter.plot_number_of_games()
-    plotter.plot_number_of_games_per_division()
+    # plotter.plot_total_points()
+    # plotter.plot_points_histogram()
+    # plotter.plot_results()
+    # plotter.plot_home_victories()
+    # plotter.plot_home_victories_per_division()
+    # plotter.plot_number_of_games()
+    # plotter.plot_number_of_games_per_division()
     # plotter.plot_number_of_teams() # fixme: not working yet
-    plotter.plot_games_per_referee()
-    plotter.plot_referees_per_year()
+    # plotter.plot_games_per_referee()
+    # plotter.plot_referees_per_year()
+
     # plotter.generate_community_graph()
+    # plotter.generate_connected_components_graph()
+
+    plotter.plot_referee_network(directed=False)
+    # plotter.plot_teams_network()
+
+    # plotter.plot_observations()
 
     # plotter.plot_holoviews()
     # plotter.plot_openchord()
