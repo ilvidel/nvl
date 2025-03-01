@@ -31,6 +31,7 @@ DIVISIONS = {
 
 class Game(object):
     def __init__(self, attrs={}):
+        self.category = None
         self.home = attrs['home'] if 'home' in attrs else ""
         self.away = attrs['away'] if 'away' in attrs else ""
         self.timestamp = datetime.fromtimestamp(attrs['timestamp']) if 'timestamp' in attrs else datetime.now()
@@ -39,7 +40,7 @@ class Game(object):
         self.venue = attrs['venue'] if 'venue' in attrs else ""
         self.number = attrs['number'] if 'number' in attrs else ""
         self.division = attrs['division'] if 'division' in attrs else ""
-        self.category = "women" if "women" in self.division else "men" # this may cause problems with unknwon categories
+        self.set_category()
         self.home_sets = attrs['home_sets'] if 'home_sets' in attrs else 0
         self.away_sets = attrs['away_sets'] if 'away_sets' in attrs else 0
 
@@ -263,3 +264,11 @@ class Game(object):
             f"<td>{'</td><td>'.join(self.away_points)}</td>\n"
             "</div></tr>\n"
         )
+
+    def set_category(self):
+        if "Women" in self.division:
+            self.category = "women"
+        elif "Men" in self.division:
+            self.category = "men"
+        else:
+            self.category = "boh"

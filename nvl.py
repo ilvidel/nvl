@@ -74,6 +74,7 @@ def parse_games(games, div):
         game.away = entry.attrs['data-away-team']
         date = entry.attrs['data-date']
         game.division = div
+        game.set_category()
         logger.debug(f"Found home team: {game.home}")
         logger.debug(f"Found away team: {game.away}")
         logger.debug(f"Found game date: {game.date()}")
@@ -123,6 +124,7 @@ def parse_results(games, div):
         date = entry.attrs['data-date']
         game.set_timestamp(f"{date}T00:00")
         game.division = div
+        game.set_category()
         logger.debug(f"Found home team: {game.home}")
         logger.debug(f"Found away team: {game.away}")
         logger.debug(f"Found game date: {date}")
