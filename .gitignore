@@ -1,8 +1,11 @@
+__pycache__/
 \#*
 *~
 *.html
-__pycache__/
+.idea/
 bin/
+etc/
 include/
+share/
 lib*
 pyvenv.cfg
