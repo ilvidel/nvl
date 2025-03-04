@@ -1,5 +1,7 @@
 Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2,
-2025-03-01,00:00,,Essex Rebels,1,23 15 23 24 -,Malory Eagles UEL,3,25 25 25 26 -,Super League Women,women,Essex Sport Arena,Ryszard Dabrowski,William Perugini
+2025-03-02,00:00,,Leeds Gorse,2,25 16 25 19 13,DARKSTAR Derbyshire,3,17 25 22 25 15,Super League Women,women,The Ruth Gorse Academy,,Debra Smart
+2025-03-01,00:00,,Lionhearts Vinarius,3,25 25 25 - -,University of Nottingham Volleyball,0,11 14 10 - -,Super League Women,women,Mulberry Shoreditch Academy,Huaxi Liu,Ian Cheesbrough
+2025-03-01,00:00,,Essex Rebels,1,23 15 25 24 -,Malory Eagles UEL,3,25 25 23 26 -,Super League Women,women,Essex Sport Arena,Ryszard Dabrowski,William Perugini
 2025-03-01,00:00,,DARKSTAR Derbyshire,3,30 25 26 - -,Durham Palatinates,0,28 15 24 - -,Super League Women,women,Derby University Sports Centre,Chris Tsui,Phil Cobb
 2025-03-01,00:00,,Wessex,3,25 22 25 18 16,Cambridge ARU,2,19 25 19 25 14,Super League Women,women,Parkstone Grammar School,Ludwik Kowalewski,Francesca Bentley
 2025-02-23,00:00,,DARKSTAR Derbyshire,3,25 25 25 - -,Wessex,0,16 18 16 - -,Super League Women,women,Derby University Sports Centre,Chris Tsui,Elia Gironacci
@@ -26,8 +28,8 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2025-01-25,00:00,,Lionhearts Vinarius,3,25 25 24 16 15,Leeds Gorse,2,14 14 26 25 13,Super League Women,women,Mulberry Shoreditch Academy,Francesca Hossain,Nicolas Vecchione
 2025-01-25,00:00,,University of Nottingham Volleyball,0,13 14 20 - -,Malory Eagles UEL,3,25 25 25 - -,Super League Women,women,Jubilee Campus Sports Centre,Pete Whyard,Stephen Smith
 2025-01-25,00:00,,DARKSTAR Derbyshire,3,26 25 18 23 15,Cambridge ARU,2,24 23 25 25 12,Super League Women,women,Derby University Sports Centre,Ben Hill,Daniel Jackson
-2025-01-25,00:00,,Essex Rebels,3,25 23 25 25 -,Durham Palatinates,1,19 25 20 22 -,Super League Women,women,Essex Sport Arena,Sebastian Widlarz,Richard Burbedge
 2025-01-25,00:00,,Wessex,0,17 21 11 - -,Team SideOut Polonia (London),3,25 25 25 - -,Super League Women,women,Parkstone Grammar School,Ludwik Kowalewski,Francesca Bentley
+2025-01-25,00:00,,Essex Rebels,3,25 23 25 25 -,Durham Palatinates,1,19 25 20 22 -,Super League Women,women,Essex Sport Arena,Sebastian Widlarz,Richard Burbedge
 2025-01-19,00:00,,DARKSTAR Derbyshire,1,21 25 20 10 -,Essex Rebels,3,25 22 25 25 -,Super League Women,women,Derby University Sports Centre,Phil Cobb,Elia Gironacci
 2025-01-18,00:00,,Malory Eagles UEL,0,17 17 22 - -,Team SideOut Polonia (London),3,25 25 25 - -,Super League Women,women,UEL (Sports Dock),Carl Padayachee,Nick Heckford
 2025-01-18,00:00,,Leeds Gorse,3,25 25 20 25 -,University of Nottingham Volleyball,1,23 19 25 15 -,Super League Women,women,Ruth Gorse Academy,Roberto Rigante,Gabriela Pecovska
@@ -77,6 +79,8 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2024-10-13,00:00,,DARKSTAR Derbyshire,1,19 18 25 21 -,Team SideOut Polonia (London),3,25 25 22 25 -,Super League Women,women,National Volleyball Centre,Martin Shakespeare,Ludwik Kowalewski
 2024-10-13,00:00,,Lionhearts Vinarius,0,20 16 21 - -,Cambridge ARU,3,25 25 25 - -,Super League Women,women,National Volleyball Centre,Joseph Gore,Herman Prada
 2024-10-05,00:00,,Wessex,0,11 23 10 - -,Malory Eagles UEL,3,25 25 25 - -,Super League Women,women,Parkstone Grammar School,Ludwik Kowalewski,Richard Parkes
+2025-03-02,00:00,,Richmond Docklands,0,17 17 16 - -,Malory Eagles UEL,3,25 25 25 - -,Super League Men,men,University of Westminster Sports Hall Harrow Campus,Brendan Fogarty,Gianni Sutton
+2025-03-02,00:00,,Durham Palatinates,3,20 25 25 28 -,IBB Polonia London,1,25 19 21 26 -,Super League Men,men,Graham Sports Centre,David Topacho,Joshua Tang
 2025-03-01,00:00,,Essex Rebels,2,25 26 27 20 12,Malory Eagles UEL,3,21 28 25 25 15,Super League Men,men,Essex Sport Arena,William Perugini,Ryszard Dabrowski
 2025-03-01,00:00,,Durham Palatinates,0,17 23 18 - -,London Giants,3,25 25 25 - -,Super League Men,men,Graham Sports Centre,David Topacho,Allan Shigaev
 2025-03-01,00:00,,Stockport,3,27 25 25 - -,Essex Blaze,0,25 21 19 - -,Super League Men,men,Life Leisure Brinnington Park,Lenny Barry,Bryan Youlden
@@ -153,6 +157,8 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2024-10-12,00:00,,Richmond Docklands,3,25 25 27 25 -,Stockport,1,19 18 29 21 -,Super League Men,men,National Volleyball Centre,Katarina Cepinova,Klaudia French
 2024-10-12,00:00,,Essex Rebels,3,25 25 25 - -,IBB Polonia London,0,14 18 17 - -,Super League Men,men,National Volleyball Centre,Herman Prada,Anna Justkowska
 2024-10-12,00:00,,University of Nottingham,3,25 25 22 25 -,Essex Blaze,1,19 18 25 18 -,Super League Men,men,National Volleyball Centre,William Perugini,Martin Shakespeare
+2025-03-02,00:00,,Bristol,3,19 25 25 25 -,Exeter Storm,1,25 17 18 18 -,Division 1 Men,men,Avanti Gardens School,Su Brennand,Neil Bentley
+2025-03-02,00:00,,Hull Thunder,0,15 24 18 - -,Black Country,3,25 26 25 - -,Division 1 Men,men,Steve Prescott Sports Centre,Diane Hollows,Stivan Kolev
 2025-03-01,00:00,,London Baks,0,16 26 21 - -,Lincoln Cannons,3,25 28 25 - -,Division 1 Men,men,Castle Green Sport Centre,Brendan Fogarty,Andres Hernandez
 2025-03-01,00:00,,Newcastle Staffs,3,25 18 18 25 15,Tamworth Spartans,2,18 25 25 18 11,Division 1 Men,men,Sir Stanley Matthews Sports Centre,John Boughton,Bryan Machin
 2025-03-01,00:00,,Leeds Gorse,1,18 25 23 20 -,Black Country,3,25 20 25 25 -,Division 1 Men,men,The Ruth Gorse Academy,,Lusyne Oracz
@@ -241,6 +247,10 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2024-10-05,00:00,,Leeds Gorse,3,25 25 25 - -,Exeter Storm,0,18 16 15 - -,Division 1 Men,men,The Ruth Gorse Academy,Lenny Barry,Michal Garncarz
 2024-09-29,00:00,,London Baks,0,18 16 12 - -,Leeds Gorse,3,25 25 25 - -,Division 1 Men,men,Castle Green Sport Centre,Anna Justkowska,Domenico De Mattia
 2024-09-28,00:00,,London Aces,1,19 17 25 22 -,Leeds Gorse,3,25 25 19 25 -,Division 1 Men,men,Lambeth Academy,Francesca Hossain,Andres Hernandez
+2025-03-02,00:00,,Richmond,3,25 25 25 - -,Southampton,0,22 19 21 - -,Division 1 Women,women,Kingston College Arena,Dr Zuzana Resetarova,Giorgio Scatigna-Gianfagna
+2025-03-02,00:00,,Everton Belugas,3,25 25 25 - -,London Inter Crocs,0,19 17 16 - -,Division 1 Women,women,Litherland High School,Bryan Youlden,Zining Tan
+2025-03-02,00:00,,Coventry & Warwick Riga,0,20 20 19 - -,Leicester Athena Phoenix,3,25 25 25 - -,Division 1 Women,women,Centre AT7,Elia Gironacci,Sebastian Struski
+2025-03-01,00:00,,Stockport,3,25 19 29 24 15,Essex Trinity,2,23 25 27 26 12,Division 1 Women,women,Life Leisure Brinnington Park,Bryan Youlden,Lenny Barry
 2025-02-26,00:00,,London Giants,3,25 25 20 28 -,Richmond,1,20 18 25 26 -,Division 1 Women,women,Caius House Youth Centre,Fiona Cotterill,Martin Shakespeare
 2025-02-23,00:00,,Coventry & Warwick Riga,1,18 22 25 23 -,Everton Belugas,3,25 25 21 25 -,Division 1 Women,women,Alan Higgs Centre,Bryan Machin,Pete Whyard
 2025-02-23,00:00,,Southampton,1,21 21 27 21 -,Leicester Athena Phoenix,3,25 25 25 25 -,Division 1 Women,women,Crestwood School,Alexandru Calin,Sam Yip
@@ -255,8 +265,8 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2025-02-02,00:00,,Everton Belugas,2,20 25 25 13 14,Leicester Athena Phoenix,3,25 17 20 25 16,Division 1 Women,women,Litherland High School,Paul Fagan,Sarah Hanrahan
 2025-02-02,00:00,,Newcastle Knights,3,25 25 25 - -,Southampton,0,0 0 0 - -,Division 1 Women,women,Newcastle University Sports Centre,David Topacho,Evelyn Lee
 2025-02-01,00:00,,Stockport,3,25 25 25 - -,Coventry & Warwick Riga,0,10 13 23 - -,Division 1 Women,women,Life Leisure Brinnington Park,Bryan Youlden,Ruth Bridge
-2025-02-01,00:00,,London Giants,3,25 25 25 - -,London Inter Crocs,0,13 17 18 - -,Division 1 Women,women,Brixton Recreation Centre,Martin Shakespeare,Giorgio Scatigna-Gianfagna
 2025-02-01,00:00,,Newcastle Knights,3,25 25 25 - -,Richmond,0,0 0 0 - -,Division 1 Women,women,Newcastle University Sports Centre,David Topacho,Evelyn Lee
+2025-02-01,00:00,,London Giants,3,25 25 25 - -,London Inter Crocs,0,13 17 18 - -,Division 1 Women,women,Brixton Recreation Centre,Martin Shakespeare,Giorgio Scatigna-Gianfagna
 2025-01-26,00:00,,London Inter Crocs,3,25 25 20 17 15,Richmond,2,20 20 25 25 8,Division 1 Women,women,Haverstock School,Gabriel Dan,Herman Prada
 2025-01-26,00:00,,Essex Trinity,1,25 23 15 18 -,London Giants,3,22 25 25 25 -,Division 1 Women,women,St John Payne School,Stephen Smith,Richard Burbedge
 2025-01-25,00:00,,Southampton,1,26 15 16 20 -,Stockport,3,24 25 25 25 -,Division 1 Women,women,Woodlands Community School,Jacky Pang,Stanislaw Dunat
@@ -272,8 +282,8 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2024-12-15,00:00,,London Inter Crocs,0,11 12 24 - -,Newcastle Knights,3,25 25 26 - -,Division 1 Women,women,Haverstock School,Anna Justkowska,Andres Hernandez
 2024-12-14,00:00,,Richmond,2,26 18 25 11 10,Newcastle Knights,3,24 25 12 25 15,Division 1 Women,women,Kingston College Arena,Huaxi Liu,Tomasz Gierlach
 2024-12-14,00:00,,Leicester Athena Phoenix,1,25 18 23 15 -,London Giants,3,21 25 25 25 -,Division 1 Women,women,New College Leicester,Christian Bunalade,John Boughton
-2024-12-08,00:00,,Newcastle Knights,3,25 25 25 - -,Coventry & Warwick Riga,0,18 20 14 - -,Division 1 Women,women,Newcastle University Sports Centre,Diane Hollows,Debra Smart
 2024-12-08,00:00,,Richmond,0,23 20 19 - -,Leicester Athena Phoenix,3,25 25 25 - -,Division 1 Women,women,Kingston College Arena,Ryszard Dabrowski,Mark Trelfa
+2024-12-08,00:00,,Newcastle Knights,3,25 25 25 - -,Coventry & Warwick Riga,0,18 20 14 - -,Division 1 Women,women,Newcastle University Sports Centre,Diane Hollows,Debra Smart
 2024-12-08,00:00,,London Giants,3,25 25 25 - -,Southampton,0,15 13 14 - -,Division 1 Women,women,Clapham Leisure Centre,Martin Shakespeare,Glynn Archibald
 2024-12-07,00:00,,Everton Belugas,3,25 25 25 - -,Stockport,0,23 22 22 - -,Division 1 Women,women,Litherland High School,Paul Fagan,Boriss Bovkuns
 2024-12-07,00:00,,Newcastle Knights,3,25 25 22 25 -,Essex Trinity,1,18 19 25 17 -,Division 1 Women,women,Longbenton High School,David Topacho,Evelyn Lee
@@ -288,8 +298,8 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2024-11-23,00:00,,Leicester Athena Phoenix,3,28 21 25 25 -,Southampton,1,26 25 13 16 -,Division 1 Women,women,New College Leicester,William Perugini,Gary Cross
 2024-11-23,00:00,,London Inter Crocs,0,23 16 25 - -,Everton Belugas,3,25 25 27 - -,Division 1 Women,women,Haverstock School,Martin Shakespeare,Domitilla Di Stefano
 2024-11-17,00:00,,Everton Belugas,3,25 25 25 - -,Southampton,0,12 14 20 - -,Division 1 Women,women,Litherland High School,Bryan Youlden,Abdul Salam Safadi
-2024-11-17,00:00,,Essex Trinity,3,25 25 25 - -,Richmond,0,17 18 23 - -,Division 1 Women,women,St John Payne School,Herman Prada,Natalie  Jones
 2024-11-17,00:00,,Newcastle Knights,3,25 25 25 - -,Leicester Athena Phoenix,0,17 19 18 - -,Division 1 Women,women,Newcastle University Sports Centre,Diane Hollows,Debra Smart
+2024-11-17,00:00,,Essex Trinity,3,25 25 25 - -,Richmond,0,17 18 23 - -,Division 1 Women,women,St John Payne School,Herman Prada,Natalie  Jones
 2024-11-16,00:00,,London Giants,3,25 17 22 25 15,Essex Trinity,2,9 25 25 23 10,Division 1 Women,women,Crystal Palace National Sports Centre,Giordano Marchi,Ian Cheesbrough
 2024-11-16,00:00,,Stockport,3,25 21 25 25 -,Southampton,1,23 25 11 17 -,Division 1 Women,women,Life Leisure Brinnington Park,Bryan Youlden,Lenny Barry
 2024-11-10,00:00,,Essex Trinity,3,25 25 23 25 -,Coventry & Warwick Riga,1,22 15 25 14 -,Division 1 Women,women,St John Payne School,Ian Cheesbrough,Claudiu Florea
@@ -309,6 +319,7 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2024-10-19,00:00,,Leicester Athena Phoenix,3,23 25 25 25 -,Richmond,1,25 13 12 21 -,Division 1 Women,women,New College Leicester,John Boughton,Gary Cross
 2024-10-19,00:00,,London Inter Crocs,2,25 24 22 25 12,Essex Trinity,3,20 26 25 21 15,Division 1 Women,women,Haverstock School,Ryszard Dabrowski,Silke Vereeken
 2024-10-13,00:00,,Leicester Athena Phoenix,3,21 25 25 25 -,Coventry & Warwick Riga,1,25 21 18 19 -,Division 1 Women,women,New College Leicester,Sebastian Struski,Ben Hill
+2025-03-02,00:00,,Southampton,0,17 18 22 - -,Wessex,3,25 25 25 - -,Division 2 South Men,men,Itchen College Sports Centre,William Perugini,Jacky Pang
 2025-03-01,00:00,,Richmond Bucks,2,25 25 23 17 8,Southampton,3,10 23 25 25 15,Division 2 South Men,men,Kingston College Arena,Gabriel Dan,Nicolas Vecchione
 2025-03-01,00:00,,Cardiff Panthers,0,22 17 24 - -,Hounslow,3,25 25 26 - -,Division 2 South Men,men,Fitzalan Highschool,Ignacio Diez,Jayne Jones
 2025-03-01,00:00,,Wessex,3,25 25 21 25 -,Spelthorne Lions,1,13 19 25 13 -,Division 2 South Men,men,Parkstone Grammar School,Francesca Bentley,Ludwik Kowalewski
@@ -342,6 +353,9 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2024-10-12,00:00,,Wiltshire Mavericks,1,20 25 17 20 -,Spelthorne Lions,3,25 19 25 25 -,Division 2 South Men,men,Lavington School,Neil Bentley,Jacky Pang
 2024-10-06,00:00,,Hounslow,0,0 0 0 - -,Southampton,3,25 25 25 - -,Division 2 South Men,men,Lampton School,Anna Justkowska,Cherie Cheung
 2024-10-05,00:00,,Spelthorne Lions,0,0 0 0 - -,Richmond Bucks,3,25 25 25 - -,Division 2 South Men,men,St. James School,Gianni Sutton,
+2025-03-02,00:00,,Leeds Gorse 2,3,25 25 25 - -,Harrogate,0,16 20 23 - -,Division 2 North Men,men,Ruth Gorse Academy,Lusyne Oracz,
+2025-03-02,00:00,,Sheffield,2,21 25 27 25 10,Manchester Marvels,3,25 21 29 21 15,Division 2 North Men,men,All Saints Sports Centre,Clark Antcliff,Mohammed Eissa
+2025-03-02,00:00,,Kings of Court,3,25 25 25 - -,Wigan Seahawks,0,21 22 22 - -,Division 2 North Men,men,Vivacity Werrington Leisure Centre,Vitalijs Kondrasovs,Aliaksandr Siarheyeu
 2025-03-01,00:00,,Leeds Gorse 2,3,24 25 25 25 -,Newcastle Staffs 2,1,26 13 15 22 -,Division 2 North Men,men,Ruth Gorse Academy,Lusyne Oracz,
 2025-03-01,00:00,,DARKSTAR Derbyshire,3,25 25 25 - -,Wigan Seahawks,0,22 23 18 - -,Division 2 North Men,men,Derby University Sports Centre,Phil Cobb,Chris Tsui
 2025-02-23,00:00,,Leeds Gorse 2,3,25 20 25 25 -,Manchester Marvels,1,18 25 17 13 -,Division 2 North Men,men,The Ruth Gorse Academy,Aileen Barry,David Potter
@@ -381,6 +395,7 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2024-10-19,00:00,,Leeds Gorse 2,0,20 18 17 - -,Sheffield,3,25 25 25 - -,Division 2 North Men,men,Ruth Gorse Academy,Debra Smart,Aileen Barry
 2024-10-19,00:00,,Newcastle Staffs 2,0,19 22 22 - -,Manchester Marvels,3,25 25 25 - -,Division 2 North Men,men,Sir Stanley Matthews Sports Centre,William Perugini,Bee Yusuf
 2024-10-05,00:00,,Harrogate,2,24 25 23 25 7,Kings of Court,3,26 21 25 18 15,Division 2 North Men,men,Rossett Sports Centre,Diane Hollows,Martyn Quick
+2025-03-01,00:00,,Northampton,0,28 23 20 - -,Cambridge,3,30 25 25 - -,Division 2 Central Men,men,Moulton College,Aliaksandr Siarheyeu,Sam Yip
 2025-03-01,00:00,,Coventry and Warwick Riga,1,25 16 21 22 -,Loughborough Students,3,21 25 25 25 -,Division 2 Central Men,men,Alan Higgs Centre,Ana Pal,Elia Gironacci
 2025-03-01,00:00,,MK City,3,27 25 25 - -,Newmarket,0,25 16 16 - -,Division 2 Central Men,men,Glebe Farm School,Patrick Koroma,Peter Parsons
 2025-02-23,00:00,,Coventry and Warwick Riga,3,26 25 25 - -,Norwich Spikers,0,24 23 22 - -,Division 2 Central Men,men,Alan Higgs Centre,Pete Whyard,Bryan Machin
@@ -424,6 +439,9 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2024-10-12,00:00,,Norwich Spikers,3,25 18 25 25 -,Northampton,1,23 25 19 11 -,Division 2 Central Men,men,UEA Norwich Sportspark,Richard Garnett,Eden Minnis
 2024-10-06,00:00,,Cambridge,1,12 25 35 19 -,Coventry and Warwick Riga,3,25 23 37 25 -,Division 2 Central Men,men,North Cambridge Academy,Stephen Watts,Klaudia French
 2024-10-05,00:00,,Loughborough Students,1,28 20 14 23 -,Rhinos Volleyball Cambridge,3,26 25 25 25 -,Division 2 Central Men,men,Parkin Sports Centre,William Perugini,Ana Pal
+2025-03-02,00:00,,Sheffield,1,21 23 25 17 -,Manchester Marvels Mayhem,3,25 25 23 25 -,Division 2 North Women,women,All Saints Sports Centre,Scott Anderson,Ada Weckowska
+2025-03-02,00:00,,Everton Narwhals,0,22 14 23 - -,Loughborough Students,3,25 25 25 - -,Division 2 North Women,women,Litherland High School,Bryan Youlden,Zining Tan
+2025-03-01,00:00,,Sheffield,2,19 23 25 26 9,Everton Narwhals,3,25 25 15 24 15,Division 2 North Women,women,Litherland High School,Paul Fagan,Abdul Salam Safadi
 2025-03-01,00:00,,Urmston Grammar Volleyball,0,15 14 8 - -,Loughborough Students,3,25 25 25 - -,Division 2 North Women,women,Urmston Grammar School,Jamie Hollick,Martin Mierzwa
 2025-03-01,00:00,,Urmston Grammar Volleyball,0,24 20 17 - -,Newcastle Staffs,3,26 25 25 - -,Division 2 North Women,women,Urmston Grammar School,Martin Mierzwa,Jamie Hollick
 2025-02-23,00:00,,Loughborough Students,3,25 12 25 25 -,Sheffield,1,20 25 23 21 -,Division 2 North Women,women,Parkin Sports Centre,Ana Pal,Christian Joseph
@@ -466,6 +484,8 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2024-10-12,00:00,,Urmston Grammar Volleyball,1,25 18 18 17 -,Tamworth Spartans,3,19 25 25 25 -,Division 2 North Women,women,Urmston Grammar School,Paul Fagan,Bryan Youlden
 2024-10-06,00:00,,Tamworth Spartans,3,25 25 25 - -,Loughborough Students,0,20 22 22 - -,Division 2 North Women,women,Wilnecote Leisure Centre,Bryan Machin,Ben Hill
 2024-10-05,00:00,,Everton Narwhals,0,26 22 25 - -,Manchester Marvels Mayhem,3,28 25 27 - -,Division 2 North Women,women,Litherland High School,Sarah Hanrahan,Boriss Bovkuns
+2025-03-02,00:00,,Bristol,3,25 25 25 - -,Cardiff Falcons,0,21 18 21 - -,Division 2 West Women,women,Avanti Gardens School,Neil Bentley,Su Brennand
+2025-03-01,00:00,,Cardiff Falcons,1,12 25 20 16 -,Oxford Eagles,3,25 18 25 25 -,Division 2 West Women,women,Fitzalan Highschool,Jayne Jones,Ignacio Diez
 2025-02-23,00:00,,Bedminster,3,25 22 25 25 -,Black Country,1,13 25 22 18 -,Division 2 West Women,women,Oasis Academy Brislington,Ignacio Diez,Jayne Jones
 2025-02-23,00:00,,Cheltenham & Gloucester,0,21 16 10 - -,Bristol,3,25 25 25 - -,Division 2 West Women,women,Bournside School,Su Brennand,Janet Leach
 2025-02-22,00:00,,Black Country,3,20 25 25 25 -,Team South Wales,1,25 21 17 20 -,Division 2 West Women,women,Redhill School Sports Hall,James Cole,Elia Gironacci
@@ -497,6 +517,7 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2024-10-13,00:00,,Cheltenham & Gloucester,0,13 13 19 - -,Bedminster,3,25 25 25 - -,Division 2 West Women,women,Bournside School,Su Brennand,Janet Leach
 2024-10-12,00:00,,Cardiff Falcons,3,25 25 23 21 15,Black Country,2,13 20 25 25 13,Division 2 West Women,women,Fitzalan Highschool,Janet Leach,Su Brennand
 2024-10-06,00:00,,Oxford Eagles,3,25 25 25 - -,Cheltenham & Gloucester,0,16 11 16 - -,Division 2 West Women,women,Oxford High School,Peter Parsons,Maddie Vararu
+2025-03-02,00:00,,Richmond 2,3,25 25 25 - -,Norwich Spikers,0,20 19 20 - -,Division 2 East Women,women,Kingston College Arena,Giorgio Scatigna-Gianfagna,Dr Zuzana Resetarova
 2025-03-01,00:00,,Northampton,3,25 19 25 25 -,Herts,1,17 25 14 15 -,Division 2 East Women,women,Moulton College,Sam Yip,Aliaksandr Siarheyeu
 2025-03-01,00:00,,MK City,0,21 21 19 - -,Cambridge,3,25 25 25 - -,Division 2 East Women,women,Glebe Farm School,Peter Parsons,Patrick Koroma
 2025-02-23,00:00,,Onyx London,0,10 18 23 - -,Dartford Chargers,3,25 25 25 - -,Division 2 East Women,women,Kensington Aldridge Academy,Man Chung Ng,Nicolas Vecchione
@@ -541,6 +562,8 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2024-10-13,00:00,,Herts,1,25 25 12 25 -,Northampton,3,27 19 25 27 -,Division 2 East Women,women,Queens School,Ian Cheesbrough,Stephen Smith
 2024-10-06,00:00,,Dartford Chargers,0,23 16 19 - -,Northampton,3,25 25 25 - -,Division 2 East Women,women,Dartford Technology College,Dee Wauchope,Andrew Marks
 2024-10-05,00:00,,Cambridge,3,25 25 25 - -,Herts,0,10 15 12 - -,Division 2 East Women,women,North Cambridge Academy,Maya Stancheva,Jean-nicolas Jacquet
+2025-03-02,00:00,,Tamworth Spartans 2,1,25 23 23 15 -,Black Country 2,3,18 25 25 25 -,Division 3 North Central Men,men,Wilnecote Leisure Centre,Bryan Machin,
+2025-03-02,00:00,,Tamworth Spartans 2,3,25 25 25 - -,DARKSTAR Derbyshire 2,0,22 22 15 - -,Division 3 North Central Men,men,Wilnecote Leisure Centre,Bryan Machin,
 2025-02-23,00:00,,Nottingham Rockets,3,25 25 26 - -,GNG Bedford,0,23 17 24 - -,Division 3 North Central Men,men,Harvey Hadden Sports Complex,,Vitalijs Kondrasovs
 2025-02-23,00:00,,Wombourne 2,0,15 11 18 - -,Chester,3,25 25 25 - -,Division 3 North Central Men,men,Dudley Evolve,Rose Sterling,
 2025-02-23,00:00,,Tamworth Spartans 2,1,18 28 14 16 -,GNG Bedford,3,25 26 25 25 -,Division 3 North Central Men,men,Harvey Hadden Sports Complex,Vitalijs Kondrasovs,
@@ -569,8 +592,8 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2025-01-04,00:00,,Tamworth Spartans 2,3,25 25 25 - -,Wombourne 2,0,8 15 14 - -,Division 3 North Central Men,men,Limehurst Academy,Chris Tsui,Alex Iftime
 2025-01-04,00:00,,Leicester,3,25 25 25 - -,Tamworth Spartans 2,0,16 16 19 - -,Division 3 North Central Men,men,Limehurst Academy,Alex Iftime,Chris Tsui
 2024-12-08,00:00,,Chester,3,20 25 25 25 -,GNG Bedford,1,25 18 23 22 -,Division 3 North Central Men,men,Downes Sports Hall,Sarah Hanrahan,Martin Mierzwa
-2024-12-08,00:00,,Tamworth Spartans 2,2,18 20 26 25 9,GNG Bedford,3,25 25 24 23 15,Division 3 North Central Men,men,Downes Sports Hall,Martin Mierzwa,Sarah Hanrahan
 2024-12-08,00:00,,Nottingham Rockets,3,25 25 17 25 -,Wombourne,1,21 11 25 15 -,Division 3 North Central Men,men,Harvey Hadden Sports Complex,Chris Tsui,Safoora Saffari
+2024-12-08,00:00,,Tamworth Spartans 2,2,18 20 26 25 9,GNG Bedford,3,25 25 24 23 15,Division 3 North Central Men,men,Downes Sports Hall,Martin Mierzwa,Sarah Hanrahan
 2024-12-08,00:00,,Wombourne 2,1,25 17 15 18 -,DARKSTAR Derbyshire 2,3,23 25 25 25 -,Division 3 North Central Men,men,Dudley Evolve,James Cole,Bee Yusuf
 2024-12-08,00:00,,Leicester,3,28 20 25 25 15,Wombourne,2,30 25 23 21 3,Division 3 North Central Men,men,Harvey Hadden Sports Complex,Safoora Saffari,Chris Tsui
 2024-12-08,00:00,,Chester,3,25 26 25 - -,Tamworth Spartans 2,0,19 24 17 - -,Division 3 North Central Men,men,Downes Sports Hall,Sarah Hanrahan,Martin Mierzwa
@@ -664,6 +687,9 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2024-10-05,00:00,,Kent Invicta,3,20 22 25 25 15,Urbond VC Portsmouth,2,25 25 15 23 6,Division 3 South East Men,men,Maidstone Grammar School for Girls,Domenico De Mattia,Paula A'Bear
 2024-10-05,00:00,,Tendring,3,25 25 25 - -,Urbond VC Portsmouth,0,14 22 19 - -,Division 3 South East Men,men,Maidstone Grammar School for Girls,Paula A'Bear,Domenico De Mattia
 2024-10-05,00:00,,Kent Invicta,3,25 28 25 - -,Tendring,0,20 26 10 - -,Division 3 South East Men,men,Maidstone Grammar School for Girls,Domenico De Mattia,Paula A'Bear
+2025-03-02,00:00,,Oxford Bulls,3,26 25 25 - -,Southampton 2,0,24 19 14 - -,Division 3 South West Men,men,Oxford High School,Ian Cheesbrough,Timothy Hebborn
+2025-03-02,00:00,,Nuneaton Inferno,0,22 22 17 - -,Southampton 2,3,25 25 25 - -,Division 3 South West Men,men,Oxford High School,Timothy Hebborn,Ian Cheesbrough
+2025-03-02,00:00,,Oxford Bulls,3,25 25 25 - -,Nuneaton Inferno,0,7 12 17 - -,Division 3 South West Men,men,Oxford High School,Ian Cheesbrough,Timothy Hebborn
 2025-02-23,00:00,,Oxford Bulls,3,25 25 25 - -,Coventry and Warwick Riga 2,0,14 13 15 - -,Division 3 South West Men,men,Oxford High School,Timothy Hebborn,Richard Burbedge
 2025-02-23,00:00,,Coventry and Warwick Riga 2,2,25 24 21 28 12,Bristol 2,3,21 26 25 26 15,Division 3 South West Men,men,Oxford High School,Richard Burbedge,Timothy Hebborn
 2025-02-23,00:00,,Oxford Bulls,3,25 25 25 - -,Bristol 2,0,11 12 15 - -,Division 3 South West Men,men,Oxford High School,Richard Burbedge,Timothy Hebborn
@@ -719,6 +745,9 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2024-10-12,00:00,,Reading Aces,3,25 25 25 - -,Coventry and Warwick Riga 2,0,14 21 22 - -,Division 3 South West Men,men,Avanti Gardens School,Cheryl Whittles,Richard Parkes
 2024-10-12,00:00,,Bristol 2,2,25 25 21 17 13,Reading Aces,3,22 22 25 25 15,Division 3 South West Men,men,Avanti Gardens School,Richard Parkes,Cheryl Whittles
 2025-03-23,00:00,,Everton Dugongs,3,25 25 25 - -,Sheffield 2,0,9 16 16 - -,Division 3 North West Men,men,Y Club,Alexia Borcoman,Boriss Bovkuns
+2025-03-02,00:00,,Manchester Marvels Marauders,0,16 22 17 - -,Everton Dugongs,3,25 25 25 - -,Division 3 North West Men,men,Dean Trust Ardwick,Abdul Salam Safadi,Claudia  Fasciocco
+2025-03-02,00:00,,Urmston Grammar,0,25 14 11 - -,Everton Dugongs,3,27 25 25 - -,Division 3 North West Men,men,Dean Trust Ardwick,Abdul Salam Safadi,John Lloyd Done
+2025-03-02,00:00,,Manchester Marvels Marauders,0,17 21 23 - -,Urmston Grammar,3,25 25 25 - -,Division 3 North West Men,men,Dean Trust Ardwick,Abdul Salam Safadi,Claudia  Fasciocco
 2025-02-22,00:00,,Sheffield Springers,3,25 25 13 25 -,Intervolley Manchester,1,21 12 25 18 -,Division 3 North West Men,men,All Saints Sports Centre,Stivan Kolev,Clark Antcliff
 2025-02-22,00:00,,Liverpool,3,27 25 25 - -,York Vikings,0,25 14 21 - -,Division 3 North West Men,men,Holly Lodge Girl's College,Lenny Barry,Zining Tan
 2025-02-22,00:00,,Sheffield 2,0,11 12 10 - -,Everton Dugongs,3,25 25 25 - -,Division 3 North West Men,men,All Saints Sports Centre,,Erfan Jamali
@@ -742,8 +771,8 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2025-01-04,00:00,,Sheffield 2,0,13 22 18 - -,Liverpool,3,25 25 25 - -,Division 3 North West Men,men,Holly Lodge Girl's College,Bryan Youlden,Rhys Kai Sweeney
 2025-01-04,00:00,,Sheffield 2,0,17 7 19 - -,Intervolley Manchester,3,25 25 25 - -,Division 3 North West Men,men,Holly Lodge Girl's College,Rhys Kai Sweeney,Bryan Youlden
 2025-01-04,00:00,,Urmston Grammar,3,22 25 26 25 -,York Vikings,1,25 22 24 21 -,Division 3 North West Men,men,Urmston Grammar School,Ruth Bridge,Abdul Salam Safadi
-2025-01-04,00:00,,Intervolley Manchester,1,17 25 27 19 -,Liverpool,3,25 18 29 25 -,Division 3 North West Men,men,Holly Lodge Girl's College,Bryan Youlden,Rhys Kai Sweeney
 2025-01-04,00:00,,York Vikings,1,13 27 14 16 -,Sheffield Springers,3,25 25 25 25 -,Division 3 North West Men,men,Urmston Grammar School,Abdul Salam Safadi,Ruth Bridge
+2025-01-04,00:00,,Intervolley Manchester,1,17 25 27 19 -,Liverpool,3,25 18 29 25 -,Division 3 North West Men,men,Holly Lodge Girl's College,Bryan Youlden,Rhys Kai Sweeney
 2025-01-04,00:00,,Urmston Grammar,1,25 22 18 20 -,Sheffield Springers,3,20 25 25 25 -,Division 3 North West Men,men,Urmston Grammar School,Abdul Salam Safadi,Ruth Bridge
 2024-12-08,00:00,,Manchester Marvels Marauders,0,16 16 14 - -,Sheffield Springers,3,25 25 25 - -,Division 3 North West Men,men,Y Club,Abdul Salam Safadi,Jamie Hollick
 2024-12-08,00:00,,Intervolley Manchester,0,20 24 19 - -,Sheffield Springers,3,25 26 25 - -,Division 3 North West Men,men,Y Club,Jamie Hollick,Abdul Salam Safadi
@@ -771,6 +800,9 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2024-10-05,00:00,,Sheffield Springers,3,25 25 25 - -,York Vikings,0,22 22 23 - -,Division 3 North West Men,men,All Saints Sports Centre,Aileen Barry,Clark Antcliff
 2024-10-05,00:00,,York Vikings,2,24 23 25 25 12,Urmston Grammar,3,26 25 17 15 15,Division 3 North West Men,men,All Saints Sports Centre,Clark Antcliff,Aileen Barry
 2024-10-05,00:00,,Sheffield Springers,3,27 25 25 - -,Urmston Grammar,0,25 19 16 - -,Division 3 North West Men,men,All Saints Sports Centre,Clark Antcliff,Aileen Barry
+2025-03-02,00:00,,Rhinos Volleyball Cambridge,1,25 20 21 19 -,Lincoln Cannons,3,19 25 25 25 -,Division 3 Central Women,women,North Cambridge Academy,Maya Stancheva,Luca Pellegrinet
+2025-03-02,00:00,,Nottingham Rockets,0,21 22 9 - -,Lincoln Cannons,3,25 25 25 - -,Division 3 Central Women,women,North Cambridge Academy,Luca Pellegrinet,Maya Stancheva
+2025-03-02,00:00,,Rhinos Volleyball Cambridge,3,25 25 25 - -,Nottingham Rockets,0,17 17 6 - -,Division 3 Central Women,women,North Cambridge Academy,Maya Stancheva,Luca Pellegrinet
 2025-02-23,00:00,,Ashfield Vipers,3,25 13 13 25 15,Coventry & Warwick Riga 2,2,23 25 25 17 11,Division 3 Central Women,women,Ashfield School,Ben Hill,Gary Cross
 2025-02-23,00:00,,Darkstar Derbyshire 2,3,26 25 24 25 -,Coventry & Warwick Riga 2,1,24 20 26 23 -,Division 3 Central Women,women,Ashfield School,Gary Cross,Ben Hill
 2025-02-23,00:00,,Ashfield Vipers,0,17 23 9 - -,Darkstar Derbyshire 2,3,25 25 25 - -,Division 3 Central Women,women,Ashfield School,Ben Hill,Gary Cross
@@ -781,8 +813,8 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2025-01-26,00:00,,Nottingham Rockets,3,25 25 29 25 -,Ashfield Vipers,1,10 13 31 14 -,Division 3 Central Women,women,Harvey Hadden Sports Complex,Gary Cross,James Cole
 2025-01-26,00:00,,Coventry & Warwick Riga 2,3,23 25 27 17 15,Black Country 2,2,25 17 25 25 7,Division 3 Central Women,women,North Cambridge Academy,Ksenija  Belada,Jean-nicolas Jacquet
 2025-01-26,00:00,,Wombourne,3,25 25 17 25 -,Lincoln Cannons,1,21 22 25 14 -,Division 3 Central Women,women,Dudley Evolve,,
-2025-01-26,00:00,,Leicester Athena Nova,3,25 25 15 25 -,Ashfield Vipers,1,21 17 25 20 -,Division 3 Central Women,women,Harvey Hadden Sports Complex,James Cole,Gary Cross
 2025-01-26,00:00,,Darkstar Derbyshire 2,0,20 12 20 - -,Lincoln Cannons,3,25 25 25 - -,Division 3 Central Women,women,Dudley Evolve,,
+2025-01-26,00:00,,Leicester Athena Nova,3,25 25 15 25 -,Ashfield Vipers,1,21 17 25 20 -,Division 3 Central Women,women,Harvey Hadden Sports Complex,James Cole,Gary Cross
 2025-01-26,00:00,,Rhinos Volleyball Cambridge,3,25 25 25 - -,Coventry & Warwick Riga 2,0,23 16 16 - -,Division 3 Central Women,women,North Cambridge Academy,Ksenija  Belada,Bernardino Ossola
 2025-01-26,00:00,,Nottingham Rockets,0,19 18 22 - -,Leicester Athena Nova,3,25 25 25 - -,Division 3 Central Women,women,Harvey Hadden Sports Complex,Gary Cross,James Cole
 2025-01-26,00:00,,Wombourne,3,25 25 24 25 -,Darkstar Derbyshire 2,1,15 19 26 23 -,Division 3 Central Women,women,Dudley Evolve,,
@@ -891,8 +923,6 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2024-10-06,00:00,,Manchester Moss Side Jaguars,3,19 25 26 25 -,Leeds Gorse 2,1,25 18 24 21 -,Division 3 North Women,women,Fairfield High School,Alexia Borcoman,Jamie Hollick
 2024-10-05,00:00,,Leeds Gorse 3,3,25 25 25 - -,Manchester Marvels Mystics,0,17 21 21 - -,Division 3 North Women,women,Joseph Rowntree School,Erfan  Jamali,Lusyne Oracz
 2024-10-05,00:00,,York Falcons,1,6 20 25 18 -,Leeds Gorse 3,3,25 25 17 25 -,Division 3 North Women,women,Joseph Rowntree School,Erfan  Jamali,Lusyne Oracz
-2025-03-29,00:00,,Essex Ravens,0,0 0 0 - -,Worthing,0,0 0 0 - -,Division 3 South East Women,women,St John Payne School,Cezara-Ioana Anghel,
-2025-03-29,00:00,,Essex Ravens,0,0 0 0 - -,Tendring,0,0 0 0 - -,Division 3 South East Women,women,St John Payne School,,Cezara-Ioana Anghel
 2025-02-23,00:00,,Richmond 3,0,19 21 18 - -,Worthing,3,25 25 25 - -,Division 3 South East Women,women,Kingston College Arena,Huaxi Liu,Domitilla Di Stefano
 2025-02-23,00:00,,Ashcombe Dorking,3,26 21 25 25 15,Worthing,2,28 25 22 16 12,Division 3 South East Women,women,Kingston College Arena,Domitilla Di Stefano,Huaxi Liu
 2025-02-23,00:00,,Richmond 3,0,8 21 22 - -,Ashcombe Dorking,3,25 25 25 - -,Division 3 South East Women,women,Kingston College Arena,Huaxi Liu,Domitilla Di Stefano
@@ -956,6 +986,10 @@ Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2
 2024-10-06,00:00,,Richmond 3,0,17 17 13 - -,Worthing,3,25 25 25 - -,Division 3 South East Women,women,Tendring Technology College,Rob Sharman,Claudiu Florea
 2024-10-06,00:00,,Spelthorne Sharks,3,25 22 25 25 -,Dartford Warriors,1,23 25 21 18 -,Division 3 South East Women,women,St. James School,Ryszard Dabrowski,Tomasz Gierlach
 2024-10-06,00:00,,Tendring,2,17 25 17 25 6,Richmond 3,3,25 17 25 19 15,Division 3 South East Women,women,Tendring Technology College,Claudiu Florea,Rob Sharman
+2025-03-02,00:00,,Portsmouth,2,12 23 27 25 8,Bristol 2,3,25 25 25 14 15,Division 3 South West Women,women,The Mountbatten Centre Alex Way Hilsea Portsmouth,Eleni Blana,Tomasz Gierlach
+2025-03-02,00:00,,Weymouth,0,6 9 15 - -,Bristol 2,3,25 25 25 - -,Division 3 South West Women,women,The Mountbatten Centre Alex Way Hilsea Portsmouth,Tomasz Gierlach,Eleni Blana
+2025-03-02,00:00,,Southampton 2,3,25 25 25 - -,City of Bristol,0,19 20 19 - -,Division 3 South West Women,women,Woodlands Community School,Ludwik Kowalewski,Alin-vasile Dinica
+2025-03-02,00:00,,Portsmouth,3,25 25 25 - -,Weymouth,0,8 11 11 - -,Division 3 South West Women,women,The Mountbatten Centre Alex Way Hilsea Portsmouth,Eleni Blana,Tomasz Gierlach
 2025-02-23,00:00,,City of Bristol,1,26 10 12 19 -,Portsmouth,3,24 25 25 25 -,Division 3 South West Women,women,St Bernadette's Roman Catholic Secondary School,Neil Bentley,Francesca Bentley
 2025-02-23,00:00,,Reading Aces,3,25 25 25 - -,Southampton 2,0,16 20 12 - -,Division 3 South West Women,women,Kendrick School,Tomasz Gierlach,Peter Parsons
 2025-02-23,00:00,,Plymouth,2,25 25 11 17 9,Bristol 2,3,18 23 25 25 15,Division 3 South West Women,women,Coombe Dean School,Daniel Sarnik,Connor Bromley
