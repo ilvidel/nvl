@@ -760,6 +760,56 @@ class MyPlotter:
         )
         fig.show()
 
+    def plot_referee_games_by_team(self, ref_name):
+        games = list(filter(lambda g: g.r1==ref_name or g.r2==ref_name, self.games))
+        teams = []
+        for g in games:
+            teams.append(f"{g.home} ({g.division})")
+            teams.append(f"{g.away} ({g.division})")
+
+        import collections
+        c = collections.Counter(teams)
+        df = pandas.DataFrame(dict(teams=c.keys(), count=c.values()))
+        fig = px.bar(
+            df,
+            y='teams', x='count',
+            color='count',
+            title=f"Teams for {ref_name}",
+            color_continuous_scale=px.colors.sequential.solar,
+            orientation='h'
+        )
+        fig.update_layout(
+            yaxis={'categoryorder': 'total ascending', 'title': 'Teams'},
+            xaxis={'title': 'Times refereed'}
+        )
+        fig.show()
+
+    def plot_teams_games_by_referee(self, team_name):
+        # TODO: esto es una movida porque por ejemplo,
+        #  City of Bristol se llama igual en hombres que en mujeres.
+        #  Igual para otros equipos (p.ej. Bristol)
+        games = list(filter(lambda g: g.home == team_name or g.away == team_name, self.games))
+        refs = []
+        for g in games:
+            refs.append(f"{g.r1} ({g.category})")
+            refs.append(f"{g.r2} ({g.category})")
+
+        import collections
+        c = collections.Counter(refs)
+        df = pandas.DataFrame(dict(refs=c.keys(), count=c.values()))
+        fig = px.bar(
+            df,
+            y='refs', x='count',
+            color='count',
+            title=f"Referees for {team_name}",
+            color_continuous_scale=px.colors.sequential.Viridis,
+            orientation='h'
+        )
+        fig.update_layout(
+            yaxis={'categoryorder': 'total ascending', 'title': 'Referees'},
+            xaxis={'title': 'Times refereed'}
+        )
+        fig.show()
 
 if __name__ == "__main__":
     plotter = MyPlotter()
@@ -786,7 +836,16 @@ if __name__ == "__main__":
     # plotter.plot_openchord()
 
     # REFEREES - Individual charts
-    for r in plotter.referee_subset:
-        # plotter.plot_referee_role(r)
-        # plotter.plot_referee_games_by_division(r)
-        plotter.plot_referee_games_by_category(r)
+    # for r in plotter.referee_subset: # TODO: change to the full set of referees
+    #     plotter.plot_referee_role(r)
+    #     plotter.plot_referee_games_by_division(r)
+    #     plotter.plot_referee_games_by_category(r)
+    #     plotter.plot_referee_games_by_team(r)
+
+    teams = set()
+    for g in plotter.games:
+        teams.add(g.away)
+        teams.add(g.home)
+    for t in teams:
+        if 'Bristol' in t:
+            plotter.plot_teams_games_by_referee(t)
