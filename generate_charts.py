@@ -1,4 +1,5 @@
 import csv
+from collections import Counter
 
 import igraph as ig
 import matplotlib.pyplot as plt
@@ -703,7 +704,7 @@ class MyPlotter:
             labels=labels,
             values=values,
             direction='clockwise',
-            sort=False, # do not sort by value
+            sort=False,  # do not sort by value
             hole=0.5,
             title=f"Roles for {ref_name}"
         )])
@@ -716,7 +717,7 @@ class MyPlotter:
     def plot_referee_games_by_division(self, ref_name):
         """Plot the number of games by a particular referee, per division"""
         # TODO: split by category as well, in similar color shade
-        games = list(filter(lambda g: g.r1==ref_name or g.r2==ref_name, self.games))
+        games = list(filter(lambda g: g.r1 == ref_name or g.r2 == ref_name, self.games))
         sl = len(list(filter(lambda g: "Super" in g.division, games)))
         div1 = len(list(filter(lambda g: "Division 1" in g.division, games)))
         div2 = len(list(filter(lambda g: "Division 2" in g.division, games)))
@@ -728,7 +729,7 @@ class MyPlotter:
         fig = go.Figure(data=[go.Pie(
             labels=labels,
             values=values,
-            sort=False, # do not sort by value
+            sort=False,  # do not sort by value
             hole=0.5,
             title=f"Number of Games {ref_name}"
         )])
@@ -740,7 +741,7 @@ class MyPlotter:
 
     def plot_referee_games_by_category(self, ref_name):
         """Plot the number of games by a particular referee, per division"""
-        games = list(filter(lambda g: g.r1==ref_name or g.r2==ref_name, self.games))
+        games = list(filter(lambda g: g.r1 == ref_name or g.r2 == ref_name, self.games))
         men = len(list(filter(lambda g: "men" == g.category, games)))
         ladies = len(list(filter(lambda g: "women" == g.category, games)))
 
@@ -750,7 +751,7 @@ class MyPlotter:
         fig = go.Figure(data=[go.Pie(
             labels=labels,
             values=values,
-            sort=False, # do not sort by value
+            sort=False,  # do not sort by value
             hole=0.5,
             title=f"Number of Games by {ref_name}"
         )])
@@ -761,7 +762,7 @@ class MyPlotter:
         fig.show()
 
     def plot_referee_games_by_team(self, ref_name):
-        games = list(filter(lambda g: g.r1==ref_name or g.r2==ref_name, self.games))
+        games = list(filter(lambda g: g.r1 == ref_name or g.r2 == ref_name, self.games))
         teams = []
         for g in games:
             teams.append(f"{g.home} ({g.division})")
@@ -811,6 +812,118 @@ class MyPlotter:
         )
         fig.show()
 
+    def plot_referee_pairings_bar(self):
+        """
+        Generates an interactive bar chart showing the number of
+        times a referee has officiated with another referee.
+        The chart includes a dropdown menu to select a referee.
+        """
+        # Extract all referees
+        referee_pairs = [(game.r1, game.r2) for game in self.games]
+        all_referees = set(ref for pair in referee_pairs for ref in pair)
+
+        # Count co-occurrences
+        co_occurrence = {ref: Counter() for ref in all_referees}
+        for ref1, ref2 in referee_pairs:
+            co_occurrence[ref1][ref2] += 1
+            co_occurrence[ref2][ref1] += 1
+
+        # Generate initial data (first referee in list as default)
+        first_ref = list(all_referees)[0]
+        x_values = list(co_occurrence[first_ref].keys())
+        y_values = list(co_occurrence[first_ref].values())
+
+        # Create figure
+        fig = go.Figure()
+        fig.add_trace(go.Bar(
+            x=x_values,
+            y=y_values,
+            name=first_ref,
+            marker=dict(color=y_values, colorscale='viridis')
+        ))
+
+        # Create dropdown menu
+        dropdown_buttons = []
+        for ref in sorted(all_referees):
+            dropdown_buttons.append({
+                'label': ref,
+                'method': 'update',
+                'args': [
+                    {'x': [list(co_occurrence[ref].keys())],
+                     'y': [list(co_occurrence[ref].values())],
+                     'marker': [dict(color=list(co_occurrence[ref].values()), colorscale='viridis')]},
+                    {'title': f'Number of Games Officiated with {ref}'}
+                ]
+            })
+
+        fig.update_layout(
+            title=f'Number of Games Officiated with {first_ref}',
+            xaxis_title='Refereed with',
+            yaxis_title='Number of Games',
+            xaxis={'categoryorder': 'total ascending'},
+            updatemenus=[{
+                'buttons': dropdown_buttons,
+                'direction': 'down',
+                'showactive': True
+            }]
+        )
+
+        fig.show()
+
+    def plot_referee_pairings_pie(self):
+        """
+        Generates an interactive pie chart showing the number of
+        times a referee has officiated with another referee.
+        The chart includes a dropdown menu to select a referee.
+        """
+        # Extract all referees
+        referee_pairs = [(game.r1, game.r2) for game in self.games]
+        all_referees = set(ref for pair in referee_pairs for ref in pair)
+        print("\n".join(sorted(all_referees)))
+
+        # Count co-occurrences
+        co_occurrence = {ref: Counter() for ref in all_referees}
+        for ref1, ref2 in referee_pairs:
+            co_occurrence[ref1][ref2] += 1
+            co_occurrence[ref2][ref1] += 1
+
+        # Generate initial data (first referee in list as default)
+        first_ref = list(all_referees)[1]
+        labels = list(co_occurrence[first_ref].keys())
+        values = list(co_occurrence[first_ref].values())
+
+        # Create figure
+        fig = go.Figure()
+        fig.add_trace(go.Pie(
+            labels=labels, values=values, name=first_ref,
+            marker=dict(colors=px.colors.qualitative.Safe),
+            sort=True,
+            hole=0.5
+        ))
+
+        # Create dropdown menu
+        dropdown_buttons = []
+        for ref in sorted(all_referees):
+            dropdown_buttons.append({
+                'label': ref,
+                'method': 'update',
+                'args': [
+                    {'labels': [list(co_occurrence[ref].keys())], 'values': [list(co_occurrence[ref].values())]},
+                    {'title': f'Number of Games Officiated with {ref}'}
+                ]
+            })
+
+        fig.update_layout(
+            title=f'Number of Referee Pairings for {first_ref}',
+            updatemenus=[{
+                'buttons': dropdown_buttons,
+                'direction': 'down',
+                'showactive': True
+            }]
+        )
+
+        fig.show()
+
 if __name__ == "__main__":
     plotter = MyPlotter()
     # plotter.plot_total_points()
@@ -841,11 +954,12 @@ if __name__ == "__main__":
     #     plotter.plot_referee_games_by_division(r)
     #     plotter.plot_referee_games_by_category(r)
     #     plotter.plot_referee_games_by_team(r)
+    plotter.plot_referee_pairings_pie()
 
-    teams = set()
-    for g in plotter.games:
-        teams.add(g.away)
-        teams.add(g.home)
-    for t in teams:
-        if 'Bristol' in t:
-            plotter.plot_teams_games_by_referee(t)
+    # teams = set()
+    # for g in plotter.games:
+    #     teams.add(g.away)
+    #     teams.add(g.home)
+    # for t in teams:
+    #     if 'Bristol' in t:
+    #         plotter.plot_teams_games_by_referee(t)
