@@ -1,9 +1,11 @@
 import csv
 from collections import Counter
+from itertools import count
 
 import igraph as ig
 import matplotlib.pyplot as plt
 import pandas
+from plotly.subplots import make_subplots
 import plotly.express as px
 import plotly.graph_objects as go
 import statistics
@@ -924,6 +926,80 @@ class MyPlotter:
 
         fig.show()
 
+    def plot_referee_team_diversity(self):
+        """Show the number of different temas each ref has refereed"""
+        teams = {}
+        for g in self.games:
+            if g.r1 not in teams: teams[g.r1]=set()
+            if g.r2 not in teams: teams[g.r2]=set()
+            teams[g.r1].add(g.home)
+            teams[g.r1].add(g.away)
+            teams[g.r2].add(g.home)
+            teams[g.r2].add(g.away)
+
+        referees = []
+        values = []
+        for r in teams:
+            if not r: continue
+            referees.append(r)
+            values.append(len(teams[r]))
+
+        df = pandas.DataFrame(dict(referees=referees, count=values))
+        fig = px.bar(
+            df, x=referees, y=values,
+            color=values,
+            color_continuous_scale=px.colors.sequential.Viridis,
+        )
+        fig.update_layout(
+            title_text='Number of Teams per Referee',
+            xaxis={'title': 'Referees', 'categoryorder': 'total descending'},
+            yaxis = {'title': 'Number of Teams'},
+        )
+        fig.show()
+
+
+    def plot_referee_team_diversity_index(self):
+        """
+        Calculate a 'diversity index for each referee.
+        This is the number of different teams a ref has refereed divided by
+        the number of total games that ref has officiated
+         """
+        teams = {}
+        total_games = Counter()
+        for g in self.games:
+            if g.r1 not in teams: teams[g.r1] = set()
+            if g.r2 not in teams: teams[g.r2] = set()
+            teams[g.r1].add(g.home)
+            teams[g.r1].add(g.away)
+            teams[g.r2].add(g.home)
+            teams[g.r2].add(g.away)
+            total_games[g.r1] += 1
+            total_games[g.r2] += 1
+
+        referees = []
+        indices = []
+        for r in teams:
+            if not r: continue
+            referees.append(r)
+            indices.append(len(teams[r]) / total_games[r])
+
+        df = pandas.DataFrame(dict(referees=referees, indices=indices))
+        fig = px.bar(
+            df, x=referees, y=indices,
+            color=indices,
+            color_continuous_scale=px.colors.sequential.Viridis,
+        )
+        fig.update_layout(
+            title_text='Team Diversity Index',
+            xaxis={
+                'title': 'Referees',
+                'categoryorder': 'total descending'
+            },
+            yaxis={'title': 'Diversity Index'}
+        )
+        fig.show()
+
+
 if __name__ == "__main__":
     plotter = MyPlotter()
     # plotter.plot_total_points()
@@ -954,7 +1030,9 @@ if __name__ == "__main__":
     #     plotter.plot_referee_games_by_division(r)
     #     plotter.plot_referee_games_by_category(r)
     #     plotter.plot_referee_games_by_team(r)
-    plotter.plot_referee_pairings_pie()
+    # plotter.plot_referee_pairings_pie()
+    plotter.plot_referee_team_diversity()
+    plotter.plot_referee_team_diversity_index()
 
     # teams = set()
     # for g in plotter.games:
