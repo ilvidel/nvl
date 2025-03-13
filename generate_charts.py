@@ -31,6 +31,7 @@ class MyPlotter:
             "Daniel Sarnik",
             "Fiona Cotterill",
             "Francesca Bentley",
+            "Giordano Machi",
             "Ignacio Diez",
             "Jacky Pang",
             "Janet Leach",
@@ -814,6 +815,66 @@ class MyPlotter:
         )
         fig.show()
 
+    def plot_referee_games_by_venue(self):
+        """Bar chart of venues where a referee has officiated"""
+        # Extract all referees
+        referee_venues = [(game.r1, game.r2, game.venue) for game in self.games]
+        all_referees = {ref for match in referee_venues for ref in match[:2] if ref}
+
+        # Count co-occurrences
+        co_occurrence = {ref: Counter() for ref in all_referees}
+        for ref1, ref2, venue in referee_venues:
+            if ref1:
+                co_occurrence[ref1][venue] += 1
+            if ref2:
+                co_occurrence[ref2][venue] += 1
+
+        # Generate initial data (first referee in list as default)
+        first_ref = list(sorted(all_referees)).pop()
+        referees = list(co_occurrence[first_ref].keys())
+        venues = list(co_occurrence[first_ref].values())
+
+        # Create figure
+        fig = go.Figure()
+        # fig.add_trace(go.Bar(
+        #     x=referees,
+        #     y=venues,
+        #     name=first_ref,
+        #     marker=dict(color=venues, colorscale=px.colors.sequential.Viridis)
+        # ))
+        fig.add_trace(go.Pie(
+            labels=referees, values=venues, name=first_ref,
+            marker=dict(colors=px.colors.qualitative.Safe),
+            hole=0.5
+        ))
+
+        # Create dropdown menu
+        dropdown_buttons = []
+        for ref in sorted(all_referees):
+            dropdown_buttons.append({
+                'label': ref,
+                'method': 'update',
+                'args': [
+                    {'labels': [list(co_occurrence[ref].keys())],
+                     'values': [list(co_occurrence[ref].values())]},
+                     {'title.text': f'Where has {ref} Officiated?'}
+                ]
+            })
+
+        fig.update_traces(textinfo='label+percent+value')
+        fig.update_layout(
+            # xaxis_title='Refereed at',
+            # yaxis_title='Number of games',
+            # xaxis={'categoryorder': 'total descending'},
+            updatemenus=[{
+                'buttons': dropdown_buttons,
+                'direction': 'down',
+                'showactive': True
+            }]
+        )
+
+        fig.show()
+
     def plot_referee_pairings_bar(self):
         """
         Generates an interactive bar chart showing the number of
@@ -854,7 +915,7 @@ class MyPlotter:
                     {'x': [list(co_occurrence[ref].keys())],
                      'y': [list(co_occurrence[ref].values())],
                      'marker': [dict(color=list(co_occurrence[ref].values()), colorscale='viridis')]},
-                    {'title': f'Number of Games Officiated with {ref}'}
+                    {'title.text': f'Number of Games Officiated with {ref}'}
                 ]
             })
 
@@ -911,7 +972,7 @@ class MyPlotter:
                 'method': 'update',
                 'args': [
                     {'labels': [list(co_occurrence[ref].keys())], 'values': [list(co_occurrence[ref].values())]},
-                    {'title': f'Number of Games Officiated with {ref}'}
+                    {'title.text': f'Number of Games Officiated with {ref}'}
                 ]
             })
 
@@ -930,8 +991,8 @@ class MyPlotter:
         """Show the number of different temas each ref has refereed"""
         teams = {}
         for g in self.games:
-            if g.r1 not in teams: teams[g.r1]=set()
-            if g.r2 not in teams: teams[g.r2]=set()
+            if g.r1 not in teams: teams[g.r1] = set()
+            if g.r2 not in teams: teams[g.r2] = set()
             teams[g.r1].add(g.home)
             teams[g.r1].add(g.away)
             teams[g.r2].add(g.home)
@@ -953,10 +1014,9 @@ class MyPlotter:
         fig.update_layout(
             title_text='Number of Teams per Referee',
             xaxis={'title': 'Referees', 'categoryorder': 'total descending'},
-            yaxis = {'title': 'Number of Teams'},
+            yaxis={'title': 'Number of Teams'},
         )
         fig.show()
-
 
     def plot_referee_team_diversity_index(self):
         """
@@ -1010,7 +1070,7 @@ if __name__ == "__main__":
     # plotter.plot_number_of_games()
     # plotter.plot_number_of_games_per_division()
     # plotter.plot_number_of_teams() # fixme: not working yet
-    # plotter.plot_games_per_referee()
+    plotter.plot_games_per_referee()
     # plotter.plot_referees_per_year()
 
     # plotter.generate_community_graph() # fixme: not working yet
@@ -1031,9 +1091,11 @@ if __name__ == "__main__":
     #     plotter.plot_referee_games_by_category(r)
     #     plotter.plot_referee_games_by_team(r)
     # plotter.plot_referee_pairings_pie()
-    plotter.plot_referee_team_diversity()
-    plotter.plot_referee_team_diversity_index()
+    # plotter.plot_referee_team_diversity()
+    # plotter.plot_referee_team_diversity_index()
+    # plotter.plot_referee_games_by_venue()
 
+    # TEAMS
     # teams = set()
     # for g in plotter.games:
     #     teams.add(g.away)
