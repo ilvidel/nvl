@@ -32,6 +32,7 @@ DIVISIONS = {
 class Game(object):
     def __init__(self, attrs={}):
         self.category = None
+        self.season = None
         self.home = attrs['home'] if 'home' in attrs else ""
         self.away = attrs['away'] if 'away' in attrs else ""
         self.timestamp = datetime.fromtimestamp(attrs['timestamp']) if 'timestamp' in attrs else datetime.now()
@@ -107,6 +108,7 @@ class Game(object):
             self.logger.error(f"Venues differ!: {self.venue} / {other.venue}")
 
         game = Game()
+        game.season = self.season
         game.timestamp = self.pick(self.timestamp, other.timestamp, "time")
         game.number = self.pick(self.number, other.number, "number")
         game.home = self.pick(self.home, other.home, "home")
@@ -170,12 +172,14 @@ class Game(object):
             "away_sets": self.away_sets,
             "home_points": self.home_points,
             "away_points": self.away_points,
+            "season": self.season,
         }
 
     def csv(self):
         try:
             text =  ",".join(
             [
+                self.season,
                 self.date(),
                 self.time(),
                 self.number,
@@ -200,19 +204,20 @@ class Game(object):
     @staticmethod
     def from_csv(line):
         g = Game()
-        g.set_timestamp(f"{line['Date']}T{line['Time']}", numerical=True)
+        g.season = line['season']
+        g.set_timestamp(f"{line['date']}T{line['time']}", numerical=True)
         g.number=line['ID']
-        g.home=line['Home']
-        g.home_sets=line['HSets']
-        g.home_points = line['HPoints'].split()
-        g.away=line['Away']
-        g.away_sets=line['ASets']
-        g.away_points = line['APoints'].split()
-        g.venue=line['Venue']
-        g.category=line['Category']
-        g.division=line['Division']
-        g.r1=line['R1']
-        g.r2=line['R2']
+        g.home=line['home']
+        g.home_sets=line['home_sets']
+        g.home_points = line['home_points'].split()
+        g.away=line['away']
+        g.away_sets=line['away_sets']
+        g.away_points = line['away_points'].split()
+        g.venue=line['venue']
+        g.category=line['category']
+        g.division=line['division']
+        g.r1=line['r1']
+        g.r2=line['r2']
         return g
 
     def set_timestamp(self, date_str, numerical=False):

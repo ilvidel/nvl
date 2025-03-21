@@ -11,7 +11,7 @@ from game import Game, DIVISIONS
 import logging
 
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.WARNING,
     format="[{levelname:^8.8}] {message}",
     style="{",
     datefmt="%Y-%m-%d %H:%M:%S"
@@ -34,7 +34,7 @@ def load_json(fname):
 
 def write_csv(games):
     with open("past.csv", "w") as f:
-        header = "date,time,ID,home,home_sets,home_points,away,away_sets,away_points,division,category,venue,r1,r2\n"
+        header = "season,date,time,ID,home,home_sets,home_points,away,away_sets,away_points,division,category,venue,r1,r2\n"
         f.write(header)
         for g in games:
             f.write(f"{g.csv()}\n")
@@ -44,11 +44,12 @@ def write_json(matches, filename):
         f.write(json.dumps([m.to_dict() for m in matches], indent=2))
     logger.info(f"Wrote {len(matches)} games to {filename}")
 
-def parse_results(games, div, cat):
+def parse_results(games, div, cat, season):
     logger.info(f"Parsing {len(games)} results in {div} {cat}...")
     game_list = []
     for entry in games:
         game = Game()
+        game.season = season
         game.home = entry.attrs['data-home-team']
         game.away = entry.attrs['data-away-team']
         date = entry.attrs['data-date']
@@ -76,7 +77,7 @@ def parse_results(games, div, cat):
                 game.r2 = tag.text.split(":")[1].replace("(Pending)", "").strip()
                 logger.debug(f"Found game R2: {game.r2}")
             if "Venue" in tag.text:
-                game.venue = tag.text.split(":")[1].strip()
+                game.venue = tag.text.split(":")[1].strip().replace(",", "")
                 logger.debug(f"Found game venue: {game.venue}")
         game.set_results(results)
         logger.debug(f"Found game results: {results}")
@@ -106,7 +107,7 @@ if __name__ == "__main__":
 
     regex = "past-([\\d\\-]+)-([a-z]+)_([\\w]+)\\.html"
     for filename in sorted(past_files):
-        logger.info(f"Processing {filename}...")
+        print(f"Processing {filename}...")
         matches = re.match(regex, filename)
         if not matches:
             logger.error(f"No match for {filename}")
@@ -128,7 +129,7 @@ if __name__ == "__main__":
         html = load_file(filename)
         soup = bs4.BeautifulSoup(html, features="html.parser")
         raw_games = soup.findAll('div', attrs={'class': "col-12 mb-4 resultContents"})
-        games.extend(parse_results(raw_games, division, category))
+        games.extend(parse_results(raw_games, division, category, season))
 
     # save games to file
     write_csv(games)

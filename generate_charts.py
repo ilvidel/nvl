@@ -11,41 +11,43 @@ import plotly.graph_objects as go
 import statistics
 
 from game import Game
+from seasons import total_games
 
 
 class MyPlotter:
 
     def __init__(self):
         self.games = []
-        with open("nvl.csv", "r") as csv_file:
+        with open("past.csv", "r") as csv_file:
             csv_games = csv.DictReader(csv_file)
             for g in csv_games:
                 self.games.append(Game.from_csv(g))
 
-        self.dataframe = pandas.read_csv("nvl.csv")
+        self.dataframe = pandas.read_csv("past.csv")
 
         self.referee_subset = [
-            "Aileen Barry",
-            "Alistair Mitchell",
-            "Ben Hill",
-            "Daniel Sarnik",
-            "Fiona Cotterill",
-            "Francesca Bentley",
-            "Giordano Machi",
-            "Ignacio Diez",
-            "Jacky Pang",
-            "Janet Leach",
-            "Jayne Jones",
-            "Mel Melville-brown",
-            "Neil Bentley",
-            "Nick Heckford",
-            "Peter Parsons",
-            "Richard Burbedge",
+            # "Aileen Barry",
+            # "Alistair Mitchell",
+            # "Ben Hill",
+            # "Daniel Sarnik",
+            # "Fiona Cotterill",
+            # "Francesca Bentley",
+            # "Giordano Machi",
+            # "Ignacio Diez",
+            # "Jacky Pang",
+            # "Janet Leach",
+            # "Jayne Jones",
+            # "Mel Melville-brown",
+            # "Neil Bentley",
+            # "Nick Heckford",
+            # "Peter Parsons",
+            # "Richard Burbedge",
             "Richard Parkes",
-            "Rita Grimes",
-            "Su Brennand",
-            "Timothy Hebborn",
-            "William Perugini",
+            # "Rita Grimes",
+            "Roberto Rigante",
+            # "Su Brennand",
+            # "Timothy Hebborn",
+            # "William Perugini",
         ]
 
     def plot_total_points(self):
@@ -148,8 +150,7 @@ class MyPlotter:
             results.append(r)
 
         data = []
-        divs = ['superleague', 'division_1', 'division_2', 'division_3', 'cup',
-                'shield']
+        divs = ['superleague', 'division_1', 'division_2', 'division_3', 'cup', 'shield']
         for div in divs:
             total = len(list(filter(lambda f: f['division'] == div, results)))
             home_victories = len(
@@ -184,36 +185,99 @@ class MyPlotter:
         fig.show()
 
     def plot_number_of_games(self):
-        """Number of games played per year"""
-        years = [g.timestamp.year for g in self.games]
-        fig = px.histogram(years, title="Number of games per year")
+        """Number of games played per season"""
+        seasons = [g.season for g in self.games]
+        fig = px.histogram(seasons, title="Number of games per season")
         fig.update_layout(bargap=.2)
         fig.show()
 
     def plot_number_of_games_per_division(self):
-        """Number of games played per year, per division"""
-        count = {}
-        for g in self.games:
-            div = g.division
-            year = g.timestamp.year
-            if div not in count: count[div] = []
-            count[div].append(year)
+        """Number of games played per season, per division"""
+        series = []
+        seasons = set(self.dataframe['season'])
 
-        print(count.keys())
+        for the_season in sorted(seasons):
+            games = self.dataframe[self.dataframe['season'] == the_season]
+            count = Counter(games['division'])
+            series.append([
+                the_season,
+                count['superleague'],
+                count['division_1'],
+                count['division_2'],
+                count['division_3'],
+                count['cup'],
+                count['shield'],
+            ])
 
-        fig = go.Figure()
-        fig.add_trace(go.Histogram(x=count['shield'], name="Shield"))
-        fig.add_trace(go.Histogram(x=count['cup'], name="Cup"))
-        fig.add_trace(go.Histogram(x=count['division_3'], name="Division 3"))
-        fig.add_trace(go.Histogram(x=count['division_2'], name="Division 2"))
-        fig.add_trace(go.Histogram(x=count['division_1'], name="Division 1"))
-        fig.add_trace(go.Histogram(x=count['superleague'], name="Super"))
-        fig.update_layout(
+        df = pandas.DataFrame(
+            series,
+            columns=['Season', 'Superleague', 'Div1', 'Div2', 'Div3', 'Cup', 'Shield']
+        )
+        fig = px.bar(
+            df,
+            x='Season', y=['Superleague', 'Div1', 'Div2', 'Div3', 'Cup', 'Shield'],
+            title="Number of games per division, per year",
             barmode='stack',
-            bargap=.2,
-            xaxis_title_text='Year',  # xaxis label
-            yaxis_title_text='Number of Games',  # yaxis label
-            title="Number of games per year, per division")
+            color_discrete_sequence=px.colors.qualitative.Bold
+        )
+        fig.show()
+
+    def plot_games_per_division_percentage(self):
+        series = []
+        seasons = set(self.dataframe['season'])
+
+        for the_season in sorted(seasons):
+            games = self.dataframe[self.dataframe['season'] == the_season]
+            count = Counter(games['division'])
+            total_games = len(games)
+            series.append([
+                the_season,
+                count['superleague'] / total_games,
+                count['division_1'] / total_games,
+                count['division_2'] / total_games,
+                count['division_3'] / total_games,
+                count['cup'] / total_games,
+                count['shield'] / total_games,
+            ])
+
+        df = pandas.DataFrame(
+            series,
+            columns=['Season', 'Superleague', 'Div1', 'Div2', 'Div3', 'Cup', 'Shield']
+        )
+        fig = px.bar(
+            df,
+            x='Season', y=['Superleague', 'Div1', 'Div2', 'Div3', 'Cup', 'Shield'],
+            title="Percentage of games per division, per year",
+            labels='Division',
+            barmode='stack',
+            color_discrete_sequence=px.colors.qualitative.Bold
+        )
+        fig.show()
+
+    def plot_number_of_teams_per_division(self):
+        """Number of games played per season, per division"""
+        series = []
+        seasons = set(self.dataframe['season'])
+        divisions = ['superleague', 'division_1', 'division_2', 'division_3', 'cup', 'shield']
+        for the_season in sorted(seasons):
+            count = []
+            for div in divisions:
+                games = self.dataframe[self.dataframe['season'] == the_season]
+                division = games[games['division'] == div]
+                count.append(len(set(division['home']).union(set(division['away']))))
+            series.append([the_season] + count)
+
+        df = pandas.DataFrame(
+            series,
+            columns=['Season', 'Superleague', 'Div1', 'Div2', 'Div3', 'Cup', 'Shield']
+        )
+        fig = px.bar(
+            df,
+            x='Season', y=['Superleague', 'Div1', 'Div2', 'Div3', 'Cup', 'Shield'],
+            title="Number of Teams per Divison, per year",
+            barmode='stack',
+            color_discrete_sequence=px.colors.qualitative.Bold
+        )
         fig.show()
 
     def plot_results(self):
@@ -295,8 +359,8 @@ class MyPlotter:
         fig = px.bar(count)
         fig.show()
 
-    def plot_games_per_referee(self):
-        """Plot number of games per referee"""
+    def plot_total_games_per_referee(self):
+        """Bar chart of the total number of games per referee"""
         from collections import Counter
         refs = []
         for g in self.games:
@@ -322,6 +386,60 @@ class MyPlotter:
         fig.update_layout(
             yaxis={'categoryorder': 'total ascending', 'title': 'Referee'},
             xaxis={'title': 'Number of Games'}
+        )
+
+        fig.show()
+
+    def plot_games_per_referee_per_season(self):
+        """
+        Interactive bar chart, showing the number of games
+        that a particular referee has officiated each season
+        """
+        # Extract relevant data from Game objects
+        game_data = [(game.timestamp.year, game.division, game.r1, game.r2) for game in self.games]
+        df = pandas.DataFrame(game_data, columns=['Year', 'Division', 'R1', 'R2'])
+        # df['Year'] = pandas.to_datetime(df['Date']).dt.year
+
+        referees = set(df['R1']).union(set(df['R2']))
+
+        dropdown_buttons = []
+        fig = go.Figure()
+
+        for referee in sorted(referees):
+            ref_games = df[(df['R1'] == referee) | (df['R2'] == referee)]
+            grouped_data = ref_games.groupby(['Year', 'Division']).size().unstack(fill_value=0)
+
+            traces = []
+            for division in grouped_data.columns:
+                traces.append(go.Bar(
+                    x=grouped_data.index,
+                    y=grouped_data[division],
+                    name=division,
+                    visible=False
+                ))
+
+            dropdown_buttons.append({
+                'label': referee,
+                'method': 'update',
+                'args': [
+                    {'visible': [True if i // len(grouped_data.columns) == list(referees).index(referee) else False
+                                 for i in range(len(referees) * len(grouped_data.columns))]},
+                    {'title.text': f'Games Officiated by {referee} Per Year'}
+                ]
+            })
+
+            fig.add_traces(traces)
+
+        fig.update_layout(
+            title=f'Games Officiated by {list(referees)[0]} Per Year',
+            xaxis_title='Year',
+            yaxis_title='Number of Games',
+            barmode='stack',
+            updatemenus=[{
+                'buttons': dropdown_buttons,
+                'direction': 'down',
+                'showactive': True
+            }]
         )
 
         fig.show()
@@ -857,7 +975,7 @@ class MyPlotter:
                 'args': [
                     {'labels': [list(co_occurrence[ref].keys())],
                      'values': [list(co_occurrence[ref].values())]},
-                     {'title.text': f'Where has {ref} Officiated?'}
+                    {'title.text': f'Where has {ref} Officiated?'}
                 ]
             })
 
@@ -1069,8 +1187,11 @@ if __name__ == "__main__":
     # plotter.plot_home_victories_per_division()
     # plotter.plot_number_of_games()
     # plotter.plot_number_of_games_per_division()
+    # plotter.plot_games_per_division_percentage()
+    plotter.plot_number_of_teams_per_division()
     # plotter.plot_number_of_teams() # fixme: not working yet
-    plotter.plot_games_per_referee()
+    # plotter.plot_total_games_per_referee()
+    # plotter.plot_games_per_referee_per_season()
     # plotter.plot_referees_per_year()
 
     # plotter.generate_community_graph() # fixme: not working yet
