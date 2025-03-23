@@ -1186,8 +1186,8 @@ if __name__ == "__main__":
     # plotter.plot_home_victories()
     # plotter.plot_home_victories_per_division()
     # plotter.plot_number_of_games()
-    # plotter.plot_number_of_games_per_division()
-    # plotter.plot_games_per_division_percentage()
+    plotter.plot_number_of_games_per_division()
+    plotter.plot_games_per_division_percentage()
     plotter.plot_number_of_teams_per_division()
     # plotter.plot_number_of_teams() # fixme: not working yet
     # plotter.plot_total_games_per_referee()

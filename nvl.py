@@ -59,7 +59,7 @@ def load_csv(filename):
 
 def write_csv(games, filename):
     with open(filename, "w") as f:
-        header = "Date,Time,ID,Home,HSets,HPoints,Away,ASets,APoints,Division,Category,Venue,R1,R2,\n"
+        header = "date,time,ID,home,home_sets,home_points,away,away_sets,away_points,division,category,venue,r1,r2,\n"
         f.write(header)
         for g in games:
             f.write(f"{g.csv()}\n")
