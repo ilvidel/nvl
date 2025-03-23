@@ -1,0 +1,401 @@
+season,date,time,ID,home,home_sets,home_points,away,away_sets,away_points,division,category,venue,r1,r2
+2014-2015,2015-03-28,00:00,,Sheffield,2,21 30 21 25 11,Northumbria University,3,25 28 25 19 15,cup,men,National Volleyball Centre,110308,110308
+2014-2015,2015-02-28,00:00,,Northumbria University,3,33 25 25 - -,IBB Polonia London,0,31 20 22 - -,cup,men,Sports Central,110308,110308
+2014-2015,2015-01-31,00:00,,Newcastle Staffs,1,20 22 26 23 0,IBB Polonia London,3,25 25 24 25 0,cup,men,Madeley High School,110308,110308
+2014-2015,2015-01-31,00:00,,Sheffield,3,25 25 25 - -,Malory Eagles UEL,0,14 22 13 - -,cup,men,Sheffield - U18 Boys,110308,110308
+2014-2015,2015-01-31,00:00,,Northumbria University,3,25 25 25 - -,Richmond Docklands,0,0 0 0 - -,cup,men,Sports Central,110308,110308
+2014-2015,2015-01-10,00:00,,Northumbria University,3,25 25 25 - -,Black Country,0,0 0 0 - -,cup,men,TBC,110308,110308
+2014-2015,2014-11-29,00:00,,IBB Polonia London,3,25 25 25 - -,Team Sunderland,0,17 14 20 - -,cup,men,Brentford Fountain Leisure Centre,110308,110308
+2014-2015,2014-11-29,00:00,,Richmond Docklands,3,25 25 25 - -,Coventry and Warwick Riga,0,16 12 15 - -,cup,men,Haverstock School,110308,110308
+2014-2015,2014-11-29,00:00,,Sheffield,3,25 25 25 - -,London Aces,0,0 0 0 - -,cup,men,TBC,110308,110308
+2014-2015,2014-11-09,00:00,,Newmarket,0,10 9 14 - -,Sheffield,3,25 25 25 - -,cup,men,TBC,110308,110308
+2014-2015,2014-11-08,00:00,,Richmond Docklands,3,25 25 25 - -,York Vikings,0,18 21 19 - -,cup,men,Haverstock School,110308,110308
+2014-2015,2014-11-08,00:00,,Manchester Marvels,0,19 19 20 - -,IBB Polonia London,3,25 25 25 - -,cup,men,Armitage Centre,110308,110308
+2014-2015,2014-11-08,00:00,,London Aces,3,25 25 25 - -,Essex Blaze,0,18 22 17 - -,cup,men,Lambeth Academy,110308,110308
+2014-2015,2014-11-08,00:00,,Team Sunderland,3,25 25 25 - -,Bristol,0,0 0 0 - -,cup,men,TBC,110308,110308
+2014-2015,2014-11-08,00:00,,Sheffield 2,1,20 25 13 23 0,Coventry and Warwick Riga,3,25 22 25 25 0,cup,men,TBC,110308,110308
+2014-2015,2014-11-08,00:00,,Malory Eagles UEL,3,25 25 25 - -,Cambridge ARU,0,15 13 12 - -,cup,men,TBC,110308,110308
+2014-2015,2014-10-12,00:00,,York Vikings,3,25 25 21 25 0,Manchester Marvels Marauders,1,7 16 25 13 0,cup,men,Joseph Rowntree School,110308,110308
+2014-2015,2014-10-12,00:00,,Exeter Storm,0,20 9 14 - -,Northumbria University,3,25 25 25 - -,cup,men,Loughborough College,110308,110308
+2014-2015,2014-10-11,00:00,,IBB Polonia London,3,25 25 25 - -,DARKSTAR Derbyshire,0,12 11 15 - -,cup,men,Brentford Fountain Leisure Centre,110308,110308
+2014-2015,2014-10-11,00:00,,Newcastle Staffs 2,1,25 15 23 23 0,Bristol,3,18 25 25 25 0,cup,men,Keele University Sports Centre,110308,110308
+2014-2015,2014-10-11,00:00,,Loughborough Students,0,14 17 12 - -,Newmarket,3,25 25 25 - -,cup,men,Sir David Wallace Sports Hall,110308,110308
+2014-2015,2014-10-11,00:00,,London Aces,3,25 21 25 25 0,Stowmarket,1,14 25 10 17 0,cup,men,Battersea Youth Centre,110308,110308
+2014-2015,2014-10-11,00:00,,Team Sunderland,3,25 25 25 - -,Hull Thunder,0,20 19 23 - -,cup,men,Sunderland University (Cityspace),110308,110308
+2014-2015,2014-10-11,00:00,,Newcastle Staffs,3,25 25 25 - -,Southampton,0,0 0 0 - -,cup,men,Keele University Sports Centre,110308,110308
+2014-2015,2014-10-11,00:00,,Black Country,3,25 23 25 25 15,Durham Palatinates,2,0 25 23 27 9,cup,men,The Woodcock Sports Centre,110308,110308
+2014-2015,2015-04-18,00:00,,Newcastle Staffs,3,25 25 25 - -,Coventry and Warwick Riga,0,0 0 0 - -,division_1,men,Keele University Sports Centre,110308,110308
+2014-2015,2015-03-22,00:00,,Black Country,3,17 25 25 25 0,Essex Blaze,1,25 21 22 14 0,division_1,men,North Solihull Sports Centre,110308,110308
+2014-2015,2015-03-08,00:00,,Black Country,1,15 25 18 18 0,Leeds Gorse,3,25 21 25 25 0,division_1,men,The Woodcock Sports Centre,110308,110308
+2014-2015,2015-03-07,00:00,,Essex Blaze,2,25 22 25 23 7,Coventry and Warwick Riga,3,16 25 19 25 15,division_1,men,Boswells School,110308,110308
+2014-2015,2015-02-15,00:00,,Black Country,3,26 25 15 25 15,Coventry and Warwick Riga,2,28 16 25 15 11,division_1,men,The Woodcock Sports Centre,110308,110308
+2014-2015,2015-02-14,00:00,,Coventry and Warwick Riga,0,21 23 11 - -,Newcastle Staffs,3,25 25 25 - -,division_1,men,Alan Higgs Centre,110308,110308
+2014-2015,2015-01-25,00:00,,Essex Blaze,1,23 18 25 14 0,Leeds Gorse,3,25 25 23 25 0,division_1,men,Boswells School,110308,110308
+2014-2015,2015-01-24,00:00,,Newcastle Staffs,3,25 25 25 - -,Essex Blaze,0,15 13 21 - -,division_1,men,Keele University Sports Centre,110308,110308
+2014-2015,2015-01-17,00:00,,Coventry and Warwick Riga,0,18 21 20 - -,Leeds Gorse,3,25 25 25 - -,division_1,men,Alan Higgs Centre,110308,110308
+2014-2015,2015-01-03,00:00,,Essex Blaze,1,25 25 22 23 0,Black Country,3,27 17 25 25 0,division_1,men,Boswells School,110308,110308
+2014-2015,2014-12-14,00:00,,Black Country,2,25 25 9 20 9,Newcastle Staffs,3,22 17 25 25 15,division_1,men,The Woodcock Sports Centre,110308,110308
+2014-2015,2014-12-07,00:00,,Essex Blaze,1,22 17 25 21 0,Newcastle Staffs,3,25 25 23 25 0,division_1,men,Boswells School,110308,110308
+2014-2015,2014-11-23,00:00,,Leeds Gorse,3,19 25 25 25 0,Black Country,1,25 10 23 14 0,division_1,men,Gryphon Sports Centre,110308,110308
+2014-2015,2014-11-22,00:00,,Newcastle Staffs,3,22 25 25 25 0,Black Country,1,25 17 23 14 0,division_1,men,Keele University Sports Centre,110308,110308
+2014-2015,2014-11-22,00:00,,Leeds Gorse,3,25 25 25 - -,Essex Blaze,0,15 18 20 - -,division_1,men,Gryphon Sports Centre,110308,110308
+2014-2015,2014-11-16,00:00,,Leeds Gorse,3,20 25 25 28 0,Newcastle Staffs,1,25 14 19 26 0,division_1,men,Gryphon Sports Centre,110308,110308
+2014-2015,2014-11-01,00:00,,Coventry and Warwick Riga,3,25 25 25 - -,Black Country,0,18 19 17 - -,division_1,men,Alan Higgs Centre,110308,110308
+2014-2015,2014-10-25,00:00,,Coventry and Warwick Riga,3,26 19 25 16 15,Essex Blaze,2,24 25 22 25 13,division_1,men,Alan Higgs Centre,110308,110308
+2014-2015,2014-10-05,00:00,,Leeds Gorse,3,25 25 25 - -,Coventry and Warwick Riga,0,23 18 16 - -,division_1,men,Gryphon Sports Centre,110308,110308
+2014-2015,2014-10-04,00:00,,Newcastle Staffs,3,25 22 20 25 15,Leeds Gorse,2,19 25 25 19 11,division_1,men,Keele University Sports Centre,110308,110308
+2014-2015,2015-04-19,00:00,,Team Sunderland,3,25 25 25 - -,Manchester Marvels,0,0 0 0 - -,division_2,men,Sunderland University (Cityspace),110308,110308
+2014-2015,2015-03-22,00:00,,Newcastle Staffs 2,1,19 26 14 20 0,Manchester Marvels,3,25 24 25 25 0,division_2,men,Keele University Sports Centre,110308,110308
+2014-2015,2015-03-22,00:00,,Loughborough Students,0,18 17 21 - -,Team Sunderland,3,25 25 25 - -,division_2,men,Loughborough University Netball Centre,110308,110308
+2014-2015,2015-03-21,00:00,,Newcastle Staffs 2,1,25 19 13 21 0,Nottingham Rockets,3,23 25 25 25 0,division_2,men,Keele University Sports Centre,110308,110308
+2014-2015,2015-03-14,00:00,,Team Sunderland,2,24 25 25 23 12,Newcastle Staffs 2,3,26 21 20 25 15,division_2,men,Sunderland University (Cityspace),110308,110308
+2014-2015,2015-03-14,00:00,,Nottingham Rockets,3,25 25 25 - -,Loughborough Students,0,14 20 16 - -,division_2,men,Jubilee Sports Centre,110308,110308
+2014-2015,2015-03-08,00:00,,Loughborough Students,0,16 13 19 - -,Newcastle Staffs 2,3,25 25 25 - -,division_2,men,Loughborough University Netball Centre,110308,110308
+2014-2015,2015-03-07,00:00,,Team Sunderland,3,25 25 25 - -,Nottingham Rockets,0,16 23 22 - -,division_2,men,Sunderland University (Cityspace),110308,110308
+2014-2015,2015-02-28,00:00,,Team Sunderland,3,25 25 25 - -,Loughborough Students,0,13 8 16 - -,division_2,men,Sunderland University (Cityspace),110308,110308
+2014-2015,2015-02-28,00:00,,Manchester Marvels,3,25 25 25 - -,Newcastle Staffs 2,0,0 0 0 - -,division_2,men,Armitage Centre,110308,110308
+2014-2015,2015-02-21,00:00,,Nottingham Rockets,3,25 25 20 25 0,Essex Estonians,1,13 19 25 15 0,division_2,men,Jubilee Sports Centre,110308,110308
+2014-2015,2015-02-21,00:00,,Newcastle Staffs 2,1,19 25 15 20 0,Team Sunderland,3,25 21 25 25 0,division_2,men,Keele University Sports Centre,110308,110308
+2014-2015,2015-02-15,00:00,,Loughborough Students,0,14 6 11 - -,Manchester Marvels,3,25 25 25 - -,division_2,men,Loughborough University Netball Centre,110308,110308
+2014-2015,2015-02-14,00:00,,Manchester Marvels,3,25 25 25 - -,Nottingham Rockets,0,22 16 22 - -,division_2,men,Armitage Centre,110308,110308
+2014-2015,2015-02-14,00:00,,Essex Estonians,1,22 16 25 26 0,Team Sunderland,3,25 25 15 28 0,division_2,men,Boswells School,110308,110308
+2014-2015,2015-02-07,00:00,,Manchester Marvels,3,25 25 25 - -,Loughborough Students,0,13 2 12 - -,division_2,men,Armitage Centre,110308,110308
+2014-2015,2015-01-24,00:00,,Newcastle Staffs 2,3,25 19 25 25 0,Essex Estonians,1,23 25 17 19 0,division_2,men,Keele University Sports Centre,110308,110308
+2014-2015,2015-01-24,00:00,,Loughborough Students,0,15 15 18 - -,Nottingham Rockets,3,25 25 25 - -,division_2,men,Sir David Wallace Sports Hall,110308,110308
+2014-2015,2015-01-18,00:00,,Nottingham Rockets,0,21 24 23 - -,Team Sunderland,3,25 26 25 - -,division_2,men,Jubilee Sports Centre,110308,110308
+2014-2015,2015-01-11,00:00,,Essex Estonians,3,25 25 25 - -,Newcastle Staffs 2,0,19 11 14 - -,division_2,men,Boswells School,110308,110308
+2014-2015,2014-12-13,00:00,,Manchester Marvels,3,25 21 25 25 0,Essex Estonians,1,17 25 20 14 0,division_2,men,Armitage Centre,110308,110308
+2014-2015,2014-12-07,00:00,,Essex Estonians,3,25 25 25 - -,Loughborough Students,0,13 16 15 - -,division_2,men,Boswells School,110308,110308
+2014-2015,2014-11-22,00:00,,Newcastle Staffs 2,3,25 25 25 - -,Loughborough Students,0,10 12 11 - -,division_2,men,Keele University Sports Centre,110308,110308
+2014-2015,2014-11-15,00:00,,Nottingham Rockets,3,25 25 23 22 16,Newcastle Staffs 2,2,21 9 25 25 14,division_2,men,Jubilee Sports Centre,110308,110308
+2014-2015,2014-11-01,00:00,,Essex Estonians,3,25 28 21 29 0,Manchester Marvels,1,22 26 25 27 0,division_2,men,Boswells School,110308,110308
+2014-2015,2014-10-19,00:00,,Loughborough Students,0,14 13 22 - -,Essex Estonians,3,25 25 25 - -,division_2,men,Loughborough University Netball Centre,110308,110308
+2014-2015,2014-10-18,00:00,,Essex Estonians,3,25 19 25 25 0,Nottingham Rockets,1,19 25 14 22 0,division_2,men,Boswells School,110308,110308
+2014-2015,2014-10-04,00:00,,Nottingham Rockets,0,16 17 23 - -,Manchester Marvels,3,25 25 25 - -,division_2,men,Jubilee Sports Centre,110308,110308
+2014-2015,2014-10-04,00:00,,Team Sunderland,0,20 20 24 - -,Essex Estonians,3,25 25 26 - -,division_2,men,Sunderland University (Cityspace),110308,110308
+2014-2015,2014-09-27,00:00,,Manchester Marvels,3,25 25 25 27 0,Team Sunderland,1,22 27 18 25 0,division_2,men,Sugden Sports Centre,110308,110308
+2014-2015,2015-04-18,00:00,,Exeter Storm,3,19 25 25 22 15,City of Bristol,2,25 15 22 25 11,division_2,men,Ashmoor Recreation Centre,110308,110308
+2014-2015,2015-02-21,00:00,,Bristol,1,23 21 25 24 0,Dartford Crossers,3,25 25 17 26 0,division_2,men,Abbeywood School,110308,110308
+2014-2015,2015-02-14,00:00,,City of Bristol,3,20 25 25 25 0,Bristol,1,25 19 22 22 0,division_2,men,Oasis Academy Brislington,110308,110308
+2014-2015,2015-02-07,00:00,,Dartford Crossers,3,25 25 25 - -,Exeter Storm,0,23 19 19 - -,division_2,men,Dartford Technology College,110308,110308
+2014-2015,2015-01-24,00:00,,Exeter Storm,3,25 25 25 - -,Bristol,0,23 17 16 - -,division_2,men,Riverside Leisure Centre,110308,110308
+2014-2015,2015-01-17,00:00,,City of Bristol,3,24 22 25 25 15,Dartford Crossers,2,26 25 17 17 9,division_2,men,Oasis Academy Brislington,110308,110308
+2014-2015,2014-12-13,00:00,,Exeter Storm,3,25 25 25 - -,Dartford Crossers,0,0 0 0 - -,division_2,men,Riverside Leisure Centre,110308,110308
+2014-2015,2014-12-06,00:00,,City of Bristol,3,25 25 15 25 0,Exeter Storm,1,16 23 25 18 0,division_2,men,Oasis Academy Brislington,110308,110308
+2014-2015,2014-11-23,00:00,,Bristol,3,25 25 25 - -,City of Bristol,0,23 23 14 - -,division_2,men,LeAF Academy,110308,110308
+2014-2015,2014-10-26,00:00,,Bristol,3,17 25 25 25 0,Exeter Storm,1,25 22 23 22 0,division_2,men,Abbeywood School,110308,110308
+2014-2015,2014-10-18,00:00,,Dartford Crossers,3,25 25 25 - -,Bristol,0,15 22 15 - -,division_2,men,Dartford Technology College,110308,110308
+2014-2015,2014-09-20,00:00,,Dartford Crossers,3,25 25 25 - -,City of Bristol,0,16 23 12 - -,division_2,men,Dartford Technology College,110308,110308
+2014-2015,2015-04-18,00:00,,Norwich Spikers,3,25 25 25 - -,Essex Rebels,0,0 0 0 - -,division_3,men,Ormiston Venture Academy,110308,110308
+2014-2015,2015-04-18,00:00,,Essex Rebels,0,0 0 0 - -,Richmond Bucks,3,25 25 25 - -,division_3,men,Ormiston Venture Academy,110308,110308
+2014-2015,2015-04-18,00:00,,Norwich Spikers,3,25 22 25 25 0,Richmond Bucks,1,23 25 20 23 0,division_3,men,Ormiston Venture Academy,110308,110308
+2014-2015,2015-03-15,00:00,,Richmond Bucks,1,25 20 20 22 0,Newmarket,3,19 25 25 25 0,division_3,men,Kingston Arena,110308,110308
+2014-2015,2015-03-08,00:00,,Norwich Spikers,1,25 18 19 20 0,Newmarket,3,21 25 25 25 0,division_3,men,Ernest Bevin College,110308,110308
+2014-2015,2015-03-08,00:00,,Essex Rebels,0,23 15 12 - -,London Aces,3,25 25 25 - -,division_3,men,Tendring Technology College,110308,110308
+2014-2015,2015-02-22,00:00,,Newmarket,3,25 25 25 - -,Essex Rebels,0,10 18 13 - -,division_3,men,Newmarket Leisure Centre,110308,110308
+2014-2015,2015-02-07,00:00,,London Aces,3,25 25 25 - -,Newmarket,0,0 0 0 - -,division_3,men,Boswells School,110308,110308
+2014-2015,2015-01-24,00:00,,Norwich Spikers,3,25 25 25 - -,Essex Rebels,0,14 12 15 - -,division_3,men,UEA Norwich Sportspark,110308,110308
+2014-2015,2015-01-24,00:00,,London Aces,3,25 25 25 - -,Newmarket,0,23 20 21 - -,division_3,men,Ernest Bevin College,110308,110308
+2014-2015,2015-01-18,00:00,,Richmond Bucks,0,17 23 19 - -,London Aces,3,25 25 25 - -,division_3,men,Kingston Arena,110308,110308
+2014-2015,2014-11-23,00:00,,London Aces,3,25 22 25 25 15,Norwich Spikers,2,15 25 22 27 9,division_3,men,Battersea Youth Centre,110308,110308
+2014-2015,2014-11-01,00:00,,London Aces,3,25 25 25 - -,Norwich Spikers,0,12 17 14 - -,division_3,men,Lambeth Academy,110308,110308
+2014-2015,2014-10-19,00:00,,Richmond Bucks,3,25 20 23 25 15,Newmarket,2,20 25 25 20 11,division_3,men,Kingston Arena,110308,110308
+2014-2015,2014-10-19,00:00,,Newmarket,3,31 17 22 25 16,Norwich Spikers,2,29 25 25 18 14,division_3,men,Kingston Arena,110308,110308
+2014-2015,2014-10-19,00:00,,Richmond Bucks,3,25 22 18 25 15,Norwich Spikers,2,23 25 25 19 12,division_3,men,Kingston Arena,110308,110308
+2014-2015,2014-10-19,00:00,,London Aces,3,25 25 25 - -,Essex Rebels,0,14 11 16 - -,division_3,men,Battersea Youth Centre,110308,110308
+2014-2015,2014-10-04,00:00,,Essex Rebels,2,14 25 26 15 12,Richmond Bucks,3,25 21 24 25 15,division_3,men,Tendring Technology College,110308,110308
+2014-2015,2014-09-28,00:00,,Newmarket,3,25 25 23 25 0,Essex Rebels,1,20 16 25 19 0,division_3,men,Newmarket Leisure Centre,110308,110308
+2014-2015,2014-09-27,00:00,,Richmond Bucks,0,11 14 23 - -,London Aces,3,25 25 25 - -,division_3,men,Boswells School,110308,110308
+2014-2015,2015-04-12,00:00,,Sheffield 2,3,25 25 25 25 0,Durham Palatinates,1,27 23 23 23 0,division_3,men,Sheffield - U18 Boys,110308,110308
+2014-2015,2015-04-12,00:00,,York Vikings,0,23 17 18 - -,Hull Thunder,3,25 25 25 - -,division_3,men,The Education Village Academy Trust,110308,110308
+2014-2015,2015-03-14,00:00,,DARKSTAR Derbyshire,3,25 25 25 - -,Manchester Marvels Marauders,0,21 14 17 - -,division_3,men,St Edmund Arrowsmith Catholic High School,110308,110308
+2014-2015,2015-03-08,00:00,,Hull Thunder,2,25 25 21 21 12,Sheffield 2,3,15 19 25 25 15,division_3,men,Hull Holy Trinity House Academy,110308,110308
+2014-2015,2015-03-08,00:00,,Durham Palatinates,3,25 25 25 - -,York Vikings,0,22 23 16 - -,division_3,men,Durham University Sport (Queens Campus),110308,110308
+2014-2015,2015-03-08,00:00,,Sheffield 2,3,25 25 25 - -,Manchester Marvels Marauders,0,14 18 20 - -,division_3,men,Hull Holy Trinity House Academy,110308,110308
+2014-2015,2015-03-08,00:00,,Hull Thunder,1,25 25 23 23 0,Manchester Marvels Marauders,3,16 27 25 25 0,division_3,men,Hull Holy Trinity House Academy,110308,110308
+2014-2015,2015-03-01,00:00,,Manchester Marvels Marauders,3,25 25 25 28 0,DARKSTAR Derbyshire,1,21 19 27 26 0,division_3,men,Derbyshire Volleyball Centre (Derby Moor),110308,110308
+2014-2015,2015-02-22,00:00,,Manchester Marvels Marauders,0,22 19 22 - -,York Vikings,3,25 25 25 - -,division_3,men,Armitage Centre,110308,110308
+2014-2015,2015-02-22,00:00,,Hull Thunder,1,15 25 18 14 0,Sheffield 2,3,25 12 25 25 0,division_3,men,The Education Village Academy Trust,110308,110308
+2014-2015,2015-02-22,00:00,,Durham Palatinates,3,25 25 27 - -,DARKSTAR Derbyshire,0,18 17 25 - -,division_3,men,Durham University Sport (Queens Campus),110308,110308
+2014-2015,2015-02-15,00:00,,Sheffield 2,3,25 25 25 - -,Manchester Marvels Marauders,0,18 14 19 - -,division_3,men,Sheffield - U18 Boys,110308,110308
+2014-2015,2015-02-15,00:00,,Manchester Marvels Marauders,1,18 20 25 10 0,Durham Palatinates,3,25 25 21 25 0,division_3,men,Sheffield - U18 Boys,110308,110308
+2014-2015,2015-02-15,00:00,,Sheffield 2,3,25 16 25 25 0,Durham Palatinates,1,22 25 22 18 0,division_3,men,Sheffield - U18 Boys,110308,110308
+2014-2015,2015-02-08,00:00,,DARKSTAR Derbyshire,1,19 26 20 15 0,York Vikings,3,25 24 25 25 0,division_3,men,Derbyshire Volleyball Centre (Derby Moor),110308,110308
+2014-2015,2015-02-08,00:00,,York Vikings,3,25 25 25 - -,Hull Thunder,0,21 20 15 - -,division_3,men,Derbyshire Volleyball Centre (Derby Moor),110308,110308
+2014-2015,2015-02-08,00:00,,DARKSTAR Derbyshire,2,27 25 18 17 9,Hull Thunder,3,25 21 25 25 15,division_3,men,Derbyshire Volleyball Centre (Derby Moor),110308,110308
+2014-2015,2015-01-25,00:00,,Hull Thunder,3,25 25 25 - -,Manchester Marvels Marauders,0,12 19 10 - -,division_3,men,Hull Holy Trinity House Academy,110308,110308
+2014-2015,2015-01-25,00:00,,DARKSTAR Derbyshire,0,25 17 11 - -,Sheffield 2,3,27 25 25 - -,division_3,men,Derbyshire Volleyball Centre (Derby Moor),110308,110308
+2014-2015,2015-01-25,00:00,,Durham Palatinates,3,30 21 19 25 15,York Vikings,2,28 25 25 21 10,division_3,men,The Education Village Academy Trust,110308,110308
+2014-2015,2014-12-07,00:00,,Durham Palatinates,3,25 25 25 - -,Hull Thunder,0,21 17 23 - -,division_3,men,Parks Leisure Centre,110308,110308
+2014-2015,2014-11-23,00:00,,York Vikings,3,19 21 27 30 15,Sheffield 2,2,25 25 25 28 8,division_3,men,Joseph Rowntree School,110308,110308
+2014-2015,2014-11-02,00:00,,York Vikings,3,25 27 25 - -,Manchester Marvels Marauders,0,12 25 20 - -,division_3,men,Joseph Rowntree School,110308,110308
+2014-2015,2014-11-02,00:00,,Durham Palatinates,3,25 25 23 25 0,Hull Thunder,1,15 15 25 20 0,division_3,men,Durham University Sport (Queens Campus),110308,110308
+2014-2015,2014-11-02,00:00,,Hull Thunder,3,25 19 25 15 15,DARKSTAR Derbyshire,2,19 25 15 25 8,division_3,men,Durham University Sport (Queens Campus),110308,110308
+2014-2015,2014-11-02,00:00,,Durham Palatinates,3,25 22 25 25 0,DARKSTAR Derbyshire,1,21 25 18 21 0,division_3,men,Durham University Sport (Queens Campus),110308,110308
+2014-2015,2014-10-19,00:00,,DARKSTAR Derbyshire,0,23 16 17 - -,Sheffield 2,3,25 25 25 - -,division_3,men,Derbyshire Volleyball Centre (Derby Moor),110308,110308
+2014-2015,2014-10-19,00:00,,York Vikings,1,25 22 21 20 0,Sheffield 2,3,20 25 25 25 0,division_3,men,Derbyshire Volleyball Centre (Derby Moor),110308,110308
+2014-2015,2014-10-19,00:00,,Manchester Marvels Marauders,0,18 10 20 - -,Durham Palatinates,3,25 25 25 - -,division_3,men,Armitage Centre,110308,110308
+2014-2015,2014-10-19,00:00,,DARKSTAR Derbyshire,3,18 14 25 27 15,York Vikings,2,25 25 21 25 10,division_3,men,Derbyshire Volleyball Centre (Derby Moor),110308,110308
+2014-2015,2015-03-08,00:00,,Wiltshire Mavericks,3,25 23 25 25 0,South Hants,1,18 25 9 14 0,division_3,men,Truro Leisure Centre,110308,110308
+2014-2015,2014-10-19,00:00,,South Hants,1,23 12 25 22 0,Wiltshire Mavericks,3,25 25 18 25 0,division_3,men,Purbrook Park School,110308,110308
+2014-2015,2015-01-31,00:00,,York Vikings,3,25 25 26 - -,Nottingham Rockets,0,22 9 24 - -,shield,men,TBC,110308,110308
+2014-2015,2015-01-31,00:00,,Essex Blaze,3,25 25 25 - -,Hounslow,0,23 17 14 - -,shield,men,TBC,110308,110308
+2014-2015,2015-01-10,00:00,,Loughborough Students,0,0 0 0 - -,Essex Blaze,3,25 25 25 - -,shield,men,TBC,110308,110308
+2014-2015,2015-01-10,00:00,,Newcastle Staffs 2,1,16 17 25 9 0,Manchester Marvels,3,25 25 23 25 0,shield,men,TBC,110308,110308
+2014-2015,2015-01-10,00:00,,Nottingham Rockets,3,25 25 25 - -,Hull Thunder,0,0 0 0 - -,shield,men,TBC,110308,110308
+2014-2015,2015-01-10,00:00,,Sheffield 2,2,25 22 25 21 10,Manchester Marvels,3,19 25 9 25 15,shield,men,TBC,110308,110308
+2014-2015,2015-01-10,00:00,,Sheffield 2,3,25 25 25 - -,Newcastle Staffs 2,0,16 15 12 - -,shield,men,TBC,110308,110308
+2014-2015,2014-11-30,00:00,,DARKSTAR Derbyshire,0,14 13 16 - -,Manchester Marvels,3,25 25 25 - -,shield,men,Derbyshire Volleyball Centre (Derby Moor),110308,110308
+2014-2015,2014-11-29,00:00,,Wiltshire Mavericks,1,25 18 18 19 0,Cambridge ARU,3,23 25 25 25 0,shield,men,Lavington School,110308,110308
+2014-2015,2014-11-29,00:00,,Loughborough Students,3,25 25 14 25 0,Manchester Marvels Marauders,1,19 15 25 21 0,shield,men,Loughborough University Netball Centre,110308,110308
+2014-2015,2015-04-26,00:00,,Northumbria University,1,15 0 0 - -,Sheffield,0,12 0 0 - -,superleague,men,National Volleyball Centre,110308,110308
+2014-2015,2015-04-26,00:00,,Northumbria University,3,25 22 25 25 0,Sheffield,1,19 25 19 23 0,superleague,men,National Volleyball Centre,110308,110308
+2014-2015,2015-04-25,00:00,,Northumbria University,1,19 25 21 21 0,Sheffield,3,25 19 25 25 0,superleague,men,National Volleyball Centre,110308,110308
+2014-2015,2015-04-12,00:00,,Northumbria University,3,25 25 25 - -,Richmond Docklands,0,23 20 16 - -,superleague,men,Sports Central,110308,110308
+2014-2015,2015-04-11,00:00,,Northumbria University,3,25 25 25 - -,Richmond Docklands,0,18 15 18 - -,superleague,men,Sports Central,110308,110308
+2014-2015,2015-03-22,00:00,,Richmond Docklands,3,24 33 25 13 15,IBB Polonia London,2,26 31 21 25 11,superleague,men,Bacons S.C.,110308,110308
+2014-2015,2015-03-08,00:00,,Sheffield,3,25 25 25 - -,Southampton,0,18 19 17 - -,superleague,men,Sheffield - U18 Boys,110308,110308
+2014-2015,2015-03-07,00:00,,Northumbria University,3,25 25 25 - -,Southampton,0,17 21 12 - -,superleague,men,Sports Central,110308,110308
+2014-2015,2015-03-07,00:00,,Richmond Docklands,3,30 25 13 21 15,IBB Polonia London,2,28 23 25 25 7,superleague,men,Haverstock School,110308,110308
+2014-2015,2015-02-22,00:00,,Richmond Docklands,3,25 25 25 - -,Southampton,0,9 13 20 - -,superleague,men,Haverstock School,110308,110308
+2014-2015,2015-02-21,00:00,,Northumbria University,2,13 25 21 30 15,Sheffield,3,25 15 25 28 17,superleague,men,Sports Central,110308,110308
+2014-2015,2015-02-21,00:00,,IBB Polonia London,3,17 26 25 25 16,Southampton,2,25 28 20 22 14,superleague,men,Brentford Fountain Leisure Centre,110308,110308
+2014-2015,2015-02-14,00:00,,Southampton,0,17 19 15 - -,Richmond Docklands,3,25 25 25 - -,superleague,men,Itchen College Sports Centre,110308,110308
+2014-2015,2015-02-14,00:00,,Sheffield,3,25 25 25 - -,IBB Polonia London,0,21 16 20 - -,superleague,men,Sheffield - U18 Boys,110308,110308
+2014-2015,2015-01-24,00:00,,Southampton,1,19 25 22 21 0,Malory Eagles UEL,3,25 22 25 25 0,superleague,men,Itchen College Sports Centre,110308,110308
+2014-2015,2015-01-17,00:00,,Sheffield,3,25 25 26 - -,Malory Eagles UEL,0,23 19 24 - -,superleague,men,Sheffield - U18 Boys,110308,110308
+2014-2015,2014-12-14,00:00,,IBB Polonia London,2,11 24 26 25 10,Northumbria University,3,25 26 24 21 15,superleague,men,Brentford Fountain Leisure Centre,110308,110308
+2014-2015,2014-12-13,00:00,,Malory Eagles UEL,1,21 13 26 21 0,Northumbria University,3,25 25 24 25 0,superleague,men,Ernest Bevin College,110308,110308
+2014-2015,2014-12-07,00:00,,Northumbria University,3,25 25 25 - -,Richmond Docklands,0,17 20 18 - -,superleague,men,Sports Central,110308,110308
+2014-2015,2014-12-06,00:00,,Malory Eagles UEL,3,20 25 25 28 0,IBB Polonia London,1,25 20 22 26 0,superleague,men,Ernest Bevin College,110308,110308
+2014-2015,2014-12-06,00:00,,Sheffield,3,25 23 25 23 15,Richmond Docklands,2,19 25 14 25 13,superleague,men,Sheffield - U18 Boys,110308,110308
+2014-2015,2014-11-30,00:00,,Richmond Docklands,1,25 18 25 29 0,Sheffield,3,22 25 27 31 0,superleague,men,Bacons S.C.,110308,110308
+2014-2015,2014-11-23,00:00,,Southampton,2,25 25 19 23 5,Sheffield,3,21 20 25 25 15,superleague,men,Woodlands Community School,110308,110308
+2014-2015,2014-11-22,00:00,,IBB Polonia London,3,25 23 25 25 15,Richmond Docklands,2,27 25 19 20 11,superleague,men,Brentford Fountain Leisure Centre,110308,110308
+2014-2015,2014-11-16,00:00,,Richmond Docklands,1,25 14 14 19 0,Northumbria University,3,14 25 25 25 0,superleague,men,Haverstock School,110308,110308
+2014-2015,2014-11-16,00:00,,Malory Eagles UEL,0,18 18 20 - -,Sheffield,3,25 25 25 - -,superleague,men,Ernest Bevin College,110308,110308
+2014-2015,2014-11-15,00:00,,Malory Eagles UEL,3,25 25 13 23 15,Richmond Docklands,2,20 20 25 25 12,superleague,men,Ernest Bevin College,110308,110308
+2014-2015,2014-11-15,00:00,,Southampton,1,21 25 21 15 0,IBB Polonia London,3,25 23 25 25 0,superleague,men,Itchen College Sports Centre,110308,110308
+2014-2015,2014-11-15,00:00,,Sheffield,3,25 25 25 - -,Northumbria University,0,18 19 20 - -,superleague,men,Sheffield - U18 Boys,110308,110308
+2014-2015,2014-11-02,00:00,,Northumbria University,3,23 25 25 25 0,IBB Polonia London,1,25 20 17 16 0,superleague,men,Sports Central,110308,110308
+2014-2015,2014-11-01,00:00,,Northumbria University,3,25 25 25 - -,Malory Eagles UEL,0,14 17 20 - -,superleague,men,Sports Central,110308,110308
+2014-2015,2014-10-25,00:00,,IBB Polonia London,2,25 20 16 25 8,Sheffield,3,22 25 25 20 15,superleague,men,Brentford Fountain Leisure Centre,110308,110308
+2014-2015,2014-10-19,00:00,,Southampton,0,16 20 18 - -,Northumbria University,3,25 25 25 - -,superleague,men,Itchen College Sports Centre,110308,110308
+2014-2015,2014-10-18,00:00,,Richmond Docklands,3,25 25 21 25 0,Malory Eagles UEL,1,19 18 25 21 0,superleague,men,Haverstock School,110308,110308
+2014-2015,2014-10-12,00:00,,IBB Polonia London,3,25 23 26 25 0,Malory Eagles UEL,1,20 25 24 15 0,superleague,men,Brentford Fountain Leisure Centre,110308,110308
+2014-2015,2014-09-27,00:00,,Malory Eagles UEL,3,25 25 25 - -,Southampton,0,22 13 23 - -,superleague,men,Ernest Bevin College,110308,110308
+2014-2015,2015-03-28,00:00,,Team SideOut Polonia (London),0,19 22 24 - -,Northumbria University,3,25 25 26 - -,cup,women,National Volleyball Centre,110308,110308
+2014-2015,2015-02-01,00:00,,Northumbria University,3,25 25 25 - -,London Inter Orcas,0,18 13 12 - -,cup,women,TBC,110308,110308
+2014-2015,2014-11-30,00:00,,London Inter Orcas,3,25 25 25 - -,Durham Palatinates,0,0 0 0 - -,cup,women,TBC,110308,110308
+2014-2015,2014-11-30,00:00,,Team Sunderland,0,18 12 10 - -,Northumbria University,3,25 25 25 - -,cup,women,TBC,110308,110308
+2014-2015,2014-11-30,00:00,,Portsmouth,3,25 19 25 19 15,Malory Eagles UEL,2,17 25 17 25 9,cup,women,Priory Community Sports Centre,110308,110308
+2014-2015,2014-11-09,00:00,,Coventry & Warwick Riga,0,22 16 19 - -,Malory Eagles UEL,3,25 25 25 - -,cup,women,Alan Higgs Centre,110308,110308
+2014-2015,2014-11-09,00:00,,Northumbria University,3,25 25 25 - -,Cambridge ARU,0,0 0 0 - -,cup,women,TBC,110308,110308
+2014-2015,2014-11-09,00:00,,Team Sunderland,3,25 25 25 - -,Manchester Marvels Mystics,0,0 0 0 - -,cup,women,TBC,110308,110308
+2014-2015,2014-11-09,00:00,,Portsmouth,3,25 25 25 - -,Dartford Chargers,0,22 10 20 - -,cup,women,Priory Community Sports Centre,110308,110308
+2014-2015,2014-11-09,00:00,,Team South Wales,3,25 25 25 - -,Chester Amazons,0,15 8 11 - -,cup,women,USW Sport Park,110308,110308
+2014-2015,2014-11-09,00:00,,Nottingham Rockets,0,8 9 7 - -,Durham Palatinates,3,25 25 25 - -,cup,women,Sutton Bonington Sports Centre,110308,110308
+2014-2015,2014-10-12,00:00,,Chester Amazons,3,17 25 25 25 0,Loughborough Students,1,25 16 19 23 0,cup,women,Christleton Sports Centre,110308,110308
+2014-2015,2015-04-19,00:00,,Herts,3,26 21 25 25 0,Portsmouth,1,24 25 21 19 0,division_1,women,Queens School,110308,110308
+2014-2015,2015-04-12,00:00,,Herts,2,23 20 27 25 6,Ashcombe Dorking,3,25 25 25 22 15,division_1,women,Queens School,110308,110308
+2014-2015,2015-03-22,00:00,,Portsmouth,0,18 18 23 - -,Bristol,3,25 25 25 - -,division_1,women,Priory Community Sports Centre,110308,110308
+2014-2015,2015-03-21,00:00,,Ashcombe Dorking,0,13 19 22 - -,Bristol,3,25 25 25 - -,division_1,women,The Ashcombe Volleyball Centre,110308,110308
+2014-2015,2015-03-08,00:00,,Portsmouth,0,14 21 12 - -,Essex Rebels,3,25 25 25 - -,division_1,women,Priory Community Sports Centre,110308,110308
+2014-2015,2015-02-22,00:00,,Ashcombe Dorking,0,16 20 13 - -,Essex Rebels,3,25 25 25 - -,division_1,women,The Ashcombe Volleyball Centre,110308,110308
+2014-2015,2015-02-21,00:00,,Essex Rebels,3,25 25 25 - -,Herts,0,22 10 17 - -,division_1,women,Tendring Technology College,110308,110308
+2014-2015,2015-02-08,00:00,,Ashcombe Dorking,3,25 25 25 - -,Portsmouth,0,21 23 18 - -,division_1,women,The Ashcombe Volleyball Centre,110308,110308
+2014-2015,2015-02-07,00:00,,Bristol,3,25 25 24 25 0,Herts,1,21 22 26 9 0,division_1,women,Abbeywood School,110308,110308
+2014-2015,2015-01-25,00:00,,Essex Rebels,3,25 25 25 - -,Bristol,0,19 22 14 - -,division_1,women,Tendring Technology College,110308,110308
+2014-2015,2015-01-17,00:00,,Essex Rebels,3,25 20 25 25 0,Ashcombe Dorking,1,20 25 22 20 0,division_1,women,Tendring Technology College,110308,110308
+2014-2015,2014-12-14,00:00,,Bristol,3,25 25 25 - -,Portsmouth,0,19 18 19 - -,division_1,women,Abbeywood School,110308,110308
+2014-2015,2014-12-07,00:00,,Portsmouth,1,17 25 23 22 0,Herts,3,25 22 25 25 0,division_1,women,Priory Community Sports Centre,110308,110308
+2014-2015,2014-12-06,00:00,,Bristol,0,17 20 17 - -,Essex Rebels,3,25 25 25 - -,division_1,women,Abbeywood School,110308,110308
+2014-2015,2014-11-29,00:00,,Essex Rebels,3,25 25 25 - -,Portsmouth,0,18 15 10 - -,division_1,women,Tendring Technology College,110308,110308
+2014-2015,2014-11-22,00:00,,Ashcombe Dorking,3,25 19 25 23 15,Herts,2,23 25 17 25 11,division_1,women,The Ashcombe Volleyball Centre,110308,110308
+2014-2015,2014-11-16,00:00,,Herts,0,17 17 17 - -,Bristol,3,25 25 25 - -,division_1,women,Queens School,110308,110308
+2014-2015,2014-11-08,00:00,,Bristol,3,25 25 25 - -,Ashcombe Dorking,0,17 14 10 - -,division_1,women,Abbeywood School,110308,110308
+2014-2015,2014-11-02,00:00,,Portsmouth,2,20 23 25 25 11,Ashcombe Dorking,3,25 25 19 22 15,division_1,women,Priory Community Sports Centre,110308,110308
+2014-2015,2014-10-19,00:00,,Herts,1,13 25 13 20 0,Essex Rebels,3,25 21 25 25 0,division_1,women,Queens School,110308,110308
+2014-2015,2015-04-26,00:00,,Durham Palatinates,3,25 25 25 - -,Leeds Gorse,0,0 0 0 - -,division_2,women,Durham University Sport (Queens Campus),110308,110308
+2014-2015,2015-04-19,00:00,,Durham Palatinates,3,25 25 25 - -,Coventry & Warwick Riga,0,11 14 12 - -,division_2,women,Durham University Sport (Queens Campus),110308,110308
+2014-2015,2015-04-18,00:00,,Nottingham Rockets,0,20 19 18 - -,Newcastle Staffs,3,25 25 25 - -,division_2,women,Sutton Bonington Sports Centre,110308,110308
+2014-2015,2015-04-11,00:00,,Manchester Marvels Mystics,3,25 25 25 - -,Black Country,0,12 14 13 - -,division_2,women,Armitage Centre,110308,110308
+2014-2015,2015-04-11,00:00,,Nottingham Rockets,3,26 27 25 - -,Coventry & Warwick Riga,0,24 25 11 - -,division_2,women,TBC,110308,110308
+2014-2015,2015-03-22,00:00,,Leeds Gorse,2,25 25 21 28 11,Nottingham Rockets,3,11 27 25 26 15,division_2,women,Gryphon Sports Centre,110308,110308
+2014-2015,2015-03-22,00:00,,Black Country,2,23 25 20 25 13,Loughborough Students,3,25 14 25 16 15,division_2,women,Redhill School Sports Hall,110308,110308
+2014-2015,2015-03-21,00:00,,Newcastle Staffs,1,21 25 18 12 0,Manchester Marvels Mystics,3,25 17 25 25 0,division_2,women,Keele University Sports Centre,110308,110308
+2014-2015,2015-03-14,00:00,,Nottingham Rockets,3,29 25 25 25 0,Loughborough Students,1,31 17 18 20 0,division_2,women,Jubilee Sports Centre,110308,110308
+2014-2015,2015-03-08,00:00,,Loughborough Students,0,2 19 22 - -,Leeds Gorse,3,25 25 25 - -,division_2,women,Loughborough University Netball Centre,110308,110308
+2014-2015,2015-03-07,00:00,,Loughborough Students,0,6 6 3 - -,Durham Palatinates,3,25 25 25 - -,division_2,women,Victory Hall,110308,110308
+2014-2015,2015-03-07,00:00,,Black Country,2,13 25 16 25 4,Newcastle Staffs,3,25 16 25 20 15,division_2,women,Redhill School Sports Hall,110308,110308
+2014-2015,2015-03-07,00:00,,Nottingham Rockets,3,24 16 25 25 15,Leeds Gorse,2,26 25 20 22 9,division_2,women,Jubilee Sports Centre,110308,110308
+2014-2015,2015-02-28,00:00,,Newcastle Staffs,3,25 25 25 - -,Loughborough Students,0,20 20 21 - -,division_2,women,Keele University Sports Centre,110308,110308
+2014-2015,2015-02-22,00:00,,Coventry & Warwick Riga,3,25 25 25 - -,Black Country,0,19 19 16 - -,division_2,women,Alan Higgs Centre,110308,110308
+2014-2015,2015-02-21,00:00,,Coventry & Warwick Riga,2,11 25 25 20 6,Manchester Marvels Mystics,3,25 18 19 25 15,division_2,women,Alan Higgs Centre,110308,110308
+2014-2015,2015-02-21,00:00,,Nottingham Rockets,0,6 7 14 - -,Durham Palatinates,3,25 25 25 - -,division_2,women,Jubilee Sports Centre,110308,110308
+2014-2015,2015-02-15,00:00,,Loughborough Students,0,19 12 8 - -,Newcastle Staffs,3,25 25 25 - -,division_2,women,Loughborough University Netball Centre,110308,110308
+2014-2015,2015-02-14,00:00,,Manchester Marvels Mystics,3,20 25 25 25 0,Nottingham Rockets,1,25 16 23 17 0,division_2,women,Armitage Centre,110308,110308
+2014-2015,2015-02-14,00:00,,Loughborough Students,0,15 13 23 - -,Coventry & Warwick Riga,3,25 25 25 - -,division_2,women,Loughborough University Netball Centre,110308,110308
+2014-2015,2015-02-07,00:00,,Manchester Marvels Mystics,3,25 25 25 - -,Leeds Gorse,0,20 19 18 - -,division_2,women,Armitage Centre,110308,110308
+2014-2015,2015-01-31,00:00,,Nottingham Rockets,3,25 26 25 - -,Black Country,0,19 24 18 - -,division_2,women,University Park Sports Centre,110308,110308
+2014-2015,2015-01-25,00:00,,Newcastle Staffs,3,25 17 17 25 17,Coventry & Warwick Riga,2,18 25 25 14 15,division_2,women,Keele University Sports Centre,110308,110308
+2014-2015,2015-01-24,00:00,,Newcastle Staffs,0,10 7 16 - -,Durham Palatinates,3,25 25 25 - -,division_2,women,Keele University Sports Centre,110308,110308
+2014-2015,2015-01-24,00:00,,Loughborough Students,2,13 16 25 29 11,Nottingham Rockets,3,25 25 23 27 15,division_2,women,Sir David Wallace Sports Hall,110308,110308
+2014-2015,2015-01-24,00:00,,Black Country,1,16 30 13 14 0,Manchester Marvels Mystics,3,25 28 25 25 0,division_2,women,Redhill School Sports Hall,110308,110308
+2014-2015,2015-01-18,00:00,,Black Country,1,24 25 10 17 0,Nottingham Rockets,3,26 18 25 25 0,division_2,women,Redhill School Sports Hall,110308,110308
+2014-2015,2015-01-18,00:00,,Durham Palatinates,3,25 25 25 - -,Manchester Marvels Mystics,0,7 15 18 - -,division_2,women,Durham University Sport (Queens Campus),110308,110308
+2014-2015,2015-01-17,00:00,,Coventry & Warwick Riga,3,25 23 25 23 18,Leeds Gorse,2,21 25 21 25 16,division_2,women,Alan Higgs Centre,110308,110308
+2014-2015,2014-12-14,00:00,,Coventry & Warwick Riga,2,23 25 25 18 12,Newcastle Staffs,3,25 23 19 25 15,division_2,women,Alan Higgs Centre,110308,110308
+2014-2015,2014-12-13,00:00,,Manchester Marvels Mystics,3,25 25 25 - -,Loughborough Students,0,12 9 18 - -,division_2,women,Armitage Centre,110308,110308
+2014-2015,2014-12-07,00:00,,Durham Palatinates,3,25 25 25 - -,Black Country,0,0 0 0 - -,division_2,women,Durham University Sport (Queens Campus),110308,110308
+2014-2015,2014-12-07,00:00,,Durham Palatinates,3,25 25 25 - -,Newcastle Staffs,0,12 11 15 - -,division_2,women,Durham University Sport (Queens Campus),110308,110308
+2014-2015,2014-12-06,00:00,,Leeds Gorse,1,17 20 25 15 0,Newcastle Staffs,3,25 25 22 25 0,division_2,women,Gryphon Sports Centre,110308,110308
+2014-2015,2014-11-23,00:00,,Leeds Gorse,3,25 25 25 - -,Loughborough Students,0,17 20 15 - -,division_2,women,Gryphon Sports Centre,110308,110308
+2014-2015,2014-11-22,00:00,,Leeds Gorse,0,8 5 6 - -,Durham Palatinates,3,25 25 25 - -,division_2,women,Gryphon Sports Centre,110308,110308
+2014-2015,2014-11-22,00:00,,Coventry & Warwick Riga,3,25 23 25 25 15,Nottingham Rockets,2,20 25 27 19 13,division_2,women,Alan Higgs Centre,110308,110308
+2014-2015,2014-11-16,00:00,,Durham Palatinates,3,25 25 25 - -,Loughborough Students,0,0 0 0 - -,division_2,women,Durham University Sport (Queens Campus),110308,110308
+2014-2015,2014-11-15,00:00,,Newcastle Staffs,1,22 23 25 16 0,Nottingham Rockets,3,25 25 20 25 0,division_2,women,Keele University Sports Centre,110308,110308
+2014-2015,2014-11-15,00:00,,Leeds Gorse,0,15 10 23 - -,Manchester Marvels Mystics,3,25 25 25 - -,division_2,women,Gryphon Sports Centre,110308,110308
+2014-2015,2014-11-15,00:00,,Loughborough Students,3,26 25 25 - -,Black Country,0,24 18 20 - -,division_2,women,Sir David Wallace Sports Hall,110308,110308
+2014-2015,2014-11-02,00:00,,Leeds Gorse,3,19 25 25 22 15,Black Country,2,25 16 17 25 12,division_2,women,Gryphon Sports Centre,110308,110308
+2014-2015,2014-11-01,00:00,,Manchester Marvels Mystics,0,14 17 9 - -,Durham Palatinates,3,25 25 25 - -,division_2,women,Armitage Centre,110308,110308
+2014-2015,2014-11-01,00:00,,Coventry & Warwick Riga,3,25 25 25 - -,Loughborough Students,0,20 18 15 - -,division_2,women,Alan Higgs Centre,110308,110308
+2014-2015,2014-10-25,00:00,,Newcastle Staffs,3,25 25 25 - -,Black Country,0,22 11 20 - -,division_2,women,Keele University Sports Centre,110308,110308
+2014-2015,2014-10-25,00:00,,Coventry & Warwick Riga,0,8 15 8 - -,Durham Palatinates,3,25 25 25 - -,division_2,women,Alan Higgs Centre,110308,110308
+2014-2015,2014-10-19,00:00,,Loughborough Students,0,13 11 14 - -,Manchester Marvels Mystics,3,25 25 25 - -,division_2,women,Loughborough University Netball Centre,110308,110308
+2014-2015,2014-10-19,00:00,,Durham Palatinates,3,25 25 25 - -,Nottingham Rockets,0,10 6 11 - -,division_2,women,Durham University Sport (Queens Campus),110308,110308
+2014-2015,2014-10-18,00:00,,Manchester Marvels Mystics,3,25 18 25 22 15,Coventry & Warwick Riga,2,9 25 23 25 12,division_2,women,Armitage Centre,110308,110308
+2014-2015,2014-10-18,00:00,,Black Country,1,25 18 13 10 0,Leeds Gorse,3,23 25 25 25 0,division_2,women,Redhill School Sports Hall,110308,110308
+2014-2015,2014-10-09,00:00,,Manchester Marvels Mystics,3,25 20 12 25 15,Newcastle Staffs,2,18 25 25 20 13,division_2,women,Armitage Centre,110308,110308
+2014-2015,2014-10-05,00:00,,Leeds Gorse,1,17 25 19 14 0,Coventry & Warwick Riga,3,25 22 25 25 0,division_2,women,Gryphon Sports Centre,110308,110308
+2014-2015,2014-10-04,00:00,,Newcastle Staffs,3,23 25 25 25 0,Leeds Gorse,1,25 22 9 14 0,division_2,women,Keele University Sports Centre,110308,110308
+2014-2015,2014-10-04,00:00,,Nottingham Rockets,1,18 22 25 21 0,Manchester Marvels Mystics,3,25 25 13 25 0,division_2,women,Jubilee Sports Centre,110308,110308
+2014-2015,2014-09-27,00:00,,Black Country,0,8 11 8 - -,Durham Palatinates,3,25 25 25 - -,division_2,women,Redhill School Sports Hall,110308,110308
+2014-2015,2014-09-27,00:00,,Black Country,0,7 15 19 - -,Coventry & Warwick Riga,3,25 25 25 - -,division_2,women,Redhill School Sports Hall,110308,110308
+2014-2015,2015-04-12,00:00,,Plymouth,2,25 11 25 19 7,Reading Aces,3,19 25 23 25 15,division_2,women,Coombe Dean School,110308,110308
+2014-2015,2015-04-11,00:00,,Essex Trinity,3,25 25 20 14 15,Reading Aces,2,23 19 25 25 9,division_2,women,Boswells School,110308,110308
+2014-2015,2015-03-08,00:00,,Plymouth,3,25 16 25 15 15,Essex Trinity,2,17 25 21 25 9,division_2,women,Coombe Dean School,110308,110308
+2014-2015,2015-02-28,00:00,,Essex Trinity,3,25 18 25 15 15,Richmond 2,2,12 25 12 25 11,division_2,women,Boswells School,110308,110308
+2014-2015,2015-02-22,00:00,,Richmond 2,3,25 18 25 24 15,Essex Trinity,2,14 25 14 26 7,division_2,women,Kingston Arena,110308,110308
+2014-2015,2015-02-15,00:00,,Essex Trinity,1,25 17 22 23 0,Plymouth,3,15 25 25 25 0,division_2,women,Boswells School,110308,110308
+2014-2015,2015-02-01,00:00,,Plymouth,2,26 23 25 20 12,Richmond 2,3,24 25 20 25 15,division_2,women,Coombe Dean School,110308,110308
+2014-2015,2015-01-18,00:00,,Reading Aces,3,25 25 25 - -,Plymouth,0,13 17 20 - -,division_2,women,Kendrick School,110308,110308
+2014-2015,2015-01-11,00:00,,Richmond 2,3,25 25 25 - -,Reading Aces,0,22 21 15 - -,division_2,women,Kingston Arena,110308,110308
+2014-2015,2014-11-23,00:00,,Reading Aces,3,25 19 20 25 15,Essex Trinity,2,17 25 25 12 7,division_2,women,Kendrick School,110308,110308
+2014-2015,2014-11-16,00:00,,Richmond 2,1,25 21 15 12 0,Plymouth,3,14 25 25 25 0,division_2,women,Kingston Arena,110308,110308
+2014-2015,2014-10-12,00:00,,Reading Aces,1,25 17 16 21 0,Richmond 2,3,22 25 25 25 0,division_2,women,Kendrick School,110308,110308
+2014-2015,2015-04-19,00:00,,Norwich Spikers,3,25 25 25 - -,Northampton,0,23 19 15 - -,division_3,women,UEA Norwich Sportspark,110308,110308
+2014-2015,2015-03-22,00:00,,Cambridge ARU,3,25 25 25 - -,Norwich Spikers,0,16 11 21 - -,division_3,women,Telford College of Arts and Technology,110308,110308
+2014-2015,2015-03-15,00:00,,Norwich Spikers,0,13 23 16 - -,Dartford Chargers,3,25 25 25 - -,division_3,women,UEA Norwich Sportspark,110308,110308
+2014-2015,2015-03-08,00:00,,Dartford Chargers,1,18 19 25 23 0,Northampton,3,25 25 17 25 0,division_3,women,Dartford Technology College,110308,110308
+2014-2015,2015-03-08,00:00,,Cambridge ARU,3,25 25 25 - -,Norwich Spikers,0,9 13 19 - -,division_3,women,North Cambridge Academy,110308,110308
+2014-2015,2015-02-15,00:00,,Cambridge ARU,3,25 17 25 25 0,Dartford Chargers,1,19 25 18 17 0,division_3,women,RAF Cranwell,110308,110308
+2014-2015,2015-02-08,00:00,,Northampton,0,20 20 16 - -,Cambridge ARU,3,25 25 25 - -,division_3,women,Moulton Leisure Centre,110308,110308
+2014-2015,2015-01-18,00:00,,Dartford Chargers,3,25 17 25 25 15,Northampton,2,27 25 13 15 8,division_3,women,Dartford Technology College,110308,110308
+2014-2015,2014-12-07,00:00,,Cambridge ARU,3,22 25 19 25 15,Dartford Chargers,2,25 20 25 20 10,division_3,women,North Cambridge Academy,110308,110308
+2014-2015,2014-11-16,00:00,,Cambridge ARU,3,25 24 22 25 17,Northampton,2,22 26 25 21 15,division_3,women,North Cambridge Academy,110308,110308
+2014-2015,2014-11-16,00:00,,Dartford Chargers,0,23 22 14 - -,Norwich Spikers,3,25 25 25 - -,division_3,women,Dartford Technology College,110308,110308
+2014-2015,2014-10-05,00:00,,Norwich Spikers,3,25 25 26 - -,Northampton,0,20 17 24 - -,division_3,women,UEA Norwich Sportspark,110308,110308
+2014-2015,2015-04-26,00:00,,York Falcons,2,25 14 25 23 6,Chester Amazons,3,20 25 23 25 15,division_3,women,Joseph Rowntree School,110308,110308
+2014-2015,2015-04-19,00:00,,Team Sunderland,3,25 25 25 - -,York Falcons,0,17 19 17 - -,division_3,women,Sunderland University (Cityspace),110308,110308
+2014-2015,2015-04-19,00:00,,Chester Amazons,3,25 25 25 - -,Manchester Marvels Mayhem,0,7 11 16 - -,division_3,women,Fit City Eccles,110308,110308
+2014-2015,2015-03-22,00:00,,Chester Amazons,3,25 25 25 - -,York Falcons,0,17 19 22 - -,division_3,women,Whitby High School,110308,110308
+2014-2015,2015-03-22,00:00,,Manchester Marvels Mayhem,0,24 15 16 - -,Ashfield Vipers,3,26 25 25 - -,division_3,women,Armitage Centre,110308,110308
+2014-2015,2015-03-22,00:00,,Team Sunderland,3,20 25 25 25 0,York Falcons,1,25 9 17 18 0,division_3,women,Whitby High School,110308,110308
+2014-2015,2015-03-22,00:00,,Chester Amazons,2,25 25 20 21 9,Team Sunderland,3,23 20 25 25 15,division_3,women,Whitby High School,110308,110308
+2014-2015,2015-03-08,00:00,,Chester Amazons,0,22 18 31 - -,DARKSTAR Derbyshire,3,25 25 33 - -,division_3,women,Whitby High School,110308,110308
+2014-2015,2015-03-08,00:00,,York Falcons,2,21 23 25 25 12,Ashfield Vipers,3,25 25 12 23 15,division_3,women,Joseph Rowntree School,110308,110308
+2014-2015,2015-03-08,00:00,,Team Sunderland,3,25 25 25 - -,Manchester Marvels Mayhem,0,11 14 8 - -,division_3,women,Sunderland University (Cityspace),110308,110308
+2014-2015,2015-02-22,00:00,,DARKSTAR Derbyshire,3,25 25 25 - -,Manchester Marvels Mayhem,0,23 17 15 - -,division_3,women,Derbyshire Volleyball Centre (Derby Moor),110308,110308
+2014-2015,2015-02-22,00:00,,Team Sunderland,3,25 25 25 - -,Manchester Marvels Mayhem,0,12 13 14 - -,division_3,women,Derbyshire Volleyball Centre (Derby Moor),110308,110308
+2014-2015,2015-02-22,00:00,,DARKSTAR Derbyshire,0,14 22 19 - -,Team Sunderland,3,25 25 25 - -,division_3,women,Derbyshire Volleyball Centre (Derby Moor),110308,110308
+2014-2015,2015-02-15,00:00,,Chester Amazons,2,27 24 22 25 9,DARKSTAR Derbyshire,3,25 26 25 16 15,division_3,women,Whitby High School,110308,110308
+2014-2015,2015-02-15,00:00,,Manchester Marvels Mayhem,1,20 23 26 17 0,York Falcons,3,25 25 24 25 0,division_3,women,Woodchurch High School Sports Centre,110308,110308
+2014-2015,2015-02-15,00:00,,Ashfield Vipers,0,23 21 12 - -,Team Sunderland,3,25 25 25 - -,division_3,women,Vision West Nottinghamshire College,110308,110308
+2014-2015,2015-02-08,00:00,,Ashfield Vipers,2,19 25 17 25 8,Chester Amazons,3,25 14 25 15 15,division_3,women,Woodchurch High School Sports Centre,110308,110308
+2014-2015,2015-01-18,00:00,,DARKSTAR Derbyshire,3,25 25 25 - -,Ashfield Vipers,0,14 17 21 - -,division_3,women,Derbyshire Volleyball Centre (Derby Moor),110308,110308
+2014-2015,2015-01-18,00:00,,York Falcons,3,25 25 25 - -,Ashfield Vipers,0,23 20 17 - -,division_3,women,Derbyshire Volleyball Centre (Derby Moor),110308,110308
+2014-2015,2015-01-18,00:00,,DARKSTAR Derbyshire,3,25 25 26 - -,York Falcons,0,22 15 24 - -,division_3,women,Derbyshire Volleyball Centre (Derby Moor),110308,110308
+2014-2015,2014-12-07,00:00,,Manchester Marvels Mayhem,2,15 25 19 25 12,Chester Amazons,3,25 21 25 23 15,division_3,women,Armitage Centre,110308,110308
+2014-2015,2014-11-16,00:00,,Ashfield Vipers,0,19 21 16 - -,Chester Amazons,3,25 25 25 - -,division_3,women,Vision West Nottinghamshire College,110308,110308
+2014-2015,2014-11-16,00:00,,DARKSTAR Derbyshire,3,25 25 25 - -,York Falcons,0,21 21 9 - -,division_3,women,Derbyshire Volleyball Centre (Derby Moor),110308,110308
+2014-2015,2014-11-16,00:00,,Chester Amazons,3,25 27 25 - -,Team Sunderland,0,22 25 19 - -,division_3,women,Vision West Nottinghamshire College,110308,110308
+2014-2015,2014-11-16,00:00,,Manchester Marvels Mayhem,0,28 22 12 - -,York Falcons,3,30 25 25 - -,division_3,women,Derbyshire Volleyball Centre (Derby Moor),110308,110308
+2014-2015,2014-11-16,00:00,,Ashfield Vipers,3,25 25 25 - -,Team Sunderland,0,0 0 23 - -,division_3,women,Vision West Nottinghamshire College,110308,110308
+2014-2015,2014-11-16,00:00,,DARKSTAR Derbyshire,3,25 25 25 - -,Manchester Marvels Mayhem,0,19 22 10 - -,division_3,women,Derbyshire Volleyball Centre (Derby Moor),110308,110308
+2014-2015,2014-10-26,00:00,,Ashfield Vipers,0,23 18 15 - -,DARKSTAR Derbyshire,3,25 25 25 - -,division_3,women,Derbyshire Volleyball Centre (Derby Moor),110308,110308
+2014-2015,2014-10-05,00:00,,DARKSTAR Derbyshire,3,25 13 25 25 0,Team Sunderland,1,12 25 15 11 0,division_3,women,Fit City Eccles,110308,110308
+2014-2015,2014-10-05,00:00,,Manchester Marvels Mayhem,3,26 25 25 - -,Ashfield Vipers,0,24 23 21 - -,division_3,women,Woodchurch High School Sports Centre,110308,110308
+2014-2015,2015-04-19,00:00,,Wessex,3,26 26 16 25 15,Ashcombe Dorking 2,2,24 24 25 27 12,division_3,women,LeAF Academy,110308,110308
+2014-2015,2015-04-19,00:00,,Sussex Dolphins 1,1,14 18 25 19 0,Southampton 2,3,25 25 19 25 0,division_3,women,Kingston Arena,110308,110308
+2014-2015,2015-04-19,00:00,,Bristol 2,3,25 25 25 - -,Ashcombe Dorking 2,0,17 15 16 - -,division_3,women,LeAF Academy,110308,110308
+2014-2015,2015-04-19,00:00,,Wessex,1,22 23 25 17 0,Bristol 2,3,25 25 19 25 0,division_3,women,LeAF Academy,110308,110308
+2014-2015,2015-04-05,00:00,,Southampton,2,25 20 25 17 5,Ashcombe Dorking 2,3,11 25 19 25 15,division_3,women,Crestwood College,110308,110308
+2014-2015,2015-03-28,00:00,,Sussex Dolphins 1,1,25 19 20 14 0,Southampton 2,3,23 25 25 25 0,division_3,women,St Pauls Catholic College,110308,110308
+2014-2015,2015-03-28,00:00,,Southampton 2,3,25 22 14 25 15,Southampton,2,21 25 25 10 11,division_3,women,St Pauls Catholic College,110308,110308
+2014-2015,2015-03-28,00:00,,Sussex Dolphins 1,3,25 25 23 23 15,Southampton,2,22 16 25 25 10,division_3,women,St Pauls Catholic College,110308,110308
+2014-2015,2015-03-22,00:00,,Wessex,0,17 21 12 - -,City of Bristol,3,25 25 25 - -,division_3,women,LeAF Academy,110308,110308
+2014-2015,2015-03-22,00:00,,Sussex Dolphins 1,3,22 23 25 25 15,City of Bristol,2,25 25 21 20 10,division_3,women,LeAF Academy,110308,110308
+2014-2015,2015-03-22,00:00,,Wessex,3,25 26 25 - -,Sussex Dolphins 1,0,15 24 23 - -,division_3,women,LeAF Academy,110308,110308
+2014-2015,2015-03-15,00:00,,Southampton,1,25 13 23 17 0,Bristol 2,3,22 25 25 25 0,division_3,women,Abbeywood School,110308,110308
+2014-2015,2015-03-15,00:00,,Sussex Dolphins 1,2,26 18 16 25 11,Southampton,3,24 25 25 22 15,division_3,women,Abbeywood School,110308,110308
+2014-2015,2015-03-15,00:00,,Sussex Dolphins 1,0,17 22 17 - -,Bristol 2,3,25 25 25 - -,division_3,women,Abbeywood School,110308,110308
+2014-2015,2015-03-08,00:00,,Wessex,0,19 7 22 - -,Southampton 2,3,25 25 25 - -,division_3,women,LeAF Academy,110308,110308
+2014-2015,2015-02-15,00:00,,City of Bristol,1,25 23 16 16 0,Southampton,3,13 25 25 25 0,division_3,women,Oasis Academy Brislington,110308,110308
+2014-2015,2015-02-15,00:00,,Ashcombe Dorking 2,0,14 13 15 - -,Southampton,3,25 25 25 - -,division_3,women,Oasis Academy Brislington,110308,110308
+2014-2015,2015-02-15,00:00,,City of Bristol,3,25 25 25 - -,Ashcombe Dorking 2,0,13 20 11 - -,division_3,women,Oasis Academy Brislington,110308,110308
+2014-2015,2015-02-14,00:00,,Sussex Dolphins 1,0,10 18 6 - -,Bristol 2,3,25 25 25 - -,division_3,women,St Pauls Catholic College,110308,110308
+2014-2015,2015-02-08,00:00,,Bristol 2,3,25 25 25 - -,City of Bristol,0,14 18 19 - -,division_3,women,Abbeywood School,110308,110308
+2014-2015,2015-02-08,00:00,,City of Bristol,1,21 24 25 19 0,Southampton 2,3,25 26 22 25 0,division_3,women,Abbeywood School,110308,110308
+2014-2015,2015-02-08,00:00,,Bristol 2,3,32 25 25 - -,Southampton 2,0,30 12 20 - -,division_3,women,Abbeywood School,110308,110308
+2014-2015,2015-02-08,00:00,,Ashcombe Dorking 2,0,6 16 17 - -,Sussex Dolphins 1,3,25 25 25 - -,division_3,women,The Ashcombe Volleyball Centre,110308,110308
+2014-2015,2015-01-25,00:00,,Southampton 2,0,16 10 22 - -,Wessex,3,25 25 25 - -,division_3,women,Woodlands Community School,110308,110308
+2014-2015,2015-01-25,00:00,,Bristol 2,3,25 25 25 - -,Ashcombe Dorking 2,0,10 13 9 - -,division_3,women,Kingston Arena,110308,110308
+2014-2015,2015-01-18,00:00,,Ashcombe Dorking 2,1,19 25 12 17 0,Sussex Dolphins 1,3,25 20 25 25 0,division_3,women,The Ashcombe Volleyball Centre,110308,110308
+2014-2015,2015-01-18,00:00,,Wessex,3,18 25 25 25 0,Sussex Dolphins 1,1,25 21 23 17 0,division_3,women,The Ashcombe Volleyball Centre,110308,110308
+2014-2015,2015-01-18,00:00,,Southampton,2,26 14 25 19 9,Bristol 2,3,24 25 22 25 15,division_3,women,Cardiff Metropolitan University,110308,110308
+2014-2015,2015-01-18,00:00,,Ashcombe Dorking 2,1,29 23 12 20 0,Wessex,3,27 25 25 25 0,division_3,women,The Ashcombe Volleyball Centre,110308,110308
+2014-2015,2014-12-14,00:00,,Bristol 2,2,26 20 25 21 9,Southampton 2,3,24 25 11 25 15,division_3,women,Abbeywood School,110308,110308
+2014-2015,2014-12-14,00:00,,City of Bristol,3,25 14 23 26 15,Southampton 2,2,20 25 25 24 5,division_3,women,Oasis Academy Brislington,110308,110308
+2014-2015,2014-12-07,00:00,,Bristol 2,3,25 25 25 - -,Wessex,0,14 19 16 - -,division_3,women,Abbeywood School,110308,110308
+2014-2015,2014-11-23,00:00,,City of Bristol,3,25 25 25 - -,Ashcombe Dorking 2,0,11 8 14 - -,division_3,women,Oasis Academy Brislington,110308,110308
+2014-2015,2014-11-16,00:00,,Southampton,2,17 25 23 25 9,Wessex,3,25 23 25 23 15,division_3,women,Crestwood College,110308,110308
+2014-2015,2014-11-16,00:00,,City of Bristol,3,21 17 25 25 15,Wessex,2,25 25 20 22 10,division_3,women,Crestwood College,110308,110308
+2014-2015,2014-11-16,00:00,,Southampton,3,12 27 26 25 15,City of Bristol,2,25 25 28 19 11,division_3,women,Crestwood College,110308,110308
+2014-2015,2014-10-26,00:00,,City of Bristol,0,25 12 20 - -,Bristol 2,3,27 25 25 - -,division_3,women,Oasis Academy Brislington,110308,110308
+2014-2015,2014-10-26,00:00,,Southampton,3,25 21 25 23 15,Southampton 2,2,18 25 10 25 9,division_3,women,Surrey Sports Park,110308,110308
+2014-2015,2014-10-12,00:00,,City of Bristol,2,25 25 13 20 11,Sussex Dolphins 1,3,15 21 25 25 15,division_3,women,USW Sport Park,110308,110308
+2014-2015,2014-10-05,00:00,,Wessex,3,25 25 25 - -,Southampton,0,15 17 22 - -,division_3,women,LeAF Academy,110308,110308
+2014-2015,2014-10-05,00:00,,Southampton 2,3,25 25 25 - -,Ashcombe Dorking 2,0,15 15 10 - -,division_3,women,Woodlands Community School,110308,110308
+2014-2015,2014-09-21,00:00,,Southampton 2,3,17 25 25 25 0,Ashcombe Dorking 2,1,25 14 19 11 0,division_3,women,Woodlands Community School,110308,110308
+2014-2015,2015-03-28,00:00,,Chester Amazons,1,25 14 22 15 0,Ashcombe Dorking,3,22 25 25 25 0,shield,women,National Volleyball Centre,110308,110308
+2014-2015,2015-02-01,00:00,,Dartford Chargers,0,20 22 3 - -,Ashcombe Dorking,3,25 25 25 - -,shield,women,Dartford Technology College,110308,110308
+2014-2015,2015-01-11,00:00,,Ashcombe Dorking,3,30 19 24 25 15,Coventry & Warwick Riga,2,28 25 26 11 12,shield,women,The Ashcombe Volleyball Centre,110308,110308
+2014-2015,2015-01-11,00:00,,York Falcons,2,25 22 20 25 15,Chester Amazons,3,20 25 25 21 17,shield,women,Joseph Rowntree School,110308,110308
+2014-2015,2015-01-10,00:00,,Cambridge ARU,1,26 13 22 22 0,Dartford Chargers,3,24 25 25 25 0,shield,women,North Cambridge Academy,110308,110308
+2014-2015,2014-12-06,00:00,,Ashfield Vipers,1,11 13 30 15 0,Cambridge ARU,3,25 25 28 25 0,shield,women,Vision West Nottinghamshire College,110308,110308
+2014-2015,2014-11-30,00:00,,Manchester Marvels Mayhem,3,25 25 25 - -,Nottingham Rockets,0,0 0 0 - -,shield,women,TBC,110308,110308
+2014-2015,2015-04-26,00:00,,Northumbria University,3,23 25 25 25 0,Team SideOut Polonia (London),1,25 15 18 16 0,superleague,women,National Volleyball Centre,110308,110308
+2014-2015,2015-04-25,00:00,,Northumbria University,3,25 23 18 26 15,Team SideOut Polonia (London),2,20 25 25 24 10,superleague,women,National Volleyball Centre,110308,110308
+2014-2015,2015-04-12,00:00,,Northumbria University,3,25 25 25 - -,Malory Eagles UEL,0,6 18 21 - -,superleague,women,Durham University Sport (Queens Campus),110308,110308
+2014-2015,2015-04-11,00:00,,Northumbria University,3,25 25 25 - -,Malory Eagles UEL,0,10 18 15 - -,superleague,women,Durham University Sport (Queens Campus),110308,110308
+2014-2015,2015-03-08,00:00,,London Inter Orcas,2,25 18 20 25 14,Team SideOut Polonia (London),3,20 25 25 22 16,superleague,women,TBC,110308,110308
+2014-2015,2015-02-21,00:00,,Team South Wales,0,14 11 19 - -,Team SideOut Polonia (London),3,25 25 25 - -,superleague,women,USW Sports Centre Newport,110308,110308
+2014-2015,2015-02-14,00:00,,Team South Wales,3,25 15 18 25 15,London Inter Orcas,2,20 25 25 20 10,superleague,women,TBC,110308,110308
+2014-2015,2015-01-25,00:00,,London Inter Orcas,3,26 25 13 25 0,Team South Wales,1,24 15 25 23 0,superleague,women,TBC,110308,110308
+2014-2015,2015-01-24,00:00,,Team South Wales,1,18 23 25 23 0,Malory Eagles UEL,3,25 25 22 25 0,superleague,women,USW Sport Park,110308,110308
+2014-2015,2014-12-14,00:00,,Team SideOut Polonia (London),0,21 14 21 - -,Northumbria University,3,25 25 25 - -,superleague,women,Brentford Fountain Leisure Centre,110308,110308
+2014-2015,2014-12-13,00:00,,Malory Eagles UEL,0,19 18 19 - -,Northumbria University,3,25 25 25 - -,superleague,women,Ernest Bevin College,110308,110308
+2014-2015,2014-12-07,00:00,,Northumbria University,3,25 25 28 - -,London Inter Orcas,0,12 16 26 - -,superleague,women,TBC,110308,110308
+2014-2015,2014-12-06,00:00,,Malory Eagles UEL,0,16 18 19 - -,Team SideOut Polonia (London),3,25 25 25 - -,superleague,women,Ernest Bevin College,110308,110308
+2014-2015,2014-11-16,00:00,,London Inter Orcas,0,15 15 15 - -,Northumbria University,3,25 25 25 - -,superleague,women,TBC,110308,110308
+2014-2015,2014-11-15,00:00,,Team SideOut Polonia (London),3,25 25 25 - -,Team South Wales,0,18 16 19 - -,superleague,women,St Benedicts School,110308,110308
+2014-2015,2014-11-15,00:00,,Malory Eagles UEL,2,23 25 25 23 9,London Inter Orcas,3,25 22 19 25 15,superleague,women,TBC,110308,110308
+2014-2015,2014-11-02,00:00,,Northumbria University,3,25 25 25 - -,Team SideOut Polonia (London),0,16 14 21 - -,superleague,women,Sports Central,110308,110308
+2014-2015,2014-11-01,00:00,,Northumbria University,3,25 25 25 - -,Malory Eagles UEL,0,23 13 22 - -,superleague,women,Sports Central,110308,110308
+2014-2015,2014-10-26,00:00,,London Inter Orcas,1,20 25 18 18 0,Malory Eagles UEL,3,25 23 25 25 0,superleague,women,TBC,110308,110308
+2014-2015,2014-10-19,00:00,,Team South Wales,0,15 13 20 - -,Northumbria University,3,25 25 25 - -,superleague,women,USW Sport Park,110308,110308
+2014-2015,2014-10-12,00:00,,Northumbria University,3,25 25 25 - -,Team South Wales,0,14 9 17 - -,superleague,women,Sports Central,110308,110308
+2014-2015,2014-10-11,00:00,,Team SideOut Polonia (London),3,25 25 25 - -,London Inter Orcas,0,11 21 20 - -,superleague,women,TBC,110308,110308
+2014-2015,2014-09-27,00:00,,Malory Eagles UEL,3,25 21 25 23 16,Team South Wales,2,22 25 17 25 14,superleague,women,Ernest Bevin College,110308,110308
+2014-2015,2014-09-20,00:00,,Team SideOut Polonia (London),3,25 25 25 - -,Malory Eagles UEL,0,23 15 15 - -,superleague,women,St Benedicts School,110308,110308
