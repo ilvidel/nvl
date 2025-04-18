@@ -1,0 +1,282 @@
+season,date,time,ID,home,home_sets,home_points,away,away_sets,away_points,division,category,venue,r1,r2
+2012-2013,2013-02-23,00:00,,Northumbria University,3,25 25 25 - -,Coventry and Warwick Riga,0,17 18 21 - -,cup,men,Sports Central,110308,110308
+2012-2013,2013-02-02,00:00,,Northumbria University,3,25 25 25 - -,Sheffield,0,20 22 21 - -,cup,men,Sports Central,110308,110308
+2012-2013,2012-12-09,00:00,,Sheffield,3,22 25 25 25 0,Newcastle Staffs,1,25 20 16 21 0,cup,men,Sheffield - U18 Boys,110308,110308
+2012-2013,2012-12-01,00:00,,IBB Polonia London,3,25 25 25 - -,Richmond Docklands,0,21 17 22 - -,cup,men,TBC,110308,110308
+2012-2013,2012-12-01,00:00,,Nottingham Rockets,0,8 15 9 - -,Northumbria University,3,25 25 25 - -,cup,men,Southglade Leisure Centre,110308,110308
+2012-2013,2012-11-03,00:00,,Newcastle Staffs,3,25 25 25 - -,Team Sunderland,0,22 11 16 - -,cup,men,,110308,110308
+2012-2013,2012-11-03,00:00,,Richmond Docklands,3,25 27 25 - -,London Aces,0,17 25 16 - -,cup,men,,110308,110308
+2012-2013,2012-11-03,00:00,,Sheffield,3,25 32 24 26 0,Manchester Marvels,1,19 30 26 24 0,cup,men,,110308,110308
+2012-2013,2012-10-13,00:00,,Loughborough Students,1,25 15 17 15 0,Team Sunderland,3,23 25 25 25 0,cup,men,Sir David Wallace Sports Hall,110308,110308
+2012-2013,2012-10-13,00:00,,Cambridge ARU,3,25 25 25 - -,Dartford Crossers,0,18 17 22 - -,cup,men,Netherall Sports Centre,110308,110308
+2012-2013,2012-10-13,00:00,,Newcastle Staffs 2,0,14 15 23 - -,Manchester Marvels,3,25 25 25 - -,cup,men,Madeley High School,110308,110308
+2012-2013,2013-03-09,00:00,,Richmond Docklands,3,25 25 25 - -,Nottingham Rockets,0,19 12 20 - -,division_1,men,TBC,110308,110308
+2012-2013,2013-03-02,00:00,,Black Country,3,25 23 25 17 15,Richmond Docklands,2,18 25 20 25 10,division_1,men,TBC,110308,110308
+2012-2013,2013-01-19,00:00,,Nottingham Rockets,2,29 26 25 22 9,Black Country,3,31 24 21 25 15,division_1,men,TBC,110308,110308
+2012-2013,2012-10-27,00:00,,Nottingham Rockets,1,25 21 22 15 0,Richmond Docklands,3,23 25 25 25 0,division_1,men,TBC,110308,110308
+2012-2013,2012-10-20,00:00,,Richmond Docklands,3,25 25 25 - -,Black Country,0,8 13 20 - -,division_1,men,TBC,110308,110308
+2012-2013,2012-09-22,00:00,,Black Country,2,19 13 25 25 17,Nottingham Rockets,3,25 25 22 22 19,division_1,men,TBC,110308,110308
+2012-2013,2013-04-07,00:00,,Newcastle Staffs 2,0,21 18 15 - -,Cambridge ARU,3,25 25 25 - -,division_2,men,TBC,110308,110308
+2012-2013,2013-03-24,00:00,,Newcastle Staffs 2,0,10 17 18 - -,Leeds Gorse,3,25 25 25 - -,division_2,men,TBC,110308,110308
+2012-2013,2013-03-10,00:00,,Cambridge ARU,2,22 25 25 23 14,Essex Estonians,3,25 20 23 25 16,division_2,men,TBC,110308,110308
+2012-2013,2013-03-10,00:00,,Loughborough Students,3,25 25 22 27 0,Newcastle Staffs 2,1,22 21 25 25 0,division_2,men,TBC,110308,110308
+2012-2013,2013-03-09,00:00,,Essex Estonians,3,25 25 25 - -,Loughborough Students,0,15 10 12 - -,division_2,men,TBC,110308,110308
+2012-2013,2013-03-02,00:00,,Cambridge ARU,1,20 25 17 22 0,Leeds Gorse,3,25 19 25 25 0,division_2,men,TBC,110308,110308
+2012-2013,2013-02-10,00:00,,Leeds Gorse,3,25 25 26 - -,Essex Estonians,0,19 19 24 - -,division_2,men,TBC,110308,110308
+2012-2013,2013-01-26,00:00,,Cambridge ARU,3,25 25 25 - -,Loughborough Students,0,0 0 0 - -,division_2,men,TBC,110308,110308
+2012-2013,2013-01-13,00:00,,Leeds Gorse,3,25 25 25 - -,Loughborough Students,0,0 0 0 - -,division_2,men,TBC,110308,110308
+2012-2013,2013-01-12,00:00,,Essex Estonians,3,25 22 25 27 0,Newcastle Staffs 2,1,15 25 16 25 0,division_2,men,TBC,110308,110308
+2012-2013,2012-12-08,00:00,,Essex Estonians,0,11 20 23 - -,Cambridge ARU,3,25 25 25 - -,division_2,men,TBC,110308,110308
+2012-2013,2012-11-24,00:00,,Leeds Gorse,3,25 20 23 25 16,Newcastle Staffs 2,2,22 25 25 19 14,division_2,men,TBC,110308,110308
+2012-2013,2012-11-17,00:00,,Essex Estonians,0,23 24 24 - -,Leeds Gorse,3,25 26 26 - -,division_2,men,TBC,110308,110308
+2012-2013,2012-11-17,00:00,,Newcastle Staffs 2,3,25 25 25 - -,Loughborough Students,0,15 23 23 - -,division_2,men,TBC,110308,110308
+2012-2013,2012-11-10,00:00,,Loughborough Students,0,16 8 14 - -,Cambridge ARU,3,25 25 25 - -,division_2,men,TBC,110308,110308
+2012-2013,2012-10-27,00:00,,Loughborough Students,0,8 11 20 - -,Essex Estonians,3,25 25 25 - -,division_2,men,TBC,110308,110308
+2012-2013,2012-10-20,00:00,,Leeds Gorse,0,23 22 20 - -,Cambridge ARU,3,25 25 25 - -,division_2,men,TBC,110308,110308
+2012-2013,2012-10-06,00:00,,Loughborough Students,1,15 25 23 22 0,Leeds Gorse,3,25 17 25 25 0,division_2,men,TBC,110308,110308
+2012-2013,2012-09-22,00:00,,Cambridge ARU,3,27 25 23 25 0,Newcastle Staffs 2,1,25 20 25 21 0,division_2,men,TBC,110308,110308
+2012-2013,2012-09-15,00:00,,Newcastle Staffs 2,3,16 19 25 25 17,Essex Estonians,2,25 25 20 18 15,division_2,men,Madeley High School,110308,110308
+2012-2013,2013-01-12,00:00,,City of Bristol,1,25 15 17 16 0,Bristol,3,20 25 25 25 0,division_2,men,TBC,110308,110308
+2012-2013,2012-12-08,00:00,,Essex Blaze,3,27 25 25 - -,City of Bristol,0,25 22 21 - -,division_2,men,TBC,110308,110308
+2012-2013,2012-11-17,00:00,,Bristol,1,22 15 25 22 0,Essex Blaze,3,25 25 19 25 0,division_2,men,TBC,110308,110308
+2012-2013,2012-11-17,00:00,,Essex Blaze,3,17 25 25 25 0,Bristol,1,25 15 18 19 0,division_2,men,TBC,110308,110308
+2012-2013,2012-09-29,00:00,,City of Bristol,0,13 19 15 - -,Essex Blaze,3,25 25 25 - -,division_2,men,TBC,110308,110308
+2012-2013,2012-09-15,00:00,,Bristol,2,24 25 23 25 5,City of Bristol,3,26 16 25 21 15,division_2,men,Abbeywood School,110308,110308
+2012-2013,2015-02-08,00:00,,MK City,1,27 20 20 15 0,Cambridge ARU,3,25 25 25 25 0,division_3,men,Woughton Leisure Centre,110308,110308
+2012-2013,2014-09-28,00:00,,Cambridge ARU,3,25 25 25 - -,MK City,0,17 19 20 - -,division_3,men,North Cambridge Academy,110308,110308
+2012-2013,2013-04-07,00:00,,York Vikings,3,25 25 25 - -,DARKSTAR Derbyshire,0,23 20 17 - -,division_3,men,TBC,110308,110308
+2012-2013,2013-03-10,00:00,,Team Sunderland,3,25 25 25 25 0,York Vikings,1,21 11 27 20 0,division_3,men,TBC,110308,110308
+2012-2013,2013-02-24,00:00,,Team Sunderland,3,25 25 25 - -,DARKSTAR Derbyshire,0,5 7 16 - -,division_3,men,TBC,110308,110308
+2012-2013,2013-01-27,00:00,,Manchester Marvels,3,25 25 25 - -,York Vikings,0,15 11 17 - -,division_3,men,TBC,110308,110308
+2012-2013,2013-01-13,00:00,,Team Sunderland,0,20 24 24 - -,Manchester Marvels,3,25 26 26 - -,division_3,men,TBC,110308,110308
+2012-2013,2012-11-25,00:00,,Team Sunderland,0,20 25 12 - -,Manchester Marvels,3,25 27 25 - -,division_3,men,TBC,110308,110308
+2012-2013,2012-11-04,00:00,,Manchester Marvels,3,25 25 25 - -,DARKSTAR Derbyshire,0,13 6 1 - -,division_3,men,TBC,110308,110308
+2012-2013,2012-10-21,00:00,,York Vikings,0,15 11 18 - -,Team Sunderland,3,25 25 25 - -,division_3,men,TBC,110308,110308
+2012-2013,2012-10-21,00:00,,DARKSTAR Derbyshire,0,22 19 11 - -,Team Sunderland,3,25 25 25 - -,division_3,men,TBC,110308,110308
+2012-2013,2012-10-21,00:00,,York Vikings,3,25 15 25 19 15,DARKSTAR Derbyshire,2,22 25 16 25 9,division_3,men,TBC,110308,110308
+2012-2013,2012-09-30,00:00,,York Vikings,0,10 14 19 - -,Manchester Marvels,3,25 25 25 - -,division_3,men,TBC,110308,110308
+2012-2013,2012-09-16,00:00,,DARKSTAR Derbyshire,0,20 14 20 - -,Manchester Marvels,3,25 25 25 - -,division_3,men,Derbyshire Volleyball Centre (Derby Moor),110308,110308
+2012-2013,2013-03-10,00:00,,Norwich Spikers,1,11 25 18 23 0,Newmarket,3,25 22 25 25 0,division_3,men,TBC,110308,110308
+2012-2013,2013-03-10,00:00,,Wiltshire Mavericks,1,23 25 23 24 0,Newmarket,3,25 20 25 26 0,division_3,men,TBC,110308,110308
+2012-2013,2013-03-10,00:00,,Norwich Spikers,0,14 22 19 - -,Wiltshire Mavericks,3,25 25 25 - -,division_3,men,TBC,110308,110308
+2012-2013,2013-02-24,00:00,,Norwich Spikers,1,19 27 13 12 0,Dartford Crossers,3,25 25 25 25 0,division_3,men,TBC,110308,110308
+2012-2013,2013-01-27,00:00,,Newmarket,1,22 25 23 20 0,Dartford Crossers,3,25 20 25 25 0,division_3,men,TBC,110308,110308
+2012-2013,2013-01-13,00:00,,Dartford Crossers,3,25 25 25 27 16,Newmarket,2,18 20 27 29 14,division_3,men,TBC,110308,110308
+2012-2013,2013-01-13,00:00,,Wiltshire Mavericks,3,19 25 25 25 0,Newmarket,1,25 23 18 14 0,division_3,men,TBC,110308,110308
+2012-2013,2013-01-13,00:00,,Dartford Crossers,1,23 14 25 23 0,Wiltshire Mavericks,3,25 25 19 25 0,division_3,men,TBC,110308,110308
+2012-2013,2012-11-25,00:00,,Dartford Crossers,3,25 25 25 - -,Norwich Spikers,0,0 0 0 - -,division_3,men,TBC,110308,110308
+2012-2013,2012-10-21,00:00,,Newmarket,3,19 11 25 25 15,Norwich Spikers,2,25 25 14 22 10,division_3,men,TBC,110308,110308
+2012-2013,2012-10-21,00:00,,Wiltshire Mavericks,1,25 19 21 13 0,Dartford Crossers,3,21 25 25 25 0,division_3,men,TBC,110308,110308
+2012-2013,2012-09-16,00:00,,Wiltshire Mavericks,3,25 25 18 25 0,Norwich Spikers,1,17 20 25 21 0,division_3,men,Boswells School,110308,110308
+2012-2013,2013-02-02,00:00,,London Aces,3,25 25 25 - -,Manchester Marvels,0,10 23 20 - -,shield,men,TBC,110308,110308
+2012-2013,2013-01-06,00:00,,Newcastle Staffs 2,1,16 20 25 21 0,London Aces,3,25 25 20 25 0,shield,men,TBC,110308,110308
+2012-2013,2012-12-02,00:00,,York Vikings,0,11 15 24 - -,Team Sunderland,3,25 25 26 - -,shield,men,Joseph Rowntree School,110308,110308
+2012-2013,2012-12-02,00:00,,London Aces,3,25 25 25 - -,Wiltshire Mavericks,0,0 0 0 - -,shield,men,TBC,110308,110308
+2012-2013,2013-04-28,00:00,,Northumbria University,0,13 0 0 - -,IBB Polonia London,1,15 0 0 - -,superleague,men,National Volleyball Centre,110308,110308
+2012-2013,2013-04-28,00:00,,Northumbria University,1,25 23 30 17 0,IBB Polonia London,3,21 25 32 25 0,superleague,men,National Volleyball Centre,110308,110308
+2012-2013,2013-04-27,00:00,,Northumbria University,3,25 21 30 25 0,IBB Polonia London,1,21 25 28 15 0,superleague,men,National Volleyball Centre,110308,110308
+2012-2013,2013-04-07,00:00,,Malory Eagles UEL,3,25 25 26 - -,IBB Polonia London,0,22 15 24 - -,superleague,men,Ernest Bevin College,110308,110308
+2012-2013,2013-04-06,00:00,,Malory Eagles UEL,2,21 25 25 22 11,IBB Polonia London,3,25 17 23 25 15,superleague,men,Ernest Bevin College,110308,110308
+2012-2013,2013-03-23,00:00,,IBB Polonia London,3,25 25 27 - -,Sheffield,0,19 21 25 - -,superleague,men,TBC,110308,110308
+2012-2013,2013-03-10,00:00,,Newcastle Staffs,1,25 20 20 21 0,Southampton,3,19 25 25 25 0,superleague,men,TBC,110308,110308
+2012-2013,2013-03-10,00:00,,Coventry and Warwick Riga,3,22 25 25 26 15,Sheffield,2,25 23 18 28 10,superleague,men,TBC,110308,110308
+2012-2013,2013-03-09,00:00,,Newcastle Staffs,1,24 23 25 23 0,IBB Polonia London,3,26 25 23 25 0,superleague,men,TBC,110308,110308
+2012-2013,2013-03-09,00:00,,Sheffield,3,25 25 25 - -,Southampton,0,21 16 22 - -,superleague,men,TBC,110308,110308
+2012-2013,2013-03-09,00:00,,Coventry and Warwick Riga,0,22 17 23 - -,Northumbria University,3,25 25 25 - -,superleague,men,TBC,110308,110308
+2012-2013,2013-03-02,00:00,,IBB Polonia London,2,25 21 18 25 12,Northumbria University,3,21 25 25 23 15,superleague,men,TBC,110308,110308
+2012-2013,2013-03-02,00:00,,Malory Eagles UEL,3,25 25 22 22 15,Sheffield,2,22 23 25 25 9,superleague,men,TBC,110308,110308
+2012-2013,2013-03-02,00:00,,Southampton,3,25 25 25 - -,Coventry and Warwick Riga,0,15 21 15 - -,superleague,men,TBC,110308,110308
+2012-2013,2013-02-16,00:00,,Newcastle Staffs,0,17 18 20 - -,Northumbria University,3,25 25 25 - -,superleague,men,TBC,110308,110308
+2012-2013,2013-02-16,00:00,,IBB Polonia London,3,25 25 25 - -,Southampton,0,20 22 16 - -,superleague,men,TBC,110308,110308
+2012-2013,2013-02-16,00:00,,Coventry and Warwick Riga,0,18 20 24 - -,Malory Eagles UEL,3,25 25 26 - -,superleague,men,TBC,110308,110308
+2012-2013,2013-01-26,00:00,,Sheffield,3,25 25 25 - -,Newcastle Staffs,0,13 17 14 - -,superleague,men,TBC,110308,110308
+2012-2013,2013-01-26,00:00,,Southampton,1,16 17 25 16 0,Northumbria University,3,25 25 22 25 0,superleague,men,TBC,110308,110308
+2012-2013,2013-01-12,00:00,,IBB Polonia London,3,25 22 15 25 15,Sheffield,2,13 25 25 20 11,superleague,men,TBC,110308,110308
+2012-2013,2013-01-12,00:00,,Malory Eagles UEL,3,25 20 25 25 0,Southampton,1,18 25 19 11 0,superleague,men,TBC,110308,110308
+2012-2013,2013-01-12,00:00,,Coventry and Warwick Riga,3,25 25 25 - -,Newcastle Staffs,0,21 23 15 - -,superleague,men,TBC,110308,110308
+2012-2013,2012-12-08,00:00,,Newcastle Staffs,0,26 18 17 - -,Malory Eagles UEL,3,28 25 25 - -,superleague,men,TBC,110308,110308
+2012-2013,2012-12-08,00:00,,IBB Polonia London,3,25 25 25 - -,Coventry and Warwick Riga,0,20 20 23 - -,superleague,men,TBC,110308,110308
+2012-2013,2012-12-08,00:00,,Northumbria University,3,25 25 25 - -,Sheffield,0,22 16 17 - -,superleague,men,TBC,110308,110308
+2012-2013,2012-11-24,00:00,,IBB Polonia London,3,25 25 25 - -,Newcastle Staffs,0,22 18 19 - -,superleague,men,TBC,110308,110308
+2012-2013,2012-11-24,00:00,,Southampton,3,25 18 25 29 0,Sheffield,1,18 25 23 27 0,superleague,men,TBC,110308,110308
+2012-2013,2012-11-24,00:00,,Northumbria University,3,25 25 25 - -,Coventry and Warwick Riga,0,21 14 21 - -,superleague,men,TBC,110308,110308
+2012-2013,2012-11-18,00:00,,Northumbria University,3,25 25 25 - -,Malory Eagles UEL,0,23 16 19 - -,superleague,men,TBC,110308,110308
+2012-2013,2012-11-17,00:00,,Coventry and Warwick Riga,3,16 25 25 25 0,Southampton,1,25 22 17 14 0,superleague,men,TBC,110308,110308
+2012-2013,2012-11-17,00:00,,Sheffield,1,20 21 25 21 0,Malory Eagles UEL,3,25 25 18 25 0,superleague,men,TBC,110308,110308
+2012-2013,2012-10-27,00:00,,Northumbria University,3,25 25 27 - -,Newcastle Staffs,0,7 13 25 - -,superleague,men,TBC,110308,110308
+2012-2013,2012-10-27,00:00,,Malory Eagles UEL,3,25 25 25 - -,Coventry and Warwick Riga,0,21 13 23 - -,superleague,men,TBC,110308,110308
+2012-2013,2012-10-27,00:00,,Southampton,0,24 22 29 - -,IBB Polonia London,3,26 25 31 - -,superleague,men,TBC,110308,110308
+2012-2013,2012-10-20,00:00,,Newcastle Staffs,1,25 20 18 21 0,Sheffield,3,21 25 25 25 0,superleague,men,TBC,110308,110308
+2012-2013,2012-10-20,00:00,,IBB Polonia London,3,25 25 25 - -,Malory Eagles UEL,0,19 20 19 - -,superleague,men,TBC,110308,110308
+2012-2013,2012-10-20,00:00,,Northumbria University,3,25 25 25 - -,Southampton,0,19 17 13 - -,superleague,men,TBC,110308,110308
+2012-2013,2012-10-13,00:00,,Southampton,3,22 18 25 25 15,Newcastle Staffs,2,25 25 10 16 11,superleague,men,TBC,110308,110308
+2012-2013,2012-10-06,00:00,,Sheffield,0,22 23 22 - -,Coventry and Warwick Riga,3,25 25 25 - -,superleague,men,TBC,110308,110308
+2012-2013,2012-10-06,00:00,,Malory Eagles UEL,1,16 25 19 18 0,Northumbria University,3,25 19 25 25 0,superleague,men,TBC,110308,110308
+2012-2013,2012-09-29,00:00,,Newcastle Staffs,1,25 7 22 24 0,Coventry and Warwick Riga,3,23 25 25 26 0,superleague,men,TBC,110308,110308
+2012-2013,2012-09-29,00:00,,Southampton,2,13 20 25 25 15,Malory Eagles UEL,3,25 25 15 21 17,superleague,men,TBC,110308,110308
+2012-2013,2012-09-29,00:00,,Sheffield,3,25 25 15 17 15,IBB Polonia London,2,23 16 25 25 8,superleague,men,TBC,110308,110308
+2012-2013,2012-09-22,00:00,,Sheffield,0,24 11 17 - -,Northumbria University,3,26 25 25 - -,superleague,men,TBC,110308,110308
+2012-2013,2012-09-22,00:00,,Malory Eagles UEL,3,25 25 25 - -,Newcastle Staffs,0,14 13 18 - -,superleague,men,TBC,110308,110308
+2012-2013,2012-09-22,00:00,,Coventry and Warwick Riga,0,23 17 15 - -,IBB Polonia London,3,25 25 25 - -,superleague,men,TBC,110308,110308
+2012-2013,2013-04-20,00:00,,Malory Eagles UEL,0,9 14 15 - -,Northumbria University,3,25 25 25 - -,cup,women,National Volleyball Centre,110308,110308
+2012-2013,2012-12-02,00:00,,Bristol,3,25 25 25 - -,Manchester Marvels Mystics,0,20 15 17 - -,cup,women,Clifton College Sports Centre,110308,110308
+2012-2013,2012-12-01,00:00,,Malory Eagles UEL,3,25 25 25 - -,Ashcombe Dorking,0,11 8 12 - -,cup,women,Ernest Bevin College,110308,110308
+2012-2013,2012-12-01,00:00,,Team South Wales,0,21 13 16 - -,Team SideOut Polonia (London),3,25 25 25 - -,cup,women,USW Sports Centre Newport,110308,110308
+2012-2013,2012-11-12,00:00,,Northumbria University,3,25 25 25 - -,Team Sunderland,0,3 11 4 - -,cup,women,Sports Central,110308,110308
+2012-2013,2012-11-11,00:00,,Manchester Marvels Mystics,3,24 20 25 25 15,DARKSTAR Derbyshire,2,26 25 21 14 13,cup,women,Sugden Sports Centre,110308,110308
+2012-2013,2012-11-04,00:00,,Plymouth,0,21 6 16 - -,Bristol,3,25 25 25 - -,cup,women,TBC,110308,110308
+2012-2013,2012-11-04,00:00,,Guildford International,0,8 21 12 - -,Ashcombe Dorking,3,25 25 25 - -,cup,women,Guildford Spectrum,110308,110308
+2012-2013,2012-11-04,00:00,,London Inter Orcas,3,25 25 25 - -,Sussex Dolphins 1,0,10 19 21 - -,cup,women,TBC,110308,110308
+2012-2013,2012-11-03,00:00,,Malory Eagles UEL,3,25 25 25 - -,Cambridge ARU,0,11 13 9 - -,cup,women,Ernest Bevin College,110308,110308
+2012-2013,2012-11-03,00:00,,Coventry & Warwick Riga,0,12 21 24 - -,Team SideOut Polonia (London),3,25 25 26 - -,cup,women,Centre AT7,110308,110308
+2012-2013,2013-04-14,00:00,,Northampton,2,25 12 25 24 9,Bristol,3,16 25 20 26 15,division_1,women,TBC,110308,110308
+2012-2013,2013-04-06,00:00,,Newcastle Staffs,0,20 14 18 - -,Reading Aces,3,25 25 25 - -,division_1,women,TBC,110308,110308
+2012-2013,2013-03-24,00:00,,Reading Aces,1,25 13 21 18 0,Bristol,3,18 25 25 25 0,division_1,women,TBC,110308,110308
+2012-2013,2013-03-17,00:00,,Team South Wales,3,25 25 21 25 0,Northampton,1,23 17 25 15 0,division_1,women,TBC,110308,110308
+2012-2013,2013-03-09,00:00,,Newcastle Staffs,3,25 25 22 25 0,Northampton,1,20 15 25 23 0,division_1,women,TBC,110308,110308
+2012-2013,2013-03-03,00:00,,Team South Wales,3,25 25 25 - -,Newcastle Staffs,0,15 19 22 - -,division_1,women,TBC,110308,110308
+2012-2013,2013-03-02,00:00,,Bristol,3,25 19 19 27 15,Newcastle Staffs,2,17 25 25 25 7,division_1,women,TBC,110308,110308
+2012-2013,2013-02-17,00:00,,Reading Aces,1,26 18 13 24 0,Team South Wales,3,24 25 25 26 0,division_1,women,TBC,110308,110308
+2012-2013,2013-01-27,00:00,,Northampton,2,25 21 21 28 14,Reading Aces,3,19 25 25 26 16,division_1,women,TBC,110308,110308
+2012-2013,2013-01-13,00:00,,Team South Wales,3,20 25 26 15 16,Bristol,2,25 19 24 25 14,division_1,women,TBC,110308,110308
+2012-2013,2012-12-08,00:00,,Bristol,3,23 25 25 25 0,Northampton,1,25 18 21 18 0,division_1,women,TBC,110308,110308
+2012-2013,2012-11-25,00:00,,Reading Aces,0,24 22 23 - -,Newcastle Staffs,3,26 25 25 - -,division_1,women,TBC,110308,110308
+2012-2013,2012-11-18,00:00,,Newcastle Staffs,3,25 25 25 - -,Team South Wales,0,23 13 8 - -,division_1,women,TBC,110308,110308
+2012-2013,2012-10-28,00:00,,Northampton,0,17 17 22 - -,Newcastle Staffs,3,25 25 25 - -,division_1,women,TBC,110308,110308
+2012-2013,2012-10-20,00:00,,Newcastle Staffs,3,26 25 10 25 0,Bristol,1,24 21 25 21 0,division_1,women,TBC,110308,110308
+2012-2013,2012-10-07,00:00,,Team South Wales,3,25 25 25 - -,Reading Aces,0,17 21 20 - -,division_1,women,TBC,110308,110308
+2012-2013,2012-09-30,00:00,,Reading Aces,3,25 25 25 - -,Northampton,0,10 19 23 - -,division_1,women,TBC,110308,110308
+2012-2013,2012-09-23,00:00,,Northampton,0,16 17 21 - -,Team South Wales,3,25 25 25 - -,division_1,women,TBC,110308,110308
+2012-2013,2012-09-22,00:00,,Bristol,3,25 25 25 - -,Reading Aces,0,19 15 12 - -,division_1,women,TBC,110308,110308
+2012-2013,2012-09-15,00:00,,Bristol,1,16 28 17 18 0,Team South Wales,3,25 26 25 25 0,division_1,women,Abbeywood School,110308,110308
+2012-2013,2013-04-14,00:00,,Herts,3,25 25 25 - -,Leeds Gorse,0,12 16 13 - -,division_2,women,TBC,110308,110308
+2012-2013,2013-04-14,00:00,,Coventry & Warwick Riga,3,25 17 25 18 17,Leeds Gorse,2,19 25 20 25 15,division_2,women,TBC,110308,110308
+2012-2013,2013-04-14,00:00,,Herts,3,20 25 25 25 0,Coventry & Warwick Riga,1,25 21 22 10 0,division_2,women,TBC,110308,110308
+2012-2013,2013-03-23,00:00,,Nottingham Rockets,0,18 24 8 - -,Coventry & Warwick Riga,3,25 26 25 - -,division_2,women,TBC,110308,110308
+2012-2013,2013-03-10,00:00,,Herts,3,25 25 25 - -,Loughborough Students,0,20 19 17 - -,division_2,women,TBC,110308,110308
+2012-2013,2013-03-10,00:00,,Coventry & Warwick Riga,0,22 12 22 - -,Leeds Gorse,3,25 25 25 - -,division_2,women,TBC,110308,110308
+2012-2013,2013-03-02,00:00,,Nottingham Rockets,0,13 9 13 - -,Herts,3,25 25 25 - -,division_2,women,TBC,110308,110308
+2012-2013,2013-03-02,00:00,,Cambridge ARU,0,18 17 17 - -,Loughborough Students,3,25 25 25 - -,division_2,women,TBC,110308,110308
+2012-2013,2013-02-16,00:00,,Loughborough Students,3,18 23 25 25 15,Nottingham Rockets,2,25 25 17 10 6,division_2,women,TBC,110308,110308
+2012-2013,2013-02-10,00:00,,Cambridge ARU,1,26 25 17 21 0,Coventry & Warwick Riga,3,28 22 25 25 0,division_2,women,TBC,110308,110308
+2012-2013,2013-01-27,00:00,,Leeds Gorse,0,21 19 23 - -,Loughborough Students,3,25 25 25 - -,division_2,women,TBC,110308,110308
+2012-2013,2013-01-26,00:00,,Coventry & Warwick Riga,1,25 24 21 22 0,Loughborough Students,3,12 26 25 25 0,division_2,women,TBC,110308,110308
+2012-2013,2013-01-26,00:00,,Cambridge ARU,0,16 17 21 - -,Nottingham Rockets,3,25 25 25 - -,division_2,women,TBC,110308,110308
+2012-2013,2013-01-19,00:00,,Nottingham Rockets,2,19 25 25 20 13,Leeds Gorse,3,25 20 21 25 15,division_2,women,TBC,110308,110308
+2012-2013,2013-01-13,00:00,,Leeds Gorse,3,25 25 25 - -,Cambridge ARU,0,21 9 15 - -,division_2,women,TBC,110308,110308
+2012-2013,2013-01-12,00:00,,Cambridge ARU,0,11 10 17 - -,Herts,3,25 25 25 - -,division_2,women,TBC,110308,110308
+2012-2013,2012-12-15,00:00,,Loughborough Students,0,0 0 0 - -,Leeds Gorse,3,25 25 25 - -,division_2,women,TBC,110308,110308
+2012-2013,2012-12-09,00:00,,Herts,3,25 25 25 - -,Coventry & Warwick Riga,0,20 19 12 - -,division_2,women,TBC,110308,110308
+2012-2013,2012-11-24,00:00,,Loughborough Students,3,25 25 25 - -,Coventry & Warwick Riga,0,21 12 18 - -,division_2,women,TBC,110308,110308
+2012-2013,2012-11-18,00:00,,Coventry & Warwick Riga,3,25 25 13 25 0,Nottingham Rockets,1,21 20 25 23 0,division_2,women,TBC,110308,110308
+2012-2013,2012-11-03,00:00,,Leeds Gorse,0,24 18 12 - -,Herts,3,26 25 25 - -,division_2,women,TBC,110308,110308
+2012-2013,2012-10-27,00:00,,Loughborough Students,3,26 25 21 20 15,Herts,2,24 19 25 25 8,division_2,women,TBC,110308,110308
+2012-2013,2012-10-21,00:00,,Herts,3,25 25 26 - -,Nottingham Rockets,0,20 18 24 - -,division_2,women,TBC,110308,110308
+2012-2013,2012-10-20,00:00,,Loughborough Students,3,25 18 25 19 15,Cambridge ARU,2,13 25 17 25 9,division_2,women,TBC,110308,110308
+2012-2013,2012-10-06,00:00,,Nottingham Rockets,0,22 19 17 - -,Loughborough Students,3,25 25 25 - -,division_2,women,TBC,110308,110308
+2012-2013,2012-09-30,00:00,,Coventry & Warwick Riga,3,20 25 24 25 15,Cambridge ARU,2,25 20 26 22 10,division_2,women,TBC,110308,110308
+2012-2013,2012-09-29,00:00,,Nottingham Rockets,3,14 25 25 25 0,Cambridge ARU,1,25 18 20 12 0,division_2,women,TBC,110308,110308
+2012-2013,2012-09-23,00:00,,Leeds Gorse,3,25 25 25 - -,Nottingham Rockets,0,23 15 15 - -,division_2,women,TBC,110308,110308
+2012-2013,2012-09-16,00:00,,Herts,3,25 25 23 25 0,Cambridge ARU,1,20 13 25 20 0,division_2,women,Queens School,110308,110308
+2012-2013,2013-04-14,00:00,,Plymouth,3,25 25 25 - -,Richmond 2,0,10 21 12 - -,division_2,women,TBC,110308,110308
+2012-2013,2013-04-14,00:00,,Sussex Dolphins 1,0,14 17 27 - -,Bristol 2,3,25 25 29 - -,division_2,women,TBC,110308,110308
+2012-2013,2013-04-14,00:00,,Plymouth,0,12 8 13 - -,London Inter Orcas,3,25 25 25 - -,division_2,women,TBC,110308,110308
+2012-2013,2013-04-07,00:00,,Plymouth,2,25 25 19 19 13,Bristol 2,3,20 16 25 25 15,division_2,women,TBC,110308,110308
+2012-2013,2013-04-06,00:00,,Richmond 2,3,25 25 25 - -,Sussex Dolphins 1,0,16 19 19 - -,division_2,women,TBC,110308,110308
+2012-2013,2013-03-24,00:00,,Sussex Dolphins 1,3,25 25 25 - -,Essex Rebels,0,14 22 18 - -,division_2,women,TBC,110308,110308
+2012-2013,2013-03-17,00:00,,Essex Rebels,0,18 19 22 - -,London Inter Orcas,3,25 25 25 - -,division_2,women,TBC,110308,110308
+2012-2013,2013-03-17,00:00,,Bristol 2,0,14 17 21 - -,London Inter Orcas,3,25 25 25 - -,division_2,women,TBC,110308,110308
+2012-2013,2013-03-17,00:00,,Essex Rebels,3,25 25 23 25 0,Bristol 2,1,18 19 25 23 0,division_2,women,TBC,110308,110308
+2012-2013,2013-03-10,00:00,,Guildford International,3,25 25 25 - -,Sussex Dolphins 1,0,19 19 23 - -,division_2,women,TBC,110308,110308
+2012-2013,2013-03-10,00:00,,Essex Rebels,0,21 24 12 - -,Plymouth,3,25 26 25 - -,division_2,women,TBC,110308,110308
+2012-2013,2013-03-09,00:00,,Richmond 2,0,19 23 19 - -,London Inter Orcas,3,25 25 25 - -,division_2,women,TBC,110308,110308
+2012-2013,2013-03-03,00:00,,Plymouth,1,15 19 25 13 0,Guildford International,3,25 25 18 25 0,division_2,women,TBC,110308,110308
+2012-2013,2013-03-03,00:00,,Bristol 2,1,20 13 25 15 0,Richmond 2,3,25 25 11 25 0,division_2,women,TBC,110308,110308
+2012-2013,2013-02-17,00:00,,Guildford International,2,16 15 25 25 14,London Inter Orcas,3,25 25 16 23 16,division_2,women,TBC,110308,110308
+2012-2013,2013-02-10,00:00,,Sussex Dolphins 1,0,16 21 7 - -,Plymouth,3,25 25 25 - -,division_2,women,TBC,110308,110308
+2012-2013,2013-01-27,00:00,,Bristol 2,1,25 11 17 23 0,Guildford International,3,21 25 25 25 0,division_2,women,TBC,110308,110308
+2012-2013,2013-01-20,00:00,,Guildford International,2,19 27 25 19 8,Richmond 2,3,25 25 17 25 15,division_2,women,TBC,110308,110308
+2012-2013,2013-01-13,00:00,,Guildford International,1,23 23 25 16 0,Essex Rebels,3,25 25 17 25 0,division_2,women,TBC,110308,110308
+2012-2013,2013-01-13,00:00,,London Inter Orcas,3,25 25 25 - -,Sussex Dolphins 1,0,14 18 20 - -,division_2,women,TBC,110308,110308
+2012-2013,2012-12-16,00:00,,Plymouth,1,26 14 22 20 0,Essex Rebels,3,24 25 25 25 0,division_2,women,TBC,110308,110308
+2012-2013,2012-12-09,00:00,,London Inter Orcas,3,25 25 25 - -,Plymouth,0,11 18 18 - -,division_2,women,TBC,110308,110308
+2012-2013,2012-12-09,00:00,,Bristol 2,3,25 26 25 - -,Sussex Dolphins 1,0,15 24 21 - -,division_2,women,TBC,110308,110308
+2012-2013,2012-11-18,00:00,,Bristol 2,1,12 17 25 18 0,Essex Rebels,3,25 25 14 25 0,division_2,women,TBC,110308,110308
+2012-2013,2012-11-18,00:00,,Sussex Dolphins 1,2,12 17 25 25 11,Richmond 2,3,25 25 20 21 15,division_2,women,TBC,110308,110308
+2012-2013,2012-11-18,00:00,,London Inter Orcas,3,25 25 25 - -,Essex Rebels,0,15 7 19 - -,division_2,women,TBC,110308,110308
+2012-2013,2012-11-18,00:00,,Bristol 2,0,19 14 14 - -,London Inter Orcas,3,25 25 25 - -,division_2,women,TBC,110308,110308
+2012-2013,2012-11-17,00:00,,Richmond 2,1,22 18 25 23 0,Plymouth,3,25 25 17 25 0,division_2,women,TBC,110308,110308
+2012-2013,2012-11-11,00:00,,Essex Rebels,3,25 25 25 - -,Sussex Dolphins 1,0,13 21 18 - -,division_2,women,TBC,110308,110308
+2012-2013,2012-10-28,00:00,,Sussex Dolphins 1,1,25 14 19 23 0,Guildford International,3,17 25 25 25 0,division_2,women,TBC,110308,110308
+2012-2013,2012-10-28,00:00,,London Inter Orcas,3,25 25 25 - -,Richmond 2,0,9 9 10 - -,division_2,women,TBC,110308,110308
+2012-2013,2012-10-21,00:00,,Guildford International,3,25 25 25 - -,Plymouth,0,21 23 21 - -,division_2,women,TBC,110308,110308
+2012-2013,2012-10-20,00:00,,Richmond 2,3,25 25 18 25 0,Bristol 2,1,9 22 25 14 0,division_2,women,TBC,110308,110308
+2012-2013,2012-10-07,00:00,,Guildford International,1,11 14 25 8 0,London Inter Orcas,3,25 25 23 25 0,division_2,women,TBC,110308,110308
+2012-2013,2012-09-30,00:00,,Guildford International,1,23 19 25 21 0,Bristol 2,3,25 25 17 25 0,division_2,women,TBC,110308,110308
+2012-2013,2012-09-30,00:00,,Essex Rebels,3,28 25 25 24 15,Richmond 2,2,30 19 15 26 10,division_2,women,TBC,110308,110308
+2012-2013,2012-09-29,00:00,,Richmond 2,3,13 23 26 25 15,Essex Rebels,2,25 25 24 20 11,division_2,women,TBC,110308,110308
+2012-2013,2012-09-23,00:00,,Plymouth,1,25 17 22 18 0,Sussex Dolphins 1,3,8 25 25 25 0,division_2,women,TBC,110308,110308
+2012-2013,2012-09-22,00:00,,Richmond 2,3,25 25 25 - -,Guildford International,0,21 14 17 - -,division_2,women,TBC,110308,110308
+2012-2013,2012-09-16,00:00,,Bristol 2,3,19 25 25 25 0,Plymouth,1,25 20 22 22 0,division_2,women,Abbeywood School,110308,110308
+2012-2013,2012-09-16,00:00,,Sussex Dolphins 1,1,19 19 25 18 0,London Inter Orcas,3,25 25 22 25 0,division_2,women,TBC,110308,110308
+2012-2013,2012-09-16,00:00,,Essex Rebels,0,20 25 22 - -,Guildford International,3,25 27 25 - -,division_2,women,Tendring Technology College,110308,110308
+2012-2013,2013-04-14,00:00,,Manchester Marvels Mystics,3,25 25 25 - -,DARKSTAR Derbyshire,0,18 17 20 - -,division_3,women,TBC,110308,110308
+2012-2013,2013-03-03,00:00,,DARKSTAR Derbyshire,1,25 21 19 20 0,Manchester Marvels Mystics,3,21 25 25 25 0,division_3,women,TBC,110308,110308
+2012-2013,2013-02-03,00:00,,Manchester Marvels Mystics,3,25 27 25 - -,Team Sunderland,0,16 25 22 - -,division_3,women,TBC,110308,110308
+2012-2013,2012-12-09,00:00,,Team Sunderland,3,28 25 25 - -,DARKSTAR Derbyshire,0,26 17 20 - -,division_3,women,TBC,110308,110308
+2012-2013,2012-11-18,00:00,,DARKSTAR Derbyshire,3,25 22 25 25 0,Team Sunderland,1,11 25 20 22 0,division_3,women,TBC,110308,110308
+2012-2013,2012-09-23,00:00,,Team Sunderland,3,18 25 22 25 16,Manchester Marvels Mystics,2,25 20 25 23 14,division_3,women,TBC,110308,110308
+2012-2013,2013-04-14,00:00,,Southampton,3,25 23 25 25 0,Essex Trinity,1,10 25 14 21 0,division_3,women,TBC,110308,110308
+2012-2013,2013-04-14,00:00,,Wessex,0,17 21 18 - -,Dartford Chargers,3,25 25 25 - -,division_3,women,TBC,110308,110308
+2012-2013,2013-03-03,00:00,,Southampton 2,2,16 25 13 26 12,Southampton,3,25 19 25 24 15,division_3,women,TBC,110308,110308
+2012-2013,2013-03-03,00:00,,Essex Trinity,0,24 17 21 - -,Wessex,3,26 25 25 - -,division_3,women,TBC,110308,110308
+2012-2013,2013-02-03,00:00,,Dartford Chargers,3,25 25 25 - -,Southampton 2,0,12 7 19 - -,division_3,women,TBC,110308,110308
+2012-2013,2013-02-03,00:00,,Wessex,3,25 25 23 19 15,Southampton 2,2,18 18 25 25 7,division_3,women,TBC,110308,110308
+2012-2013,2013-02-03,00:00,,Dartford Chargers,2,25 18 12 25 7,Wessex,3,21 25 25 22 15,division_3,women,TBC,110308,110308
+2012-2013,2013-01-20,00:00,,Wessex,3,25 25 13 25 0,Southampton,1,23 21 25 10 0,division_3,women,TBC,110308,110308
+2012-2013,2013-01-20,00:00,,Southampton 2,1,25 21 16 17 0,Essex Trinity,3,21 25 25 25 0,division_3,women,TBC,110308,110308
+2012-2013,2012-12-09,00:00,,Essex Trinity,2,25 25 18 16 3,Dartford Chargers,3,15 22 25 25 15,division_3,women,TBC,110308,110308
+2012-2013,2012-12-09,00:00,,Southampton,2,25 22 16 25 5,Dartford Chargers,3,20 25 25 10 15,division_3,women,TBC,110308,110308
+2012-2013,2012-12-09,00:00,,Essex Trinity,3,17 25 25 25 0,Southampton,1,25 15 18 19 0,division_3,women,TBC,110308,110308
+2012-2013,2012-11-18,00:00,,Southampton 2,1,26 20 26 19 0,Wessex,3,28 25 24 25 0,division_3,women,TBC,110308,110308
+2012-2013,2012-11-18,00:00,,Essex Trinity,3,25 25 31 - -,Wessex,0,13 21 29 - -,division_3,women,TBC,110308,110308
+2012-2013,2012-11-18,00:00,,Southampton 2,0,14 20 14 - -,Essex Trinity,3,25 25 25 - -,division_3,women,TBC,110308,110308
+2012-2013,2012-10-21,00:00,,Southampton,3,22 25 25 25 0,Southampton 2,1,25 15 11 22 0,division_3,women,TBC,110308,110308
+2012-2013,2012-10-21,00:00,,Dartford Chargers,3,25 25 25 - -,Southampton 2,0,13 16 19 - -,division_3,women,TBC,110308,110308
+2012-2013,2012-10-21,00:00,,Southampton,0,17 22 22 - -,Dartford Chargers,3,25 25 25 - -,division_3,women,TBC,110308,110308
+2012-2013,2012-09-23,00:00,,Wessex,1,23 25 18 19 0,Southampton,3,25 17 25 25 0,division_3,women,TBC,110308,110308
+2012-2013,2012-09-23,00:00,,Dartford Chargers,1,25 22 24 19 0,Essex Trinity,3,19 25 26 25 0,division_3,women,TBC,110308,110308
+2012-2013,2013-04-07,00:00,,City of Bristol,1,25 16 21 21 0,Black Country,3,18 25 25 25 0,division_3,women,TBC,110308,110308
+2012-2013,2013-02-03,00:00,,Black Country,1,18 18 25 23 0,City of Bristol,3,25 25 22 25 0,division_3,women,TBC,110308,110308
+2012-2013,2012-12-09,00:00,,City of Bristol,0,18 20 7 - -,Black Country,3,25 25 25 - -,division_3,women,TBC,110308,110308
+2012-2013,2013-04-20,00:00,,Essex Rebels,3,25 18 21 26 15,Loughborough Students,2,22 25 25 24 9,shield,women,National Volleyball Centre,110308,110308
+2012-2013,2013-02-24,00:00,,Loughborough Students,3,26 25 19 21 15,Coventry & Warwick Riga,2,24 18 25 25 10,shield,women,Sir David Wallace Sports Hall,110308,110308
+2012-2013,2013-02-03,00:00,,Plymouth,1,19 23 25 22 0,Essex Rebels,3,25 25 14 25 0,shield,women,TBC,110308,110308
+2012-2013,2013-02-03,00:00,,DARKSTAR Derbyshire,1,25 9 18 13 0,Coventry & Warwick Riga,3,19 25 25 25 0,shield,women,TBC,110308,110308
+2012-2013,2013-01-06,00:00,,Loughborough Students,3,25 25 25 - -,Team Sunderland,0,10 17 18 - -,shield,women,TBC,110308,110308
+2012-2013,2013-01-06,00:00,,Sussex Dolphins 1,0,14 21 15 - -,Essex Trinity,3,25 25 25 - -,shield,women,TBC,110308,110308
+2012-2013,2013-01-06,00:00,,Essex Rebels,3,25 25 25 - -,Dartford Chargers,0,14 13 16 - -,shield,women,TBC,110308,110308
+2012-2013,2013-01-05,00:00,,Guildford International,0,0 0 0 - -,Plymouth,3,25 25 25 - -,shield,women,TBC,110308,110308
+2012-2013,2012-12-02,00:00,,Southampton 2,0,13 19 18 - -,Essex Rebels,3,25 25 25 - -,shield,women,TBC,110308,110308
+2012-2013,2013-04-28,00:00,,Northumbria University,3,25 25 25 - -,Team SideOut Polonia (London),0,11 18 15 - -,superleague,women,National Volleyball Centre,110308,110308
+2012-2013,2013-04-27,00:00,,Northumbria University,3,25 25 25 - -,Team SideOut Polonia (London),0,21 18 22 - -,superleague,women,National Volleyball Centre,110308,110308
+2012-2013,2013-04-07,00:00,,Northumbria University,3,25 25 25 - -,Malory Eagles UEL,0,22 14 21 - -,superleague,women,Sports Central,110308,110308
+2012-2013,2013-04-06,00:00,,Northumbria University,3,25 25 25 - -,Malory Eagles UEL,0,18 16 16 - -,superleague,women,Sports Central,110308,110308
+2012-2013,2013-03-09,00:00,,Portsmouth,0,12 14 20 - -,Malory Eagles UEL,3,25 25 25 - -,superleague,women,TBC,110308,110308
+2012-2013,2013-03-02,00:00,,Team SideOut Polonia (London),0,17 18 11 - -,Northumbria University,3,25 25 25 - -,superleague,women,TBC,110308,110308
+2012-2013,2013-03-02,00:00,,Malory Eagles UEL,3,25 25 25 - -,Ashcombe Dorking,0,10 7 8 - -,superleague,women,TBC,110308,110308
+2012-2013,2013-02-17,00:00,,Northumbria University,3,25 25 25 - -,Portsmouth,0,7 9 5 - -,superleague,women,TBC,110308,110308
+2012-2013,2013-02-09,00:00,,Ashcombe Dorking,3,25 22 25 25 0,Portsmouth,1,22 25 15 9 0,superleague,women,TBC,110308,110308
+2012-2013,2013-01-27,00:00,,Portsmouth,0,12 12 11 - -,Northumbria University,3,25 25 25 - -,superleague,women,TBC,110308,110308
+2012-2013,2013-01-26,00:00,,Malory Eagles UEL,1,18 11 25 17 0,Team SideOut Polonia (London),3,25 25 18 25 0,superleague,women,TBC,110308,110308
+2012-2013,2013-01-19,00:00,,Team SideOut Polonia (London),3,25 25 25 - -,Portsmouth,0,19 9 14 - -,superleague,women,TBC,110308,110308
+2012-2013,2013-01-12,00:00,,Team SideOut Polonia (London),3,25 25 25 - -,Ashcombe Dorking,0,14 10 16 - -,superleague,women,TBC,110308,110308
+2012-2013,2012-12-15,00:00,,Ashcombe Dorking,0,14 16 20 - -,Team SideOut Polonia (London),3,25 25 25 - -,superleague,women,TBC,110308,110308
+2012-2013,2012-12-08,00:00,,Northumbria University,3,25 25 25 - -,Ashcombe Dorking,0,11 6 14 - -,superleague,women,TBC,110308,110308
+2012-2013,2012-12-02,00:00,,Ashcombe Dorking,0,19 9 23 - -,Malory Eagles UEL,3,25 25 25 - -,superleague,women,TBC,110308,110308
+2012-2013,2012-11-24,00:00,,Malory Eagles UEL,3,25 25 25 - -,Portsmouth,0,11 19 17 - -,superleague,women,TBC,110308,110308
+2012-2013,2012-10-27,00:00,,Portsmouth,2,25 25 14 21 14,Ashcombe Dorking,3,16 16 25 25 16,superleague,women,TBC,110308,110308
+2012-2013,2012-10-20,00:00,,Team SideOut Polonia (London),3,25 27 20 25 15,Malory Eagles UEL,2,19 29 25 15 11,superleague,women,TBC,110308,110308
+2012-2013,2012-10-07,00:00,,Ashcombe Dorking,0,7 17 17 - -,Northumbria University,3,25 25 25 - -,superleague,women,TBC,110308,110308
+2012-2013,2012-10-06,00:00,,Portsmouth,0,15 21 23 - -,Team SideOut Polonia (London),3,25 25 25 - -,superleague,women,TBC,110308,110308
+2012-2013,2012-10-06,00:00,,Malory Eagles UEL,0,18 19 21 - -,Northumbria University,3,25 25 25 - -,superleague,women,TBC,110308,110308
