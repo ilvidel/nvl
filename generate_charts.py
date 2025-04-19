@@ -18,12 +18,13 @@ class MyPlotter:
 
     def __init__(self):
         self.games = []
-        with open("past.csv", "r") as csv_file:
+        filename = "past.csv"
+        with open(filename, "r") as csv_file:
             csv_games = csv.DictReader(csv_file)
             for g in csv_games:
                 self.games.append(Game.from_csv(g))
 
-        self.dataframe = pandas.read_csv("past.csv")
+        self.dataframe = pandas.read_csv(filename)
 
         self.referee_subset = [
             # "Aileen Barry",
@@ -62,14 +63,14 @@ class MyPlotter:
             total = sum(
                 [int(x) for x in game.home_points + game.away_points if x.isnumeric()])
             if total < 75:  # this result is wrong and should be ignored
-                print(game.csv())
+                # print("Invalid result: ", game.csv())
                 continue
             if game.home_sets == '2' and game.away_sets == '2':
                 # Apparently, games cancelled because of COVID were, for some reason,
                 # entered in the system with impossible results in the form:
                 # Home: 2 - 23 25 23 25 15
                 # Away: 2 - 25 23 25 23 15
-                print(game.csv())
+                # print("COVID game:", game.csv())
                 continue
             points.append(total)
             sex.append(game.category)
@@ -79,16 +80,17 @@ class MyPlotter:
         print(f"AVG: {int(statistics.mean(points))}")
         print(f"Median: {statistics.median(points)}")
         print(f"Mode: {statistics.mode(points)}")
+        print(f"Total games: {len(points)}")
 
         df = pandas.DataFrame(dict(points=points, gender=sex))
         fig = px.histogram(
             df, x="points", color="gender",
-            color_discrete_sequence=['hotpink', 'dodgerblue'],
+            color_discrete_sequence=['dodgerblue', 'hotpink'],
             opacity=.5,
-            # nbins=300,
-            marginal="rug",  # can be `box`, `violin` or 'rug'
+            nbins=300,
+            marginal="violin",  # can be `box`, `violin` or 'rug'
             title="Total points played per game")
-        fig.update_layout(barmode='group')  # stack, group, overlay or relative
+        fig.update_layout(barmode='overlay')  # stack, group, overlay or relative
         fig.show()
 
     def plot_points_histogram(self):
@@ -114,10 +116,10 @@ class MyPlotter:
             df, x="points", color="sets",
             # color_discrete_sequence=['hotpink', 'dodgerblue'],
             opacity=.7,
-            marginal="rug",  # can be `box`, `violin` or 'rug'
+            marginal="box",  # can be `box`, `violin` or 'rug'
             nbins=300,
             title="Total points played per game")
-        fig.update_layout(barmode='stack')  # stack, group, overlay or relative
+        fig.update_layout(barmode='overlay')  # stack, group, overlay or relative
         fig.show()
 
     def plot_home_victories(self):
@@ -215,7 +217,7 @@ class MyPlotter:
         )
         fig = px.bar(
             df,
-            x='Season', y=['Superleague', 'Div1', 'Div2', 'Div3', 'Cup', 'Shield'],
+            x='Season', y=['Shield', 'Cup', 'Div3', 'Div2', 'Div1', 'Superleague'],
             title="Number of games per division, per year",
             barmode='stack',
             color_discrete_sequence=px.colors.qualitative.Bold
@@ -273,7 +275,7 @@ class MyPlotter:
         )
         fig = px.bar(
             df,
-            x='Season', y=['Superleague', 'Div1', 'Div2', 'Div3', 'Cup', 'Shield'],
+            x='Season', y=['Shield', 'Cup', 'Div3', 'Div2', 'Div1', 'Superleague'],
             title="Number of Teams per Divison, per year",
             barmode='stack',
             color_discrete_sequence=px.colors.qualitative.Bold
@@ -336,27 +338,24 @@ class MyPlotter:
 
     def plot_number_of_teams(self):
         """Plot number of teams per year"""
-        count = {}
-        for g in self.games:
-            if g.division == 'playoffs': continue
-            year = g.timestamp.year
-            if year not in count: count[year] = {
-                'superleague': set(),
-                'division_1': set(),
-                'division_2': set(),
-                'division_3': set(),
-                'cup': set(),
-                'shield': set(),
-            }
-            count[year][g.division].add(g.home)
-            count[year][g.division].add(g.away)
+        series = []
+        seasons = set(self.dataframe['season'])
+        for the_season in sorted(seasons):
+            count = []
+            games = self.dataframe[self.dataframe['season'] == the_season]
+            count.append(len(set(games['home']).union(set(games['away']))))
+            series.append([the_season] + count)
 
-        # df = pandas.DataFrame(dict(
-        #     years=count.keys(),
-        #     divisions=['superleague', 'division_1', 'division_2', 'division_3', 'cup', 'shield'],
-        #     count=count.values()
-        # ))
-        fig = px.bar(count)
+        df = pandas.DataFrame(
+            series,
+            columns=['Season', 'count']
+        )
+        fig = px.bar(
+            df,
+            x='Season', y='count',
+            title="Number of Teams per year",
+            color_discrete_sequence=px.colors.qualitative.Bold
+        )
         fig.show()
 
     def plot_total_games_per_referee(self):
@@ -377,15 +376,15 @@ class MyPlotter:
 
         fig = px.bar(
             df,
-            y='refs',
-            x='count',
+            y='count',
+            x='refs',
             title="Games per referee",
             color='count',
             color_continuous_scale='rdbu',
         )
         fig.update_layout(
-            yaxis={'categoryorder': 'total ascending', 'title': 'Referee'},
-            xaxis={'title': 'Number of Games'}
+            xaxis={'categoryorder': 'total descending', 'title': 'Referee'},
+            yaxis={'title': 'Number of Games'}
         )
 
         fig.show()
@@ -629,69 +628,6 @@ class MyPlotter:
         fig1.set_size_inches(20, 20)
         fig1.savefig("teams.pdf")
 
-    def plot_observations(self):
-        """Number of games played per year, per division"""
-        count = {}
-        names = [
-            # "Aileen Barry",
-            # "Ana Pal",
-            # "Fiona Cotterill",
-            # "Stephen Watts",
-            # "Giorgio Scatigna-Gianfagna",
-            # "Elia Gironacci",
-            # "Cherie Cheung",
-            # "Rita Grimes",
-            # "Nicolas Vecchione",
-            # "Domitilla Di Stefano",
-            "Ignacio Diez", "Nick Heckford", "Diane Hollows", "Glynn Archibald", "Lenny Barry", "Debra Smart"
-        ]
-        division_name = {
-            'Division 1 Men': "Div1",
-            'Division 1 Women': "Div1",
-            'Division 2 Central Men': "Div2",
-            'Division 2 East Women': "Div2",
-            'Division 2 North Men': "Div2",
-            'Division 2 North Women': "Div2",
-            'Division 2 South Men': "Div2",
-            'Division 2 West Women': "Div2",
-            'Division 3 Central Women': "Div3",
-            'Division 3 North Central Men': "Div3",
-            'Division 3 North West Men': "Div3",
-            'Division 3 North Women': "Div3",
-            'Division 3 South East Men': "Div3",
-            'Division 3 South West Men': "Div3",
-            'Division 3 South West Women': "Div3",
-            'Division 3 South East Women': "Div3",
-            'Super League Men': "SuperLeague",
-            'Super League Women': "SuperLeague"
-        }
-
-        for g in self.games:
-            div = division_name[g.division]
-            if g.r1 in names:
-                if div not in count: count[div] = []
-                count[div].append(g.r1)
-            if g.r2 in names:
-                if div not in count: count[div] = []
-                count[div].append(g.r2)
-
-        print(count.keys())
-
-        fig = go.Figure()
-        # for i in set(division_name.values()):
-        #     fig.add_trace(go.Histogram(x=count[i], name=i))
-        fig.add_trace(go.Histogram(x=count["Div3"], name="Div3"))
-        fig.add_trace(go.Histogram(x=count["Div2"], name="Div2"))
-        fig.add_trace(go.Histogram(x=count["Div1"], name="Div1"))
-        fig.add_trace(go.Histogram(x=count["SuperLeague"], name="SuperLeague"))
-        fig.update_layout(
-            barmode='stack',
-            bargap=.2,
-            xaxis_title_text='Referee',  # xaxis label
-            yaxis_title_text='Number of Games',  # yaxis label
-            title="Number of games per referee, per division")
-        fig.show()
-
     def referee_network(self):
         bad = ["TBC", 119979, 116921, 119791, "119979", "116921", "119791", ""]
 
@@ -889,6 +825,7 @@ class MyPlotter:
             teams.append(f"{g.home} ({g.division})")
             teams.append(f"{g.away} ({g.division})")
 
+        print(f"Total teams: {len(teams)}")
         import collections
         c = collections.Counter(teams)
         df = pandas.DataFrame(dict(teams=c.keys(), count=c.values()))
@@ -1061,6 +998,7 @@ class MyPlotter:
         referee_pairs = [(game.r1, game.r2) for game in self.games]
         all_referees = set(ref for pair in referee_pairs for ref in pair)
         print("\n".join(sorted(all_referees)))
+        print(f"Total referees: {len(all_referees)}")
 
         # Count co-occurrences
         co_occurrence = {ref: Counter() for ref in all_referees}
@@ -1138,10 +1076,10 @@ class MyPlotter:
 
     def plot_referee_team_diversity_index(self):
         """
-        Calculate a 'diversity index for each referee.
+        Calculate a 'diversity index' for each referee.
         This is the number of different teams a ref has refereed divided by
         the number of total games that ref has officiated
-         """
+        """
         teams = {}
         total_games = Counter()
         for g in self.games:
@@ -1186,24 +1124,19 @@ if __name__ == "__main__":
     # plotter.plot_home_victories()
     # plotter.plot_home_victories_per_division()
     # plotter.plot_number_of_games()
-    plotter.plot_number_of_games_per_division()
-    plotter.plot_games_per_division_percentage()
-    plotter.plot_number_of_teams_per_division()
-    # plotter.plot_number_of_teams() # fixme: not working yet
+    # plotter.plot_number_of_games_per_division()
+    # plotter.plot_games_per_division_percentage() # todo: dont plot
+    # plotter.plot_number_of_teams_per_division()
+    plotter.plot_number_of_teams()
     # plotter.plot_total_games_per_referee()
     # plotter.plot_games_per_referee_per_season()
-    # plotter.plot_referees_per_year()
+    # plotter.plot_referees_per_year() # fixme: github issue #5
 
     # plotter.generate_community_graph() # fixme: not working yet
     # plotter.generate_connected_components_graph() # fixme: not working yet
 
     # plotter.plot_referee_network(directed=False)
     # plotter.plot_teams_network()
-
-    # plotter.plot_observations()
-
-    # plotter.plot_holoviews()
-    # plotter.plot_openchord()
 
     # REFEREES - Individual charts
     # for r in plotter.referee_subset: # TODO: change to the full set of referees
