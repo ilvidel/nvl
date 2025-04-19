@@ -37,6 +37,7 @@ def load_file(fname):
         text = f.read()
     return text
 
+
 # def load_json(fname):
 #     logger.debug(f"Reading from {fname}")
 #     with open(fname, "r") as f:
@@ -57,9 +58,10 @@ def load_csv(filename):
             games.append(Game.from_csv(g))
     return games
 
+
 def write_csv(games, filename):
     with open(filename, "w") as f:
-        header = "date,time,ID,home,home_sets,home_points,away,away_sets,away_points,division,category,venue,r1,r2,\n"
+        header = "season,date,time,ID,home,home_sets,home_points,away,away_sets,away_points,division,category,venue,r1,r2\n"
         f.write(header)
         for g in games:
             f.write(f"{g.csv()}\n")
@@ -123,6 +125,7 @@ def parse_results(games, div):
         game.away = entry.attrs['data-away-team']
         date = entry.attrs['data-date']
         game.set_timestamp(f"{date}T00:00")
+        game.season = "2024-2025"
         game.division = div
         game.set_category()
         logger.debug(f"Found home team: {game.home}")
@@ -195,7 +198,8 @@ def look_for_updates(database, unplayed):
         if g.number:
             filtro = list(filter(lambda x: x.number == g.number, database))
         else:
-            filtro = list(filter(lambda x: x.home == g.home and x.away==g.away and x.division==g.division, database))
+            filtro = list(
+                filter(lambda x: x.home == g.home and x.away == g.away and x.division == g.division, database))
 
         try:
             index = database.index(filtro[0])
@@ -220,6 +224,7 @@ if __name__ == "__main__":
     for _, division in DIVISIONS.items():
         # parse the unplayed games
         filename = division.replace(" ", "_").lower() + ".html"
+        print(f"Parsing {filename}")
         html = load_file(filename)
         soup = bs4.BeautifulSoup(html, features="html5lib")
         raw_games = soup.findAll('div', attrs={'class': "col-12 mb-4 FixContents"})

@@ -94,7 +94,8 @@ class Game(object):
         if self.division != other.division:
             self.logger.error(f"Divisions differ!: {self.division} / {other.division}")
         if self.number != other.number:
-            self.logger.error(f"Game Numbers differ!: {self.number} / {other.number}")
+            if self.number and other.number:
+                self.logger.error(f"Game Numbers differ!: {self.number} / {other.number}")
         if self.home != other.home:
             self.logger.error(f"Home Teams differ!: {self.home} / {other.home}")
         if self.away != other.away:
@@ -203,7 +204,6 @@ class Game(object):
 
     @staticmethod
     def from_csv(line):
-        print(f"FROM CSV: {line}")
         g = Game()
         g.season = line.get('season', 'current')
         g.set_timestamp(f"{line['date']}T{line['time']}", numerical=True)
