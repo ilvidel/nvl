@@ -1,0 +1,68 @@
+\documentclass[10pt,a4paper,1.5lines]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{indentfirst}        % Indentación de todos los párrafos
+% \usepackage{amsmath}
+% \usepackage{amsfonts}
+% \usepackage{amssymb}
+\usepackage{graphicx}           % Gráficos, imágenes
+\usepackage{subfig}
+\usepackage{setspace}           % interlineado
+%\usepackage{flushend}           % nivelar columnas
+\usepackage[]{hyperref}         % Hiperenlaces
+%\usepackage{pdflscape}          % paginas apaisadas
+\usepackage{colortbl}           % Tablicas con colores
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[printonlyused,withpage]{acronym}        % acrónimos
+\usepackage[table,cmyk,usenames,dvipsnames,pdftex]{xcolor}
+
+\onehalfspacing
+
+\newcommand{\todo}[1][ToDo]{
+  \textcolor{WildStrawberry}{
+    \Large{\textbf{#1}}
+  }
+}
+
+\author{Ignacio D\'iez}
+\title{Analysis of Volleyball Results}
+
+\setlength{\columnsep}{2em}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper presents a comprehensive analysis of the results from the \ac{NVL} under Volleyball England over the past two decades, encompassing twenty full seasons of competitive play. The study is structured in two main parts. The first part explores long-term historical trends, focusing on team performance, competitive balance, and league dynamics from a macro perspective. \todo[It identifies dominant clubs, performance fluctuations], and statistical patterns that have emerged across seasons, supported by a series of charts and visual data representations. The second part narrows its scope to the current 2024/2025 season, offering a more granular and localized analysis. This includes club-specific insights, individual team and referee metrics, and an evaluation of referee assignments. By combining longitudinal data with current-season specifics, this study aims to provide both a retrospective understanding and a real-time snapshot of the state of volleyball in England, contributing valuable insight to players, coaches, analysts, and enthusiasts of the sport.\end{abstract}
+
+\section{Methodology}
+The \ac{VE} website hosts the results for \ac{NVL},  and Cup\&Shield games played since the 2005/06 season. I thought it would be interesting to download and analyse that data, and see what information can be inferred from it.
+
+I created a script to scrape\footnote{Web scraping refers to the act of using software to automate the download of information from a web page, using a bot or a web crawler, and storing it for later retrieval or analysis. See \url{https://en.wikipedia.org/wiki/Web_scraping} for more information.} the website and download all the individual results, from each season, and for each category and division. The script downloaded the raw \ac{HTML} page and stored it for later processing.
+
+Then, I wrote a Python parser to read all those \ac{HTML} files and extract the necessary information hidden inside: date, names of the teams, category, division, score, points, venue, name of referee$\ldots$ Unfortunately, the names of the referees are only available since the 2023/2024 season. However, the rest of the data is all there.
+
+All the information was converted into sensible data structures and stored into \ac{CSV} files, so that it could be easily accessed and processed. After that, it was a matter of thinking what kind of visualization (charts) and information would be interesting to obtain.
+
+In total, there are 8430 games recorded, spanning over 20 years, 2 competitions (\ac{NVL} and Cup\&Shield), 2 categories (Men and Women) and 5 divisions (Superleague --includes the former Super8--, Div1, Div2, Div3 and a special division "Playoffs"); also, more than \todo[50] teams and 350 referees were also listed.
+
+\section{Errors and Discarded data}
+While creating the chars and processing the data, I noticed some errors in the input; impossible results that were clearly mistakes (e.g. a set that had 256 points, or less that 25 for both teams but was not the 5\textsuperscript{th}). Some of those errors are obvious and were fixed when possible. Table \ref{table:error} (on page \pageref{table:error}) contains a list of all the games that were discarded (i.e. excluded from the calculations) due to incorrect results. 
+
+\include{error-table}
+
+\section{Data Analysis}
+\todo[review the intro]
+This section presents a comprehensive examination of volleyball game results in England over the past two decades. By leveraging historical data from the last 20 seasons, we aim to uncover broad trends, patterns, and shifts in the sport’s competitive landscape. Through visualizations and statistical insights, we establish a long-term context that sets the foundation for understanding the evolution of teams, performance consistency, and competitive dynamics. In parallel, we take a closer look at the current season to spotlight more granular aspects, such as referee influence and club-specific characteristics, providing a richer, more nuanced understanding of the present-day game.
+
+\input{long-range}
+
+\input{short-range}
+
+\begin{acronym}[SINTICE]
+  \acro{NVL} {National Volleyball League}
+  \acro{VE}  {Volleyball England}
+  \acro{CSV} {Comma-Separated Values}
+  \acro{HTML}{HyperText Markup Language}
+\end{acronym}
+\end{document}
