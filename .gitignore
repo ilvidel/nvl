@@ -1,7 +1,14 @@
 __pycache__/
 \#*
 *~
-*.html
+*.log
+*.aux
+*.dvi
+*.out
+*.pdf
+results*html
+division*html
+super*html
 .idea/
 bin/
 etc/
