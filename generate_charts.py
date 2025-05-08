@@ -1,6 +1,4 @@
-from matplotlib import actionable
-
-from InteractivePlotter import InteractivePlotter
+from interactive_plotter import InteractivePlotter
 from history_plotter import HistoryPlotter
 from season_plotter import SeasonPlotter
 
