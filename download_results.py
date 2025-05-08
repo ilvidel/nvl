@@ -14,11 +14,11 @@ url = "https://competitions.volleyzone.co.uk/fixture-and-results/nvl/"
 browser = webdriver.Firefox()
 browser.get(url)
 
-button = browser.find_element(by='id', value='results-tab')
+button = browser.find_element(by="id", value="results-tab")
 button.click()
 time.sleep(4)
 
-select = Select(browser.find_element(by='id', value='select_comp_result'))
+select = Select(browser.find_element(by="id", value="select_comp_result"))
 
 for cat_id, category in DIVISIONS.items():
     select.select_by_value(cat_id)

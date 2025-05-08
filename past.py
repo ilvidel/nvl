@@ -14,9 +14,9 @@ logging.basicConfig(
     level=logging.WARNING,
     format="[{levelname:^8.8}] {message}",
     style="{",
-    datefmt="%Y-%m-%d %H:%M:%S"
+    datefmt="%Y-%m-%d %H:%M:%S",
 )
-logger = logging.getLogger('nvl')
+logger = logging.getLogger("nvl")
 
 
 def load_file(fname):
@@ -25,12 +25,14 @@ def load_file(fname):
         text = f.read()
     return text
 
+
 def load_json(fname):
     logger.debug(f"Reading from {fname}")
     with open(fname, "r") as f:
         content = json.load(f)
     print(f"Loaded {len(content)} games from {fname}")
     return [Game(g) for g in content]
+
 
 def write_csv(games):
     with open("past.csv", "w") as f:
@@ -39,10 +41,12 @@ def write_csv(games):
         for g in games:
             f.write(f"{g.csv()}\n")
 
+
 def write_json(matches, filename):
     with open(filename, "w") as f:
         f.write(json.dumps([m.to_dict() for m in matches], indent=2))
     logger.info(f"Wrote {len(matches)} games to {filename}")
+
 
 def parse_results(games, div, cat, season):
     logger.info(f"Parsing {len(games)} results in {div} {cat}...")
@@ -50,9 +54,9 @@ def parse_results(games, div, cat, season):
     for entry in games:
         game = Game()
         game.season = season
-        game.home = entry.attrs['data-home-team']
-        game.away = entry.attrs['data-away-team']
-        date = entry.attrs['data-date']
+        game.home = entry.attrs["data-home-team"]
+        game.away = entry.attrs["data-away-team"]
+        date = entry.attrs["data-date"]
         game.set_timestamp(f"{date}T00:00")
         game.division = div
         game.category = cat
@@ -86,19 +90,20 @@ def parse_results(games, div, cat, season):
         logger.info(f"Parsed results for: {game}")
     return game_list
 
+
 if __name__ == "__main__":
     games = []
     seasons = set()
     categories = set()
     divisions = [
-        'challenge_series',
-        'cup',
-        'division_1',
-        'division_2',
-        'division_3',
-        'playoffs',
-        'shield',
-        'superleague',
+        "challenge_series",
+        "cup",
+        "division_1",
+        "division_2",
+        "division_3",
+        "playoffs",
+        "shield",
+        "superleague",
     ]
 
     # get the files for the past
@@ -128,7 +133,7 @@ if __name__ == "__main__":
         # parse the played games to get results
         html = load_file(filename)
         soup = bs4.BeautifulSoup(html, features="html.parser")
-        raw_games = soup.findAll('div', attrs={'class': "col-12 mb-4 resultContents"})
+        raw_games = soup.findAll("div", attrs={"class": "col-12 mb-4 resultContents"})
         games.extend(parse_results(raw_games, division, category, season))
 
     # save games to file

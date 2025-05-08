@@ -3,9 +3,9 @@ from history_plotter import HistoryPlotter
 from season_plotter import SeasonPlotter
 
 if __name__ == "__main__":
-    history = HistoryPlotter('past.csv')
-    season = SeasonPlotter('nvl.csv')
-    actionable = InteractivePlotter('nvl.csv')
+    history = HistoryPlotter("past.csv")
+    season = SeasonPlotter("nvl.csv")
+    actionable = InteractivePlotter("nvl.csv")
 
     history.plot_total_points_by_category()
     history.plot_total_points_per_number_of_sets()
@@ -46,5 +46,5 @@ if __name__ == "__main__":
         teams.add(g.away)
         teams.add(g.home)
     for t in teams:
-        if 'Bristol' in t:
+        if "Bristol" in t:
             actionable.team_plot_referee_count(t)  # fixme: github issue #6

@@ -14,9 +14,9 @@ logging.basicConfig(
     level=logging.WARNING,
     format="[{levelname:^8.8}] {message}",
     style="{",
-    datefmt="%Y-%m-%d %H:%M:%S"
+    datefmt="%Y-%m-%d %H:%M:%S",
 )
-logger = logging.getLogger('nvl')
+logger = logging.getLogger("nvl")
 
 
 # def save_page(category_id):
@@ -30,6 +30,7 @@ logger = logging.getLogger('nvl')
 #
 #     with open(FILENAME, "w") as f:
 #         f.writelines(response.text)
+
 
 def load_file(fname):
     logger.debug(f"Reading from {fname}")
@@ -49,6 +50,7 @@ def load_file(fname):
 #     with open(filename, "w") as f:
 #         f.write(json.dumps([m.to_dict() for m in matches], indent=2))
 #     logger.info(f"Wrote {len(matches)} games to {filename}")
+
 
 def load_csv(filename):
     games = []
@@ -72,9 +74,9 @@ def parse_games(games, div):
     game_list = []
     for entry in games:
         game = Game()
-        game.home = entry.attrs['data-home-team']
-        game.away = entry.attrs['data-away-team']
-        date = entry.attrs['data-date']
+        game.home = entry.attrs["data-home-team"]
+        game.away = entry.attrs["data-away-team"]
+        date = entry.attrs["data-date"]
         game.division = div
         game.set_category()
         logger.debug(f"Found home team: {game.home}")
@@ -87,28 +89,33 @@ def parse_games(games, div):
         lis = soup.findAll("li")
 
         for tag in lis:
-            if tag.find('br'):
+            if tag.find("br"):
                 time = tag.contents[0].strip()
                 logger.debug(f"Found game time: {time}")
                 game.set_timestamp(f"{date}T{time}")
                 try:
-                    game.number = tag.contents[2].strip().replace(" - Super League Live", "").strip()
+                    game.number = (
+                        tag.contents[2]
+                        .strip()
+                        .replace(" - Super League Live", "")
+                        .strip()
+                    )
                     logger.debug(f"Found game number: {game.number}")
                 except IndexError:
                     game.number = ""
 
         for tag in spans:
-            if 'Venue' in tag.text:
-                txt = tag.text[len('venue:'):].replace(",", "").replace("\n", "")
+            if "Venue" in tag.text:
+                txt = tag.text[len("venue:") :].replace(",", "").replace("\n", "")
                 game.venue = re.sub("  +", "-", txt).strip()
                 logger.debug(f"Found game venue: {game.venue}")
 
-            if 'Referee 1' in tag.text:
-                game.r1 = tag.text.split(':')[1].replace("(Pending)", "").strip()
+            if "Referee 1" in tag.text:
+                game.r1 = tag.text.split(":")[1].replace("(Pending)", "").strip()
                 logger.debug(f"Found game R1: {game.r1}")
 
-            if 'Referee 2' in tag.text:
-                game.r2 = tag.text.split(':')[1].replace("(Pending)", "").strip()
+            if "Referee 2" in tag.text:
+                game.r2 = tag.text.split(":")[1].replace("(Pending)", "").strip()
                 logger.debug(f"Found game R2: {game.r2}")
 
         logger.info(f"Adding game: {game}")
@@ -121,9 +128,9 @@ def parse_results(games, div):
     game_list = []
     for entry in games:
         game = Game()
-        game.home = entry.attrs['data-home-team']
-        game.away = entry.attrs['data-away-team']
-        date = entry.attrs['data-date']
+        game.home = entry.attrs["data-home-team"]
+        game.away = entry.attrs["data-away-team"]
+        date = entry.attrs["data-date"]
         game.set_timestamp(f"{date}T00:00")
         game.season = "2024-2025"
         game.division = div
@@ -199,7 +206,13 @@ def look_for_updates(database, unplayed):
             filtro = list(filter(lambda x: x.number == g.number, database))
         else:
             filtro = list(
-                filter(lambda x: x.home == g.home and x.away == g.away and x.division == g.division, database))
+                filter(
+                    lambda x: x.home == g.home
+                    and x.away == g.away
+                    and x.division == g.division,
+                    database,
+                )
+            )
 
         try:
             index = database.index(filtro[0])
@@ -227,14 +240,14 @@ if __name__ == "__main__":
         print(f"Parsing {filename}")
         html = load_file(filename)
         soup = bs4.BeautifulSoup(html, features="html5lib")
-        raw_games = soup.findAll('div', attrs={'class': "col-12 mb-4 FixContents"})
+        raw_games = soup.findAll("div", attrs={"class": "col-12 mb-4 FixContents"})
         unplayed_games.extend(parse_games(raw_games, division))
 
         # parse the played games to get results
         filename = "results-" + filename
         html = load_file(filename)
         soup = bs4.BeautifulSoup(html, features="html5lib")
-        raw_games = soup.findAll('div', attrs={'class': "col-12 mb-4 resultContents"})
+        raw_games = soup.findAll("div", attrs={"class": "col-12 mb-4 resultContents"})
         played_games.extend(parse_results(raw_games, division))
 
     # save games to file

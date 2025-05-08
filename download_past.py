@@ -12,11 +12,11 @@ url = "https://competitions.volleyzone.co.uk/fixture-and-results/nvl/"
 browser = webdriver.Firefox()
 browser.get(url)
 
-results_button = browser.find_element(by='id', value='results-tab')
+results_button = browser.find_element(by="id", value="results-tab")
 results_button.click()
 time.sleep(WAIT_TIME)
 
-year_select = Select(browser.find_element(by='id', value='select_season'))
+year_select = Select(browser.find_element(by="id", value="select_season"))
 seasons = [x.text for x in year_select.options if "Select" not in x.text]
 print(f"Seasons: {sorted(seasons)}")
 time.sleep(WAIT_TIME)
@@ -28,7 +28,7 @@ for season in sorted(seasons):
     time.sleep(WAIT_TIME)
 
     # find the divisions
-    division_select = Select(browser.find_element(by='id', value='select_comp_result'))
+    division_select = Select(browser.find_element(by="id", value="select_comp_result"))
     divisions = [x.text for x in division_select.options if "All" not in x.text]
     print(f"Divisions: {sorted(divisions)}")
 

@@ -26,6 +26,7 @@ header = """
       <tbody>
 """
 
+
 def generate_html(games):
     body = ""
     # for g in sorted(games, key=lambda x: x.timestamp):

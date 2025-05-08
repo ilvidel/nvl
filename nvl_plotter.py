@@ -6,7 +6,6 @@ from game import Game
 
 
 class NvlPlotter:
-
     def __init__(self, filename):
         self.games = []
         with open(filename, "r") as csv_file:
