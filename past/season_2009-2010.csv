@@ -1,206 +1,206 @@
-season,date,time,ID,home,home_sets,home_points,away,away_sets,away_points,division,category,venue,r1,r2
-2009-2010,2009-09-12,00:00,,Coventry and Warwick Riga,3,25 25 25 - -,Cambridge ARU,0,16 12 16 - -,division_1,men,Alan Higgs Centre,unknown,unknown
-2009-2010,2009-09-12,00:00,,IBB Polonia London,2,16 25 26 23 9,Richmond Docklands,3,25 19 24 25 15,division_1,men,St Benedicts School,unknown,unknown
-2009-2010,2009-09-12,00:00,,Northumbria University,1,28 15 22 29 0,Newcastle Staffs,3,26 25 25 31 0,division_1,men,Nunthorpe School,unknown,unknown
-2009-2010,2009-09-13,00:00,,Northampton,3,25 25 25 - -,Dartford Chargers,0,10 7 9 - -,division_3,women,Moulton Leisure Centre,unknown,unknown
-2009-2010,2009-09-13,00:00,,Southampton,0,14 12 18 - -,Plymouth,3,25 25 25 - -,division_3,women,Crestwood College,unknown,unknown
-2009-2010,2009-09-19,00:00,,Coventry and Warwick Riga,3,25 16 25 22 15,Richmond Docklands,2,23 25 22 25 12,division_1,men,Alan Higgs Centre,unknown,unknown
-2009-2010,2009-09-19,00:00,,Malory Eagles UEL,1,23 18 26 18 0,Team SideOut Polonia (London),3,25 25 24 25 0,division_1,women,Ernest Bevin College,unknown,unknown
-2009-2010,2009-09-19,00:00,,Malory Eagles UEL,3,25 25 21 25 0,IBB Polonia London,1,23 16 25 20 0,division_1,men,Ernest Bevin College,unknown,unknown
-2009-2010,2009-09-19,00:00,,Sheffield,3,25 25 25 - -,Cambridge ARU,0,13 19 14 - -,division_1,men,Sheffield - U18 Boys,unknown,unknown
-2009-2010,2009-09-20,00:00,,City of Bristol,3,21 25 25 25 0,Wiltshire Mavericks,1,25 23 22 13 0,division_3,men,University of Bristol,unknown,unknown
-2009-2010,2009-09-20,00:00,,Essex Blaze,3,19 23 26 25 15,Dartford Crossers,2,25 25 24 21 12,division_3,men,Becket Keys School,unknown,unknown
-2009-2010,2009-09-20,00:00,,Leeds Gorse,3,25 27 18 25 0,York Vikings,1,19 25 25 20 0,division_3,men,Gryphon Sports Centre,unknown,unknown
-2009-2010,2009-09-26,00:00,,Ashcombe Dorking,3,25 25 13 25 0,Malory Eagles UEL,1,21 15 25 20 0,division_1,women,TBC,unknown,unknown
-2009-2010,2009-09-26,00:00,,Black Country,0,21 24 20 - -,Southampton,3,25 26 25 - -,cup,men,,unknown,unknown
-2009-2010,2009-09-26,00:00,,Cambridge ARU,2,25 14 25 18 13,Northumbria University,3,23 25 23 25 15,division_1,men,North Cambridge Academy,unknown,unknown
-2009-2010,2009-09-26,00:00,,Dartford Crossers,1,21 20 25 15 0,Newcastle Staffs 2,3,25 25 19 25 0,cup,men,,unknown,unknown
-2009-2010,2009-09-26,00:00,,Essex Estonians,3,25 25 17 25 0,Newmarket,1,11 13 25 14 0,cup,men,,unknown,unknown
-2009-2010,2009-09-26,00:00,,Essex Trinity,0,16 19 18 - -,Portsmouth,3,25 25 25 - -,division_2,women,Brentwood Centre,unknown,unknown
-2009-2010,2009-09-26,00:00,,IBB Polonia London,3,25 28 17 25 0,Coventry and Warwick Riga,1,19 26 25 20 0,division_1,men,St Benedicts School,unknown,unknown
-2009-2010,2009-09-26,00:00,,Newcastle Staffs,0,23 23 21 - -,Malory Eagles UEL,3,25 25 25 - -,division_1,men,Keele University Sports Centre,unknown,unknown
-2009-2010,2009-09-26,00:00,,Richmond Docklands,3,25 25 25 - -,Sheffield,0,15 22 21 - -,division_1,men,Bacons S.C.,unknown,unknown
-2009-2010,2009-09-26,00:00,,York Vikings,0,15 20 20 - -,Loughborough Students,3,25 25 25 - -,cup,men,,unknown,unknown
-2009-2010,2009-09-27,00:00,,Cambridge ARU,3,24 25 25 25 0,Dartford Chargers,1,26 22 23 17 0,division_3,women,Peckham Academy,unknown,unknown
-2009-2010,2009-09-27,00:00,,Essex Rebels,3,17 25 25 25 0,Sussex Dolphins 1,1,25 11 15 20 0,division_3,women,Tendring Technology College,unknown,unknown
-2009-2010,2009-09-27,00:00,,Herts,0,23 14 19 - -,Northampton,3,25 25 25 - -,division_3,women,St. Clement Danes,unknown,unknown
-2009-2010,2009-09-27,00:00,,Loughborough Students,0,0 0 0 - -,Portsmouth,3,25 25 25 - -,division_2,women,,unknown,unknown
-2009-2010,2009-09-27,00:00,,Plymouth,3,25 20 25 25 0,Bristol,1,13 25 14 15 0,division_3,women,Coombe Dean School,unknown,unknown
-2009-2010,2009-10-03,00:00,,Sussex Dolphins 1,1,19 25 22 19 0,Cambridge ARU,3,25 19 25 25 0,division_3,women,St Wilfrid's Catholic School,unknown,unknown
-2009-2010,2009-10-10,00:00,,Loughborough Students,0,5 16 12 - -,Reading Aces,3,25 25 25 - -,division_2,women,Sir David Wallace Sports Hall,unknown,unknown
-2009-2010,2009-10-10,00:00,,Malory Eagles UEL,3,25 25 25 - -,Coventry and Warwick Riga,0,23 23 16 - -,division_1,men,Ernest Bevin College,unknown,unknown
-2009-2010,2009-10-10,00:00,,Northumbria University,0,24 22 29 - -,Richmond Docklands,3,26 25 31 - -,division_1,men,Middlesbrough College,unknown,unknown
-2009-2010,2009-10-10,00:00,,Sheffield,3,19 25 25 25 0,IBB Polonia London,1,25 20 22 22 0,division_1,men,Sheffield - U18 Boys,unknown,unknown
-2009-2010,2009-10-10,00:00,,Sussex Dolphins 1,2,25 19 15 25 15,Southampton 2,3,17 25 25 20 17,cup,women,,unknown,unknown
-2009-2010,2009-10-11,00:00,,Black Country,3,25 17 25 25 0,Newcastle Staffs 2,1,20 25 18 22 0,division_3,men,Whitby High School,unknown,unknown
-2009-2010,2009-10-11,00:00,,Bristol,3,25 29 25 - -,Wiltshire Mavericks,0,15 27 21 - -,division_3,men,Clifton College Sports Centre,unknown,unknown
-2009-2010,2009-10-11,00:00,,Coventry & Warwick Riga 2,0,19 19 23 - -,York Vikings,3,25 25 25 - -,division_3,men,St. Nicholas Park L.C.,unknown,unknown
-2009-2010,2009-10-11,00:00,,Dartford Crossers,3,25 19 21 27 15,Stowmarket,2,11 25 25 25 11,division_3,men,Dartford Technology College,unknown,unknown
-2009-2010,2009-10-11,00:00,,Essex Estonians,3,30 25 25 - -,Southampton,0,28 23 21 - -,division_2,men,Becket Keys School,unknown,unknown
-2009-2010,2009-10-11,00:00,,Essex Trinity,1,24 25 16 21 0,Reading Aces,3,26 23 25 25 0,division_2,women,Becket Keys School,unknown,unknown
-2009-2010,2009-10-11,00:00,,Nottingham Rockets,1,20 16 25 18 0,Leeds Gorse,3,25 25 17 25 0,division_3,men,Royston High School,unknown,unknown
-2009-2010,2009-10-11,00:00,,Sheffield,3,25 25 25 - -,Richmond Docklands,0,22 18 13 - -,division_1,men,Sheffield - U18 Boys,unknown,unknown
-2009-2010,2009-10-17,00:00,,Coventry and Warwick Riga,1,26 25 15 15 0,Sheffield,3,28 23 25 25 0,division_1,men,Alan Higgs Centre,unknown,unknown
-2009-2010,2009-10-17,00:00,,IBB Polonia London,3,25 25 25 - -,Northumbria University,0,22 17 21 - -,division_1,men,St Benedicts School,unknown,unknown
-2009-2010,2009-10-18,00:00,,Black Country,3,25 25 25 - -,Nottingham Rockets,0,15 12 23 - -,division_3,men,Turves Green School,unknown,unknown
-2009-2010,2009-10-18,00:00,,Bristol,3,25 25 25 - -,City of Bristol,0,18 22 19 - -,division_3,women,Clifton College Sports Centre,unknown,unknown
-2009-2010,2009-10-18,00:00,,Bristol,3,25 25 25 - -,Southampton 2,0,13 12 19 - -,division_3,women,Clifton College Sports Centre,unknown,unknown
-2009-2010,2009-10-18,00:00,,Cambridge ARU,3,25 25 25 - -,Herts,0,23 14 14 - -,division_3,women,North Cambridge Academy,unknown,unknown
-2009-2010,2009-10-18,00:00,,Dartford Chargers,3,25 25 25 - -,Sussex Dolphins 1,0,22 15 19 - -,division_3,women,Dartford Technology College,unknown,unknown
-2009-2010,2009-10-18,00:00,,Leeds Gorse,2,25 25 18 22 12,Ashcombe Dorking,3,19 20 25 25 15,division_1,women,Gryphon Sports Centre,unknown,unknown
-2009-2010,2009-10-18,00:00,,Southampton 2,0,17 20 14 - -,City of Bristol,3,25 25 25 - -,division_3,women,Clifton College Sports Centre,unknown,unknown
-2009-2010,2009-10-23,00:00,,Newcastle Staffs 2,0,17 11 8 - -,Newcastle Staffs,3,25 25 25 - -,cup,men,,unknown,unknown
-2009-2010,2009-10-24,00:00,,Essex Trinity,3,25 26 25 - -,Loughborough Students,0,18 24 7 - -,division_2,women,Riverside Ice and Leisure Centre,unknown,unknown
-2009-2010,2009-10-24,00:00,,Leeds Gorse,2,24 21 25 26 10,Coventry & Warwick Riga 2,3,26 25 20 24 15,division_3,men,Madeley High School,unknown,unknown
-2009-2010,2009-10-24,00:00,,Malory Eagles UEL,1,25 25 29 19 0,Sheffield,3,27 23 31 25 0,division_1,men,Ernest Bevin College,unknown,unknown
-2009-2010,2009-10-24,00:00,,Newcastle Staffs 2,0,21 23 19 - -,Coventry & Warwick Riga 2,3,25 25 25 - -,division_3,men,Madeley High School,unknown,unknown
-2009-2010,2009-10-24,00:00,,Newcastle Staffs 2,3,25 25 25 - -,Leeds Gorse,0,19 16 22 - -,division_3,men,Madeley High School,unknown,unknown
-2009-2010,2009-10-24,00:00,,Newcastle Staffs,2,24 25 13 25 11,Richmond Docklands,3,26 15 25 19 15,division_1,men,Keele University Sports Centre,unknown,unknown
-2009-2010,2009-10-24,00:00,,Northumbria University,2,17 23 25 25 13,Coventry and Warwick Riga,3,25 25 16 19 15,division_1,men,Middlesbrough College,unknown,unknown
-2009-2010,2009-10-24,00:00,,Portsmouth,3,25 25 25 - -,Reading Aces,0,12 22 11 - -,division_2,women,Priory Community Sports Centre,unknown,unknown
-2009-2010,2009-10-24,00:00,,Stowmarket,3,25 25 22 22 15,Essex Blaze,2,20 22 25 25 11,division_3,men,Stowupland Sports Centre,unknown,unknown
-2009-2010,2009-10-25,00:00,,York Vikings,0,15 8 20 - -,Black Country,3,25 25 25 - -,division_3,men,York College,unknown,unknown
-2009-2010,2009-10-31,00:00,,Cambridge ARU,0,21 23 16 - -,Malory Eagles UEL,3,25 25 25 - -,division_1,men,North Cambridge Academy,unknown,unknown
-2009-2010,2009-10-31,00:00,,IBB Polonia London,3,27 25 25 - -,Newcastle Staffs,0,25 21 22 - -,division_1,men,St Benedicts School,unknown,unknown
-2009-2010,2009-10-31,00:00,,Sheffield,3,25 25 25 - -,Northumbria University,0,9 14 22 - -,division_1,men,Sheffield - U18 Boys,unknown,unknown
-2009-2010,2009-11-01,00:00,,City of Bristol,0,13 19 22 - -,Plymouth,3,25 25 25 - -,division_3,women,University of Bristol,unknown,unknown
-2009-2010,2009-11-01,00:00,,Essex Rebels,0,16 22 21 - -,Cambridge ARU,3,25 25 25 - -,division_3,women,Moulton Leisure Centre,unknown,unknown
-2009-2010,2009-11-01,00:00,,Northampton,2,25 27 25 22 9,Cambridge ARU,3,18 29 18 25 15,division_3,women,Moulton Leisure Centre,unknown,unknown
-2009-2010,2009-11-01,00:00,,Northampton,3,25 25 25 - -,Essex Rebels,0,9 18 10 - -,division_3,women,Moulton Leisure Centre,unknown,unknown
-2009-2010,2009-11-01,00:00,,Southampton,0,17 21 15 - -,Bristol,3,25 25 25 - -,division_3,women,Crestwood College,unknown,unknown
-2009-2010,2009-11-08,00:00,,Guildford International,0,19 20 15 - -,Portsmouth,3,25 25 25 - -,division_2,women,ACS Cobham International School,unknown,unknown
-2009-2010,2009-11-14,00:00,,Southampton,0,16 20 14 - -,Malory Eagles UEL,3,25 25 25 - -,cup,men,,unknown,unknown
-2009-2010,2009-11-14,00:00,,Team SideOut Polonia (London),3,25 25 25 - -,Ashcombe Dorking,0,15 17 18 - -,division_1,women,St Benedicts School,unknown,unknown
-2009-2010,2009-11-15,00:00,,Cambridge ARU,2,25 25 21 26 11,Portsmouth,3,19 22 25 28 15,cup,women,,unknown,unknown
-2009-2010,2009-11-15,00:00,,Coventry & Warwick Riga 2,1,24 15 27 22 0,Nottingham Rockets,3,26 25 25 25 0,division_3,men,Thornhill Sports Centre,unknown,unknown
-2009-2010,2009-11-15,00:00,,Newcastle Staffs 2,3,19 20 25 25 15,York Vikings,2,25 25 21 19 11,division_3,men,Middlesbrough College,unknown,unknown
-2009-2010,2009-11-15,00:00,,Plymouth,0,13 17 16 - -,Team SideOut Polonia (London),3,25 25 25 - -,cup,women,,unknown,unknown
-2009-2010,2009-11-21,00:00,,Cambridge ARU,3,23 25 25 25 0,Newcastle Staffs,1,25 21 19 22 0,division_1,men,North Cambridge Academy,unknown,unknown
-2009-2010,2009-11-22,00:00,,Dartford Chargers,2,25 28 14 20 9,Herts,3,21 26 25 25 15,division_3,women,Dartford Technology College,unknown,unknown
-2009-2010,2009-11-22,00:00,,Southampton 2,1,26 11 21 14 0,Plymouth,3,24 25 25 25 0,division_3,women,Woodlands Community School,unknown,unknown
-2009-2010,2009-11-22,00:00,,Sussex Dolphins 1,1,18 23 25 11 0,Northampton,3,25 25 18 25 0,division_3,women,St Wilfrid's Catholic School,unknown,unknown
-2009-2010,2009-11-22,00:00,,York Vikings,3,25 16 25 25 0,Nottingham Rockets,1,18 25 21 19 0,division_3,men,York College,unknown,unknown
-2009-2010,2009-11-28,00:00,,Cambridge ARU,0,15 17 19 - -,Richmond Docklands,3,25 25 25 - -,division_1,men,North Cambridge Academy,unknown,unknown
-2009-2010,2009-11-28,00:00,,Malory Eagles UEL,3,25 25 25 25 0,Northumbria University,1,21 27 17 23 0,division_1,men,Ernest Bevin College,unknown,unknown
-2009-2010,2009-11-28,00:00,,Newcastle Staffs,2,13 25 15 25 11,Coventry and Warwick Riga,3,25 22 25 19 15,division_1,men,Keele University Sports Centre,unknown,unknown
-2009-2010,2009-11-28,00:00,,Northumbria University,3,25 25 25 - -,Loughborough Students,0,11 13 16 - -,division_2,women,Middlesbrough College,unknown,unknown
-2009-2010,2009-11-29,00:00,,Black Country,3,22 25 25 25 0,Leeds Gorse,1,25 20 23 20 0,division_3,men,Turves Green School,unknown,unknown
-2009-2010,2009-11-29,00:00,,Black Country,3,25 23 20 25 15,Coventry & Warwick Riga 2,2,11 25 25 23 11,division_3,men,Turves Green School,unknown,unknown
-2009-2010,2009-11-29,00:00,,City of Bristol,3,19 25 25 27 15,Bristol,2,25 13 17 29 5,division_3,men,University of Bristol,unknown,unknown
-2009-2010,2009-11-29,00:00,,Leeds Gorse,1,20 25 21 19 0,Coventry & Warwick Riga 2,3,25 13 25 25 0,division_3,men,Turves Green School,unknown,unknown
-2009-2010,2009-11-29,00:00,,Loughborough Students,1,25 16 15 18 0,Southampton,3,21 25 25 25 0,division_2,men,Victory Hall,unknown,unknown
-2009-2010,2009-12-05,00:00,,Guildford International,3,25 25 25 - -,Loughborough Students,0,11 23 13 - -,division_2,women,ACS Cobham International School,unknown,unknown
-2009-2010,2009-12-05,00:00,,IBB Polonia London,3,25 25 25 - -,Cambridge ARU,0,23 10 20 - -,division_1,men,St Benedicts School,unknown,unknown
-2009-2010,2009-12-05,00:00,,Northumbria University,0,23 22 19 - -,Portsmouth,3,25 25 25 - -,division_2,women,Middlesbrough College,unknown,unknown
-2009-2010,2009-12-05,00:00,,Richmond Docklands,0,15 24 21 - -,Malory Eagles UEL,3,25 26 25 - -,division_1,men,Bacons S.C.,unknown,unknown
-2009-2010,2009-12-05,00:00,,Sheffield,3,25 22 25 25 0,Newcastle Staffs,1,23 25 18 16 0,division_1,men,Sheffield - U18 Boys,unknown,unknown
-2009-2010,2009-12-05,00:00,,Southampton,3,25 25 25 - -,Stowmarket,0,0 0 0 - -,shield,men,,unknown,unknown
-2009-2010,2009-12-05,00:00,,Team SideOut Polonia (London),3,25 25 25 - -,Leeds Gorse,0,13 12 12 - -,division_1,women,St Benedicts School,unknown,unknown
-2009-2010,2009-12-06,00:00,,City of Bristol,0,23 24 21 - -,Bristol,3,25 26 25 - -,division_3,women,University of Bristol,unknown,unknown
-2009-2010,2009-12-06,00:00,,Essex Rebels,3,17 21 25 25 15,Dartford Chargers,2,25 25 11 22 12,division_3,women,Becket Keys School,unknown,unknown
-2009-2010,2009-12-06,00:00,,Guildford International,3,23 25 25 25 0,Essex Trinity,1,25 14 16 18 0,division_2,women,ACS Cobham International School,unknown,unknown
-2009-2010,2009-12-06,00:00,,Northampton,3,25 25 25 - -,Herts,0,12 21 22 - -,division_3,women,Moulton Leisure Centre,unknown,unknown
-2009-2010,2009-12-06,00:00,,Northumbria University,3,25 25 25 - -,Reading Aces,0,18 19 20 - -,division_2,women,Middlesbrough College,unknown,unknown
-2009-2010,2009-12-06,00:00,,Southampton 2,2,21 25 19 25 12,Southampton,3,25 22 25 17 15,division_3,women,Sports Training Village (University of Bath),unknown,unknown
-2009-2010,2009-12-12,00:00,,Cambridge ARU,0,10 22 21 - -,Coventry and Warwick Riga,3,25 25 25 - -,division_1,men,North Cambridge Academy,unknown,unknown
-2009-2010,2009-12-12,00:00,,Essex Estonians,3,25 27 25 - -,Loughborough Students,0,20 25 15 - -,division_2,men,Brentwood Centre,unknown,unknown
-2009-2010,2009-12-12,00:00,,Essex Trinity,3,25 25 25 - -,Northumbria University,0,14 21 15 - -,division_2,women,Brentwood Centre,unknown,unknown
-2009-2010,2009-12-12,00:00,,Newcastle Staffs,1,27 23 22 29 0,Northumbria University,3,25 25 25 31 0,division_1,men,Keele University Sports Centre,unknown,unknown
-2009-2010,2009-12-12,00:00,,Plymouth,1,22 13 25 19 0,Team South Wales,3,25 25 16 25 0,shield,women,,unknown,unknown
-2009-2010,2009-12-12,00:00,,Richmond Docklands,1,20 25 24 22 0,IBB Polonia London,3,25 22 26 25 0,division_1,men,Bacons S.C.,unknown,unknown
-2009-2010,2009-12-13,00:00,,Bristol,1,25 10 23 14 0,Wiltshire Mavericks,3,17 25 25 25 0,division_3,men,Clifton College Sports Centre,unknown,unknown
-2009-2010,2009-12-13,00:00,,Dartford Crossers,1,27 19 22 22 0,Stowmarket,3,25 25 25 25 0,division_3,men,Dartford Technology College,unknown,unknown
-2009-2010,2009-12-13,00:00,,Leeds Gorse,3,25 25 25 - -,Newcastle Staffs 2,0,23 22 22 - -,division_3,men,Gryphon Sports Centre,unknown,unknown
-2009-2010,2009-12-13,00:00,,Nottingham Rockets,1,22 25 22 13 0,Black Country,3,25 18 25 25 0,division_3,men,Southglade Leisure Centre,unknown,unknown
-2009-2010,2009-12-13,00:00,,Reading Aces,1,19 25 21 17 0,Guildford International,3,25 21 25 25 0,division_2,women,Kendrick School,unknown,unknown
-2009-2010,2010-01-16,00:00,,Cambridge ARU,1,17 20 25 26 0,Sheffield,3,25 25 20 28 0,division_1,men,North Cambridge Academy,unknown,unknown
-2009-2010,2010-01-16,00:00,,IBB Polonia London,1,25 23 20 16 0,Malory Eagles UEL,3,23 25 25 25 0,division_1,men,St Benedicts School,unknown,unknown
-2009-2010,2010-01-16,00:00,,Richmond Docklands,3,21 27 25 25 0,Coventry and Warwick Riga,1,25 25 15 18 0,division_1,men,Bacons S.C.,unknown,unknown
-2009-2010,2010-01-16,00:00,,Team SideOut Polonia (London),3,25 25 25 - -,Malory Eagles UEL,0,14 17 20 - -,division_1,women,St Benedicts School,unknown,unknown
-2009-2010,2010-01-17,00:00,,Ashcombe Dorking,3,25 21 25 19 15,Portsmouth,2,18 25 19 25 12,cup,women,,unknown,unknown
-2009-2010,2010-01-17,00:00,,Cambridge ARU,3,25 24 25 19 15,Dartford Chargers,2,12 26 17 25 6,division_3,women,North Cambridge Academy,unknown,unknown
-2009-2010,2010-01-17,00:00,,Cambridge ARU,3,25 25 25 - -,Sussex Dolphins 1,0,20 7 15 - -,division_3,women,North Cambridge Academy,unknown,unknown
-2009-2010,2010-01-17,00:00,,Herts,1,27 18 20 16 0,Essex Rebels,3,25 25 25 25 0,division_3,women,Hertfordshire Sports Village,unknown,unknown
-2009-2010,2010-01-17,00:00,,Loughborough Students,0,14 10 14 - -,Northumbria University,3,25 25 25 - -,division_2,women,Sir David Wallace Sports Hall,unknown,unknown
-2009-2010,2010-01-17,00:00,,Southampton 2,0,24 17 16 - -,Bristol,3,26 25 25 - -,division_3,women,Lavington School,unknown,unknown
-2009-2010,2010-01-17,00:00,,Southampton,3,25 25 25 - -,City of Bristol,0,22 19 20 - -,division_3,women,Crestwood College,unknown,unknown
-2009-2010,2010-01-17,00:00,,Sussex Dolphins 1,3,25 22 25 25 0,Dartford Chargers,1,12 25 23 13 0,division_3,women,North Cambridge Academy,unknown,unknown
-2009-2010,2010-01-23,00:00,,Coventry and Warwick Riga,0,23 28 21 - -,IBB Polonia London,3,25 30 25 - -,division_1,men,Alan Higgs Centre,unknown,unknown
-2009-2010,2010-01-23,00:00,,Malory Eagles UEL,3,17 25 25 25 0,Ashcombe Dorking,1,25 14 23 23 0,division_1,women,Ernest Bevin College,unknown,unknown
-2009-2010,2010-01-23,00:00,,Malory Eagles UEL,3,25 25 25 - -,Newcastle Staffs,0,12 20 19 - -,division_1,men,Ernest Bevin College,unknown,unknown
-2009-2010,2010-01-23,00:00,,Northumbria University,3,21 25 21 25 15,Cambridge ARU,2,25 16 25 18 11,division_1,men,Middlesbrough College,unknown,unknown
-2009-2010,2010-01-24,00:00,,Black Country,3,25 25 25 - -,York Vikings,0,15 14 23 - -,division_3,men,Robin Park Arena,unknown,unknown
-2009-2010,2010-01-24,00:00,,Coventry and Warwick Riga,3,21 25 25 25 0,Northumbria University,1,25 23 18 22 0,cup,men,,unknown,unknown
-2009-2010,2010-01-24,00:00,,Newcastle Staffs 2,1,25 20 24 20 0,Nottingham Rockets,3,20 25 26 25 0,division_3,men,Burleigh Community College,unknown,unknown
-2009-2010,2010-01-24,00:00,,Wiltshire Mavericks,0,24 16 26 - -,City of Bristol,3,26 25 28 - -,division_3,men,TBC,unknown,unknown
-2009-2010,2010-01-30,00:00,,Coventry and Warwick Riga,0,22 25 18 - -,Malory Eagles UEL,3,25 27 25 - -,division_1,men,Alan Higgs Centre,unknown,unknown
-2009-2010,2010-01-30,00:00,,IBB Polonia London,2,28 17 25 18 17,Sheffield,3,26 25 18 25 19,division_1,men,St Benedicts School,unknown,unknown
-2009-2010,2010-01-30,00:00,,Richmond Docklands,3,25 25 25 - -,Northumbria University,0,22 18 14 - -,division_1,men,Bacons S.C.,unknown,unknown
-2009-2010,2010-01-30,00:00,,Southampton 2,1,25 9 16 21 0,Team South Wales,3,22 25 25 25 0,shield,women,,unknown,unknown
-2009-2010,2010-01-31,00:00,,Bristol,3,25 16 25 25 0,Southampton,1,15 25 21 18 0,division_3,women,Clifton College Sports Centre,unknown,unknown
-2009-2010,2010-01-31,00:00,,Essex Rebels,1,25 15 22 10 0,Northampton,3,17 25 25 25 0,division_3,women,Tendring Technology College,unknown,unknown
-2009-2010,2010-01-31,00:00,,Essex Rebels,2,13 25 6 25 5,Cambridge ARU,3,25 16 25 17 15,division_3,women,Tendring Technology College,unknown,unknown
-2009-2010,2010-01-31,00:00,,Herts,0,14 19 26 - -,Sussex Dolphins 1,3,25 25 28 - -,division_3,women,Hertfordshire Sports Village,unknown,unknown
-2009-2010,2010-01-31,00:00,,Loughborough Students,1,24 25 18 14 0,Essex Trinity,3,26 20 25 25 0,division_2,women,Sir David Wallace Sports Hall,unknown,unknown
-2009-2010,2010-01-31,00:00,,Northampton,1,16 25 21 9 0,Cambridge ARU,3,25 22 25 25 0,division_3,women,Tendring Technology College,unknown,unknown
-2009-2010,2010-01-31,00:00,,Plymouth,3,25 27 25 - -,City of Bristol,0,11 25 10 - -,division_3,women,Sports Training Village (University of Bath),unknown,unknown
-2009-2010,2010-01-31,00:00,,Reading Aces,2,25 27 17 17 9,Portsmouth,3,20 25 25 25 15,division_2,women,Kendrick School,unknown,unknown
-2009-2010,2010-02-06,00:00,,Coventry and Warwick Riga,1,25 21 19 14 0,Newcastle Staffs,3,21 25 25 25 0,cup,men,,unknown,unknown
-2009-2010,2010-02-06,00:00,,IBB Polonia London,3,25 16 25 25 0,Richmond Docklands,1,21 25 21 20 0,cup,men,,unknown,unknown
-2009-2010,2010-02-06,00:00,,Sheffield,3,25 25 25 - -,Cambridge ARU,0,15 10 18 - -,cup,men,,unknown,unknown
-2009-2010,2010-02-07,00:00,,Nottingham Rockets,3,25 25 25 25 0,Coventry & Warwick Riga 2,1,27 17 15 18 0,division_3,men,Southglade Leisure Centre,unknown,unknown
-2009-2010,2010-02-07,00:00,,Sussex Dolphins 1,0,20 20 18 - -,Northumbria University,3,25 25 25 - -,shield,women,,unknown,unknown
-2009-2010,2010-02-07,00:00,,York Vikings,3,15 22 25 27 15,Newcastle Staffs 2,2,25 25 21 25 8,division_3,men,York College,unknown,unknown
-2009-2010,2010-02-13,00:00,,Sussex Dolphins 1,2,20 24 25 26 11,Herts,3,25 26 18 24 15,division_3,women,St Wilfrid's Catholic School,unknown,unknown
-2009-2010,2010-02-20,00:00,,Newcastle Staffs,1,19 27 22 14 0,Cambridge ARU,3,25 25 25 25 0,division_1,men,Keele University Sports Centre,unknown,unknown
-2009-2010,2010-02-20,00:00,,Northumbria University,1,18 26 19 12 0,IBB Polonia London,3,25 24 25 25 0,division_1,men,Middlesbrough College,unknown,unknown
-2009-2010,2010-02-20,00:00,,Sheffield,3,25 25 25 - -,Coventry and Warwick Riga,0,16 20 21 - -,division_1,men,Sheffield - U18 Boys,unknown,unknown
-2009-2010,2010-02-21,00:00,,Herts,0,21 15 20 - -,Cambridge ARU,3,25 25 25 - -,division_3,women,St. Clement Danes,unknown,unknown
-2009-2010,2010-02-21,00:00,,Northampton,1,23 25 25 21 0,Sussex Dolphins 1,3,25 19 27 25 0,division_3,women,Moulton Leisure Centre,unknown,unknown
-2009-2010,2010-02-21,00:00,,Southampton,3,25 25 25 - -,Southampton 2,0,19 17 22 - -,division_3,women,Kendrick School,unknown,unknown
-2009-2010,2010-02-27,00:00,,Malory Eagles UEL,3,25 25 25 25 0,Newcastle Staffs,1,27 14 15 15 0,cup,men,,unknown,unknown
-2009-2010,2010-02-27,00:00,,Sheffield,2,18 25 25 18 10,IBB Polonia London,3,25 20 18 25 15,cup,men,,unknown,unknown
-2009-2010,2010-02-28,00:00,,Leeds Gorse,0,20 20 21 - -,Black Country,3,25 25 25 - -,division_3,men,Gryphon Sports Centre,unknown,unknown
-2009-2010,2010-02-28,00:00,,York Vikings,3,25 27 28 26 0,Coventry & Warwick Riga 2,1,20 29 26 24 0,division_3,men,Burleigh Community College,unknown,unknown
-2009-2010,2010-03-06,00:00,,Coventry and Warwick Riga,3,25 21 25 22 15,Northumbria University,2,15 25 18 25 10,division_1,men,Alan Higgs Centre,unknown,unknown
-2009-2010,2010-03-06,00:00,,Leeds Gorse,0,13 9 21 - -,Malory Eagles UEL,3,25 25 25 - -,division_1,women,Gryphon Sports Centre,unknown,unknown
-2009-2010,2010-03-06,00:00,,Richmond Docklands,3,25 18 25 25 0,Newcastle Staffs,1,20 25 18 19 0,division_1,men,Bacons S.C.,unknown,unknown
-2009-2010,2010-03-06,00:00,,Sheffield,0,23 19 16 - -,Malory Eagles UEL,3,25 25 25 - -,division_1,men,Sheffield - U18 Boys,unknown,unknown
-2009-2010,2010-03-07,00:00,,Coventry & Warwick Riga,0,12 18 19 - -,Newcastle Staffs,3,25 25 25 - -,division_3,women,Phoenix S.C.,unknown,unknown
-2009-2010,2010-03-07,00:00,,Dartford Chargers,0,22 11 17 - -,Northampton,3,25 25 25 - -,division_3,women,UEA Norwich Sportspark,unknown,unknown
-2009-2010,2010-03-07,00:00,,Newcastle Staffs 2,1,25 14 24 19 0,Nottingham Rockets,3,19 25 26 25 0,division_3,men,Madeley High School,unknown,unknown
-2009-2010,2010-03-07,00:00,,Northumbria University,3,25 25 25 - -,Guildford International,0,14 14 9 - -,division_2,women,Middlesbrough College,unknown,unknown
-2009-2010,2010-03-07,00:00,,Plymouth,1,25 22 15 22 0,Southampton,3,19 25 25 25 0,division_3,women,Coombe Dean School,unknown,unknown
-2009-2010,2010-03-07,00:00,,Sussex Dolphins 1,3,21 25 20 25 15,Essex Rebels,2,25 23 25 18 8,division_3,women,St Wilfrid's Catholic School,unknown,unknown
-2009-2010,2010-03-14,00:00,,Southampton 2,2,25 20 25 23 12,City of Bristol,3,20 25 21 25 15,division_3,women,Woodlands Community School,unknown,unknown
-2009-2010,2010-03-20,00:00,,Ashcombe Dorking,0,15 19 23 - -,Team SideOut Polonia (London),3,25 25 25 - -,division_1,women,TBC,unknown,unknown
-2009-2010,2010-03-20,00:00,,Malory Eagles UEL,3,25 25 25 - -,Cambridge ARU,0,23 20 22 - -,division_1,men,Ernest Bevin College,unknown,unknown
-2009-2010,2010-03-20,00:00,,Malory Eagles UEL,3,26 25 25 - -,Leeds Gorse,0,24 17 23 - -,division_1,women,Ernest Bevin College,unknown,unknown
-2009-2010,2010-03-20,00:00,,Newcastle Staffs,1,19 27 19 14 0,IBB Polonia London,3,25 25 25 25 0,division_1,men,Keele University Sports Centre,unknown,unknown
-2009-2010,2010-03-20,00:00,,Northumbria University,0,16 19 19 - -,Sheffield,3,25 25 25 - -,division_1,men,Middlesbrough College,unknown,unknown
-2009-2010,2010-03-21,00:00,,Ashcombe Dorking,3,25 25 23 25 0,Leeds Gorse,1,17 15 25 15 0,division_1,women,TBC,unknown,unknown
-2009-2010,2010-03-21,00:00,,Essex Rebels,3,25 20 25 25 0,Herts,1,23 25 18 20 0,division_3,women,Tendring Technology College,unknown,unknown
-2009-2010,2010-03-21,00:00,,Essex Rebels,3,25 26 25 - -,Dartford Chargers,0,22 24 23 - -,division_3,women,Tendring Technology College,unknown,unknown
-2009-2010,2010-03-21,00:00,,Herts,2,15 15 25 25 13,Dartford Chargers,3,25 25 14 20 15,division_3,women,Tendring Technology College,unknown,unknown
-2009-2010,2010-03-21,00:00,,Plymouth,1,21 18 25 16 0,Southampton 2,3,25 25 17 25 0,division_3,women,Coombe Dean School,unknown,unknown
-2009-2010,2010-03-27,00:00,,Coventry and Warwick Riga,3,25 25 30 - -,Newcastle Staffs,0,21 22 28 - -,division_1,men,Alan Higgs Centre,unknown,unknown
-2009-2010,2010-03-27,00:00,,Northumbria University,0,23 19 23 - -,Malory Eagles UEL,3,25 25 25 - -,division_1,men,Middlesbrough College,unknown,unknown
-2009-2010,2010-03-27,00:00,,Portsmouth,3,25 25 25 - -,Guildford International,0,15 14 23 - -,division_2,women,Priory Community Sports Centre,unknown,unknown
-2009-2010,2010-03-27,00:00,,Richmond Docklands,2,15 25 20 25 13,Cambridge ARU,3,25 14 25 20 15,division_1,men,Bacons S.C.,unknown,unknown
-2009-2010,2010-03-28,00:00,,Dartford Crossers,3,22 25 25 25 0,Essex Blaze,1,25 22 21 17 0,division_3,men,Dartford Technology College,unknown,unknown
-2009-2010,2010-03-28,00:00,,Nottingham Rockets,0,23 22 16 - -,York Vikings,3,25 25 25 - -,division_3,men,Southglade Leisure Centre,unknown,unknown
-2009-2010,2010-03-28,00:00,,Nottingham Rockets,1,13 25 22 22 0,Leeds Gorse,3,25 20 25 25 0,division_3,men,Southglade Leisure Centre,unknown,unknown
-2009-2010,2010-03-28,00:00,,Team South Wales,3,27 17 26 25 15,Newcastle Staffs,2,25 25 28 18 7,shield,women,,unknown,unknown
-2009-2010,2010-03-28,00:00,,York Vikings,1,20 25 21 20 0,Leeds Gorse,3,25 18 25 25 0,division_3,men,Southglade Leisure Centre,unknown,unknown
-2009-2010,2010-04-10,00:00,,Cambridge ARU,0,12 18 10 - -,IBB Polonia London,3,25 25 25 - -,division_1,men,North Cambridge Academy,unknown,unknown
-2009-2010,2010-04-10,00:00,,Loughborough Students,3,19 25 11 25 15,Essex Estonians,2,25 22 25 23 10,division_2,men,Sir David Wallace Sports Hall,unknown,unknown
-2009-2010,2010-04-10,00:00,,Malory Eagles UEL,3,25 25 25 - -,Richmond Docklands,0,15 20 17 - -,division_1,men,Ernest Bevin College,unknown,unknown
-2009-2010,2010-04-10,00:00,,Newcastle Staffs,0,8 13 17 - -,Sheffield,3,25 25 25 - -,division_1,men,Keele University Sports Centre,unknown,unknown
-2009-2010,2010-04-10,00:00,,Northumbria University,3,25 25 25 - -,Essex Trinity,0,0 0 0 - -,division_2,women,,unknown,unknown
-2009-2010,2010-04-11,00:00,,Bristol,0,19 18 23 - -,City of Bristol,3,25 25 25 - -,division_3,men,Clifton College Sports Centre,unknown,unknown
-2009-2010,2010-04-11,00:00,,Coventry & Warwick Riga 2,3,23 25 25 23 15,Black Country,2,25 20 17 25 12,division_3,men,St. Nicholas Park L.C.,unknown,unknown
-2009-2010,2010-04-11,00:00,,Coventry & Warwick Riga 2,3,25 25 25 - -,Newcastle Staffs 2,0,14 22 20 - -,division_3,men,St. Nicholas Park L.C.,unknown,unknown
-2009-2010,2010-04-11,00:00,,Essex Blaze,2,18 26 27 16 10,Stowmarket,3,25 24 25 25 15,division_3,men,Becket Keys School,unknown,unknown
-2009-2010,2010-04-11,00:00,,Guildford International,3,22 25 16 25 15,Reading Aces,2,25 16 25 17 11,division_2,women,ACS Cobham International School,unknown,unknown
-2009-2010,2010-04-11,00:00,,Leeds Gorse,0,15 12 22 - -,Team SideOut Polonia (London),3,25 25 25 - -,division_1,women,Gryphon Sports Centre,unknown,unknown
-2009-2010,2010-04-11,00:00,,Newcastle Staffs 2,0,23 15 15 - -,Black Country,3,25 25 25 - -,division_3,men,St. Nicholas Park L.C.,unknown,unknown
+season,date,home,home_sets,home_points,away,away_sets,away_points,division,category,venue,r1,r2
+2009-2010,2009-09-12,IBB Polonia London,2,16 25 26 23 9,Richmond Docklands,3,25 19 24 25 15,division_1,men,St Benedicts School,unknown,unknown
+2009-2010,2009-09-12,Coventry and Warwick Riga,3,25 25 25 - -,Cambridge ARU,0,16 12 16 - -,division_1,men,Alan Higgs Centre,unknown,unknown
+2009-2010,2009-09-12,Northumbria University,1,28 15 22 29 0,Newcastle Staffs,3,26 25 25 31 0,division_1,men,Nunthorpe School,unknown,unknown
+2009-2010,2009-09-13,Northampton,3,25 25 25 - -,Dartford Chargers,0,10 7 9 - -,division_3,women,Moulton Leisure Centre,unknown,unknown
+2009-2010,2009-09-13,Southampton,0,14 12 18 - -,Plymouth,3,25 25 25 - -,division_3,women,Crestwood College,unknown,unknown
+2009-2010,2009-09-19,Malory Eagles UEL,1,23 18 26 18 0,Team SideOut Polonia (London),3,25 25 24 25 0,division_1,women,Ernest Bevin College,unknown,unknown
+2009-2010,2009-09-19,Coventry and Warwick Riga,3,25 16 25 22 15,Richmond Docklands,2,23 25 22 25 12,division_1,men,Alan Higgs Centre,unknown,unknown
+2009-2010,2009-09-19,Malory Eagles UEL,3,25 25 21 25 0,IBB Polonia London,1,23 16 25 20 0,division_1,men,Ernest Bevin College,unknown,unknown
+2009-2010,2009-09-19,Sheffield,3,25 25 25 - -,Cambridge ARU,0,13 19 14 - -,division_1,men,Sheffield - U18 Boys,unknown,unknown
+2009-2010,2009-09-20,City of Bristol,3,21 25 25 25 0,Wiltshire Mavericks,1,25 23 22 13 0,division_3,men,University of Bristol,unknown,unknown
+2009-2010,2009-09-20,Leeds Gorse,3,25 27 18 25 0,York Vikings,1,19 25 25 20 0,division_3,men,Gryphon Sports Centre,unknown,unknown
+2009-2010,2009-09-20,Essex Blaze,3,19 23 26 25 15,Dartford Crossers,2,25 25 24 21 12,division_3,men,Becket Keys School,unknown,unknown
+2009-2010,2009-09-26,Essex Trinity,0,16 19 18 - -,Portsmouth,3,25 25 25 - -,division_2,women,Brentwood Centre,unknown,unknown
+2009-2010,2009-09-26,Ashcombe Dorking,3,25 25 13 25 0,Malory Eagles UEL,1,21 15 25 20 0,division_1,women,unknown,unknown,unknown
+2009-2010,2009-09-26,Richmond Docklands,3,25 25 25 - -,Sheffield,0,15 22 21 - -,division_1,men,Bacons S.C.,unknown,unknown
+2009-2010,2009-09-26,Cambridge ARU,2,25 14 25 18 13,Northumbria University,3,23 25 23 25 15,division_1,men,North Cambridge Academy,unknown,unknown
+2009-2010,2009-09-26,Essex Estonians,3,25 25 17 25 0,Newmarket,1,11 13 25 14 0,cup,men,unknown,unknown,unknown
+2009-2010,2009-09-26,Dartford Crossers,1,21 20 25 15 0,Newcastle Staffs 2,3,25 25 19 25 0,cup,men,unknown,unknown,unknown
+2009-2010,2009-09-26,Black Country,0,21 24 20 - -,Southampton,3,25 26 25 - -,cup,men,unknown,unknown,unknown
+2009-2010,2009-09-26,York Vikings,0,15 20 20 - -,Loughborough Students,3,25 25 25 - -,cup,men,unknown,unknown,unknown
+2009-2010,2009-09-26,Newcastle Staffs,0,23 23 21 - -,Malory Eagles UEL,3,25 25 25 - -,division_1,men,Keele University Sports Centre,unknown,unknown
+2009-2010,2009-09-26,IBB Polonia London,3,25 28 17 25 0,Coventry and Warwick Riga,1,19 26 25 20 0,division_1,men,St Benedicts School,unknown,unknown
+2009-2010,2009-09-27,Cambridge ARU,3,24 25 25 25 0,Dartford Chargers,1,26 22 23 17 0,division_3,women,Peckham Academy,unknown,unknown
+2009-2010,2009-09-27,Essex Rebels,3,17 25 25 25 0,Sussex Dolphins 1,1,25 11 15 20 0,division_3,women,Tendring Technology College,unknown,unknown
+2009-2010,2009-09-27,Herts,0,23 14 19 - -,Northampton,3,25 25 25 - -,division_3,women,St. Clement Danes,unknown,unknown
+2009-2010,2009-09-27,Loughborough Students,0,0 0 0 - -,Portsmouth,3,25 25 25 - -,division_2,women,unknown,unknown,unknown
+2009-2010,2009-09-27,Plymouth,3,25 20 25 25 0,Bristol,1,13 25 14 15 0,division_3,women,Coombe Dean School,unknown,unknown
+2009-2010,2009-10-03,Sussex Dolphins 1,1,19 25 22 19 0,Cambridge ARU,3,25 19 25 25 0,division_3,women,St Wilfrid's Catholic School,unknown,unknown
+2009-2010,2009-10-10,Loughborough Students,0,5 16 12 - -,Reading Aces,3,25 25 25 - -,division_2,women,Sir David Wallace Sports Hall,unknown,unknown
+2009-2010,2009-10-10,Northumbria University,0,24 22 29 - -,Richmond Docklands,3,26 25 31 - -,division_1,men,Middlesbrough College,unknown,unknown
+2009-2010,2009-10-10,Malory Eagles UEL,3,25 25 25 - -,Coventry and Warwick Riga,0,23 23 16 - -,division_1,men,Ernest Bevin College,unknown,unknown
+2009-2010,2009-10-10,Sheffield,3,19 25 25 25 0,IBB Polonia London,1,25 20 22 22 0,division_1,men,Sheffield - U18 Boys,unknown,unknown
+2009-2010,2009-10-10,Sussex Dolphins 1,2,25 19 15 25 15,Southampton 2,3,17 25 25 20 17,cup,women,unknown,unknown,unknown
+2009-2010,2009-10-11,Essex Trinity,1,24 25 16 21 0,Reading Aces,3,26 23 25 25 0,division_2,women,Becket Keys School,unknown,unknown
+2009-2010,2009-10-11,Bristol,3,25 29 25 - -,Wiltshire Mavericks,0,15 27 21 - -,division_3,men,Clifton College Sports Centre,unknown,unknown
+2009-2010,2009-10-11,Coventry & Warwick Riga 2,0,19 19 23 - -,York Vikings,3,25 25 25 - -,division_3,men,St. Nicholas Park L.C.,unknown,unknown
+2009-2010,2009-10-11,Black Country,3,25 17 25 25 0,Newcastle Staffs 2,1,20 25 18 22 0,division_3,men,Whitby High School,unknown,unknown
+2009-2010,2009-10-11,Dartford Crossers,3,25 19 21 27 15,Stowmarket,2,11 25 25 25 11,division_3,men,Dartford Technology College,unknown,unknown
+2009-2010,2009-10-11,Essex Estonians,3,30 25 25 - -,Southampton,0,28 23 21 - -,division_2,men,Becket Keys School,unknown,unknown
+2009-2010,2009-10-11,Sheffield,3,25 25 25 - -,Richmond Docklands,0,22 18 13 - -,division_1,men,Sheffield - U18 Boys,unknown,unknown
+2009-2010,2009-10-11,Nottingham Rockets,1,20 16 25 18 0,Leeds Gorse,3,25 25 17 25 0,division_3,men,Royston High School,unknown,unknown
+2009-2010,2009-10-17,IBB Polonia London,3,25 25 25 - -,Northumbria University,0,22 17 21 - -,division_1,men,St Benedicts School,unknown,unknown
+2009-2010,2009-10-17,Coventry and Warwick Riga,1,26 25 15 15 0,Sheffield,3,28 23 25 25 0,division_1,men,Alan Higgs Centre,unknown,unknown
+2009-2010,2009-10-18,Bristol,3,25 25 25 - -,Southampton 2,0,13 12 19 - -,division_3,women,Clifton College Sports Centre,unknown,unknown
+2009-2010,2009-10-18,Bristol,3,25 25 25 - -,City of Bristol,0,18 22 19 - -,division_3,women,Clifton College Sports Centre,unknown,unknown
+2009-2010,2009-10-18,Dartford Chargers,3,25 25 25 - -,Sussex Dolphins 1,0,22 15 19 - -,division_3,women,Dartford Technology College,unknown,unknown
+2009-2010,2009-10-18,Cambridge ARU,3,25 25 25 - -,Herts,0,23 14 14 - -,division_3,women,North Cambridge Academy,unknown,unknown
+2009-2010,2009-10-18,Black Country,3,25 25 25 - -,Nottingham Rockets,0,15 12 23 - -,division_3,men,Turves Green School,unknown,unknown
+2009-2010,2009-10-18,Leeds Gorse,2,25 25 18 22 12,Ashcombe Dorking,3,19 20 25 25 15,division_1,women,Gryphon Sports Centre,unknown,unknown
+2009-2010,2009-10-18,Southampton 2,0,17 20 14 - -,City of Bristol,3,25 25 25 - -,division_3,women,Clifton College Sports Centre,unknown,unknown
+2009-2010,2009-10-23,Newcastle Staffs 2,0,17 11 8 - -,Newcastle Staffs,3,25 25 25 - -,cup,men,unknown,unknown,unknown
+2009-2010,2009-10-24,Essex Trinity,3,25 26 25 - -,Loughborough Students,0,18 24 7 - -,division_2,women,Riverside Ice and Leisure Centre,unknown,unknown
+2009-2010,2009-10-24,Portsmouth,3,25 25 25 - -,Reading Aces,0,12 22 11 - -,division_2,women,Priory Community Sports Centre,unknown,unknown
+2009-2010,2009-10-24,Malory Eagles UEL,1,25 25 29 19 0,Sheffield,3,27 23 31 25 0,division_1,men,Ernest Bevin College,unknown,unknown
+2009-2010,2009-10-24,Newcastle Staffs,2,24 25 13 25 11,Richmond Docklands,3,26 15 25 19 15,division_1,men,Keele University Sports Centre,unknown,unknown
+2009-2010,2009-10-24,Northumbria University,2,17 23 25 25 13,Coventry and Warwick Riga,3,25 25 16 19 15,division_1,men,Middlesbrough College,unknown,unknown
+2009-2010,2009-10-24,Stowmarket,3,25 25 22 22 15,Essex Blaze,2,20 22 25 25 11,division_3,men,Stowupland Sports Centre,unknown,unknown
+2009-2010,2009-10-24,Newcastle Staffs 2,0,21 23 19 - -,Coventry & Warwick Riga 2,3,25 25 25 - -,division_3,men,Madeley High School,unknown,unknown
+2009-2010,2009-10-24,Leeds Gorse,2,24 21 25 26 10,Coventry & Warwick Riga 2,3,26 25 20 24 15,division_3,men,Madeley High School,unknown,unknown
+2009-2010,2009-10-24,Newcastle Staffs 2,3,25 25 25 - -,Leeds Gorse,0,19 16 22 - -,division_3,men,Madeley High School,unknown,unknown
+2009-2010,2009-10-25,York Vikings,0,15 8 20 - -,Black Country,3,25 25 25 - -,division_3,men,York College,unknown,unknown
+2009-2010,2009-10-31,Cambridge ARU,0,21 23 16 - -,Malory Eagles UEL,3,25 25 25 - -,division_1,men,North Cambridge Academy,unknown,unknown
+2009-2010,2009-10-31,IBB Polonia London,3,27 25 25 - -,Newcastle Staffs,0,25 21 22 - -,division_1,men,St Benedicts School,unknown,unknown
+2009-2010,2009-10-31,Sheffield,3,25 25 25 - -,Northumbria University,0,9 14 22 - -,division_1,men,Sheffield - U18 Boys,unknown,unknown
+2009-2010,2009-11-01,City of Bristol,0,13 19 22 - -,Plymouth,3,25 25 25 - -,division_3,women,University of Bristol,unknown,unknown
+2009-2010,2009-11-01,Northampton,2,25 27 25 22 9,Cambridge ARU,3,18 29 18 25 15,division_3,women,Moulton Leisure Centre,unknown,unknown
+2009-2010,2009-11-01,Essex Rebels,0,16 22 21 - -,Cambridge ARU,3,25 25 25 - -,division_3,women,Moulton Leisure Centre,unknown,unknown
+2009-2010,2009-11-01,Northampton,3,25 25 25 - -,Essex Rebels,0,9 18 10 - -,division_3,women,Moulton Leisure Centre,unknown,unknown
+2009-2010,2009-11-01,Southampton,0,17 21 15 - -,Bristol,3,25 25 25 - -,division_3,women,Crestwood College,unknown,unknown
+2009-2010,2009-11-08,Guildford International,0,19 20 15 - -,Portsmouth,3,25 25 25 - -,division_2,women,ACS Cobham International School,unknown,unknown
+2009-2010,2009-11-14,Southampton,0,16 20 14 - -,Malory Eagles UEL,3,25 25 25 - -,cup,men,unknown,unknown,unknown
+2009-2010,2009-11-14,Team SideOut Polonia (London),3,25 25 25 - -,Ashcombe Dorking,0,15 17 18 - -,division_1,women,St Benedicts School,unknown,unknown
+2009-2010,2009-11-15,Cambridge ARU,2,25 25 21 26 11,Portsmouth,3,19 22 25 28 15,cup,women,unknown,unknown,unknown
+2009-2010,2009-11-15,Plymouth,0,13 17 16 - -,Team SideOut Polonia (London),3,25 25 25 - -,cup,women,unknown,unknown,unknown
+2009-2010,2009-11-15,Coventry & Warwick Riga 2,1,24 15 27 22 0,Nottingham Rockets,3,26 25 25 25 0,division_3,men,Thornhill Sports Centre,unknown,unknown
+2009-2010,2009-11-15,Newcastle Staffs 2,3,19 20 25 25 15,York Vikings,2,25 25 21 19 11,division_3,men,Middlesbrough College,unknown,unknown
+2009-2010,2009-11-21,Cambridge ARU,3,23 25 25 25 0,Newcastle Staffs,1,25 21 19 22 0,division_1,men,North Cambridge Academy,unknown,unknown
+2009-2010,2009-11-22,Dartford Chargers,2,25 28 14 20 9,Herts,3,21 26 25 25 15,division_3,women,Dartford Technology College,unknown,unknown
+2009-2010,2009-11-22,York Vikings,3,25 16 25 25 0,Nottingham Rockets,1,18 25 21 19 0,division_3,men,York College,unknown,unknown
+2009-2010,2009-11-22,Sussex Dolphins 1,1,18 23 25 11 0,Northampton,3,25 25 18 25 0,division_3,women,St Wilfrid's Catholic School,unknown,unknown
+2009-2010,2009-11-22,Southampton 2,1,26 11 21 14 0,Plymouth,3,24 25 25 25 0,division_3,women,Woodlands Community School,unknown,unknown
+2009-2010,2009-11-28,Malory Eagles UEL,3,25 25 25 25 0,Northumbria University,1,21 27 17 23 0,division_1,men,Ernest Bevin College,unknown,unknown
+2009-2010,2009-11-28,Cambridge ARU,0,15 17 19 - -,Richmond Docklands,3,25 25 25 - -,division_1,men,North Cambridge Academy,unknown,unknown
+2009-2010,2009-11-28,Newcastle Staffs,2,13 25 15 25 11,Coventry and Warwick Riga,3,25 22 25 19 15,division_1,men,Keele University Sports Centre,unknown,unknown
+2009-2010,2009-11-28,Northumbria University,3,25 25 25 - -,Loughborough Students,0,11 13 16 - -,division_2,women,Middlesbrough College,unknown,unknown
+2009-2010,2009-11-29,Black Country,3,22 25 25 25 0,Leeds Gorse,1,25 20 23 20 0,division_3,men,Turves Green School,unknown,unknown
+2009-2010,2009-11-29,Black Country,3,25 23 20 25 15,Coventry & Warwick Riga 2,2,11 25 25 23 11,division_3,men,Turves Green School,unknown,unknown
+2009-2010,2009-11-29,Loughborough Students,1,25 16 15 18 0,Southampton,3,21 25 25 25 0,division_2,men,Victory Hall,unknown,unknown
+2009-2010,2009-11-29,Leeds Gorse,1,20 25 21 19 0,Coventry & Warwick Riga 2,3,25 13 25 25 0,division_3,men,Turves Green School,unknown,unknown
+2009-2010,2009-11-29,City of Bristol,3,19 25 25 27 15,Bristol,2,25 13 17 29 5,division_3,men,University of Bristol,unknown,unknown
+2009-2010,2009-12-05,Guildford International,3,25 25 25 - -,Loughborough Students,0,11 23 13 - -,division_2,women,ACS Cobham International School,unknown,unknown
+2009-2010,2009-12-05,Northumbria University,0,23 22 19 - -,Portsmouth,3,25 25 25 - -,division_2,women,Middlesbrough College,unknown,unknown
+2009-2010,2009-12-05,Southampton,3,25 25 25 - -,Stowmarket,0,0 0 0 - -,shield,men,unknown,unknown,unknown
+2009-2010,2009-12-05,IBB Polonia London,3,25 25 25 - -,Cambridge ARU,0,23 10 20 - -,division_1,men,St Benedicts School,unknown,unknown
+2009-2010,2009-12-05,Sheffield,3,25 22 25 25 0,Newcastle Staffs,1,23 25 18 16 0,division_1,men,Sheffield - U18 Boys,unknown,unknown
+2009-2010,2009-12-05,Richmond Docklands,0,15 24 21 - -,Malory Eagles UEL,3,25 26 25 - -,division_1,men,Bacons S.C.,unknown,unknown
+2009-2010,2009-12-05,Team SideOut Polonia (London),3,25 25 25 - -,Leeds Gorse,0,13 12 12 - -,division_1,women,St Benedicts School,unknown,unknown
+2009-2010,2009-12-06,Northumbria University,3,25 25 25 - -,Reading Aces,0,18 19 20 - -,division_2,women,Middlesbrough College,unknown,unknown
+2009-2010,2009-12-06,Guildford International,3,23 25 25 25 0,Essex Trinity,1,25 14 16 18 0,division_2,women,ACS Cobham International School,unknown,unknown
+2009-2010,2009-12-06,Northampton,3,25 25 25 - -,Herts,0,12 21 22 - -,division_3,women,Moulton Leisure Centre,unknown,unknown
+2009-2010,2009-12-06,Essex Rebels,3,17 21 25 25 15,Dartford Chargers,2,25 25 11 22 12,division_3,women,Becket Keys School,unknown,unknown
+2009-2010,2009-12-06,City of Bristol,0,23 24 21 - -,Bristol,3,25 26 25 - -,division_3,women,University of Bristol,unknown,unknown
+2009-2010,2009-12-06,Southampton 2,2,21 25 19 25 12,Southampton,3,25 22 25 17 15,division_3,women,Sports Training Village (University of Bath),unknown,unknown
+2009-2010,2009-12-12,Plymouth,1,22 13 25 19 0,Team South Wales,3,25 25 16 25 0,shield,women,unknown,unknown,unknown
+2009-2010,2009-12-12,Essex Trinity,3,25 25 25 - -,Northumbria University,0,14 21 15 - -,division_2,women,Brentwood Centre,unknown,unknown
+2009-2010,2009-12-12,Essex Estonians,3,25 27 25 - -,Loughborough Students,0,20 25 15 - -,division_2,men,Brentwood Centre,unknown,unknown
+2009-2010,2009-12-12,Cambridge ARU,0,10 22 21 - -,Coventry and Warwick Riga,3,25 25 25 - -,division_1,men,North Cambridge Academy,unknown,unknown
+2009-2010,2009-12-12,Newcastle Staffs,1,27 23 22 29 0,Northumbria University,3,25 25 25 31 0,division_1,men,Keele University Sports Centre,unknown,unknown
+2009-2010,2009-12-12,Richmond Docklands,1,20 25 24 22 0,IBB Polonia London,3,25 22 26 25 0,division_1,men,Bacons S.C.,unknown,unknown
+2009-2010,2009-12-13,Bristol,1,25 10 23 14 0,Wiltshire Mavericks,3,17 25 25 25 0,division_3,men,Clifton College Sports Centre,unknown,unknown
+2009-2010,2009-12-13,Leeds Gorse,3,25 25 25 - -,Newcastle Staffs 2,0,23 22 22 - -,division_3,men,Gryphon Sports Centre,unknown,unknown
+2009-2010,2009-12-13,Dartford Crossers,1,27 19 22 22 0,Stowmarket,3,25 25 25 25 0,division_3,men,Dartford Technology College,unknown,unknown
+2009-2010,2009-12-13,Nottingham Rockets,1,22 25 22 13 0,Black Country,3,25 18 25 25 0,division_3,men,Southglade Leisure Centre,unknown,unknown
+2009-2010,2009-12-13,Reading Aces,1,19 25 21 17 0,Guildford International,3,25 21 25 25 0,division_2,women,Kendrick School,unknown,unknown
+2009-2010,2010-01-16,Cambridge ARU,1,17 20 25 26 0,Sheffield,3,25 25 20 28 0,division_1,men,North Cambridge Academy,unknown,unknown
+2009-2010,2010-01-16,IBB Polonia London,1,25 23 20 16 0,Malory Eagles UEL,3,23 25 25 25 0,division_1,men,St Benedicts School,unknown,unknown
+2009-2010,2010-01-16,Richmond Docklands,3,21 27 25 25 0,Coventry and Warwick Riga,1,25 25 15 18 0,division_1,men,Bacons S.C.,unknown,unknown
+2009-2010,2010-01-16,Team SideOut Polonia (London),3,25 25 25 - -,Malory Eagles UEL,0,14 17 20 - -,division_1,women,St Benedicts School,unknown,unknown
+2009-2010,2010-01-17,Cambridge ARU,3,25 25 25 - -,Sussex Dolphins 1,0,20 7 15 - -,division_3,women,North Cambridge Academy,unknown,unknown
+2009-2010,2010-01-17,Cambridge ARU,3,25 24 25 19 15,Dartford Chargers,2,12 26 17 25 6,division_3,women,North Cambridge Academy,unknown,unknown
+2009-2010,2010-01-17,Loughborough Students,0,14 10 14 - -,Northumbria University,3,25 25 25 - -,division_2,women,Sir David Wallace Sports Hall,unknown,unknown
+2009-2010,2010-01-17,Ashcombe Dorking,3,25 21 25 19 15,Portsmouth,2,18 25 19 25 12,cup,women,unknown,unknown,unknown
+2009-2010,2010-01-17,Sussex Dolphins 1,3,25 22 25 25 0,Dartford Chargers,1,12 25 23 13 0,division_3,women,North Cambridge Academy,unknown,unknown
+2009-2010,2010-01-17,Herts,1,27 18 20 16 0,Essex Rebels,3,25 25 25 25 0,division_3,women,Hertfordshire Sports Village,unknown,unknown
+2009-2010,2010-01-17,Southampton 2,0,24 17 16 - -,Bristol,3,26 25 25 - -,division_3,women,Lavington School,unknown,unknown
+2009-2010,2010-01-17,Southampton,3,25 25 25 - -,City of Bristol,0,22 19 20 - -,division_3,women,Crestwood College,unknown,unknown
+2009-2010,2010-01-23,Malory Eagles UEL,3,25 25 25 - -,Newcastle Staffs,0,12 20 19 - -,division_1,men,Ernest Bevin College,unknown,unknown
+2009-2010,2010-01-23,Coventry and Warwick Riga,0,23 28 21 - -,IBB Polonia London,3,25 30 25 - -,division_1,men,Alan Higgs Centre,unknown,unknown
+2009-2010,2010-01-23,Northumbria University,3,21 25 21 25 15,Cambridge ARU,2,25 16 25 18 11,division_1,men,Middlesbrough College,unknown,unknown
+2009-2010,2010-01-23,Malory Eagles UEL,3,17 25 25 25 0,Ashcombe Dorking,1,25 14 23 23 0,division_1,women,Ernest Bevin College,unknown,unknown
+2009-2010,2010-01-24,Black Country,3,25 25 25 - -,York Vikings,0,15 14 23 - -,division_3,men,Robin Park Arena,unknown,unknown
+2009-2010,2010-01-24,Newcastle Staffs 2,1,25 20 24 20 0,Nottingham Rockets,3,20 25 26 25 0,division_3,men,Burleigh Community College,unknown,unknown
+2009-2010,2010-01-24,Coventry and Warwick Riga,3,21 25 25 25 0,Northumbria University,1,25 23 18 22 0,cup,men,unknown,unknown,unknown
+2009-2010,2010-01-24,Wiltshire Mavericks,0,24 16 26 - -,City of Bristol,3,26 25 28 - -,division_3,men,unknown,unknown,unknown
+2009-2010,2010-01-30,Southampton 2,1,25 9 16 21 0,Team South Wales,3,22 25 25 25 0,shield,women,unknown,unknown,unknown
+2009-2010,2010-01-30,Coventry and Warwick Riga,0,22 25 18 - -,Malory Eagles UEL,3,25 27 25 - -,division_1,men,Alan Higgs Centre,unknown,unknown
+2009-2010,2010-01-30,IBB Polonia London,2,28 17 25 18 17,Sheffield,3,26 25 18 25 19,division_1,men,St Benedicts School,unknown,unknown
+2009-2010,2010-01-30,Richmond Docklands,3,25 25 25 - -,Northumbria University,0,22 18 14 - -,division_1,men,Bacons S.C.,unknown,unknown
+2009-2010,2010-01-31,Bristol,3,25 16 25 25 0,Southampton,1,15 25 21 18 0,division_3,women,Clifton College Sports Centre,unknown,unknown
+2009-2010,2010-01-31,Essex Rebels,1,25 15 22 10 0,Northampton,3,17 25 25 25 0,division_3,women,Tendring Technology College,unknown,unknown
+2009-2010,2010-01-31,Herts,0,14 19 26 - -,Sussex Dolphins 1,3,25 25 28 - -,division_3,women,Hertfordshire Sports Village,unknown,unknown
+2009-2010,2010-01-31,Reading Aces,2,25 27 17 17 9,Portsmouth,3,20 25 25 25 15,division_2,women,Kendrick School,unknown,unknown
+2009-2010,2010-01-31,Loughborough Students,1,24 25 18 14 0,Essex Trinity,3,26 20 25 25 0,division_2,women,Sir David Wallace Sports Hall,unknown,unknown
+2009-2010,2010-01-31,Essex Rebels,2,13 25 6 25 5,Cambridge ARU,3,25 16 25 17 15,division_3,women,Tendring Technology College,unknown,unknown
+2009-2010,2010-01-31,Northampton,1,16 25 21 9 0,Cambridge ARU,3,25 22 25 25 0,division_3,women,Tendring Technology College,unknown,unknown
+2009-2010,2010-01-31,Plymouth,3,25 27 25 - -,City of Bristol,0,11 25 10 - -,division_3,women,Sports Training Village (University of Bath),unknown,unknown
+2009-2010,2010-02-06,IBB Polonia London,3,25 16 25 25 0,Richmond Docklands,1,21 25 21 20 0,cup,men,unknown,unknown,unknown
+2009-2010,2010-02-06,Coventry and Warwick Riga,1,25 21 19 14 0,Newcastle Staffs,3,21 25 25 25 0,cup,men,unknown,unknown,unknown
+2009-2010,2010-02-06,Sheffield,3,25 25 25 - -,Cambridge ARU,0,15 10 18 - -,cup,men,unknown,unknown,unknown
+2009-2010,2010-02-07,Nottingham Rockets,3,25 25 25 25 0,Coventry & Warwick Riga 2,1,27 17 15 18 0,division_3,men,Southglade Leisure Centre,unknown,unknown
+2009-2010,2010-02-07,York Vikings,3,15 22 25 27 15,Newcastle Staffs 2,2,25 25 21 25 8,division_3,men,York College,unknown,unknown
+2009-2010,2010-02-07,Sussex Dolphins 1,0,20 20 18 - -,Northumbria University,3,25 25 25 - -,shield,women,unknown,unknown,unknown
+2009-2010,2010-02-13,Sussex Dolphins 1,2,20 24 25 26 11,Herts,3,25 26 18 24 15,division_3,women,St Wilfrid's Catholic School,unknown,unknown
+2009-2010,2010-02-20,Newcastle Staffs,1,19 27 22 14 0,Cambridge ARU,3,25 25 25 25 0,division_1,men,Keele University Sports Centre,unknown,unknown
+2009-2010,2010-02-20,Sheffield,3,25 25 25 - -,Coventry and Warwick Riga,0,16 20 21 - -,division_1,men,Sheffield - U18 Boys,unknown,unknown
+2009-2010,2010-02-20,Northumbria University,1,18 26 19 12 0,IBB Polonia London,3,25 24 25 25 0,division_1,men,Middlesbrough College,unknown,unknown
+2009-2010,2010-02-21,Southampton,3,25 25 25 - -,Southampton 2,0,19 17 22 - -,division_3,women,Kendrick School,unknown,unknown
+2009-2010,2010-02-21,Northampton,1,23 25 25 21 0,Sussex Dolphins 1,3,25 19 27 25 0,division_3,women,Moulton Leisure Centre,unknown,unknown
+2009-2010,2010-02-21,Herts,0,21 15 20 - -,Cambridge ARU,3,25 25 25 - -,division_3,women,St. Clement Danes,unknown,unknown
+2009-2010,2010-02-27,Malory Eagles UEL,3,25 25 25 25 0,Newcastle Staffs,1,27 14 15 15 0,cup,men,unknown,unknown,unknown
+2009-2010,2010-02-27,Sheffield,2,18 25 25 18 10,IBB Polonia London,3,25 20 18 25 15,cup,men,unknown,unknown,unknown
+2009-2010,2010-02-28,York Vikings,3,25 27 28 26 0,Coventry & Warwick Riga 2,1,20 29 26 24 0,division_3,men,Burleigh Community College,unknown,unknown
+2009-2010,2010-02-28,Leeds Gorse,0,20 20 21 - -,Black Country,3,25 25 25 - -,division_3,men,Gryphon Sports Centre,unknown,unknown
+2009-2010,2010-03-06,Leeds Gorse,0,13 9 21 - -,Malory Eagles UEL,3,25 25 25 - -,division_1,women,Gryphon Sports Centre,unknown,unknown
+2009-2010,2010-03-06,Coventry and Warwick Riga,3,25 21 25 22 15,Northumbria University,2,15 25 18 25 10,division_1,men,Alan Higgs Centre,unknown,unknown
+2009-2010,2010-03-06,Sheffield,0,23 19 16 - -,Malory Eagles UEL,3,25 25 25 - -,division_1,men,Sheffield - U18 Boys,unknown,unknown
+2009-2010,2010-03-06,Richmond Docklands,3,25 18 25 25 0,Newcastle Staffs,1,20 25 18 19 0,division_1,men,Bacons S.C.,unknown,unknown
+2009-2010,2010-03-07,Plymouth,1,25 22 15 22 0,Southampton,3,19 25 25 25 0,division_3,women,Coombe Dean School,unknown,unknown
+2009-2010,2010-03-07,Coventry & Warwick Riga,0,12 18 19 - -,Newcastle Staffs,3,25 25 25 - -,division_3,women,Phoenix S.C.,unknown,unknown
+2009-2010,2010-03-07,Dartford Chargers,0,22 11 17 - -,Northampton,3,25 25 25 - -,division_3,women,UEA Norwich Sportspark,unknown,unknown
+2009-2010,2010-03-07,Newcastle Staffs 2,1,25 14 24 19 0,Nottingham Rockets,3,19 25 26 25 0,division_3,men,Madeley High School,unknown,unknown
+2009-2010,2010-03-07,Northumbria University,3,25 25 25 - -,Guildford International,0,14 14 9 - -,division_2,women,Middlesbrough College,unknown,unknown
+2009-2010,2010-03-07,Sussex Dolphins 1,3,21 25 20 25 15,Essex Rebels,2,25 23 25 18 8,division_3,women,St Wilfrid's Catholic School,unknown,unknown
+2009-2010,2010-03-14,Southampton 2,2,25 20 25 23 12,City of Bristol,3,20 25 21 25 15,division_3,women,Woodlands Community School,unknown,unknown
+2009-2010,2010-03-20,Ashcombe Dorking,0,15 19 23 - -,Team SideOut Polonia (London),3,25 25 25 - -,division_1,women,unknown,unknown,unknown
+2009-2010,2010-03-20,Northumbria University,0,16 19 19 - -,Sheffield,3,25 25 25 - -,division_1,men,Middlesbrough College,unknown,unknown
+2009-2010,2010-03-20,Newcastle Staffs,1,19 27 19 14 0,IBB Polonia London,3,25 25 25 25 0,division_1,men,Keele University Sports Centre,unknown,unknown
+2009-2010,2010-03-20,Malory Eagles UEL,3,25 25 25 - -,Cambridge ARU,0,23 20 22 - -,division_1,men,Ernest Bevin College,unknown,unknown
+2009-2010,2010-03-20,Malory Eagles UEL,3,26 25 25 - -,Leeds Gorse,0,24 17 23 - -,division_1,women,Ernest Bevin College,unknown,unknown
+2009-2010,2010-03-21,Plymouth,1,21 18 25 16 0,Southampton 2,3,25 25 17 25 0,division_3,women,Coombe Dean School,unknown,unknown
+2009-2010,2010-03-21,Essex Rebels,3,25 20 25 25 0,Herts,1,23 25 18 20 0,division_3,women,Tendring Technology College,unknown,unknown
+2009-2010,2010-03-21,Ashcombe Dorking,3,25 25 23 25 0,Leeds Gorse,1,17 15 25 15 0,division_1,women,unknown,unknown,unknown
+2009-2010,2010-03-21,Essex Rebels,3,25 26 25 - -,Dartford Chargers,0,22 24 23 - -,division_3,women,Tendring Technology College,unknown,unknown
+2009-2010,2010-03-21,Herts,2,15 15 25 25 13,Dartford Chargers,3,25 25 14 20 15,division_3,women,Tendring Technology College,unknown,unknown
+2009-2010,2010-03-27,Coventry and Warwick Riga,3,25 25 30 - -,Newcastle Staffs,0,21 22 28 - -,division_1,men,Alan Higgs Centre,unknown,unknown
+2009-2010,2010-03-27,Richmond Docklands,2,15 25 20 25 13,Cambridge ARU,3,25 14 25 20 15,division_1,men,Bacons S.C.,unknown,unknown
+2009-2010,2010-03-27,Northumbria University,0,23 19 23 - -,Malory Eagles UEL,3,25 25 25 - -,division_1,men,Middlesbrough College,unknown,unknown
+2009-2010,2010-03-27,Portsmouth,3,25 25 25 - -,Guildford International,0,15 14 23 - -,division_2,women,Priory Community Sports Centre,unknown,unknown
+2009-2010,2010-03-28,Nottingham Rockets,0,23 22 16 - -,York Vikings,3,25 25 25 - -,division_3,men,Southglade Leisure Centre,unknown,unknown
+2009-2010,2010-03-28,Dartford Crossers,3,22 25 25 25 0,Essex Blaze,1,25 22 21 17 0,division_3,men,Dartford Technology College,unknown,unknown
+2009-2010,2010-03-28,Nottingham Rockets,1,13 25 22 22 0,Leeds Gorse,3,25 20 25 25 0,division_3,men,Southglade Leisure Centre,unknown,unknown
+2009-2010,2010-03-28,York Vikings,1,20 25 21 20 0,Leeds Gorse,3,25 18 25 25 0,division_3,men,Southglade Leisure Centre,unknown,unknown
+2009-2010,2010-03-28,Team South Wales,3,27 17 26 25 15,Newcastle Staffs,2,25 25 28 18 7,shield,women,unknown,unknown,unknown
+2009-2010,2010-04-10,Malory Eagles UEL,3,25 25 25 - -,Richmond Docklands,0,15 20 17 - -,division_1,men,Ernest Bevin College,unknown,unknown
+2009-2010,2010-04-10,Cambridge ARU,0,12 18 10 - -,IBB Polonia London,3,25 25 25 - -,division_1,men,North Cambridge Academy,unknown,unknown
+2009-2010,2010-04-10,Newcastle Staffs,0,8 13 17 - -,Sheffield,3,25 25 25 - -,division_1,men,Keele University Sports Centre,unknown,unknown
+2009-2010,2010-04-10,Loughborough Students,3,19 25 11 25 15,Essex Estonians,2,25 22 25 23 10,division_2,men,Sir David Wallace Sports Hall,unknown,unknown
+2009-2010,2010-04-10,Northumbria University,3,25 25 25 - -,Essex Trinity,0,0 0 0 - -,division_2,women,unknown,unknown,unknown
+2009-2010,2010-04-11,Guildford International,3,22 25 16 25 15,Reading Aces,2,25 16 25 17 11,division_2,women,ACS Cobham International School,unknown,unknown
+2009-2010,2010-04-11,Leeds Gorse,0,15 12 22 - -,Team SideOut Polonia (London),3,25 25 25 - -,division_1,women,Gryphon Sports Centre,unknown,unknown
+2009-2010,2010-04-11,Bristol,0,19 18 23 - -,City of Bristol,3,25 25 25 - -,division_3,men,Clifton College Sports Centre,unknown,unknown
+2009-2010,2010-04-11,Coventry & Warwick Riga 2,3,25 25 25 - -,Newcastle Staffs 2,0,14 22 20 - -,division_3,men,St. Nicholas Park L.C.,unknown,unknown
+2009-2010,2010-04-11,Essex Blaze,2,18 26 27 16 10,Stowmarket,3,25 24 25 25 15,division_3,men,Becket Keys School,unknown,unknown
+2009-2010,2010-04-11,Coventry & Warwick Riga 2,3,23 25 25 23 15,Black Country,2,25 20 17 25 12,division_3,men,St. Nicholas Park L.C.,unknown,unknown
+2009-2010,2010-04-11,Newcastle Staffs 2,0,23 15 15 - -,Black Country,3,25 25 25 - -,division_3,men,St. Nicholas Park L.C.,unknown,unknown

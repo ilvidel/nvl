@@ -1,636 +1,634 @@
-season,date,time,ID,home,home_sets,home_points,away,away_sets,away_points,division,category,venue,r1,r2
-2017-2018,2017-09-09,00:00,,Cambridge ARU,3,25 23 25 25 0,Essex Estonians,1,21 25 19 14 0,division_2,men,North Cambridge Academy,unknown,unknown
-2017-2018,2017-09-16,00:00,,Black Country,3,25 25 25 - -,Newcastle Staffs 2,0,21 22 21 - -,cup,men,Redhill School Sports Hall,unknown,unknown
-2017-2018,2017-09-16,00:00,,Durham Palatinates,3,25 25 25 - -,Team Sunderland,0,19 19 23 - -,cup,men,Durham University Sport (Queens Campus),unknown,unknown
-2017-2018,2017-09-16,00:00,,Essex Rebels,2,25 20 25 27 11,Cambridge ARU,3,15 25 14 29 15,cup,men,Tendring Technology College,unknown,unknown
-2017-2018,2017-09-16,00:00,,London Aces,0,21 24 21 - -,UK Armed Forces,3,25 26 25 - -,cup,men,Lambeth Academy,unknown,unknown
-2017-2018,2017-09-16,00:00,,Newcastle Staffs,3,25 25 25 - -,Stockport,0,15 20 21 - -,cup,men,Madeley High School,unknown,unknown
-2017-2018,2017-09-16,00:00,,Southampton,3,23 25 25 25 0,Weymouth Volleyball Club,1,25 20 16 19 0,cup,men,Itchen College Sports Centre,unknown,unknown
-2017-2018,2017-09-16,00:00,,University of Nottingham,0,18 21 17 - -,DARKSTAR Derbyshire,3,25 25 25 - -,cup,men,TBC,unknown,unknown
-2017-2018,2017-09-16,00:00,,Wombourne 1,3,25 25 16 25 0,Coventry and Warwick Riga,1,19 23 25 22 0,cup,men,Dudley Evolve,unknown,unknown
-2017-2018,2017-09-17,00:00,,Intervolley Manchester,3,25 25 27 - -,York Vikings,0,20 18 25 - -,cup,men,The Y Club,unknown,unknown
-2017-2018,2017-09-17,00:00,,MK City,1,22 25 11 17 0,UK Armed Forces,3,25 15 25 25 0,cup,women,TBC,unknown,unknown
-2017-2018,2017-09-23,00:00,,Black Country,3,16 25 25 25 0,Nottingham Rockets,1,25 21 20 16 0,division_3,women,Redhill School Sports Hall,unknown,unknown
-2017-2018,2017-09-23,00:00,,City of Bristol,3,25 27 22 29 0,Exeter Storm,1,21 25 25 27 0,division_2,men,Oasis Academy Brislington,unknown,unknown
-2017-2018,2017-09-23,00:00,,University of Nottingham Volleyball,3,25 25 25 - -,Newcastle Staffs,0,12 21 17 - -,division_2,women,David Ross Sports Village,unknown,unknown
-2017-2018,2017-09-24,00:00,,Herts,0,16 14 12 - -,Malory Eagles UEL,3,25 25 25 - -,division_1,women,Queens School,unknown,unknown
-2017-2018,2017-09-24,00:00,,Hull Thunder,1,20 18 25 20 0,York Falcons,3,25 25 21 25 0,division_3,women,Hull Holy Trinity House Academy,unknown,unknown
-2017-2018,2017-09-24,00:00,,Lincoln Cannons,1,23 25 19 21 0,Loughborough Students,3,25 11 25 25 0,cup,men,Riseholme College (Showground Campus),unknown,unknown
-2017-2018,2017-09-24,00:00,,Manchester Marvels Marauders,0,18 25 17 - -,The Miners Doncaster,3,25 27 25 - -,division_3,men,Dean Trust Ardwick,unknown,unknown
-2017-2018,2017-09-24,00:00,,Manchester Marvels Marauders,1,13 25 16 24 0,Newcastle Staffs 2,3,25 17 25 26 0,division_3,men,Dean Trust Ardwick,unknown,unknown
-2017-2018,2017-09-24,00:00,,Richmond Bucks,3,23 25 25 15 15,Wiltshire Mavericks,2,25 23 15 25 10,division_3,men,Kingston Arena,unknown,unknown
-2017-2018,2017-09-24,00:00,,Richmond Bucks,3,25 25 25 - -,Hounslow,0,0 0 0 - -,division_3,men,Kingston Arena,unknown,unknown
-2017-2018,2017-09-24,00:00,,The Miners Doncaster,3,25 25 27 25 0,Newcastle Staffs 2,1,15 18 29 22 0,division_3,men,Dean Trust Ardwick,unknown,unknown
-2017-2018,2017-09-24,00:00,,Wiltshire Mavericks,3,25 25 25 - -,Hounslow,0,0 0 0 - -,division_3,men,Kingston Arena,unknown,unknown
-2017-2018,2017-09-30,00:00,,Black Country,1,25 25 15 20 0,Southampton,3,13 27 25 25 0,division_1,men,Redhill School Sports Hall,unknown,unknown
-2017-2018,2017-09-30,00:00,,Leeds Gorse,3,20 25 25 25 0,Newcastle Staffs,1,25 21 8 20 0,division_2,women,The Ruth Gorse Academy,unknown,unknown
-2017-2018,2017-09-30,00:00,,London Aces,1,17 14 25 17 0,Newcastle Staffs,3,25 25 23 25 0,division_1,men,Lambeth Academy,unknown,unknown
-2017-2018,2017-09-30,00:00,,Newcastle Staffs 2,0,23 18 9 - -,Hull Thunder,3,25 25 25 - -,division_3,men,Madeley High School,unknown,unknown
-2017-2018,2017-09-30,00:00,,Newcastle Staffs 2,1,20 25 22 19 0,Stockport,3,25 19 25 25 0,division_3,men,Madeley High School,unknown,unknown
-2017-2018,2017-09-30,00:00,,Richmond Docklands,3,25 25 15 25 15,IBB Polonia London,2,27 16 25 21 12,superleague,men,Kingston Arena,unknown,unknown
-2017-2018,2017-09-30,00:00,,Stockport,3,25 23 25 25 0,Hull Thunder,1,10 25 14 18 0,division_3,men,Madeley High School,unknown,unknown
-2017-2018,2017-10-01,00:00,,Ashcombe Dorking,0,21 15 19 - -,Bristol 2,3,25 25 25 - -,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2017-10-01,00:00,,Ashfield Vipers,3,25 25 25 - -,Tamworth Spartans,0,15 21 20 - -,division_3,women,Nottingham Academy,unknown,unknown
-2017-2018,2017-10-01,00:00,,Intervolley Manchester,3,24 25 25 24 15,Manchester Marvels,2,26 17 21 26 8,division_2,men,Woughton Leisure Centre,unknown,unknown
-2017-2018,2017-10-01,00:00,,London Baks,0,22 20 18 - -,Bristol,3,25 25 25 - -,division_2,men,Castle Green Sport Centre,unknown,unknown
-2017-2018,2017-10-01,00:00,,Norwich Spikers,3,15 25 25 21 15,University of Nottingham,2,25 22 12 25 12,division_2,men,Easton & Otley College,unknown,unknown
-2017-2018,2017-10-01,00:00,,Plymouth,3,25 25 25 - -,Southampton,0,17 18 19 - -,division_3,women,Coombe Dean School,unknown,unknown
-2017-2018,2017-10-01,00:00,,Reading Aces,0,15 23 16 - -,London Inter Orcas,3,25 25 25 - -,division_2,women,Loddon Valley Leisure Centre,unknown,unknown
-2017-2018,2017-10-01,00:00,,Richmond Bucks,3,25 25 14 25 0,Wiltshire Mavericks,1,21 23 25 21 0,division_3,men,Bournside School,unknown,unknown
-2017-2018,2017-10-01,00:00,,South Hants,3,26 25 25 - -,Dartford Crossers,0,24 22 20 - -,division_3,men,Purbrook Park School,unknown,unknown
-2017-2018,2017-10-01,00:00,,Stowmarket,3,25 25 25 - -,Lincoln Cannons,0,16 17 22 - -,division_3,men,Stowupland Sports Centre,unknown,unknown
-2017-2018,2017-10-01,00:00,,Tamworth Spartans,3,25 18 18 25 15,Newmarket,2,21 25 25 22 11,division_3,men,Wilnecote Leisure Centre,unknown,unknown
-2017-2018,2017-10-01,00:00,,University of Bristol,3,25 25 25 - -,Hounslow,0,19 18 15 - -,division_3,men,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2017-10-01,00:00,,York Vikings,0,20 24 26 - -,The Miners Doncaster,3,25 26 28 - -,division_3,men,Joseph Rowntree School,unknown,unknown
-2017-2018,2017-10-04,00:00,,York Falcons,3,25 25 25 - -,Team Sunderland,0,0 0 0 - -,cup,women,Joseph Rowntree School,unknown,unknown
-2017-2018,2017-10-06,00:00,,University of Nottingham Volleyball,3,25 25 25 - -,Black Country,0,0 0 0 - -,cup,women,David Ross Sports Village,unknown,unknown
-2017-2018,2017-10-07,00:00,,Black Country,1,22 25 18 19 0,Wombourne 1,3,25 19 25 25 0,cup,men,Redhill School Sports Hall,unknown,unknown
-2017-2018,2017-10-07,00:00,,Durham Palatinates,3,25 25 25 - -,Essex Rebels,0,23 14 19 - -,superleague,women,Durham University Sport (Queens Campus),unknown,unknown
-2017-2018,2017-10-07,00:00,,Durham Palatinates,3,25 25 25 - -,Hull Thunder,0,15 19 18 - -,cup,men,Durham University Sport (Queens Campus),unknown,unknown
-2017-2018,2017-10-07,00:00,,Essex Blaze,3,25 25 25 - -,London Baks,0,11 15 8 - -,cup,men,University of Essex Sports Centre,unknown,unknown
-2017-2018,2017-10-07,00:00,,Loughborough Students,0,12 8 9 - -,University of Nottingham Volleyball,3,25 25 25 - -,division_2,women,Loughborough University Netball Centre,unknown,unknown
-2017-2018,2017-10-07,00:00,,Loughborough Students,0,15 17 21 - -,Newcastle Staffs,3,25 25 25 - -,cup,men,Loughborough University Netball Centre,unknown,unknown
-2017-2018,2017-10-07,00:00,,Manchester Marvels Marauders,0,9 15 7 - -,Richmond Docklands,3,25 25 25 - -,cup,men,TBC,unknown,unknown
-2017-2018,2017-10-07,00:00,,Northumbria University,3,25 25 19 18 16,London Inter Orcas,2,23 17 25 25 14,superleague,women,TBC,unknown,unknown
-2017-2018,2017-10-07,00:00,,Sheffield 2,3,25 25 26 - -,The Miners Doncaster,0,15 17 24 - -,cup,men,Sheffield - U18 Boys,unknown,unknown
-2017-2018,2017-10-07,00:00,,Sheffield,3,25 25 25 - -,Intervolley Manchester,0,15 15 17 - -,cup,men,Sheffield - U18 Boys,unknown,unknown
-2017-2018,2017-10-07,00:00,,University of Nottingham,3,25 21 25 25 0,Norwich Spikers,1,23 25 17 23 0,division_2,men,David Ross Sports Village,unknown,unknown
-2017-2018,2017-10-08,00:00,,Ashcombe Dorking,2,25 25 25 17 8,Southampton,3,16 16 27 25 15,cup,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2017-10-08,00:00,,DARKSTAR Derbyshire,3,25 25 25 - -,Chester Amazons,0,18 13 23 - -,cup,women,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
-2017-2018,2017-10-08,00:00,,DARKSTAR Derbyshire,3,27 22 25 25 0,UK Armed Forces,1,25 25 23 20 0,cup,men,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
-2017-2018,2017-10-08,00:00,,Durham Palatinates,3,25 25 25 - -,London Inter Orcas,0,17 17 22 - -,superleague,women,TBC,unknown,unknown
-2017-2018,2017-10-08,00:00,,Leicester Athena Phoenix,2,25 25 13 16 16,Ashfield Vipers,3,13 23 25 25 18,cup,women,TBC,unknown,unknown
-2017-2018,2017-10-08,00:00,,London Baks,0,19 19 15 - -,Essex Estonians,3,25 25 25 - -,division_2,men,Castle Green Sport Centre,unknown,unknown
-2017-2018,2017-10-08,00:00,,Loughborough Students,0,11 13 16 - -,Coventry & Warwick Riga,3,25 25 25 - -,cup,women,Sir David Wallace Sports Hall,unknown,unknown
-2017-2018,2017-10-08,00:00,,Newcastle Staffs,3,20 22 25 25 15,Lincoln Cannons,2,25 25 16 8 7,cup,women,Madeley High School,unknown,unknown
-2017-2018,2017-10-08,00:00,,Northampton,0,24 18 13 - -,Cambridge ARU,3,26 25 25 - -,cup,women,Moulton college,unknown,unknown
-2017-2018,2017-10-08,00:00,,Northumbria University,3,25 25 25 - -,Essex Rebels,0,18 21 15 - -,superleague,women,Sports Central,unknown,unknown
-2017-2018,2017-10-08,00:00,,Plymouth,1,25 20 20 25 0,Cardiff Falcons,3,19 25 25 27 0,cup,women,Coombe Dean School,unknown,unknown
-2017-2018,2017-10-08,00:00,,UK Armed Forces,0,22 18 22 - -,Richmond 2,3,25 25 25 - -,cup,women,RAF Cranwell,unknown,unknown
-2017-2018,2017-10-14,00:00,,Essex Rebels,3,25 25 18 15 15,Essex Estonians,2,22 19 25 25 10,division_2,men,Tendring Technology College,unknown,unknown
-2017-2018,2017-10-14,00:00,,IBB Polonia London,3,20 25 25 25 0,Sheffield,1,25 15 22 17 0,superleague,men,Brentford Fountain Leisure Centre,unknown,unknown
-2017-2018,2017-10-14,00:00,,Newcastle Staffs,1,25 13 17 22 0,Manchester Marvels Mystics,3,21 25 25 25 0,division_2,women,Keele University Sports Centre,unknown,unknown
-2017-2018,2017-10-14,00:00,,Newcastle Staffs,3,25 21 25 25 0,Leeds Gorse,1,23 25 15 13 0,division_1,men,Keele University Sports Centre,unknown,unknown
-2017-2018,2017-10-14,00:00,,Northumbria University,3,25 25 25 - -,Malory Eagles UEL,0,15 15 17 - -,superleague,men,Sports Central,unknown,unknown
-2017-2018,2017-10-14,00:00,,Nottingham Rockets,1,19 24 25 22 0,DARKSTAR Derbyshire,3,25 26 22 25 0,division_2,men,Southglade Leisure Centre,unknown,unknown
-2017-2018,2017-10-14,00:00,,Sheffield 2,3,27 25 25 25 0,Black Country,1,25 27 22 22 0,division_1,men,Sheffield - U18 Boys,unknown,unknown
-2017-2018,2017-10-14,00:00,,Southampton,2,20 25 20 26 8,Durham Palatinates,3,25 16 25 24 15,division_1,men,Itchen College Sports Centre,unknown,unknown
-2017-2018,2017-10-14,00:00,,Team SideOut Polonia (London),0,16 23 21 - -,Durham Palatinates,3,25 25 25 - -,superleague,women,Brentford Fountain Leisure Centre,unknown,unknown
-2017-2018,2017-10-14,00:00,,University of Nottingham Volleyball,3,25 25 25 - -,Leeds Gorse,0,21 18 17 - -,division_2,women,David Ross Sports Village,unknown,unknown
-2017-2018,2017-10-15,00:00,,Ashfield Vipers,0,17 17 14 - -,Tamworth Spartans,3,25 25 25 - -,division_3,women,Vision West Nottinghamshire College,unknown,unknown
-2017-2018,2017-10-15,00:00,,Ashfield Vipers,0,19 19 15 - -,Northampton,3,25 25 25 - -,division_3,women,Vision West Nottinghamshire College,unknown,unknown
-2017-2018,2017-10-15,00:00,,Bristol,3,23 25 22 25 15,Team South Wales,2,25 21 25 15 9,division_1,women,Abbeywood School,unknown,unknown
-2017-2018,2017-10-15,00:00,,Bristol,3,25 25 26 - -,City of Bristol,0,17 23 24 - -,division_2,men,Abbeywood School,unknown,unknown
-2017-2018,2017-10-15,00:00,,Herts,1,25 21 22 20 0,Cambridge ARU,3,20 25 25 25 0,division_1,women,Queens School,unknown,unknown
-2017-2018,2017-10-15,00:00,,Hull Thunder,3,19 25 25 27 0,York Falcons,1,25 20 17 25 0,division_3,women,Hull Holy Trinity House Academy,unknown,unknown
-2017-2018,2017-10-15,00:00,,Hull Thunder,3,25 25 25 - -,Manchester Marvels Mayhem,0,16 12 16 - -,division_3,women,Hull Holy Trinity House Academy,unknown,unknown
-2017-2018,2017-10-15,00:00,,Intervolley Manchester,3,27 22 25 19 15,Coventry and Warwick Riga,2,25 25 18 25 9,division_2,men,Woughton Leisure Centre,unknown,unknown
-2017-2018,2017-10-15,00:00,,London Inter Orcas,3,25 18 25 25 15,Dartford Chargers,2,27 25 15 19 12,division_2,women,Island Sports Trust,unknown,unknown
-2017-2018,2017-10-15,00:00,,Newcastle Staffs,0,14 8 20 - -,University of Nottingham Volleyball,3,25 25 25 - -,division_2,women,Madeley High School,unknown,unknown
-2017-2018,2017-10-15,00:00,,Northumbria University,3,25 25 25 - -,Essex Blaze,0,21 19 21 - -,superleague,men,Sports Central,unknown,unknown
-2017-2018,2017-10-15,00:00,,Plymouth Mayflower VC,1,21 25 19 18 0,University of Bristol,3,25 19 25 25 0,division_3,women,Plymstock School Sports Centre,unknown,unknown
-2017-2018,2017-10-15,00:00,,Portsmouth,0,17 11 13 - -,Southampton 2,3,25 25 25 - -,division_3,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2017-10-15,00:00,,Sheffield 2,1,22 20 25 19 0,Leeds Gorse,3,25 25 22 25 0,division_1,men,Sheffield - U18 Boys,unknown,unknown
-2017-2018,2017-10-15,00:00,,Sussex Dolphins 1,1,20 25 14 15 0,Reading Aces,3,25 22 25 25 0,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2017-10-15,00:00,,Sussex Dolphins 1,3,25 15 18 25 15,Cardiff Falcons,2,12 25 25 16 4,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2017-10-15,00:00,,Sussex Dolphins,0,11 16 11 - -,Southampton 2,3,25 25 25 - -,division_3,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2017-10-15,00:00,,Sussex Dolphins,3,25 25 25 - -,Portsmouth,0,14 21 18 - -,division_3,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2017-10-15,00:00,,Tamworth Spartans,2,25 25 22 25 12,Northampton,3,21 27 25 21 15,division_3,women,Vision West Nottinghamshire College,unknown,unknown
-2017-2018,2017-10-15,00:00,,University of Bristol,3,25 25 25 - -,South Hants,0,18 20 8 - -,division_3,men,Wellsway School,unknown,unknown
-2017-2018,2017-10-15,00:00,,Wessex,0,22 9 16 - -,City of Bristol,3,25 25 25 - -,division_3,women,Cardiff Metropolitan University Cyncoed Campus Sports Hall,unknown,unknown
-2017-2018,2017-10-15,00:00,,Wiltshire Mavericks,3,25 22 25 25 0,Hounslow,1,14 25 18 14 0,division_3,men,Lavington School,unknown,unknown
-2017-2018,2017-10-15,00:00,,York Falcons,3,25 25 25 - -,Manchester Marvels Mayhem,0,9 9 13 - -,division_3,women,Hull Holy Trinity House Academy,unknown,unknown
-2017-2018,2017-10-21,00:00,,Ashcombe Dorking,1,19 25 24 22 0,London Inter Orcas,3,25 20 26 25 0,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2017-10-21,00:00,,Cambridge ARU,3,25 25 22 29 0,Exeter Storm,1,22 16 25 27 0,division_2,men,North Cambridge Academy,unknown,unknown
-2017-2018,2017-10-21,00:00,,Coventry & Warwick Riga,3,25 25 25 - -,Loughborough Students,0,14 21 21 - -,division_2,women,Alan Higgs Centre,unknown,unknown
-2017-2018,2017-10-21,00:00,,Coventry and Warwick Riga,3,25 25 25 - -,Nottingham Rockets,0,21 19 0 - -,division_2,men,Alan Higgs Centre,unknown,unknown
-2017-2018,2017-10-21,00:00,,DARKSTAR Derbyshire,3,25 25 25 - -,Newcastle Staffs,0,19 16 17 - -,division_2,women,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
-2017-2018,2017-10-21,00:00,,DARKSTAR Derbyshire,3,25 29 25 - -,Norwich Spikers,0,21 27 22 - -,division_2,men,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
-2017-2018,2017-10-21,00:00,,Durham Palatinates,3,25 22 25 25 0,Sheffield 2,1,16 25 21 18 0,division_1,men,Durham University Sport (Queens Campus),unknown,unknown
-2017-2018,2017-10-21,00:00,,Lincoln Cannons,3,25 25 25 - -,Ashfield Vipers,0,18 16 18 - -,division_3,women,Riseholme College (Showground Campus),unknown,unknown
-2017-2018,2017-10-21,00:00,,Northumbria University,3,25 25 20 25 0,IBB Polonia London,1,14 19 25 15 0,superleague,men,Sports Central,unknown,unknown
-2017-2018,2017-10-21,00:00,,Team Sunderland,3,21 25 25 25 0,Intervolley Manchester,1,25 23 20 20 0,division_2,men,Sunderland College,unknown,unknown
-2017-2018,2017-10-22,00:00,,Ashcombe Dorking 2,2,25 21 15 25 13,Sussex Dolphins,3,17 25 25 21 15,division_3,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2017-10-22,00:00,,Dartford Crossers,1,18 14 25 18 0,Richmond Bucks,3,25 25 19 25 0,division_3,men,Dartford Technology College,unknown,unknown
-2017-2018,2017-10-22,00:00,,Dartford Crossers,1,18 31 16 16 0,Urbond VC Portsmouth,3,25 29 25 25 0,division_3,men,Dartford Technology College,unknown,unknown
-2017-2018,2017-10-22,00:00,,Essex Estonians,2,25 19 25 23 12,City of Bristol,3,22 25 23 25 15,division_2,men,St John Payne School,unknown,unknown
-2017-2018,2017-10-22,00:00,,Leeds Gorse,3,19 25 25 27 0,London Aces,1,25 11 17 25 0,division_1,men,The Ruth Gorse Academy,unknown,unknown
-2017-2018,2017-10-22,00:00,,Loughborough Students,2,25 22 17 25 10,Lincoln Cannons,3,23 25 25 17 15,division_3,men,Newmarket Leisure Centre,unknown,unknown
-2017-2018,2017-10-22,00:00,,MK City,2,23 25 19 25 9,Tamworth Spartans,3,25 23 25 19 15,division_3,men,Woughton Leisure Centre,unknown,unknown
-2017-2018,2017-10-22,00:00,,MK City,3,25 25 22 16 19,Stowmarket,2,19 19 25 25 17,division_3,men,Woughton Leisure Centre,unknown,unknown
-2017-2018,2017-10-22,00:00,,Manchester Marvels Mayhem,0,21 24 26 - -,Chester Amazons,3,25 26 28 - -,division_3,women,Dean Trust Ardwick,unknown,unknown
-2017-2018,2017-10-22,00:00,,Newmarket,3,25 25 25 - -,Lincoln Cannons,0,23 18 22 - -,division_3,men,Newmarket Leisure Centre,unknown,unknown
-2017-2018,2017-10-22,00:00,,Newmarket,3,25 25 25 - -,Loughborough Students,0,17 20 21 - -,division_3,men,Newmarket Leisure Centre,unknown,unknown
-2017-2018,2017-10-22,00:00,,Nottingham Rockets,0,18 15 23 - -,Tamworth Spartans,3,25 25 25 - -,division_3,women,Nottingham Academy,unknown,unknown
-2017-2018,2017-10-22,00:00,,Reading Aces,3,25 23 25 25 0,Cardiff Falcons,1,11 25 17 18 0,division_2,women,Kendrick School,unknown,unknown
-2017-2018,2017-10-22,00:00,,Richmond 2,3,16 25 25 26 0,Southampton 2,1,25 12 16 24 0,division_3,women,Kingston Arena,unknown,unknown
-2017-2018,2017-10-22,00:00,,Richmond Bucks,3,25 21 25 25 0,Urbond VC Portsmouth,1,19 25 20 23 0,division_3,men,Dartford Technology College,unknown,unknown
-2017-2018,2017-10-22,00:00,,Sheffield,0,13 15 17 - -,York Falcons,3,25 25 25 - -,division_3,women,Sheffield - U18 Boys,unknown,unknown
-2017-2018,2017-10-22,00:00,,Stockport,3,25 25 25 - -,York Vikings,0,17 17 19 - -,division_3,men,Life Leisure Priestnall,unknown,unknown
-2017-2018,2017-10-22,00:00,,Tamworth Spartans,3,25 19 25 27 0,Stowmarket,1,22 25 17 25 0,division_3,men,Woughton Leisure Centre,unknown,unknown
-2017-2018,2017-10-22,00:00,,Team Sunderland,3,25 25 19 25 15,University of Nottingham,2,16 27 25 20 11,division_2,men,Sunderland University (Cityspace),unknown,unknown
-2017-2018,2017-10-22,00:00,,Team Sunderland,3,25 25 25 - -,Loughborough Students,0,15 20 13 - -,division_2,women,Sunderland University (Cityspace),unknown,unknown
-2017-2018,2017-10-28,00:00,,Newcastle Staffs,2,18 25 24 29 9,Durham Palatinates,3,25 22 26 27 15,division_1,men,Keele University Sports Centre,unknown,unknown
-2017-2018,2017-10-28,00:00,,Newcastle Staffs,2,22 25 25 24 10,Coventry & Warwick Riga,3,25 20 15 26 15,division_2,women,Keele University Sports Centre,unknown,unknown
-2017-2018,2017-10-28,00:00,,Newmarket,2,25 24 25 17 12,MK City,3,17 26 18 25 15,division_3,men,Cleobury Mortimer Sports Centre,unknown,unknown
-2017-2018,2017-10-28,00:00,,University of Nottingham Volleyball,3,25 25 20 25 0,DARKSTAR Derbyshire,1,10 22 25 18 0,division_2,women,David Ross Sports Village,unknown,unknown
-2017-2018,2017-10-29,00:00,,Essex Trinity,2,23 19 29 25 13,Herts,3,25 25 27 21 15,division_1,women,St John Payne School,unknown,unknown
-2017-2018,2017-10-29,00:00,,Tamworth Spartans,0,18 23 31 - -,Cambridge ARU,3,25 25 33 - -,cup,men,TBC,unknown,unknown
-2017-2018,2017-11-02,00:00,,Ashcombe Dorking,1,25 15 18 24 0,Sussex Dolphins 1,3,16 25 25 26 0,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2017-11-04,00:00,,City of Bristol,3,25 25 25 - -,London Baks,0,17 21 15 - -,division_2,men,Oasis Academy Brislington,unknown,unknown
-2017-2018,2017-11-04,00:00,,Essex Blaze,2,21 17 25 25 12,Malory Eagles UEL,3,25 25 23 22 15,superleague,men,University of Essex Sports Centre,unknown,unknown
-2017-2018,2017-11-04,00:00,,Leeds Gorse,1,25 13 14 9 0,DARKSTAR Derbyshire,3,23 25 25 25 0,division_2,women,The Ruth Gorse Academy,unknown,unknown
-2017-2018,2017-11-04,00:00,,Loughborough Students,0,18 18 18 - -,Team Sunderland,3,25 25 25 - -,division_2,women,Loughborough University Netball Centre,unknown,unknown
-2017-2018,2017-11-04,00:00,,Malory Eagles UEL,3,26 25 25 - -,Cambridge ARU,0,24 21 23 - -,division_1,women,Ernest Bevin College,unknown,unknown
-2017-2018,2017-11-04,00:00,,Newcastle Staffs,3,25 25 23 25 0,Black Country,1,15 20 25 22 0,division_1,men,Keele University Sports Centre,unknown,unknown
-2017-2018,2017-11-04,00:00,,Northumbria University,3,25 25 25 - -,Durham Palatinates,0,11 9 14 - -,superleague,women,Sports Central,unknown,unknown
-2017-2018,2017-11-04,00:00,,Northumbria University,3,25 25 25 - -,Sheffield,0,17 23 16 - -,superleague,men,Sports Central,unknown,unknown
-2017-2018,2017-11-04,00:00,,Norwich Spikers,3,25 25 25 - -,Coventry and Warwick Riga,0,20 22 16 - -,division_2,men,Easton & Otley College,unknown,unknown
-2017-2018,2017-11-04,00:00,,Nottingham Rockets,0,13 10 21 - -,Team Sunderland,3,25 25 25 - -,division_2,men,Southglade Leisure Centre,unknown,unknown
-2017-2018,2017-11-04,00:00,,Sheffield 2,3,25 25 25 - -,Southampton,0,19 19 19 - -,division_1,men,Sheffield - U18 Boys,unknown,unknown
-2017-2018,2017-11-04,00:00,,University of Nottingham Volleyball,3,18 26 25 25 0,Manchester Marvels Mystics,1,25 24 21 16 0,division_2,women,David Ross Sports Village,unknown,unknown
-2017-2018,2017-11-04,00:00,,University of Nottingham,3,25 25 25 - -,Manchester Marvels,0,21 21 21 - -,division_2,men,David Ross Sports Village,unknown,unknown
-2017-2018,2017-11-05,00:00,,Bristol,2,25 20 25 25 14,Essex Trinity,3,16 25 20 27 16,division_1,women,Abbeywood School,unknown,unknown
-2017-2018,2017-11-05,00:00,,Cardiff Falcons,3,25 25 25 - -,Dartford Chargers,0,9 23 21 - -,division_2,women,Cathedral School,unknown,unknown
-2017-2018,2017-11-05,00:00,,Leeds Gorse,3,25 25 18 17 15,Southampton,2,17 9 25 25 7,division_1,men,The Ruth Gorse Academy,unknown,unknown
-2017-2018,2017-11-05,00:00,,Loughborough Students,0,22 18 17 - -,Leeds Gorse,3,25 25 25 - -,division_2,women,Loughborough College,unknown,unknown
-2017-2018,2017-11-05,00:00,,Stockport,3,25 25 25 - -,Manchester Marvels Marauders,0,9 16 16 - -,division_3,men,Life Leisure Priestnall,unknown,unknown
-2017-2018,2017-11-05,00:00,,Tamworth Spartans,3,19 25 25 25 0,Lincoln Cannons,1,25 22 18 21 0,division_3,men,Wilnecote Leisure Centre,unknown,unknown
-2017-2018,2017-11-05,00:00,,The Miners Doncaster,3,19 25 27 25 0,Hull Thunder,1,25 17 25 22 0,division_3,men,Campsmount Academy,unknown,unknown
-2017-2018,2017-11-05,00:00,,University of Nottingham Volleyball,3,25 25 25 - -,Team Sunderland,0,6 15 22 - -,division_2,women,David Ross Sports Village,unknown,unknown
-2017-2018,2017-11-05,00:00,,University of Nottingham,0,21 21 23 - -,Team Sunderland,3,25 25 25 - -,division_2,men,David Ross Sports Village,unknown,unknown
-2017-2018,2017-11-05,00:00,,York Vikings,3,21 25 24 25 15,Newcastle Staffs 2,2,25 17 26 19 12,division_3,men,Joseph Rowntree School,unknown,unknown
-2017-2018,2017-11-09,00:00,,Northumbria University,3,25 25 25 - -,Sheffield 2,0,0 0 0 - -,cup,men,Sports Central,unknown,unknown
-2017-2018,2017-11-11,00:00,,Black Country,1,25 24 17 24 0,Lincoln Cannons,3,17 26 25 26 0,division_3,women,Redhill School Sports Hall,unknown,unknown
-2017-2018,2017-11-11,00:00,,Cambridge ARU,0,15 17 16 - -,Malory Eagles UEL,3,25 25 25 - -,cup,men,North Cambridge Academy,unknown,unknown
-2017-2018,2017-11-11,00:00,,Coventry and Warwick Riga,3,25 25 25 - -,Newcastle Staffs 2,0,14 20 8 - -,shield,men,Centre AT7,unknown,unknown
-2017-2018,2017-11-11,00:00,,Exeter Storm,0,19 12 28 - -,City of Bristol,3,25 25 30 - -,division_2,men,Ashmoor Recreation Centre,unknown,unknown
-2017-2018,2017-11-11,00:00,,London Inter Orcas,2,17 25 16 25 14,Team SideOut Polonia (London),3,25 16 25 20 16,superleague,women,TBC,unknown,unknown
-2017-2018,2017-11-11,00:00,,Newcastle Staffs,2,25 23 25 18 10,Sheffield,3,15 25 21 25 15,cup,men,Keele University Sports Centre,unknown,unknown
-2017-2018,2017-11-11,00:00,,Richmond Docklands,3,25 25 25 - -,Wombourne 1,0,9 6 10 - -,cup,men,Kingston Arena,unknown,unknown
-2017-2018,2017-11-11,00:00,,Weymouth Volleyball Club,3,25 25 21 25 0,Urbond VC Portsmouth,1,16 20 25 18 0,shield,men,Redlands Community Sports Hub,unknown,unknown
-2017-2018,2017-11-12,00:00,,Ashfield Vipers,0,10 3 11 - -,London Inter Orcas,3,25 25 25 - -,cup,women,Nottingham Academy,unknown,unknown
-2017-2018,2017-11-12,00:00,,Cambridge ARU,3,25 25 25 - -,Coventry & Warwick Riga,0,13 18 10 - -,cup,women,North Cambridge Academy,unknown,unknown
-2017-2018,2017-11-12,00:00,,Durham Palatinates,3,25 25 25 - -,Leeds Gorse,0,8 13 5 - -,cup,women,TBC,unknown,unknown
-2017-2018,2017-11-12,00:00,,Hull Thunder,0,17 11 19 - -,Northumbria University,3,25 25 25 - -,cup,women,Hull Holy Trinity House Academy,unknown,unknown
-2017-2018,2017-11-12,00:00,,Manchester Marvels Mystics,3,25 25 25 - -,DARKSTAR Derbyshire,0,23 20 23 - -,cup,women,Dean Trust Ardwick,unknown,unknown
-2017-2018,2017-11-12,00:00,,Reading Aces,3,25 25 25 - -,Southampton,0,21 14 22 - -,cup,women,Kendrick School,unknown,unknown
-2017-2018,2017-11-12,00:00,,Richmond 2,0,9 11 18 - -,Team SideOut Polonia (London),3,25 25 25 - -,cup,women,Kingston Arena,unknown,unknown
-2017-2018,2017-11-12,00:00,,South Hants,1,8 15 25 13 0,Richmond Bucks,3,25 25 16 25 0,division_3,men,Purbrook Park School,unknown,unknown
-2017-2018,2017-11-18,00:00,,Black Country,2,19 17 25 25 14,London Aces,3,25 25 22 20 16,division_1,men,Redhill School Sports Hall,unknown,unknown
-2017-2018,2017-11-18,00:00,,Coventry & Warwick Riga,3,25 25 25 - -,Leeds Gorse,0,12 15 11 - -,division_2,women,Alan Higgs Centre,unknown,unknown
-2017-2018,2017-11-18,00:00,,DARKSTAR Derbyshire,1,25 23 17 21 0,Manchester Marvels,3,19 25 25 25 0,division_2,men,Southglade Leisure Centre,unknown,unknown
-2017-2018,2017-11-18,00:00,,DARKSTAR Derbyshire,3,25 33 25 - -,Manchester Marvels Mystics,0,14 31 21 - -,division_2,women,Southglade Leisure Centre,unknown,unknown
-2017-2018,2017-11-18,00:00,,Durham Palatinates,3,25 25 25 - -,Newcastle Staffs,0,14 22 16 - -,division_1,men,Durham University Sport (Queens Campus),unknown,unknown
-2017-2018,2017-11-18,00:00,,IBB Polonia London,0,22 22 19 - -,Northumbria University,3,25 25 25 - -,superleague,men,Brentford Fountain Leisure Centre,unknown,unknown
-2017-2018,2017-11-18,00:00,,Richmond Docklands,0,15 20 19 - -,Malory Eagles UEL,3,25 25 25 - -,superleague,men,Kingston Arena,unknown,unknown
-2017-2018,2017-11-18,00:00,,Team SideOut Polonia (London),3,25 17 25 15 15,Northumbria University,2,22 25 21 25 10,superleague,women,Brentford Fountain Leisure Centre,unknown,unknown
-2017-2018,2017-11-18,00:00,,Team South Wales,1,25 18 14 18 0,Cambridge ARU,3,22 25 25 25 0,division_1,women,Cardiff Metropolitan University Cyncoed Campus Sports Hall,unknown,unknown
-2017-2018,2017-11-19,00:00,,Ashcombe Dorking 2,0,24 21 18 - -,Richmond 2,3,26 25 25 - -,division_3,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2017-11-19,00:00,,Ashcombe Dorking 2,3,25 25 25 - -,Portsmouth,0,10 18 21 - -,division_3,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2017-11-19,00:00,,Ashfield Vipers,3,22 25 25 23 16,Black Country,2,25 23 17 25 14,division_3,women,Voyager Academy,unknown,unknown
-2017-2018,2017-11-19,00:00,,DARKSTAR Derbyshire,3,25 24 25 16 18,Intervolley Manchester,2,19 26 22 25 16,division_2,men,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
-2017-2018,2017-11-19,00:00,,Dartford Chargers,3,25 25 29 - -,Reading Aces,0,23 21 27 - -,division_2,women,Dartford Technology College,unknown,unknown
-2017-2018,2017-11-19,00:00,,Herts,3,25 17 25 16 15,Essex Trinity,2,20 25 23 25 13,division_1,women,Queens School,unknown,unknown
-2017-2018,2017-11-19,00:00,,Lincoln Cannons,1,11 24 27 13 0,Tamworth Spartans,3,25 26 25 25 0,division_3,women,Vision West Nottinghamshire College,unknown,unknown
-2017-2018,2017-11-19,00:00,,London Baks,1,15 12 26 21 0,Essex Rebels,3,25 25 24 25 0,division_2,men,Castle Green Sport Centre,unknown,unknown
-2017-2018,2017-11-19,00:00,,Manchester Marvels Mayhem,0,10 13 20 - -,Sheffield,3,25 25 25 - -,division_3,women,Dean Trust Ardwick,unknown,unknown
-2017-2018,2017-11-19,00:00,,Newcastle Staffs,3,26 25 25 25 0,Loughborough Students,1,28 12 11 21 0,division_2,women,Madeley High School,unknown,unknown
-2017-2018,2017-11-19,00:00,,Nottingham Rockets,0,13 21 16 - -,Lincoln Cannons,3,25 25 25 - -,division_3,women,Vision West Nottinghamshire College,unknown,unknown
-2017-2018,2017-11-19,00:00,,Nottingham Rockets,1,10 25 15 18 0,Tamworth Spartans,3,25 22 25 25 0,division_3,women,Vision West Nottinghamshire College,unknown,unknown
-2017-2018,2017-11-19,00:00,,Plymouth Mayflower VC,2,25 24 23 25 14,City of Bristol,3,22 26 25 13 16,division_3,women,Petroc College,unknown,unknown
-2017-2018,2017-11-19,00:00,,Plymouth,3,25 25 19 25 0,Wessex,1,15 20 25 19 0,division_3,women,Wellsway School,unknown,unknown
-2017-2018,2017-11-19,00:00,,Portsmouth,0,8 20 15 - -,Richmond 2,3,25 25 25 - -,division_3,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2017-11-19,00:00,,Richmond Bucks,3,25 21 25 25 0,Urbond VC Portsmouth,1,21 25 19 21 0,division_3,men,Kingston Arena,unknown,unknown
-2017-2018,2017-11-19,00:00,,Richmond Bucks,3,25 25 25 - -,University of Bristol,0,17 21 15 - -,division_3,men,Kingston Arena,unknown,unknown
-2017-2018,2017-11-19,00:00,,Southampton,3,22 25 25 25 0,Leeds Gorse,1,25 20 19 20 0,division_1,men,Itchen College Sports Centre,unknown,unknown
-2017-2018,2017-11-19,00:00,,University of Bristol,0,20 19 26 - -,Plymouth,3,25 25 28 - -,division_3,women,Wellsway School,unknown,unknown
-2017-2018,2017-11-19,00:00,,University of Bristol,3,25 22 25 25 0,Urbond VC Portsmouth,1,21 25 16 20 0,division_3,men,Kingston Arena,unknown,unknown
-2017-2018,2017-11-19,00:00,,University of Bristol,3,25 25 25 - -,Wessex,0,14 9 7 - -,division_3,women,Wellsway School,unknown,unknown
-2017-2018,2017-11-19,00:00,,York Falcons,3,25 25 25 - -,Chester Amazons,0,15 17 15 - -,division_3,women,Joseph Rowntree School,unknown,unknown
-2017-2018,2017-11-25,00:00,,Cambridge ARU,3,25 25 27 25 0,Herts,1,19 18 29 23 0,division_1,women,North Cambridge Academy,unknown,unknown
-2017-2018,2017-11-25,00:00,,Essex Rebels,3,25 25 25 - -,Exeter Storm,0,15 17 19 - -,division_2,men,Tendring Technology College,unknown,unknown
-2017-2018,2017-11-25,00:00,,Nottingham Rockets,2,27 27 19 20 8,Manchester Marvels,3,25 25 25 25 15,division_2,men,Southglade Leisure Centre,unknown,unknown
-2017-2018,2017-11-25,00:00,,Team Sunderland,3,25 25 25 - -,Norwich Spikers,0,19 17 22 - -,division_2,men,Sunderland University (Cityspace),unknown,unknown
-2017-2018,2017-11-26,00:00,,Ashcombe Dorking,3,27 25 19 25 0,Reading Aces,1,25 20 25 23 0,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2017-11-26,00:00,,Bristol 2,2,25 25 24 20 2,Dartford Chargers,3,16 16 26 25 15,division_2,women,Abbeywood School,unknown,unknown
-2017-2018,2017-11-26,00:00,,Coventry & Warwick Riga,0,23 23 21 - -,Manchester Marvels Mystics,3,25 25 25 - -,division_2,women,Centre AT7,unknown,unknown
-2017-2018,2017-11-26,00:00,,Coventry and Warwick Riga,2,23 25 25 22 13,Manchester Marvels,3,25 17 19 25 15,division_2,men,Centre AT7,unknown,unknown
-2017-2018,2017-11-26,00:00,,Essex Estonians,3,25 25 25 - -,Exeter Storm,0,15 22 17 - -,division_2,men,St John Payne School,unknown,unknown
-2017-2018,2017-11-26,00:00,,Intervolley Manchester,0,17 23 19 - -,University of Nottingham,3,25 25 25 - -,division_2,men,Woughton Leisure Centre,unknown,unknown
-2017-2018,2017-11-26,00:00,,Newmarket,2,25 24 26 15 11,Stowmarket,3,17 26 24 25 15,division_3,men,Newmarket Leisure Centre,unknown,unknown
-2017-2018,2017-11-26,00:00,,South Hants,0,11 19 16 - -,University of Bristol,3,25 25 25 - -,division_3,men,Lavington School,unknown,unknown
-2017-2018,2017-11-26,00:00,,Wiltshire Mavericks,0,11 18 20 - -,University of Bristol,3,25 25 25 - -,division_3,men,Lavington School,unknown,unknown
-2017-2018,2017-11-26,00:00,,Wiltshire Mavericks,3,19 26 15 25 15,South Hants,2,25 24 25 16 8,division_3,men,Lavington School,unknown,unknown
-2017-2018,2017-12-01,00:00,,University of Nottingham,0,18 18 20 - -,Loughborough Students,3,25 25 25 - -,shield,men,David Ross Sports Village,unknown,unknown
-2017-2018,2017-12-02,00:00,,Essex Rebels,3,19 25 25 25 0,Onyx London,1,25 15 18 19 0,shield,men,Tendring Technology College,unknown,unknown
-2017-2018,2017-12-02,00:00,,Exeter Storm,0,14 17 18 - -,Bristol,3,25 25 25 - -,division_2,men,Riverside Leisure Centre,unknown,unknown
-2017-2018,2017-12-02,00:00,,IBB Polonia London,2,20 25 25 18 12,Malory Eagles UEL,3,25 19 23 25 15,superleague,men,Brentford Fountain Leisure Centre,unknown,unknown
-2017-2018,2017-12-02,00:00,,London Aces,1,20 22 25 24 0,Durham Palatinates,3,25 25 21 26 0,division_1,men,Lambeth Academy,unknown,unknown
-2017-2018,2017-12-02,00:00,,London Baks,1,23 16 25 16 0,Newmarket,3,25 25 22 25 0,shield,men,Castle Green Sport Centre,unknown,unknown
-2017-2018,2017-12-02,00:00,,Loughborough Students,0,17 12 7 - -,DARKSTAR Derbyshire,3,25 25 25 - -,division_2,women,Loughborough University Netball Centre,unknown,unknown
-2017-2018,2017-12-02,00:00,,Northumbria University,3,25 25 25 - -,Manchester Marvels Mystics,0,11 11 9 - -,cup,women,Middlesbrough College,unknown,unknown
-2017-2018,2017-12-02,00:00,,Nottingham Rockets,0,21 18 26 - -,Lincoln Cannons,3,25 25 28 - -,shield,men,Southglade Leisure Centre,unknown,unknown
-2017-2018,2017-12-02,00:00,,Sheffield,3,25 25 25 - -,Essex Blaze,0,8 13 22 - -,superleague,men,Sheffield - U18 Boys,unknown,unknown
-2017-2018,2017-12-02,00:00,,Stockport,3,25 25 25 - -,Manchester Marvels,0,17 19 21 - -,shield,men,Life Leisure Priestnall,unknown,unknown
-2017-2018,2017-12-02,00:00,,UK Armed Forces,0,22 19 24 - -,Black Country,3,25 25 26 - -,shield,men,RAF Cranwell,unknown,unknown
-2017-2018,2017-12-02,00:00,,York Vikings,0,14 18 17 - -,Team Sunderland,3,25 25 25 - -,shield,men,Joseph Rowntree School,unknown,unknown
-2017-2018,2017-12-03,00:00,,Ashcombe Dorking,3,24 25 19 25 15,Cardiff Falcons,2,26 18 25 16 7,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2017-12-03,00:00,,Hull Thunder,2,14 25 25 16 8,York Vikings,3,25 17 22 25 15,division_3,men,Life Leisure Priestnall,unknown,unknown
-2017-2018,2017-12-03,00:00,,Leicester Athena Phoenix,1,21 20 25 12 0,MK City,3,25 25 21 25 0,shield,women,The Queen Elizabeth II Diamond Jubilee Leisure Centre,unknown,unknown
-2017-2018,2017-12-03,00:00,,London Inter Orcas,3,25 25 25 - -,Reading Aces,0,10 13 11 - -,cup,women,TBC,unknown,unknown
-2017-2018,2017-12-03,00:00,,Stockport,3,25 25 25 - -,Hull Thunder,0,5 12 17 - -,division_3,men,Life Leisure Priestnall,unknown,unknown
-2017-2018,2017-12-03,00:00,,Stockport,3,25 25 25 - -,York Vikings,0,15 23 7 - -,division_3,men,Life Leisure Priestnall,unknown,unknown
-2017-2018,2017-12-03,00:00,,Tamworth Spartans,1,25 18 17 16 0,Loughborough Students,3,20 25 25 25 0,shield,women,Rawlett Community Sports College,unknown,unknown
-2017-2018,2017-12-03,00:00,,Tamworth Spartans,1,25 22 20 21 0,Newmarket,3,22 25 25 25 0,division_3,men,Wilnecote Leisure Centre,unknown,unknown
-2017-2018,2017-12-03,00:00,,Team SideOut Polonia (London),3,25 25 25 - -,Cambridge ARU,0,20 16 15 - -,cup,women,St Benedicts School,unknown,unknown
-2017-2018,2017-12-03,00:00,,Urbond VC Portsmouth,3,25 25 25 - -,Wiltshire Mavericks,0,23 19 22 - -,division_3,men,Priory Community Sports Centre,unknown,unknown
-2017-2018,2017-12-09,00:00,,City of Bristol,2,26 17 25 13 11,Essex Rebels,3,24 25 16 25 15,division_2,men,Oasis Academy Brislington,unknown,unknown
-2017-2018,2017-12-09,00:00,,Essex Blaze,3,25 25 25 - -,Richmond Docklands,0,22 17 23 - -,superleague,men,Boswells School,unknown,unknown
-2017-2018,2017-12-09,00:00,,Essex Rebels,2,25 24 22 25 12,London Inter Orcas,3,19 26 25 20 15,superleague,women,TBC,unknown,unknown
-2017-2018,2017-12-09,00:00,,Leeds Gorse,3,25 25 25 - -,Team Sunderland,0,20 16 22 - -,division_2,women,The Ruth Gorse Academy,unknown,unknown
-2017-2018,2017-12-09,00:00,,London Aces,1,16 25 18 20 0,Sheffield 2,3,25 22 25 25 0,division_1,men,Lambeth Academy,unknown,unknown
-2017-2018,2017-12-09,00:00,,Malory Eagles UEL,3,25 25 25 - -,Team South Wales,0,21 20 16 - -,division_1,women,Ernest Bevin College,unknown,unknown
-2017-2018,2017-12-09,00:00,,Newcastle Staffs,3,25 25 24 25 0,Southampton,1,18 20 26 19 0,division_1,men,Keele University Sports Centre,unknown,unknown
-2017-2018,2017-12-09,00:00,,Nottingham Rockets,1,25 23 17 22 0,Intervolley Manchester,3,20 25 25 25 0,division_2,men,Southglade Leisure Centre,unknown,unknown
-2017-2018,2017-12-10,00:00,,Ashcombe Dorking,3,23 23 26 25 15,Dartford Chargers,2,25 25 24 13 12,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2017-12-10,00:00,,Bristol,0,21 23 18 - -,Essex Rebels,3,25 25 25 - -,division_2,men,Abbeywood School,unknown,unknown
-2017-2018,2017-12-10,00:00,,Dartford Crossers,3,25 19 15 25 15,South Hants,2,16 25 25 15 8,division_3,men,Itchen College Sports Centre,unknown,unknown
-2017-2018,2017-12-10,00:00,,Hull Thunder,3,25 25 26 - -,Manchester Marvels Marauders,0,15 17 24 - -,division_3,men,Hull Holy Trinity House Academy,unknown,unknown
-2017-2018,2017-12-10,00:00,,Lionhearts Vinarius,0,0 0 0 - -,Tamworth Spartans,3,25 25 25 - -,shield,men,TBC,unknown,unknown
-2017-2018,2017-12-10,00:00,,Richmond 2,3,25 25 25 - -,Sussex Dolphins,0,21 22 8 - -,division_3,women,Maidstone Leisure Centre,unknown,unknown
-2017-2018,2017-12-10,00:00,,Sussex Dolphins 1,1,13 10 25 15 0,London Inter Orcas,3,25 25 19 25 0,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2017-12-10,00:00,,The Miners Doncaster,3,25 22 25 24 15,Stockport,2,21 25 18 26 8,division_3,men,Campsmount Academy,unknown,unknown
-2017-2018,2017-12-16,00:00,,Coventry & Warwick Riga,2,21 25 25 11 13,DARKSTAR Derbyshire,3,25 13 21 25 15,division_2,women,Alan Higgs Centre,unknown,unknown
-2017-2018,2017-12-16,00:00,,Coventry and Warwick Riga,1,13 15 25 23 0,DARKSTAR Derbyshire,3,25 25 17 25 0,division_2,men,Alan Higgs Centre,unknown,unknown
-2017-2018,2017-12-16,00:00,,Essex Rebels,3,25 25 23 17 15,Bristol,2,20 18 25 25 9,division_2,men,Tendring Technology College,unknown,unknown
-2017-2018,2017-12-16,00:00,,Malory Eagles UEL,1,23 23 25 23 0,IBB Polonia London,3,25 25 22 25 0,superleague,men,Ernest Bevin College,unknown,unknown
-2017-2018,2017-12-16,00:00,,Malory Eagles UEL,3,20 19 25 25 15,Bristol,2,25 25 20 22 12,division_1,women,Ernest Bevin College,unknown,unknown
-2017-2018,2017-12-16,00:00,,Nottingham Rockets,3,25 25 22 28 0,University of Nottingham,1,17 22 25 26 0,division_2,men,Southglade Leisure Centre,unknown,unknown
-2017-2018,2017-12-16,00:00,,Richmond Docklands,1,18 25 22 21 0,Sheffield,3,25 21 25 25 0,superleague,men,Christ's School,unknown,unknown
-2017-2018,2017-12-16,00:00,,Sheffield 2,1,18 17 25 28 0,Newcastle Staffs,3,25 25 23 30 0,division_1,men,Sheffield - U18 Boys,unknown,unknown
-2017-2018,2017-12-16,00:00,,Southampton,2,25 22 19 25 9,London Aces,3,22 25 25 13 15,division_1,men,Itchen College Sports Centre,unknown,unknown
-2017-2018,2017-12-16,00:00,,Team Sunderland,1,23 25 20 23 0,Manchester Marvels Mystics,3,25 22 25 25 0,division_2,women,Sunderland University (Cityspace),unknown,unknown
-2017-2018,2017-12-16,00:00,,Team Sunderland,3,25 25 25 - -,Manchester Marvels,0,21 20 18 - -,division_2,men,Sunderland University (Cityspace),unknown,unknown
-2017-2018,2017-12-17,00:00,,Ashcombe Dorking 2,1,19 26 18 14 0,Portsmouth,3,25 24 25 25 0,division_3,women,Woodlands Community School,unknown,unknown
-2017-2018,2017-12-17,00:00,,City of Bristol,0,17 14 22 - -,Plymouth,3,25 25 25 - -,division_3,women,Oasis Academy Brislington,unknown,unknown
-2017-2018,2017-12-17,00:00,,City of Bristol,3,25 25 25 - -,Wessex,0,0 0 0 - -,division_3,women,Oasis Academy Brislington,unknown,unknown
-2017-2018,2017-12-17,00:00,,Intervolley Manchester,3,25 26 25 - -,Norwich Spikers,0,16 24 20 - -,division_2,men,The Y Club,unknown,unknown
-2017-2018,2017-12-17,00:00,,London Baks,0,17 20 15 - -,Cambridge ARU,3,25 25 25 - -,division_2,men,Castle Green Sport Centre,unknown,unknown
-2017-2018,2017-12-17,00:00,,London Inter Orcas,2,23 28 25 23 11,Durham Palatinates,3,25 26 20 25 15,superleague,women,TBC,unknown,unknown
-2017-2018,2017-12-17,00:00,,Norwich Spikers,3,25 25 12 25 0,Black Country,1,17 20 25 21 0,division_3,women,Easton & Otley College,unknown,unknown
-2017-2018,2017-12-17,00:00,,Norwich Spikers,3,25 25 25 - -,Ashfield Vipers,0,21 13 11 - -,division_3,women,Easton & Otley College,unknown,unknown
-2017-2018,2017-12-17,00:00,,Plymouth,3,25 25 25 - -,Wessex,0,0 0 0 - -,division_3,women,Oasis Academy Brislington,unknown,unknown
-2017-2018,2017-12-17,00:00,,Reading Aces,3,18 14 25 25 15,Ashcombe Dorking,2,25 25 20 15 11,division_2,women,Loddon Valley Leisure Centre,unknown,unknown
-2017-2018,2017-12-17,00:00,,Southampton 2,3,21 25 25 25 0,Portsmouth,1,25 17 20 6 0,division_3,women,Woodlands Community School,unknown,unknown
-2017-2018,2017-12-17,00:00,,Southampton 2,3,24 22 25 25 15,Ashcombe Dorking 2,2,26 25 20 14 12,division_3,women,Woodlands Community School,unknown,unknown
-2017-2018,2017-12-17,00:00,,Southampton,1,25 18 16 23 0,Plymouth Mayflower VC,3,21 25 25 25 0,division_3,women,Itchen College Sports Centre,unknown,unknown
-2017-2018,2017-12-17,00:00,,Sussex Dolphins 1,3,29 21 18 25 15,Dartford Chargers,2,27 25 25 13 12,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2017-12-17,00:00,,York Falcons,3,25 25 25 - -,Manchester Marvels Mayhem,0,23 17 23 - -,division_3,women,Joseph Rowntree School,unknown,unknown
-2017-2018,2018-01-06,00:00,,Lincoln Cannons,3,25 22 21 25 15,Black Country,2,20 25 25 21 10,division_3,women,RAF Cranwell,unknown,unknown
-2017-2018,2018-01-06,00:00,,Stockport,3,25 25 25 - -,Loughborough Students,0,12 13 20 - -,shield,men,Life Leisure Priestnall,unknown,unknown
-2017-2018,2018-01-06,00:00,,Team Sunderland,0,19 20 24 - -,Intervolley Manchester,3,25 25 26 - -,shield,men,Sunderland University (Cityspace),unknown,unknown
-2017-2018,2018-01-07,00:00,,Ashfield Vipers,0,18 5 17 - -,Leeds Gorse,3,25 25 25 - -,shield,women,Southglade Leisure Centre,unknown,unknown
-2017-2018,2018-01-07,00:00,,Coventry & Warwick Riga,3,25 25 25 - -,University of Nottingham Volleyball,0,0 0 0 - -,shield,women,Alan Higgs Centre,unknown,unknown
-2017-2018,2018-01-07,00:00,,Lincoln Cannons,1,20 17 25 16 0,Tamworth Spartans,3,25 25 19 25 0,shield,men,Riseholme College (Showground Campus),unknown,unknown
-2017-2018,2018-01-07,00:00,,Lincoln Cannons,3,25 25 25 - -,Nottingham Rockets,0,13 12 18 - -,shield,women,Riseholme College (Showground Campus),unknown,unknown
-2017-2018,2018-01-07,00:00,,London Aces,3,21 25 25 25 0,Newmarket,1,25 20 20 22 0,shield,men,Battersea Youth Centre,unknown,unknown
-2017-2018,2018-01-07,00:00,,Newcastle Staffs,2,25 25 21 23 13,UK Armed Forces,3,19 21 25 25 15,shield,women,Madeley High School,unknown,unknown
-2017-2018,2018-01-07,00:00,,Northampton,1,7 26 25 17 0,MK City,3,25 28 21 25 0,shield,women,Moulton college,unknown,unknown
-2017-2018,2018-01-07,00:00,,South Hants,0,17 19 19 - -,Richmond Bucks,3,25 25 25 - -,division_3,men,Brune Park Community School,unknown,unknown
-2017-2018,2018-01-07,00:00,,Southampton,3,25 25 25 - -,Cardiff Falcons,0,9 19 18 - -,shield,women,Woodlands Community School,unknown,unknown
-2017-2018,2018-01-07,00:00,,Sussex Dolphins 1,0,0 0 0 - -,Dartford Chargers,3,25 25 25 - -,shield,women,TBC,unknown,unknown
-2017-2018,2018-01-13,00:00,,Durham Palatinates,0,16 17 16 - -,Northumbria University,3,25 25 25 - -,superleague,women,Durham University Sport (Queens Campus),unknown,unknown
-2017-2018,2018-01-13,00:00,,Essex Rebels,3,25 21 25 26 0,Southampton,1,16 25 18 24 0,shield,men,Tendring Technology College,unknown,unknown
-2017-2018,2018-01-13,00:00,,London Inter Orcas,3,20 25 21 25 15,Essex Rebels,2,25 19 25 12 11,superleague,women,TBC,unknown,unknown
-2017-2018,2018-01-13,00:00,,Loughborough Students,0,9 19 14 - -,DARKSTAR Derbyshire,3,25 25 25 - -,shield,women,Loughborough University Netball Centre,unknown,unknown
-2017-2018,2018-01-13,00:00,,Malory Eagles UEL,1,30 25 22 24 0,Essex Blaze,3,32 22 25 26 0,superleague,men,Ernest Bevin College,unknown,unknown
-2017-2018,2018-01-13,00:00,,Sheffield 2,3,25 25 25 - -,London Aces,0,21 17 22 - -,division_1,men,Sheffield - U18 Boys,unknown,unknown
-2017-2018,2018-01-14,00:00,,Ashfield Vipers,2,17 25 18 32 8,Norwich Spikers,3,25 21 25 30 15,division_3,women,RAF Cranwell,unknown,unknown
-2017-2018,2018-01-14,00:00,,Bristol 2,3,26 25 25 - -,Reading Aces,0,24 16 20 - -,division_2,women,Abbeywood School,unknown,unknown
-2017-2018,2018-01-14,00:00,,Bristol,3,25 24 25 25 0,Herts,1,20 26 18 14 0,division_1,women,Abbeywood School,unknown,unknown
-2017-2018,2018-01-14,00:00,,Bristol,3,25 25 25 - -,London Baks,0,11 23 18 - -,division_2,men,Abbeywood School,unknown,unknown
-2017-2018,2018-01-14,00:00,,Dartford Crossers,0,25 13 25 - -,Urbond VC Portsmouth,3,27 25 27 - -,division_3,men,Dartford Technology College,unknown,unknown
-2017-2018,2018-01-14,00:00,,Essex Estonians,1,22 25 13 22 0,Essex Rebels,3,25 23 25 25 0,division_2,men,St John Payne School,unknown,unknown
-2017-2018,2018-01-14,00:00,,Lincoln Cannons,3,25 26 25 - -,Nottingham Rockets,0,21 24 13 - -,division_3,women,Riseholme College (Showground Campus),unknown,unknown
-2017-2018,2018-01-14,00:00,,Manchester Marvels,3,25 18 25 18 15,Nottingham Rockets,2,21 25 16 25 5,division_2,men,Dean Trust Ardwick,unknown,unknown
-2017-2018,2018-01-14,00:00,,Newmarket,3,20 25 28 22 17,MK City,2,25 17 26 25 15,division_3,men,RAF Cranwell,unknown,unknown
-2017-2018,2018-01-14,00:00,,Northampton,1,31 17 24 18 0,Black Country,3,29 25 26 25 0,division_3,women,Wilnecote Leisure Centre,unknown,unknown
-2017-2018,2018-01-14,00:00,,Richmond Docklands,3,17 25 25 25 0,Essex Blaze,1,25 16 17 18 0,superleague,men,Kingston Arena,unknown,unknown
-2017-2018,2018-01-14,00:00,,Sheffield,3,24 24 25 25 15,Northumbria University,2,26 26 21 20 11,superleague,men,Sheffield - U18 Boys,unknown,unknown
-2017-2018,2018-01-14,00:00,,Stowmarket,3,25 25 25 - -,Loughborough Students,0,22 14 23 - -,division_3,men,Stowupland Sports Centre,unknown,unknown
-2017-2018,2018-01-14,00:00,,Sussex Dolphins 1,2,13 25 19 25 9,Ashcombe Dorking,3,25 18 25 20 15,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2018-01-14,00:00,,Tamworth Spartans,1,23 25 23 23 0,Black Country,3,25 12 25 25 0,division_3,women,Wilnecote Leisure Centre,unknown,unknown
-2017-2018,2018-01-14,00:00,,Tamworth Spartans,3,25 25 25 - -,Northampton,0,17 15 16 - -,division_3,women,Wilnecote Leisure Centre,unknown,unknown
-2017-2018,2018-01-14,00:00,,Team Sunderland,0,13 16 18 - -,DARKSTAR Derbyshire,3,25 25 25 - -,division_2,women,Sunderland University (Cityspace),unknown,unknown
-2017-2018,2018-01-14,00:00,,Team Sunderland,3,25 27 25 - -,Coventry and Warwick Riga,0,19 25 14 - -,division_2,men,Sunderland University (Cityspace),unknown,unknown
-2017-2018,2018-01-20,00:00,,Black Country,0,19 22 18 - -,Durham Palatinates,3,25 25 25 - -,division_1,men,Redhill School Sports Hall,unknown,unknown
-2017-2018,2018-01-20,00:00,,Coventry & Warwick Riga,3,25 25 25 - -,Team Sunderland,0,20 14 15 - -,division_2,women,Alan Higgs Centre,unknown,unknown
-2017-2018,2018-01-20,00:00,,Coventry and Warwick Riga,0,18 21 19 - -,Team Sunderland,3,25 25 25 - -,division_2,men,Alan Higgs Centre,unknown,unknown
-2017-2018,2018-01-20,00:00,,Durham Palatinates,3,26 25 25 - -,Team SideOut Polonia (London),0,24 9 18 - -,superleague,women,Durham University Sport (Queens Campus),unknown,unknown
-2017-2018,2018-01-20,00:00,,Leeds Gorse,3,25 25 25 - -,Loughborough Students,0,20 12 15 - -,division_2,women,The Ruth Gorse Academy,unknown,unknown
-2017-2018,2018-01-20,00:00,,Newcastle Staffs,0,21 14 17 - -,DARKSTAR Derbyshire,3,25 25 25 - -,division_2,women,Keele University Sports Centre,unknown,unknown
-2017-2018,2018-01-20,00:00,,Sheffield,1,25 21 17 19 0,IBB Polonia London,3,21 25 25 25 0,superleague,men,Sheffield - U18 Boys,unknown,unknown
-2017-2018,2018-01-21,00:00,,Cardiff Falcons,0,14 21 19 - -,London Inter Orcas,3,25 25 25 - -,division_2,women,Cathedral School,unknown,unknown
-2017-2018,2018-01-21,00:00,,Dartford Chargers,3,24 25 25 25 0,Bristol 2,1,26 19 8 18 0,division_2,women,Dartford Technology College,unknown,unknown
-2017-2018,2018-01-21,00:00,,Essex Estonians,3,25 23 25 25 0,London Baks,1,22 25 17 13 0,division_2,men,St John Payne School,unknown,unknown
-2017-2018,2018-01-21,00:00,,Intervolley Manchester,3,28 25 25 - -,DARKSTAR Derbyshire,0,26 16 21 - -,division_2,men,The Y Club,unknown,unknown
-2017-2018,2018-01-21,00:00,,Lincoln Cannons,1,25 23 19 21 0,Norwich Spikers,3,19 25 25 25 0,division_3,women,Moulton College,unknown,unknown
-2017-2018,2018-01-21,00:00,,Malory Eagles UEL,3,25 25 25 - -,Herts,0,23 23 20 - -,division_1,women,Ernest Bevin College,unknown,unknown
-2017-2018,2018-01-21,00:00,,Northampton,0,18 14 20 - -,Lincoln Cannons,3,25 25 25 - -,division_3,women,Moulton College,unknown,unknown
-2017-2018,2018-01-21,00:00,,Northampton,3,25 25 9 25 0,Norwich Spikers,1,23 21 25 19 0,division_3,women,Moulton College,unknown,unknown
-2017-2018,2018-01-21,00:00,,Northumbria University,3,25 25 21 25 0,Team SideOut Polonia (London),1,17 19 25 20 0,superleague,women,Sports Central,unknown,unknown
-2017-2018,2018-01-21,00:00,,Plymouth,3,25 25 25 - -,Plymouth Mayflower VC,0,12 15 17 - -,division_3,women,Coombe Dean School,unknown,unknown
-2017-2018,2018-01-21,00:00,,Richmond 2,3,25 25 25 - -,Ashcombe Dorking 2,0,15 5 7 - -,division_3,women,Kingston Arena,unknown,unknown
-2017-2018,2018-01-21,00:00,,University of Bristol,3,25 25 25 - -,Hounslow,0,20 11 20 - -,division_3,men,Centre for Sport & Exercise Science,unknown,unknown
-2017-2018,2018-01-27,00:00,,Durham Palatinates,0,13 24 25 - -,Northumbria University,3,25 26 27 - -,cup,men,TBC,unknown,unknown
-2017-2018,2018-01-27,00:00,,Intervolley Manchester,3,25 25 25 - -,The Miners Doncaster,0,20 23 21 - -,shield,men,The Y Club,unknown,unknown
-2017-2018,2018-01-27,00:00,,London Aces,3,25 25 24 25 0,Tamworth Spartans,1,16 12 26 15 0,shield,men,Lambeth Academy,unknown,unknown
-2017-2018,2018-01-27,00:00,,Sheffield,3,25 25 25 - -,Richmond Docklands,0,17 19 17 - -,cup,men,Sheffield - U18 Boys,unknown,unknown
-2017-2018,2018-01-28,00:00,,Coventry & Warwick Riga,1,21 22 25 12 0,UK Armed Forces,3,25 25 19 25 0,shield,women,Alan Higgs Centre,unknown,unknown
-2017-2018,2018-01-28,00:00,,DARKSTAR Derbyshire,3,25 25 25 - -,Lincoln Cannons,0,13 22 22 - -,shield,women,Derby Arena,unknown,unknown
-2017-2018,2018-01-28,00:00,,Dartford Chargers,3,25 25 25 - -,Southampton,0,12 15 18 - -,shield,women,TBC,unknown,unknown
-2017-2018,2018-01-28,00:00,,Essex Rebels,0,15 25 22 - -,Team SideOut Polonia (London),3,25 27 25 - -,cup,women,University of Essex Sports Centre,unknown,unknown
-2017-2018,2018-01-28,00:00,,Hull Thunder,1,21 25 18 15 0,Leeds Gorse,3,25 23 25 25 0,shield,women,Hull Holy Trinity House Academy,unknown,unknown
-2017-2018,2018-01-28,00:00,,MK City,0,13 25 15 - -,Essex Trinity,3,25 27 25 - -,shield,women,Woughton Leisure Centre,unknown,unknown
-2017-2018,2018-01-28,00:00,,Malory Eagles UEL,2,25 13 25 17 11,London Inter Orcas,3,23 25 23 25 15,cup,women,TBC,unknown,unknown
-2017-2018,2018-01-28,00:00,,Richmond 2,3,25 25 25 - -,Ashcombe Dorking,0,16 22 19 - -,shield,women,Kingston Arena,unknown,unknown
-2017-2018,2018-01-28,00:00,,South Hants,3,25 25 19 18 15,Hounslow,2,19 23 25 25 12,division_3,men,Priory Community Sports Centre,unknown,unknown
-2017-2018,2018-01-28,00:00,,Urbond VC Portsmouth,0,0 0 0 - -,South Hants,3,25 25 25 - -,division_3,men,Priory Community Sports Centre,unknown,unknown
-2017-2018,2018-01-28,00:00,,Urbond VC Portsmouth,2,21 25 25 20 18,Hounslow,3,25 15 12 25 20,division_3,men,Priory Community Sports Centre,unknown,unknown
-2017-2018,2018-02-03,00:00,,Black Country,2,25 24 29 15 13,Stockport,3,23 26 27 25 15,shield,men,Redhill School Sports Hall,unknown,unknown
-2017-2018,2018-02-03,00:00,,Sheffield,3,25 25 29 - -,Richmond Docklands,0,12 22 27 - -,superleague,men,Sheffield - U18 Boys,unknown,unknown
-2017-2018,2018-02-03,00:00,,Team South Wales,3,25 25 25 - -,Essex Trinity,0,21 16 20 - -,division_1,women,Cardiff Metropolitan University Cyncoed Campus Sports Hall,unknown,unknown
-2017-2018,2018-02-03,00:00,,Wessex,3,25 25 25 - -,Southampton,0,12 17 15 - -,division_3,women,LeAF Academy,unknown,unknown
-2017-2018,2018-02-04,00:00,,Bristol 2,0,10 17 25 - -,London Inter Orcas,3,25 25 27 - -,division_2,women,Abbeywood School,unknown,unknown
-2017-2018,2018-02-04,00:00,,Bristol 2,3,25 16 15 25 15,Cardiff Falcons,2,20 25 25 15 12,division_2,women,Abbeywood School,unknown,unknown
-2017-2018,2018-02-04,00:00,,Chester Amazons,0,12 19 22 - -,York Falcons,3,25 25 25 - -,division_3,women,The Ruth Gorse Academy,unknown,unknown
-2017-2018,2018-02-04,00:00,,Essex Estonians,0,18 12 21 - -,Bristol,3,25 25 25 - -,division_2,men,St John Payne School,unknown,unknown
-2017-2018,2018-02-04,00:00,,Hounslow,1,26 25 13 22 0,Dartford Crossers,3,28 10 25 25 0,division_3,men,Spelthorne Leisure Centre,unknown,unknown
-2017-2018,2018-02-04,00:00,,London Inter Orcas,3,25 25 25 - -,Cardiff Falcons,0,21 20 20 - -,division_2,women,Abbeywood School,unknown,unknown
-2017-2018,2018-02-04,00:00,,Manchester Marvels Mystics,3,25 25 25 - -,Loughborough Students,0,13 18 15 - -,division_2,women,Dean Trust Ardwick,unknown,unknown
-2017-2018,2018-02-04,00:00,,Manchester Marvels,0,20 15 20 - -,Intervolley Manchester,3,25 25 25 - -,division_2,men,Dean Trust Ardwick,unknown,unknown
-2017-2018,2018-02-04,00:00,,Northumbria University,3,26 25 25 - -,Richmond Docklands,0,24 12 14 - -,superleague,men,Sports Central,unknown,unknown
-2017-2018,2018-02-04,00:00,,Norwich Spikers,0,20 18 15 - -,Nottingham Rockets,3,25 25 25 - -,division_2,men,Easton & Otley College,unknown,unknown
-2017-2018,2018-02-10,00:00,,Ashfield Vipers,3,21 20 25 25 15,Nottingham Rockets,2,25 25 20 21 10,division_3,women,Cleobury Mortimer Sports Centre,unknown,unknown
-2017-2018,2018-02-10,00:00,,Black Country,3,25 25 25 - -,Ashfield Vipers,0,7 23 21 - -,division_3,women,Cleobury Mortimer Sports Centre,unknown,unknown
-2017-2018,2018-02-10,00:00,,Black Country,3,25 25 25 - -,Nottingham Rockets,0,20 12 15 - -,division_3,women,Cleobury Mortimer Sports Centre,unknown,unknown
-2017-2018,2018-02-10,00:00,,Bristol 2,3,25 25 19 13 16,Ashcombe Dorking,2,20 16 25 25 14,division_2,women,Abbeywood School,unknown,unknown
-2017-2018,2018-02-10,00:00,,Bristol,3,25 25 25 - -,Cambridge ARU,0,22 20 23 - -,division_1,women,Abbeywood School,unknown,unknown
-2017-2018,2018-02-10,00:00,,City of Bristol,1,25 12 18 21 0,Cambridge ARU,3,21 25 25 25 0,division_2,men,Oasis Academy Brislington,unknown,unknown
-2017-2018,2018-02-10,00:00,,Essex Blaze,0,22 24 21 - -,IBB Polonia London,3,25 26 25 - -,superleague,men,University of Essex Sports Centre,unknown,unknown
-2017-2018,2018-02-10,00:00,,Essex Rebels,0,24 17 14 - -,Team SideOut Polonia (London),3,26 25 25 - -,superleague,women,University of Essex Sports Centre,unknown,unknown
-2017-2018,2018-02-10,00:00,,Essex Rebels,3,25 25 25 - -,London Baks,0,16 12 14 - -,division_2,men,Tendring Technology College,unknown,unknown
-2017-2018,2018-02-10,00:00,,Lincoln Cannons,3,25 25 20 25 0,Tamworth Spartans,1,18 16 25 20 0,division_3,men,Riseholme College (Showground Campus),unknown,unknown
-2017-2018,2018-02-10,00:00,,Loughborough Students,2,18 25 21 25 12,Manchester Marvels Mystics,3,25 22 25 17 15,division_2,women,Loughborough University Netball Centre,unknown,unknown
-2017-2018,2018-02-10,00:00,,Malory Eagles UEL,3,25 25 25 - -,Essex Trinity,0,7 18 10 - -,division_1,women,Ernest Bevin College,unknown,unknown
-2017-2018,2018-02-10,00:00,,Newcastle Staffs,3,25 25 25 - -,London Aces,0,15 23 22 - -,division_1,men,Keele University Sports Centre,unknown,unknown
-2017-2018,2018-02-10,00:00,,Nottingham Rockets,3,25 26 25 - -,Norwich Spikers,0,21 24 21 - -,division_2,men,Southglade Leisure Centre,unknown,unknown
-2017-2018,2018-02-10,00:00,,Richmond Docklands,1,25 17 17 14 0,Northumbria University,3,16 25 25 25 0,superleague,men,Kingston Arena,unknown,unknown
-2017-2018,2018-02-10,00:00,,Southampton,3,30 25 25 18 15,Black Country,2,32 17 16 25 11,division_1,men,Itchen College Sports Centre,unknown,unknown
-2017-2018,2018-02-10,00:00,,Team South Wales,3,25 25 23 25 0,Herts,1,20 20 25 20 0,division_1,women,Cardiff Metropolitan University Cyncoed Campus Sports Hall,unknown,unknown
-2017-2018,2018-02-10,00:00,,Team Sunderland,3,25 25 25 - -,Newcastle Staffs,0,18 23 21 - -,division_2,women,Sunderland University (Cityspace),unknown,unknown
-2017-2018,2018-02-10,00:00,,Team Sunderland,3,29 21 25 26 0,DARKSTAR Derbyshire,1,27 25 21 24 0,division_2,men,Sunderland University (Cityspace),unknown,unknown
-2017-2018,2018-02-10,00:00,,University of Bristol,3,25 25 27 - -,Urbond VC Portsmouth,0,14 19 25 - -,division_3,men,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2018-02-10,00:00,,University of Nottingham Volleyball,3,25 25 25 - -,Coventry & Warwick Riga,0,23 22 16 - -,division_2,women,David Ross Sports Village,unknown,unknown
-2017-2018,2018-02-10,00:00,,University of Nottingham,3,25 25 25 - -,Coventry and Warwick Riga,0,18 16 16 - -,division_2,men,David Ross Sports Village,unknown,unknown
-2017-2018,2018-02-11,00:00,,Ashcombe Dorking 2,3,25 24 25 25 0,Sussex Dolphins,1,15 26 14 20 0,division_3,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2018-02-11,00:00,,Exeter Storm,2,25 25 11 16 5,Cambridge ARU,3,20 23 25 25 15,division_2,men,Riverside Leisure Centre,unknown,unknown
-2017-2018,2018-02-11,00:00,,Leeds Gorse,1,21 25 20 15 0,Sheffield 2,3,25 19 25 25 0,division_1,men,The Ruth Gorse Academy,unknown,unknown
-2017-2018,2018-02-11,00:00,,Lincoln Cannons,3,25 25 25 - -,Norwich Spikers,0,16 23 19 - -,division_3,women,Wilnecote Leisure Centre,unknown,unknown
-2017-2018,2018-02-11,00:00,,London Inter Orcas,0,14 24 16 - -,Northumbria University,3,25 26 25 - -,superleague,women,TBC,unknown,unknown
-2017-2018,2018-02-11,00:00,,London Inter Orcas,3,28 25 25 - -,Reading Aces,0,26 12 11 - -,division_2,women,Island Sports Trust,unknown,unknown
-2017-2018,2018-02-11,00:00,,Loughborough Students,0,0 0 0 - -,Newcastle Staffs,3,25 25 25 - -,division_2,women,Loughborough University Netball Centre,unknown,unknown
-2017-2018,2018-02-11,00:00,,MK City,2,18 25 25 21 7,Stowmarket,3,25 16 14 25 15,division_3,men,Cranfield Fitness Centre,unknown,unknown
-2017-2018,2018-02-11,00:00,,Malory Eagles UEL,0,18 24 17 - -,Northumbria University,3,25 26 25 - -,superleague,men,Ernest Bevin College,unknown,unknown
-2017-2018,2018-02-11,00:00,,Newmarket,3,25 25 25 - -,Loughborough Students,0,23 19 11 - -,division_3,men,Newmarket Leisure Centre,unknown,unknown
-2017-2018,2018-02-11,00:00,,Plymouth Mayflower VC,3,25 25 25 - -,City of Bristol,0,20 20 22 - -,division_3,women,Plymstock School Sports Centre,unknown,unknown
-2017-2018,2018-02-11,00:00,,Sheffield,3,25 25 25 - -,Manchester Marvels Mayhem,0,17 18 13 - -,division_3,women,Sheffield - U18 Boys,unknown,unknown
-2017-2018,2018-02-11,00:00,,Tamworth Spartans,1,25 12 22 12 0,Norwich Spikers,3,22 25 25 25 0,division_3,women,Wilnecote Leisure Centre,unknown,unknown
-2017-2018,2018-02-11,00:00,,Tamworth Spartans,3,25 25 26 - -,Lincoln Cannons,0,20 17 24 - -,division_3,women,Wilnecote Leisure Centre,unknown,unknown
-2017-2018,2018-02-11,00:00,,The Miners Doncaster,3,25 25 25 - -,Newcastle Staffs 2,0,12 15 22 - -,division_3,men,The Education Village Academy Trust,unknown,unknown
-2017-2018,2018-02-11,00:00,,University of Bristol,3,25 26 30 - -,Plymouth,0,15 24 28 - -,division_3,women,Oasis Academy Brislington,unknown,unknown
-2017-2018,2018-02-17,00:00,,Black Country,0,8 15 16 - -,Sheffield 2,3,25 25 25 - -,division_1,men,Redhill School Sports Hall,unknown,unknown
-2017-2018,2018-02-17,00:00,,Cambridge ARU,1,27 22 16 26 0,Bristol,3,25 25 25 28 0,division_1,women,North Cambridge Academy,unknown,unknown
-2017-2018,2018-02-17,00:00,,Cambridge ARU,3,25 15 25 25 0,Bristol,1,13 25 10 19 0,division_2,men,North Cambridge Academy,unknown,unknown
-2017-2018,2018-02-17,00:00,,Coventry and Warwick Riga,2,17 17 25 25 12,Intervolley Manchester,3,25 25 21 21 15,division_2,men,Alan Higgs Centre,unknown,unknown
-2017-2018,2018-02-17,00:00,,DARKSTAR Derbyshire,3,25 12 24 25 15,Nottingham Rockets,2,17 25 26 21 6,division_2,men,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
-2017-2018,2018-02-17,00:00,,DARKSTAR Derbyshire,3,25 25 25 - -,Loughborough Students,0,12 15 17 - -,division_2,women,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
-2017-2018,2018-02-17,00:00,,Durham Palatinates,3,25 25 23 25 0,Southampton,1,23 21 25 11 0,division_1,men,Durham University Sport (Queens Campus),unknown,unknown
-2017-2018,2018-02-17,00:00,,Essex Trinity,2,25 13 18 25 8,Team South Wales,3,23 25 25 22 15,division_1,women,St John Payne School,unknown,unknown
-2017-2018,2018-02-17,00:00,,IBB Polonia London,3,25 25 28 - -,Essex Blaze,0,19 13 26 - -,superleague,men,Brentford Fountain Leisure Centre,unknown,unknown
-2017-2018,2018-02-17,00:00,,Leeds Gorse,2,25 21 25 23 13,Newcastle Staffs,3,19 25 18 25 15,division_1,men,The Ruth Gorse Academy,unknown,unknown
-2017-2018,2018-02-17,00:00,,Leeds Gorse,2,25 25 10 23 16,University of Nottingham Volleyball,3,22 23 25 25 18,division_2,women,The Ruth Gorse Academy,unknown,unknown
-2017-2018,2018-02-18,00:00,,Cambridge ARU,3,22 27 22 25 15,Team South Wales,2,25 25 25 8 12,division_1,women,North Cambridge Academy,unknown,unknown
-2017-2018,2018-02-18,00:00,,Cambridge ARU,3,25 25 25 - -,City of Bristol,0,19 19 21 - -,division_2,men,North Cambridge Academy,unknown,unknown
-2017-2018,2018-02-18,00:00,,Cardiff Falcons,3,25 14 23 25 15,Sussex Dolphins 1,2,20 25 25 22 11,division_2,women,Cathedral School,unknown,unknown
-2017-2018,2018-02-18,00:00,,Coventry & Warwick Riga,3,25 25 25 - -,University of Nottingham Volleyball,0,21 15 16 - -,division_2,women,Alan Higgs Centre,unknown,unknown
-2017-2018,2018-02-18,00:00,,Coventry and Warwick Riga,2,21 17 25 25 12,University of Nottingham,3,25 25 21 18 15,division_2,men,Alan Higgs Centre,unknown,unknown
-2017-2018,2018-02-18,00:00,,DARKSTAR Derbyshire,3,25 25 25 - -,Team Sunderland,0,15 13 20 - -,division_2,women,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
-2017-2018,2018-02-18,00:00,,Dartford Chargers,1,25 26 18 17 0,London Inter Orcas,3,18 28 25 25 0,division_2,women,Dartford Technology College,unknown,unknown
-2017-2018,2018-02-18,00:00,,Dartford Crossers,0,15 19 18 - -,Richmond Bucks,3,25 25 25 - -,division_3,men,Dartford Technology College,unknown,unknown
-2017-2018,2018-02-18,00:00,,Exeter Storm,0,11 15 9 - -,Essex Rebels,3,25 25 25 - -,division_2,men,Ashmoor Recreation Centre,unknown,unknown
-2017-2018,2018-02-18,00:00,,Herts,3,25 17 25 23 15,Bristol,2,22 25 14 25 11,division_1,women,Queens School,unknown,unknown
-2017-2018,2018-02-18,00:00,,Leeds Gorse,1,25 13 25 21 0,Durham Palatinates,3,23 25 27 25 0,division_1,men,The Ruth Gorse Academy,unknown,unknown
-2017-2018,2018-02-18,00:00,,Manchester Marvels Mystics,3,25 23 25 25 0,Newcastle Staffs,1,14 25 16 17 0,division_2,women,Dean Trust Ardwick,unknown,unknown
-2017-2018,2018-02-18,00:00,,Manchester Marvels,3,23 25 25 25 0,Norwich Spikers,1,25 15 23 23 0,division_2,men,Dean Trust Ardwick,unknown,unknown
-2017-2018,2018-02-18,00:00,,Newcastle Staffs,3,25 26 23 25 0,Sheffield 2,1,22 24 25 18 0,division_1,men,Madeley High School,unknown,unknown
-2017-2018,2018-02-18,00:00,,Portsmouth,0,23 17 17 - -,Richmond 2,3,25 25 25 - -,division_3,women,Ernest Bevin College,unknown,unknown
-2017-2018,2018-02-18,00:00,,Team SideOut Polonia (London),3,25 30 25 - -,Essex Rebels,0,16 28 22 - -,superleague,women,St Benedicts School,unknown,unknown
-2017-2018,2018-02-24,00:00,,Exeter Storm,2,26 10 19 25 9,London Baks,3,24 25 25 11 15,division_2,men,Riverside Leisure Centre,unknown,unknown
-2017-2018,2018-02-24,00:00,,Intervolley Manchester,3,22 25 25 25 0,Stockport,1,25 20 20 19 0,shield,men,Oasis Academy (Salford),unknown,unknown
-2017-2018,2018-02-24,00:00,,London Aces,3,25 25 25 - -,Essex Rebels,0,19 21 13 - -,shield,men,Lambeth Academy,unknown,unknown
-2017-2018,2018-02-24,00:00,,London Inter Orcas,2,23 26 19 25 12,Durham Palatinates,3,25 24 25 13 15,cup,women,TBC,unknown,unknown
-2017-2018,2018-02-24,00:00,,Richmond 2,0,23 19 23 - -,Essex Trinity,3,25 25 25 - -,shield,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2018-02-24,00:00,,Sheffield,0,25 13 20 - -,Northumbria University,3,27 25 25 - -,cup,men,Sheffield - U18 Boys,unknown,unknown
-2017-2018,2018-02-24,00:00,,Southampton,2,31 16 19 25 9,Plymouth Mayflower VC,3,29 25 25 19 15,division_3,women,LeAF Academy,unknown,unknown
-2017-2018,2018-02-24,00:00,,UK Armed Forces,0,17 14 10 - -,DARKSTAR Derbyshire,3,25 25 25 - -,shield,women,RAF Cranwell,unknown,unknown
-2017-2018,2018-02-24,00:00,,Wessex,1,22 26 20 18 0,Plymouth Mayflower VC,3,25 24 25 25 0,division_3,women,LeAF Academy,unknown,unknown
-2017-2018,2018-02-24,00:00,,Wessex,3,25 25 13 25 0,Southampton,1,16 18 25 23 0,division_3,women,LeAF Academy,unknown,unknown
-2017-2018,2018-02-25,00:00,,Ashfield Vipers,1,18 20 26 19 0,Nottingham Rockets,3,25 25 24 25 0,division_3,women,Vision West Nottinghamshire College,unknown,unknown
-2017-2018,2018-02-25,00:00,,Bristol 2,1,23 25 22 22 0,Sussex Dolphins 1,3,25 18 25 25 0,division_2,women,Abbeywood School,unknown,unknown
-2017-2018,2018-02-25,00:00,,Chester Amazons,2,25 25 20 16 6,Sheffield,3,19 21 25 25 15,division_3,women,The Academy of St. Nicholas,unknown,unknown
-2017-2018,2018-02-25,00:00,,City of Bristol,1,13 16 25 15 0,Plymouth,3,25 25 22 25 0,division_3,women,Oasis Academy Brislington,unknown,unknown
-2017-2018,2018-02-25,00:00,,Dartford Crossers,1,25 17 21 12 0,University of Bristol,3,22 25 25 25 0,division_3,men,Dartford Technology College,unknown,unknown
-2017-2018,2018-02-25,00:00,,Dartford Crossers,2,33 22 25 15 12,Wiltshire Mavericks,3,31 25 21 25 15,division_3,men,Dartford Technology College,unknown,unknown
-2017-2018,2018-02-25,00:00,,Essex Trinity,0,22 12 21 - -,Cambridge ARU,3,25 25 25 - -,division_1,women,St John Payne School,unknown,unknown
-2017-2018,2018-02-25,00:00,,Hull Thunder,3,20 23 25 25 15,York Vikings,2,25 25 13 18 11,division_3,men,Hull Holy Trinity House Academy,unknown,unknown
-2017-2018,2018-02-25,00:00,,Hull Thunder,3,25 25 25 - -,Manchester Marvels Marauders,0,21 19 17 - -,division_3,men,Hull Holy Trinity House Academy,unknown,unknown
-2017-2018,2018-02-25,00:00,,Leeds Gorse,3,25 25 26 - -,Black Country,0,17 16 24 - -,division_1,men,The Ruth Gorse Academy,unknown,unknown
-2017-2018,2018-02-25,00:00,,Lincoln Cannons,2,20 24 25 25 10,MK City,3,25 26 21 20 15,division_3,men,Riseholme College (Showground Campus),unknown,unknown
-2017-2018,2018-02-25,00:00,,Manchester Marvels Marauders,2,20 25 25 25 11,York Vikings,3,25 23 27 23 15,division_3,men,Hull Holy Trinity House Academy,unknown,unknown
-2017-2018,2018-02-25,00:00,,Manchester Marvels Mystics,3,21 25 19 25 15,Leeds Gorse,2,25 17 25 22 9,division_2,women,Dean Trust Ardwick,unknown,unknown
-2017-2018,2018-02-25,00:00,,Northumbria University,3,25 25 25 - -,Team SideOut Polonia (London),0,12 22 22 - -,cup,women,Sports Central,unknown,unknown
-2017-2018,2018-02-25,00:00,,The Miners Doncaster,3,25 25 24 15 15,Stockport,2,23 21 26 25 13,division_3,men,The Education Village Academy Trust,unknown,unknown
-2017-2018,2018-02-25,00:00,,Wiltshire Mavericks,1,13 18 25 14 0,University of Bristol,3,25 25 23 25 0,division_3,men,Dartford Technology College,unknown,unknown
-2017-2018,2018-02-26,00:00,,Northampton,3,25 25 25 - -,Norwich Spikers,0,0 0 0 - -,division_3,women,Moulton College,unknown,unknown
-2017-2018,2018-03-03,00:00,,City of Bristol,3,25 25 25 - -,Essex Estonians,0,0 0 0 - -,division_2,men,Oasis Academy Brislington,unknown,unknown
-2017-2018,2018-03-03,00:00,,Essex Blaze,0,23 22 23 - -,Sheffield,3,25 25 25 - -,superleague,men,University of Essex Sports Centre,unknown,unknown
-2017-2018,2018-03-03,00:00,,IBB Polonia London,3,18 25 26 25 0,Richmond Docklands,1,25 18 24 23 0,superleague,men,Brentford Fountain Leisure Centre,unknown,unknown
-2017-2018,2018-03-03,00:00,,London Aces,3,25 23 26 25 0,Leeds Gorse,1,13 25 24 15 0,division_1,men,Lambeth Academy,unknown,unknown
-2017-2018,2018-03-03,00:00,,Loughborough Students,0,24 16 22 - -,Stowmarket,3,26 25 25 - -,division_3,men,Loughborough University Netball Centre,unknown,unknown
-2017-2018,2018-03-04,00:00,,Dartford Crossers,0,19 17 12 - -,University of Bristol,3,25 25 25 - -,division_3,men,Bournside School,unknown,unknown
-2017-2018,2018-03-04,00:00,,London Inter Orcas,3,17 25 25 25 0,Ashcombe Dorking,1,25 11 19 21 0,division_2,women,Island Sports Trust,unknown,unknown
-2017-2018,2018-03-04,00:00,,Team SideOut Polonia (London),2,17 25 26 17 14,London Inter Orcas,3,25 18 24 25 16,superleague,women,TBC,unknown,unknown
-2017-2018,2018-03-04,00:00,,University of Nottingham Volleyball,3,25 25 25 - -,Loughborough Students,0,20 19 18 - -,division_2,women,TBC,unknown,unknown
-2017-2018,2018-03-10,00:00,,Black Country,3,25 18 26 25 15,Leeds Gorse,2,19 25 28 21 9,division_1,men,Redhill School Sports Hall,unknown,unknown
-2017-2018,2018-03-10,00:00,,City of Bristol,3,25 25 25 - -,Bristol,0,23 20 22 - -,division_2,men,Oasis Academy Brislington,unknown,unknown
-2017-2018,2018-03-10,00:00,,Manchester Marvels Marauders,0,14 16 17 - -,Newcastle Staffs 2,3,25 25 25 - -,division_3,men,Dean Trust Ardwick,unknown,unknown
-2017-2018,2018-03-10,00:00,,Manchester Marvels Marauders,0,15 16 11 - -,Stockport,3,25 25 25 - -,division_3,men,Dean Trust Ardwick,unknown,unknown
-2017-2018,2018-03-10,00:00,,Newcastle Staffs 2,0,18 17 16 - -,Stockport,3,25 25 25 - -,division_3,men,Dean Trust Ardwick,unknown,unknown
-2017-2018,2018-03-10,00:00,,Sheffield,3,23 25 22 25 15,Malory Eagles UEL,2,25 23 25 21 6,superleague,men,Sheffield - U18 Boys,unknown,unknown
-2017-2018,2018-03-10,00:00,,Southampton 2,1,25 21 15 17 0,Ashcombe Dorking 2,3,17 25 25 25 0,division_3,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2018-03-10,00:00,,Team South Wales,0,14 23 22 - -,Bristol,3,25 25 25 - -,division_1,women,Cardiff Metropolitan University Cyncoed Campus Sports Hall,unknown,unknown
-2017-2018,2018-03-10,00:00,,Team Sunderland,0,21 23 10 - -,University of Nottingham Volleyball,3,25 25 25 - -,division_2,women,Sunderland College,unknown,unknown
-2017-2018,2018-03-11,00:00,,Durham Palatinates,3,25 25 25 - -,Leeds Gorse,0,11 16 13 - -,division_1,men,Durham University Sport (Queens Campus),unknown,unknown
-2017-2018,2018-03-11,00:00,,Hull Thunder,3,25 25 25 - -,The Miners Doncaster,0,23 17 23 - -,division_3,men,Hull Holy Trinity House Academy,unknown,unknown
-2017-2018,2018-03-11,00:00,,Intervolley Manchester,3,25 25 25 - -,Team Sunderland,0,16 19 13 - -,division_2,men,Woughton Leisure Centre,unknown,unknown
-2017-2018,2018-03-11,00:00,,Lincoln Cannons,2,25 21 31 28 11,MK City,3,22 25 33 26 15,division_3,men,Riseholme College (Showground Campus),unknown,unknown
-2017-2018,2018-03-11,00:00,,Lincoln Cannons,3,25 25 25 - -,Loughborough Students,0,0 0 0 - -,division_3,men,Riseholme College (Showground Campus),unknown,unknown
-2017-2018,2018-03-11,00:00,,MK City,3,25 25 25 - -,Loughborough Students,0,0 0 0 - -,division_3,men,Riseholme College (Showground Campus),unknown,unknown
-2017-2018,2018-03-11,00:00,,Manchester Marvels Mystics,0,24 21 26 - -,Coventry & Warwick Riga,3,26 25 28 - -,division_2,women,Dean Trust Ardwick,unknown,unknown
-2017-2018,2018-03-11,00:00,,Manchester Marvels,3,23 23 26 25 15,Coventry and Warwick Riga,2,25 25 24 18 13,division_2,men,Dean Trust Ardwick,unknown,unknown
-2017-2018,2018-03-11,00:00,,Reading Aces,2,25 17 27 27 15,Bristol 2,3,23 25 25 29 17,division_2,women,Kendrick School,unknown,unknown
-2017-2018,2018-03-12,00:00,,Essex Rebels,3,25 28 28 - -,Cambridge ARU,0,14 26 26 - -,division_2,men,Tendring Technology College,unknown,unknown
-2017-2018,2018-03-17,00:00,,Black Country,2,25 17 18 25 9,Newcastle Staffs,3,20 25 25 19 15,division_1,men,Cleobury Mortimer Sports Centre,unknown,unknown
-2017-2018,2018-03-17,00:00,,Cambridge ARU,0,13 11 18 - -,Malory Eagles UEL,3,25 25 25 - -,division_1,women,North Cambridge Academy,unknown,unknown
-2017-2018,2018-03-17,00:00,,Cambridge ARU,2,19 25 24 25 19,Essex Rebels,3,25 21 26 17 21,division_2,men,North Cambridge Academy,unknown,unknown
-2017-2018,2018-03-17,00:00,,Coventry & Warwick Riga,3,25 22 25 25 0,Newcastle Staffs,1,19 25 10 22 0,division_2,women,Alan Higgs Centre,unknown,unknown
-2017-2018,2018-03-17,00:00,,Coventry and Warwick Riga,1,24 19 25 19 0,Norwich Spikers,3,26 25 20 25 0,division_2,men,Alan Higgs Centre,unknown,unknown
-2017-2018,2018-03-17,00:00,,DARKSTAR Derbyshire,3,25 25 25 - -,Leeds Gorse,0,18 15 13 - -,division_2,women,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
-2017-2018,2018-03-17,00:00,,Durham Palatinates,3,25 25 25 - -,London Aces,0,0 0 0 - -,division_1,men,Durham University Sport (Queens Campus),unknown,unknown
-2017-2018,2018-03-17,00:00,,Essex Blaze,1,22 23 28 19 0,Northumbria University,3,25 25 26 25 0,superleague,men,University of Essex Sports Centre,unknown,unknown
-2017-2018,2018-03-17,00:00,,Essex Rebels,0,12 21 22 - -,Northumbria University,3,25 25 25 - -,superleague,women,University of Essex Sports Centre,unknown,unknown
-2017-2018,2018-03-17,00:00,,Essex Trinity,3,22 25 25 21 17,Bristol,2,25 16 23 25 15,division_1,women,St John Payne School,unknown,unknown
-2017-2018,2018-03-17,00:00,,Manchester Marvels Mystics,3,7 24 29 25 15,University of Nottingham Volleyball,2,25 26 27 21 9,division_2,women,Dean Trust Ardwick,unknown,unknown
-2017-2018,2018-03-17,00:00,,Manchester Marvels,2,25 19 25 26 6,University of Nottingham,3,22 25 19 28 15,division_2,men,Dean Trust Ardwick,unknown,unknown
-2017-2018,2018-03-17,00:00,,Plymouth Mayflower VC,0,7 10 10 - -,University of Bristol,3,25 25 25 - -,division_3,women,LeAF Academy,unknown,unknown
-2017-2018,2018-03-17,00:00,,Southampton,1,21 22 26 13 0,Sheffield 2,3,25 25 24 25 0,division_1,men,Itchen College Sports Centre,unknown,unknown
-2017-2018,2018-03-17,00:00,,Wessex,1,19 18 25 20 0,Plymouth Mayflower VC,3,25 25 23 25 0,division_3,women,LeAF Academy,unknown,unknown
-2017-2018,2018-03-17,00:00,,Wessex,2,25 18 25 16 11,University of Bristol,3,22 25 20 25 15,division_3,women,LeAF Academy,unknown,unknown
-2017-2018,2018-03-18,00:00,,Dartford Chargers,3,25 20 25 25 0,Cardiff Falcons,1,19 25 16 19 0,division_2,women,Dartford Technology College,unknown,unknown
-2017-2018,2018-03-18,00:00,,Essex Trinity,0,12 17 27 - -,Malory Eagles UEL,3,25 25 29 - -,division_1,women,St John Payne School,unknown,unknown
-2017-2018,2018-03-18,00:00,,London Baks,0,18 19 14 - -,City of Bristol,3,25 25 25 - -,division_2,men,Castle Green Sport Centre,unknown,unknown
-2017-2018,2018-03-18,00:00,,Manchester Marvels Marauders,0,10 9 20 - -,York Vikings,3,25 25 25 - -,division_3,men,Dean Trust Ardwick,unknown,unknown
-2017-2018,2018-03-18,00:00,,Manchester Marvels Marauders,1,19 15 25 16 0,The Miners Doncaster,3,25 25 22 25 0,division_3,men,Dean Trust Ardwick,unknown,unknown
-2017-2018,2018-03-18,00:00,,Reading Aces,3,26 25 20 25 0,Sussex Dolphins 1,1,24 16 25 21 0,division_2,women,Bradfield College,unknown,unknown
-2017-2018,2018-03-18,00:00,,Richmond 2,3,25 25 25 - -,Southampton 2,0,9 13 19 - -,division_3,women,Kingston Arena,unknown,unknown
-2017-2018,2018-03-18,00:00,,South Hants,0,19 24 16 - -,Hounslow,3,25 26 25 - -,division_3,men,Priory Community Sports Centre,unknown,unknown
-2017-2018,2018-03-18,00:00,,Urbond VC Portsmouth,3,18 25 25 25 0,Hounslow,1,25 17 14 23 0,division_3,men,Priory Community Sports Centre,unknown,unknown
-2017-2018,2018-03-18,00:00,,Urbond VC Portsmouth,3,20 25 25 25 0,South Hants,1,25 17 20 18 0,division_3,men,Priory Community Sports Centre,unknown,unknown
-2017-2018,2018-03-18,00:00,,York Vikings,1,20 25 17 30 0,The Miners Doncaster,3,25 20 25 32 0,division_3,men,Dean Trust Ardwick,unknown,unknown
-2017-2018,2018-03-23,00:00,,Essex Rebels,0,13 20 24 - -,Durham Palatinates,3,25 25 26 - -,superleague,women,University of Essex Sports Centre,unknown,unknown
-2017-2018,2018-03-24,00:00,,Cardiff Falcons,3,27 25 25 - -,Reading Aces,0,25 20 12 - -,division_2,women,Cathedral School,unknown,unknown
-2017-2018,2018-03-24,00:00,,Exeter Storm,3,25 25 25 - -,Essex Estonians,0,0 0 0 - -,division_2,men,Riverside Leisure Centre,unknown,unknown
-2017-2018,2018-03-24,00:00,,Leeds Gorse,2,25 12 18 25 6,Coventry & Warwick Riga,3,22 25 25 18 15,division_2,women,The Ruth Gorse Academy,unknown,unknown
-2017-2018,2018-03-24,00:00,,Leeds Gorse,3,25 25 25 - -,Manchester Marvels Mystics,0,11 18 21 - -,division_2,women,The Ruth Gorse Academy,unknown,unknown
-2017-2018,2018-03-24,00:00,,London Aces,3,25 25 25 - -,Black Country,0,15 21 19 - -,division_1,men,Lambeth Academy,unknown,unknown
-2017-2018,2018-03-24,00:00,,Malory Eagles UEL,0,25 21 20 - -,Richmond Docklands,3,27 25 25 - -,superleague,men,Ernest Bevin College,unknown,unknown
-2017-2018,2018-03-24,00:00,,Newcastle Staffs,3,24 25 25 25 0,Team Sunderland,1,26 9 13 17 0,division_2,women,Keele University Sports Centre,unknown,unknown
-2017-2018,2018-03-24,00:00,,Norwich Spikers,2,25 25 20 18 9,Team Sunderland,3,22 22 25 25 15,division_2,men,Easton & Otley College,unknown,unknown
-2017-2018,2018-03-24,00:00,,Sheffield 2,0,23 21 19 - -,Durham Palatinates,3,25 25 25 - -,division_1,men,Sheffield - U18 Boys,unknown,unknown
-2017-2018,2018-03-24,00:00,,University of Nottingham,1,25 13 19 21 0,Intervolley Manchester,3,20 25 25 25 0,division_2,men,David Ross Sports Village,unknown,unknown
-2017-2018,2018-03-25,00:00,,Bristol,3,25 11 15 25 15,Cambridge ARU,2,19 25 25 21 11,division_2,men,Steiner Academy Sportshall,unknown,unknown
-2017-2018,2018-03-25,00:00,,Bristol,3,25 25 25 - -,Essex Estonians,0,0 0 0 - -,division_2,men,Steiner Academy Sportshall,unknown,unknown
-2017-2018,2018-03-25,00:00,,Cardiff Falcons,1,18 25 22 12 0,Ashcombe Dorking,3,25 16 25 25 0,division_2,women,Cathedral School,unknown,unknown
-2017-2018,2018-03-25,00:00,,City of Bristol,3,25 25 25 - -,University of Bristol,0,19 12 17 - -,division_3,women,Itchen College Sports Centre,unknown,unknown
-2017-2018,2018-03-25,00:00,,Hull Thunder,0,21 23 21 - -,Manchester Marvels Mayhem,3,25 25 25 - -,division_3,women,Hull Holy Trinity House Academy,unknown,unknown
-2017-2018,2018-03-25,00:00,,Hull Thunder,3,17 25 25 27 15,Chester Amazons,2,25 23 15 29 12,division_3,women,Hull Holy Trinity House Academy,unknown,unknown
-2017-2018,2018-03-25,00:00,,London Inter Orcas,3,25 25 25 - -,Bristol 2,0,18 10 16 - -,division_2,women,Island Sports Trust,unknown,unknown
-2017-2018,2018-03-25,00:00,,Malory Eagles UEL,0,16 22 19 - -,Sheffield,3,25 25 25 - -,superleague,men,St Benedicts School,unknown,unknown
-2017-2018,2018-03-25,00:00,,Manchester Marvels Mayhem,3,25 21 25 25 0,Chester Amazons,1,23 25 16 19 0,division_3,women,Hull Holy Trinity House Academy,unknown,unknown
-2017-2018,2018-03-25,00:00,,Northampton,3,25 25 25 - -,Nottingham Rockets,0,0 0 0 - -,division_3,women,Moulton college,unknown,unknown
-2017-2018,2018-03-25,00:00,,Northampton,3,25 25 25 - -,Nottingham Rockets,0,0 0 0 - -,division_3,women,Moulton college,unknown,unknown
-2017-2018,2018-03-25,00:00,,Norwich Spikers,3,25 20 25 25 0,Manchester Marvels,1,13 25 19 23 0,division_2,men,Easton & Otley College,unknown,unknown
-2017-2018,2018-03-25,00:00,,Plymouth Mayflower VC,0,16 20 16 - -,Plymouth,3,25 25 25 - -,division_3,women,Plymstock School Sports Centre,unknown,unknown
-2017-2018,2018-03-25,00:00,,Reading Aces,3,25 25 19 25 0,Dartford Chargers,1,21 14 25 23 0,division_2,women,Kendrick School,unknown,unknown
-2017-2018,2018-03-25,00:00,,Southampton,0,19 20 16 - -,University of Bristol,3,25 25 25 - -,division_3,women,Itchen College Sports Centre,unknown,unknown
-2017-2018,2018-03-25,00:00,,Southampton,0,22 24 23 - -,City of Bristol,3,25 26 25 - -,division_3,women,Itchen College Sports Centre,unknown,unknown
-2017-2018,2018-03-25,00:00,,Sussex Dolphins 1,3,25 25 17 25 0,Bristol 2,1,23 20 25 14 0,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
-2017-2018,2018-03-25,00:00,,Sussex Dolphins,0,0 0 0 - -,Southampton 2,3,25 25 25 - -,division_3,women,Kingston Arena,unknown,unknown
-2017-2018,2018-03-25,00:00,,Team Sunderland,0,21 23 28 - -,Coventry & Warwick Riga,3,25 25 30 - -,division_2,women,Sunderland College,unknown,unknown
-2017-2018,2018-03-25,00:00,,University of Nottingham,0,16 21 24 - -,DARKSTAR Derbyshire,3,25 25 26 - -,division_2,men,David Ross Sports Village,unknown,unknown
-2017-2018,2018-04-07,00:00,,DARKSTAR Derbyshire,1,23 22 25 23 0,University of Nottingham Volleyball,3,25 25 22 25 0,division_2,women,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
-2017-2018,2018-04-07,00:00,,DARKSTAR Derbyshire,3,25 25 25 - -,University of Nottingham,0,0 0 0 - -,division_2,men,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
-2017-2018,2018-04-07,00:00,,London Baks,0,22 23 21 - -,Exeter Storm,3,25 25 25 - -,division_2,men,Castle Green Sport Centre,unknown,unknown
-2017-2018,2018-04-07,00:00,,London Inter Orcas,3,26 25 22 25 0,Essex Rebels,1,24 9 25 22 0,superleague,women,TBC,unknown,unknown
-2017-2018,2018-04-07,00:00,,Newcastle Staffs 2,3,25 25 25 - -,Hull Thunder,0,20 14 16 - -,division_3,men,Madeley High School,unknown,unknown
-2017-2018,2018-04-07,00:00,,Richmond Docklands,0,20 0 0 - -,Malory Eagles UEL,3,25 25 25 - -,superleague,men,Kingston Arena,unknown,unknown
-2017-2018,2018-04-07,00:00,,Southampton,3,25 18 25 25 0,Newcastle Staffs,1,22 25 17 22 0,division_1,men,Itchen College Sports Centre,unknown,unknown
-2017-2018,2018-04-07,00:00,,Team Sunderland,0,11 22 23 - -,Leeds Gorse,3,25 25 25 - -,division_2,women,Sunderland University (Cityspace),unknown,unknown
-2017-2018,2018-04-08,00:00,,Dartford Chargers,3,16 25 25 18 15,Sussex Dolphins 1,2,25 15 19 25 9,division_2,women,Dartford Technology College,unknown,unknown
-2017-2018,2018-04-08,00:00,,Essex Estonians,0,17 18 22 - -,Cambridge ARU,3,25 25 25 - -,division_2,men,St John Payne School,unknown,unknown
-2017-2018,2018-04-08,00:00,,Hounslow,2,25 21 25 22 6,Dartford Crossers,3,21 25 17 25 15,division_3,men,Spelthorne Leisure Centre,unknown,unknown
-2017-2018,2018-04-08,00:00,,Intervolley Manchester,3,25 15 25 23 15,Nottingham Rockets,2,18 25 14 25 10,division_2,men,The Y Club,unknown,unknown
-2017-2018,2018-04-08,00:00,,MK City,3,25 25 25 - -,Tamworth Spartans,0,22 22 17 - -,division_3,men,Cranfield Fitness Centre,unknown,unknown
-2017-2018,2018-04-08,00:00,,Norwich Spikers,1,25 23 13 18 0,Black Country,3,16 25 25 25 0,division_3,women,Wilnecote Leisure Centre,unknown,unknown
-2017-2018,2018-04-08,00:00,,Plymouth,3,25 25 25 - -,Southampton,0,20 18 22 - -,division_3,women,Coombe Dean School,unknown,unknown
-2017-2018,2018-04-08,00:00,,Sheffield,0,12 12 16 - -,York Falcons,3,25 25 25 - -,division_3,women,Sheffield - U18 Boys,unknown,unknown
-2017-2018,2018-04-08,00:00,,South Hants,1,25 16 20 20 0,Wiltshire Mavericks,3,20 25 25 25 0,division_3,men,Brune Park Community School,unknown,unknown
-2017-2018,2018-04-08,00:00,,Tamworth Spartans,0,26 20 17 - -,Black Country,3,28 25 25 - -,division_3,women,Wilnecote Leisure Centre,unknown,unknown
-2017-2018,2018-04-08,00:00,,Tamworth Spartans,1,22 24 25 20 0,Norwich Spikers,3,25 26 17 25 0,division_3,women,Wilnecote Leisure Centre,unknown,unknown
-2017-2018,2018-04-14,00:00,,IBB Polonia London,0,23 23 25 - -,Northumbria University,3,25 25 27 - -,cup,men,National Volleyball Centre,unknown,unknown
-2017-2018,2018-04-14,00:00,,London Aces,3,25 25 26 25 0,Intervolley Manchester,1,20 17 28 21 0,shield,men,National Volleyball Centre,unknown,unknown
-2017-2018,2018-04-14,00:00,,Loughborough Students,0,0 0 0 - -,Tamworth Spartans,3,25 25 25 - -,division_3,men,Loughborough University Netball Centre,unknown,unknown
-2017-2018,2018-04-14,00:00,,Northumbria University,3,24 25 25 25 0,Durham Palatinates,1,26 18 20 20 0,cup,women,National Volleyball Centre,unknown,unknown
-2017-2018,2018-04-15,00:00,,Chester Amazons,2,25 18 25 21 13,Hull Thunder,3,18 25 18 25 15,division_3,women,The Academy of St. Nicholas,unknown,unknown
-2017-2018,2018-04-15,00:00,,Chester Amazons,3,25 25 25 - -,Sheffield,0,0 0 0 - -,division_3,women,The Academy of St. Nicholas,unknown,unknown
-2017-2018,2018-04-15,00:00,,Herts,1,16 19 25 19 0,Team South Wales,3,25 25 19 25 0,division_1,women,Queens School,unknown,unknown
-2017-2018,2018-04-15,00:00,,Lincoln Cannons,0,12 21 23 - -,Newmarket,3,25 25 25 - -,division_3,men,Stowupland Sports Centre,unknown,unknown
-2017-2018,2018-04-15,00:00,,Lincoln Cannons,2,16 25 25 22 10,Northampton,3,25 22 22 25 15,division_3,women,Riseholme College (Showground Campus),unknown,unknown
-2017-2018,2018-04-15,00:00,,Manchester Marvels Mystics,3,25 25 25 - -,Team Sunderland,0,17 18 19 - -,division_2,women,Dean Trust Ardwick,unknown,unknown
-2017-2018,2018-04-15,00:00,,Manchester Marvels,1,25 15 17 21 0,Team Sunderland,3,21 25 25 25 0,division_2,men,Dean Trust Ardwick,unknown,unknown
-2017-2018,2018-04-15,00:00,,Norwich Spikers,3,25 17 25 23 15,DARKSTAR Derbyshire,2,23 25 16 25 11,division_2,men,UEA Norwich Sportspark,unknown,unknown
-2017-2018,2018-04-15,00:00,,Sheffield,0,0 0 0 - -,Hull Thunder,3,25 25 25 - -,division_3,women,The Academy of St. Nicholas,unknown,unknown
-2017-2018,2018-04-15,00:00,,Stowmarket,0,21 16 20 - -,Newmarket,3,25 25 25 - -,division_3,men,Stowupland Sports Centre,unknown,unknown
-2017-2018,2018-04-15,00:00,,Stowmarket,1,25 24 23 11 0,Lincoln Cannons,3,19 26 25 25 0,division_3,men,Stowupland Sports Centre,unknown,unknown
-2017-2018,2018-04-15,00:00,,Wiltshire Mavericks,3,25 25 25 - -,Dartford Crossers,0,18 15 19 - -,division_3,men,Lavington School,unknown,unknown
-2017-2018,2018-04-21,00:00,,Cambridge ARU,0,24 20 23 - -,Essex Trinity,3,26 25 25 - -,division_1,women,North Cambridge Academy,unknown,unknown
-2017-2018,2018-04-21,00:00,,Cambridge ARU,3,25 25 25 - -,London Baks,0,7 9 15 - -,division_2,men,North Cambridge Academy,unknown,unknown
-2017-2018,2018-04-21,00:00,,DARKSTAR Derbyshire,3,25 22 25 25 0,Coventry & Warwick Riga,1,23 25 10 10 0,division_2,women,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
-2017-2018,2018-04-21,00:00,,DARKSTAR Derbyshire,3,25 25 25 - -,Coventry and Warwick Riga,0,22 22 18 - -,division_2,men,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
-2017-2018,2018-04-21,00:00,,Durham Palatinates,2,24 25 19 25 18,Team SideOut Polonia (London),3,26 17 25 14 20,superleague,women,Durham University Sport (Queens Campus),unknown,unknown
-2017-2018,2018-04-21,00:00,,Essex Rebels,3,25 25 25 - -,City of Bristol,0,0 0 0 - -,division_2,men,Tendring Technology College,unknown,unknown
-2017-2018,2018-04-21,00:00,,IBB Polonia London,3,26 25 25 - -,Sheffield,0,24 20 20 - -,superleague,men,Brentford Fountain Leisure Centre,unknown,unknown
-2017-2018,2018-04-21,00:00,,London Aces,3,22 17 25 25 16,Southampton,2,25 25 17 22 14,division_1,men,Lambeth Academy,unknown,unknown
-2017-2018,2018-04-21,00:00,,Northumbria University,3,22 25 25 25 0,London Inter Orcas,1,25 18 17 14 0,superleague,women,TBC,unknown,unknown
-2017-2018,2018-04-21,00:00,,Northumbria University,3,25 25 25 - -,Malory Eagles UEL,0,13 20 12 - -,superleague,men,Sports Central,unknown,unknown
-2017-2018,2018-04-21,00:00,,Norwich Spikers,0,13 25 22 - -,Intervolley Manchester,3,25 27 25 - -,division_2,men,Easton & Otley College,unknown,unknown
-2017-2018,2018-04-21,00:00,,Team South Wales,0,16 22 18 - -,Malory Eagles UEL,3,25 25 25 - -,division_1,women,Cardiff Metropolitan University Cyncoed Campus Sports Hall,unknown,unknown
-2017-2018,2018-04-21,00:00,,University of Nottingham,2,25 25 21 20 14,Nottingham Rockets,3,20 23 25 25 16,division_2,men,David Ross Sports Village,unknown,unknown
-2017-2018,2018-04-22,00:00,,Ashfield Vipers,0,22 14 15 - -,Lincoln Cannons,3,25 25 25 - -,division_3,women,Vision West Nottinghamshire College,unknown,unknown
-2017-2018,2018-04-22,00:00,,Bristol,0,21 15 19 - -,Malory Eagles UEL,3,25 25 25 - -,division_1,women,Steiner Academy Sportshall,unknown,unknown
-2017-2018,2018-04-22,00:00,,Cardiff Falcons,0,18 15 12 - -,Bristol 2,3,25 25 25 - -,division_2,women,Cathedral School,unknown,unknown
-2017-2018,2018-04-22,00:00,,City of Bristol,0,9 12 9 - -,University of Bristol,3,25 25 25 - -,division_3,women,Oasis Academy Brislington,unknown,unknown
-2017-2018,2018-04-22,00:00,,City of Bristol,3,25 25 21 25 0,Southampton,1,12 22 25 14 0,division_3,women,Oasis Academy Brislington,unknown,unknown
-2017-2018,2018-04-22,00:00,,Dartford Chargers,0,22 16 16 - -,Ashcombe Dorking,3,25 25 25 - -,division_2,women,Dartford Technology College,unknown,unknown
-2017-2018,2018-04-22,00:00,,Durham Palatinates,1,15 0 0 - -,Team SideOut Polonia (London),0,5 0 0 - -,superleague,women,Durham University Sport (Queens Campus),unknown,unknown
-2017-2018,2018-04-22,00:00,,Durham Palatinates,3,25 25 25 - -,Team SideOut Polonia (London),0,23 16 22 - -,superleague,women,Durham University Sport (Queens Campus),unknown,unknown
-2017-2018,2018-04-22,00:00,,IBB Polonia London,3,25 25 25 - -,Sheffield,0,22 20 21 - -,superleague,men,Brentford Fountain Leisure Centre,unknown,unknown
-2017-2018,2018-04-22,00:00,,London Inter Orcas,3,25 25 25 - -,Sussex Dolphins 1,0,19 21 11 - -,division_2,women,Island Sports Trust,unknown,unknown
-2017-2018,2018-04-22,00:00,,Loughborough Students,0,18 14 17 - -,Coventry & Warwick Riga,3,25 25 25 - -,division_2,women,Loughborough University Netball Centre,unknown,unknown
-2017-2018,2018-04-22,00:00,,Loughborough Students,3,25 19 25 25 0,Tamworth Spartans,1,23 25 21 21 0,division_3,men,Loughborough University Netball Centre,unknown,unknown
-2017-2018,2018-04-22,00:00,,Manchester Marvels Mystics,1,25 22 18 10 0,DARKSTAR Derbyshire,3,20 25 25 25 0,division_2,women,Dean Trust Ardwick,unknown,unknown
-2017-2018,2018-04-22,00:00,,Manchester Marvels,0,19 23 22 - -,DARKSTAR Derbyshire,3,25 25 25 - -,division_2,men,Dean Trust Ardwick,unknown,unknown
-2017-2018,2018-04-22,00:00,,Northampton,1,25 22 20 17 0,Black Country,3,22 25 25 25 0,division_3,women,Moulton College,unknown,unknown
-2017-2018,2018-04-22,00:00,,Northumbria University,3,23 25 25 25 0,London Inter Orcas,1,25 19 19 12 0,superleague,women,TBC,unknown,unknown
-2017-2018,2018-04-22,00:00,,Northumbria University,3,25 25 25 - -,Malory Eagles UEL,0,23 15 16 - -,superleague,men,Sports Central,unknown,unknown
-2017-2018,2018-04-22,00:00,,Norwich Spikers,3,25 25 25 - -,Nottingham Rockets,0,12 9 10 - -,division_3,women,Easton & Otley College,unknown,unknown
-2017-2018,2018-04-22,00:00,,Norwich Spikers,3,25 25 25 - -,Nottingham Rockets,0,23 11 12 - -,division_3,women,Easton & Otley College,unknown,unknown
-2017-2018,2018-04-22,00:00,,Sheffield,0,18 18 15 - -,Hull Thunder,3,25 25 25 - -,division_3,women,The Ruth Gorse Academy,unknown,unknown
-2017-2018,2018-04-22,00:00,,Sussex Dolphins,2,25 17 25 9 10,Portsmouth,3,20 25 23 25 15,division_3,women,Michael Hall School,unknown,unknown
-2017-2018,2018-04-22,00:00,,University of Bristol,3,25 25 25 - -,Southampton,0,19 16 18 - -,division_3,women,Oasis Academy Brislington,unknown,unknown
-2017-2018,2018-04-24,00:00,,Northampton,1,24 13 25 12 0,Ashfield Vipers,3,26 25 19 25 0,division_3,women,Moulton College,unknown,unknown
-2017-2018,2018-04-26,00:00,,Newcastle Staffs,0,23 21 22 - -,Leeds Gorse,3,25 25 25 - -,division_2,women,The Ruth Gorse Academy,unknown,unknown
-2017-2018,2018-04-28,00:00,,Richmond Bucks,2,25 16 10 25 11,University of Bristol,3,19 25 25 21 15,division_3,men,Oasis Academy Brislington,unknown,unknown
-2017-2018,2018-04-28,00:00,,Team Sunderland,3,25 25 25 - -,Nottingham Rockets,0,12 11 16 - -,division_2,men,Sunderland University (Cityspace),unknown,unknown
-2017-2018,2018-04-28,00:00,,Wiltshire Mavericks,3,21 25 25 25 0,Urbond VC Portsmouth,1,25 11 13 18 0,division_3,men,Lavington School,unknown,unknown
-2017-2018,2018-04-29,00:00,,DARKSTAR Derbyshire,3,25 22 25 25 0,Team Sunderland,1,22 25 17 18 0,division_2,men,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
-2017-2018,2018-04-29,00:00,,Hounslow,0,15 16 20 - -,Richmond Bucks,3,25 25 25 - -,division_3,men,Kingston Arena,unknown,unknown
-2017-2018,2018-04-29,00:00,,MK City,3,25 25 25 - -,Loughborough Students,0,0 0 0 - -,division_3,men,RAF Cranwell,unknown,unknown
-2017-2018,2018-04-29,00:00,,Tamworth Spartans,0,17 24 21 - -,Stowmarket,3,25 26 25 - -,division_3,men,St. Albans High School For Girls,unknown,unknown
-2017-2018,2018-05-05,00:00,,Northumbria University,0,20 10 15 - -,Durham Palatinates,3,25 25 25 - -,superleague,women,National Volleyball Centre,unknown,unknown
-2017-2018,2018-05-05,00:00,,Northumbria University,3,22 25 25 25 0,IBB Polonia London,1,25 23 22 20 0,superleague,men,National Volleyball Centre,unknown,unknown
-2017-2018,2018-05-06,00:00,,Northumbria University,0,13 0 0 - -,Durham Palatinates,1,15 0 0 - -,superleague,women,National Volleyball Centre,unknown,unknown
-2017-2018,2018-05-06,00:00,,Northumbria University,3,22 20 27 25 15,Durham Palatinates,2,25 25 25 21 10,superleague,women,National Volleyball Centre,unknown,unknown
-2017-2018,2018-05-06,00:00,,Northumbria University,3,25 25 25 - -,IBB Polonia London,0,17 18 12 - -,superleague,men,National Volleyball Centre,unknown,unknown
+season,date,home,home_sets,home_points,away,away_sets,away_points,division,category,venue,r1,r2
+2017-2018,2017-09-09,Cambridge ARU,3,25 23 25 25 0,Essex Estonians,1,21 25 19 14 0,division_2,men,North Cambridge Academy,unknown,unknown
+2017-2018,2017-09-16,Black Country,3,25 25 25 - -,Newcastle Staffs 2,0,21 22 21 - -,cup,men,Redhill School Sports Hall,unknown,unknown
+2017-2018,2017-09-16,London Aces,0,21 24 21 - -,UK Armed Forces,3,25 26 25 - -,cup,men,Lambeth Academy,unknown,unknown
+2017-2018,2017-09-16,Durham Palatinates,3,25 25 25 - -,Team Sunderland,0,19 19 23 - -,cup,men,Durham University Sport (Queens Campus),unknown,unknown
+2017-2018,2017-09-16,Southampton,3,23 25 25 25 0,Weymouth Volleyball Club,1,25 20 16 19 0,cup,men,Itchen College Sports Centre,unknown,unknown
+2017-2018,2017-09-16,Newcastle Staffs,3,25 25 25 - -,Stockport,0,15 20 21 - -,cup,men,Madeley High School,unknown,unknown
+2017-2018,2017-09-16,Wombourne 1,3,25 25 16 25 0,Coventry and Warwick Riga,1,19 23 25 22 0,cup,men,Dudley Evolve,unknown,unknown
+2017-2018,2017-09-16,Essex Rebels,2,25 20 25 27 11,Cambridge ARU,3,15 25 14 29 15,cup,men,Tendring Technology College,unknown,unknown
+2017-2018,2017-09-16,University of Nottingham,0,18 21 17 - -,DARKSTAR Derbyshire,3,25 25 25 - -,cup,men,unknown,unknown,unknown
+2017-2018,2017-09-17,MK City,1,22 25 11 17 0,UK Armed Forces,3,25 15 25 25 0,cup,women,unknown,unknown,unknown
+2017-2018,2017-09-17,Intervolley Manchester,3,25 25 27 - -,York Vikings,0,20 18 25 - -,cup,men,The Y Club,unknown,unknown
+2017-2018,2017-09-23,Black Country,3,16 25 25 25 0,Nottingham Rockets,1,25 21 20 16 0,division_3,women,Redhill School Sports Hall,unknown,unknown
+2017-2018,2017-09-23,City of Bristol,3,25 27 22 29 0,Exeter Storm,1,21 25 25 27 0,division_2,men,Oasis Academy Brislington,unknown,unknown
+2017-2018,2017-09-23,University of Nottingham Volleyball,3,25 25 25 - -,Newcastle Staffs,0,12 21 17 - -,division_2,women,David Ross Sports Village,unknown,unknown
+2017-2018,2017-09-24,Hull Thunder,1,20 18 25 20 0,York Falcons,3,25 25 21 25 0,division_3,women,Hull Holy Trinity House Academy,unknown,unknown
+2017-2018,2017-09-24,Herts,0,16 14 12 - -,Malory Eagles UEL,3,25 25 25 - -,division_1,women,Queens School,unknown,unknown
+2017-2018,2017-09-24,Richmond Bucks,3,23 25 25 15 15,Wiltshire Mavericks,2,25 23 15 25 10,division_3,men,Kingston Arena,unknown,unknown
+2017-2018,2017-09-24,Manchester Marvels Marauders,0,18 25 17 - -,The Miners Doncaster,3,25 27 25 - -,division_3,men,Dean Trust Ardwick,unknown,unknown
+2017-2018,2017-09-24,Manchester Marvels Marauders,1,13 25 16 24 0,Newcastle Staffs 2,3,25 17 25 26 0,division_3,men,Dean Trust Ardwick,unknown,unknown
+2017-2018,2017-09-24,Lincoln Cannons,1,23 25 19 21 0,Loughborough Students,3,25 11 25 25 0,cup,men,Riseholme College (Showground Campus),unknown,unknown
+2017-2018,2017-09-24,The Miners Doncaster,3,25 25 27 25 0,Newcastle Staffs 2,1,15 18 29 22 0,division_3,men,Dean Trust Ardwick,unknown,unknown
+2017-2018,2017-09-24,Richmond Bucks,3,25 25 25 - -,Hounslow,0,0 0 0 - -,division_3,men,Kingston Arena,unknown,unknown
+2017-2018,2017-09-24,Wiltshire Mavericks,3,25 25 25 - -,Hounslow,0,0 0 0 - -,division_3,men,Kingston Arena,unknown,unknown
+2017-2018,2017-09-30,Leeds Gorse,3,20 25 25 25 0,Newcastle Staffs,1,25 21 8 20 0,division_2,women,The Ruth Gorse Academy,unknown,unknown
+2017-2018,2017-09-30,Newcastle Staffs 2,1,20 25 22 19 0,Stockport,3,25 19 25 25 0,division_3,men,Madeley High School,unknown,unknown
+2017-2018,2017-09-30,Black Country,1,25 25 15 20 0,Southampton,3,13 27 25 25 0,division_1,men,Redhill School Sports Hall,unknown,unknown
+2017-2018,2017-09-30,London Aces,1,17 14 25 17 0,Newcastle Staffs,3,25 25 23 25 0,division_1,men,Lambeth Academy,unknown,unknown
+2017-2018,2017-09-30,Newcastle Staffs 2,0,23 18 9 - -,Hull Thunder,3,25 25 25 - -,division_3,men,Madeley High School,unknown,unknown
+2017-2018,2017-09-30,Stockport,3,25 23 25 25 0,Hull Thunder,1,10 25 14 18 0,division_3,men,Madeley High School,unknown,unknown
+2017-2018,2017-09-30,Richmond Docklands,3,25 25 15 25 15,IBB Polonia London,2,27 16 25 21 12,superleague,men,Kingston Arena,unknown,unknown
+2017-2018,2017-10-01,Plymouth,3,25 25 25 - -,Southampton,0,17 18 19 - -,division_3,women,Coombe Dean School,unknown,unknown
+2017-2018,2017-10-01,Ashfield Vipers,3,25 25 25 - -,Tamworth Spartans,0,15 21 20 - -,division_3,women,Nottingham Academy,unknown,unknown
+2017-2018,2017-10-01,Ashcombe Dorking,0,21 15 19 - -,Bristol 2,3,25 25 25 - -,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2017-10-01,Richmond Bucks,3,25 25 14 25 0,Wiltshire Mavericks,1,21 23 25 21 0,division_3,men,Bournside School,unknown,unknown
+2017-2018,2017-10-01,Norwich Spikers,3,15 25 25 21 15,University of Nottingham,2,25 22 12 25 12,division_2,men,Easton & Otley College,unknown,unknown
+2017-2018,2017-10-01,Intervolley Manchester,3,24 25 25 24 15,Manchester Marvels,2,26 17 21 26 8,division_2,men,Woughton Leisure Centre,unknown,unknown
+2017-2018,2017-10-01,London Baks,0,22 20 18 - -,Bristol,3,25 25 25 - -,division_2,men,Castle Green Sport Centre,unknown,unknown
+2017-2018,2017-10-01,Stowmarket,3,25 25 25 - -,Lincoln Cannons,0,16 17 22 - -,division_3,men,Stowupland Sports Centre,unknown,unknown
+2017-2018,2017-10-01,Tamworth Spartans,3,25 18 18 25 15,Newmarket,2,21 25 25 22 11,division_3,men,Wilnecote Leisure Centre,unknown,unknown
+2017-2018,2017-10-01,York Vikings,0,20 24 26 - -,The Miners Doncaster,3,25 26 28 - -,division_3,men,Joseph Rowntree School,unknown,unknown
+2017-2018,2017-10-01,University of Bristol,3,25 25 25 - -,Hounslow,0,19 18 15 - -,division_3,men,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2017-10-01,South Hants,3,26 25 25 - -,Dartford Crossers,0,24 22 20 - -,division_3,men,Purbrook Park School,unknown,unknown
+2017-2018,2017-10-01,Reading Aces,0,15 23 16 - -,London Inter Orcas,3,25 25 25 - -,division_2,women,Loddon Valley Leisure Centre,unknown,unknown
+2017-2018,2017-10-04,York Falcons,3,25 25 25 - -,Team Sunderland,0,0 0 0 - -,cup,women,Joseph Rowntree School,unknown,unknown
+2017-2018,2017-10-06,University of Nottingham Volleyball,3,25 25 25 - -,Black Country,0,0 0 0 - -,cup,women,David Ross Sports Village,unknown,unknown
+2017-2018,2017-10-07,Durham Palatinates,3,25 25 25 - -,Essex Rebels,0,23 14 19 - -,superleague,women,Durham University Sport (Queens Campus),unknown,unknown
+2017-2018,2017-10-07,Loughborough Students,0,12 8 9 - -,University of Nottingham Volleyball,3,25 25 25 - -,division_2,women,Loughborough University Netball Centre,unknown,unknown
+2017-2018,2017-10-07,Durham Palatinates,3,25 25 25 - -,Hull Thunder,0,15 19 18 - -,cup,men,Durham University Sport (Queens Campus),unknown,unknown
+2017-2018,2017-10-07,Essex Blaze,3,25 25 25 - -,London Baks,0,11 15 8 - -,cup,men,University of Essex Sports Centre,unknown,unknown
+2017-2018,2017-10-07,Sheffield 2,3,25 25 26 - -,The Miners Doncaster,0,15 17 24 - -,cup,men,Sheffield - U18 Boys,unknown,unknown
+2017-2018,2017-10-07,Black Country,1,22 25 18 19 0,Wombourne 1,3,25 19 25 25 0,cup,men,Redhill School Sports Hall,unknown,unknown
+2017-2018,2017-10-07,Loughborough Students,0,15 17 21 - -,Newcastle Staffs,3,25 25 25 - -,cup,men,Loughborough University Netball Centre,unknown,unknown
+2017-2018,2017-10-07,Manchester Marvels Marauders,0,9 15 7 - -,Richmond Docklands,3,25 25 25 - -,cup,men,unknown,unknown,unknown
+2017-2018,2017-10-07,Sheffield,3,25 25 25 - -,Intervolley Manchester,0,15 15 17 - -,cup,men,Sheffield - U18 Boys,unknown,unknown
+2017-2018,2017-10-07,University of Nottingham,3,25 21 25 25 0,Norwich Spikers,1,23 25 17 23 0,division_2,men,David Ross Sports Village,unknown,unknown
+2017-2018,2017-10-07,Northumbria University,3,25 25 19 18 16,London Inter Orcas,2,23 17 25 25 14,superleague,women,unknown,unknown,unknown
+2017-2018,2017-10-08,Durham Palatinates,3,25 25 25 - -,London Inter Orcas,0,17 17 22 - -,superleague,women,unknown,unknown,unknown
+2017-2018,2017-10-08,Ashcombe Dorking,2,25 25 25 17 8,Southampton,3,16 16 27 25 15,cup,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2017-10-08,DARKSTAR Derbyshire,3,27 22 25 25 0,UK Armed Forces,1,25 25 23 20 0,cup,men,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
+2017-2018,2017-10-08,London Baks,0,19 19 15 - -,Essex Estonians,3,25 25 25 - -,division_2,men,Castle Green Sport Centre,unknown,unknown
+2017-2018,2017-10-08,Newcastle Staffs,3,20 22 25 25 15,Lincoln Cannons,2,25 25 16 8 7,cup,women,Madeley High School,unknown,unknown
+2017-2018,2017-10-08,UK Armed Forces,0,22 18 22 - -,Richmond 2,3,25 25 25 - -,cup,women,RAF Cranwell,unknown,unknown
+2017-2018,2017-10-08,Loughborough Students,0,11 13 16 - -,Coventry & Warwick Riga,3,25 25 25 - -,cup,women,Sir David Wallace Sports Hall,unknown,unknown
+2017-2018,2017-10-08,DARKSTAR Derbyshire,3,25 25 25 - -,Chester Amazons,0,18 13 23 - -,cup,women,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
+2017-2018,2017-10-08,Plymouth,1,25 20 20 25 0,Cardiff Falcons,3,19 25 25 27 0,cup,women,Coombe Dean School,unknown,unknown
+2017-2018,2017-10-08,Northampton,0,24 18 13 - -,Cambridge ARU,3,26 25 25 - -,cup,women,Moulton college,unknown,unknown
+2017-2018,2017-10-08,Leicester Athena Phoenix,2,25 25 13 16 16,Ashfield Vipers,3,13 23 25 25 18,cup,women,unknown,unknown,unknown
+2017-2018,2017-10-08,Northumbria University,3,25 25 25 - -,Essex Rebels,0,18 21 15 - -,superleague,women,Sports Central,unknown,unknown
+2017-2018,2017-10-14,IBB Polonia London,3,20 25 25 25 0,Sheffield,1,25 15 22 17 0,superleague,men,Brentford Fountain Leisure Centre,unknown,unknown
+2017-2018,2017-10-14,Newcastle Staffs,3,25 21 25 25 0,Leeds Gorse,1,23 25 15 13 0,division_1,men,Keele University Sports Centre,unknown,unknown
+2017-2018,2017-10-14,Southampton,2,20 25 20 26 8,Durham Palatinates,3,25 16 25 24 15,division_1,men,Itchen College Sports Centre,unknown,unknown
+2017-2018,2017-10-14,Sheffield 2,3,27 25 25 25 0,Black Country,1,25 27 22 22 0,division_1,men,Sheffield - U18 Boys,unknown,unknown
+2017-2018,2017-10-14,Nottingham Rockets,1,19 24 25 22 0,DARKSTAR Derbyshire,3,25 26 22 25 0,division_2,men,Southglade Leisure Centre,unknown,unknown
+2017-2018,2017-10-14,Essex Rebels,3,25 25 18 15 15,Essex Estonians,2,22 19 25 25 10,division_2,men,Tendring Technology College,unknown,unknown
+2017-2018,2017-10-14,Northumbria University,3,25 25 25 - -,Malory Eagles UEL,0,15 15 17 - -,superleague,men,Sports Central,unknown,unknown
+2017-2018,2017-10-14,Newcastle Staffs,1,25 13 17 22 0,Manchester Marvels Mystics,3,21 25 25 25 0,division_2,women,Keele University Sports Centre,unknown,unknown
+2017-2018,2017-10-14,University of Nottingham Volleyball,3,25 25 25 - -,Leeds Gorse,0,21 18 17 - -,division_2,women,David Ross Sports Village,unknown,unknown
+2017-2018,2017-10-14,Team SideOut Polonia (London),0,16 23 21 - -,Durham Palatinates,3,25 25 25 - -,superleague,women,Brentford Fountain Leisure Centre,unknown,unknown
+2017-2018,2017-10-15,Plymouth Mayflower VC,1,21 25 19 18 0,University of Bristol,3,25 19 25 25 0,division_3,women,Plymstock School Sports Centre,unknown,unknown
+2017-2018,2017-10-15,Hull Thunder,3,19 25 25 27 0,York Falcons,1,25 20 17 25 0,division_3,women,Hull Holy Trinity House Academy,unknown,unknown
+2017-2018,2017-10-15,Hull Thunder,3,25 25 25 - -,Manchester Marvels Mayhem,0,16 12 16 - -,division_3,women,Hull Holy Trinity House Academy,unknown,unknown
+2017-2018,2017-10-15,Portsmouth,0,17 11 13 - -,Southampton 2,3,25 25 25 - -,division_3,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2017-10-15,Ashfield Vipers,0,17 17 14 - -,Tamworth Spartans,3,25 25 25 - -,division_3,women,Vision West Nottinghamshire College,unknown,unknown
+2017-2018,2017-10-15,Ashfield Vipers,0,19 19 15 - -,Northampton,3,25 25 25 - -,division_3,women,Vision West Nottinghamshire College,unknown,unknown
+2017-2018,2017-10-15,Newcastle Staffs,0,14 8 20 - -,University of Nottingham Volleyball,3,25 25 25 - -,division_2,women,Madeley High School,unknown,unknown
+2017-2018,2017-10-15,Bristol,3,23 25 22 25 15,Team South Wales,2,25 21 25 15 9,division_1,women,Abbeywood School,unknown,unknown
+2017-2018,2017-10-15,Bristol,3,25 25 26 - -,City of Bristol,0,17 23 24 - -,division_2,men,Abbeywood School,unknown,unknown
+2017-2018,2017-10-15,Sheffield 2,1,22 20 25 19 0,Leeds Gorse,3,25 25 22 25 0,division_1,men,Sheffield - U18 Boys,unknown,unknown
+2017-2018,2017-10-15,Intervolley Manchester,3,27 22 25 19 15,Coventry and Warwick Riga,2,25 25 18 25 9,division_2,men,Woughton Leisure Centre,unknown,unknown
+2017-2018,2017-10-15,Wiltshire Mavericks,3,25 22 25 25 0,Hounslow,1,14 25 18 14 0,division_3,men,Lavington School,unknown,unknown
+2017-2018,2017-10-15,University of Bristol,3,25 25 25 - -,South Hants,0,18 20 8 - -,division_3,men,Wellsway School,unknown,unknown
+2017-2018,2017-10-15,Northumbria University,3,25 25 25 - -,Essex Blaze,0,21 19 21 - -,superleague,men,Sports Central,unknown,unknown
+2017-2018,2017-10-15,Herts,1,25 21 22 20 0,Cambridge ARU,3,20 25 25 25 0,division_1,women,Queens School,unknown,unknown
+2017-2018,2017-10-15,Sussex Dolphins 1,1,20 25 14 15 0,Reading Aces,3,25 22 25 25 0,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2017-10-15,Sussex Dolphins 1,3,25 15 18 25 15,Cardiff Falcons,2,12 25 25 16 4,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2017-10-15,London Inter Orcas,3,25 18 25 25 15,Dartford Chargers,2,27 25 15 19 12,division_2,women,Island Sports Trust,unknown,unknown
+2017-2018,2017-10-15,Tamworth Spartans,2,25 25 22 25 12,Northampton,3,21 27 25 21 15,division_3,women,Vision West Nottinghamshire College,unknown,unknown
+2017-2018,2017-10-15,Sussex Dolphins,0,11 16 11 - -,Southampton 2,3,25 25 25 - -,division_3,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2017-10-15,Sussex Dolphins,3,25 25 25 - -,Portsmouth,0,14 21 18 - -,division_3,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2017-10-15,York Falcons,3,25 25 25 - -,Manchester Marvels Mayhem,0,9 9 13 - -,division_3,women,Hull Holy Trinity House Academy,unknown,unknown
+2017-2018,2017-10-15,Wessex,0,22 9 16 - -,City of Bristol,3,25 25 25 - -,division_3,women,Cardiff Metropolitan University Cyncoed Campus Sports Hall,unknown,unknown
+2017-2018,2017-10-21,Ashcombe Dorking,1,19 25 24 22 0,London Inter Orcas,3,25 20 26 25 0,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2017-10-21,DARKSTAR Derbyshire,3,25 25 25 - -,Newcastle Staffs,0,19 16 17 - -,division_2,women,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
+2017-2018,2017-10-21,Coventry & Warwick Riga,3,25 25 25 - -,Loughborough Students,0,14 21 21 - -,division_2,women,Alan Higgs Centre,unknown,unknown
+2017-2018,2017-10-21,Cambridge ARU,3,25 25 22 29 0,Exeter Storm,1,22 16 25 27 0,division_2,men,North Cambridge Academy,unknown,unknown
+2017-2018,2017-10-21,DARKSTAR Derbyshire,3,25 29 25 - -,Norwich Spikers,0,21 27 22 - -,division_2,men,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
+2017-2018,2017-10-21,Coventry and Warwick Riga,3,25 25 25 - -,Nottingham Rockets,0,21 19 0 - -,division_2,men,Alan Higgs Centre,unknown,unknown
+2017-2018,2017-10-21,Durham Palatinates,3,25 22 25 25 0,Sheffield 2,1,16 25 21 18 0,division_1,men,Durham University Sport (Queens Campus),unknown,unknown
+2017-2018,2017-10-21,Team Sunderland,3,21 25 25 25 0,Intervolley Manchester,1,25 23 20 20 0,division_2,men,Sunderland College,unknown,unknown
+2017-2018,2017-10-21,Northumbria University,3,25 25 20 25 0,IBB Polonia London,1,14 19 25 15 0,superleague,men,Sports Central,unknown,unknown
+2017-2018,2017-10-21,Lincoln Cannons,3,25 25 25 - -,Ashfield Vipers,0,18 16 18 - -,division_3,women,Riseholme College (Showground Campus),unknown,unknown
+2017-2018,2017-10-22,Sheffield,0,13 15 17 - -,York Falcons,3,25 25 25 - -,division_3,women,Sheffield - U18 Boys,unknown,unknown
+2017-2018,2017-10-22,Richmond 2,3,16 25 25 26 0,Southampton 2,1,25 12 16 24 0,division_3,women,Kingston Arena,unknown,unknown
+2017-2018,2017-10-22,Ashcombe Dorking 2,2,25 21 15 25 13,Sussex Dolphins,3,17 25 25 21 15,division_3,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2017-10-22,Nottingham Rockets,0,18 15 23 - -,Tamworth Spartans,3,25 25 25 - -,division_3,women,Nottingham Academy,unknown,unknown
+2017-2018,2017-10-22,Dartford Crossers,1,18 14 25 18 0,Richmond Bucks,3,25 25 19 25 0,division_3,men,Dartford Technology College,unknown,unknown
+2017-2018,2017-10-22,Richmond Bucks,3,25 21 25 25 0,Urbond VC Portsmouth,1,19 25 20 23 0,division_3,men,Dartford Technology College,unknown,unknown
+2017-2018,2017-10-22,Dartford Crossers,1,18 31 16 16 0,Urbond VC Portsmouth,3,25 29 25 25 0,division_3,men,Dartford Technology College,unknown,unknown
+2017-2018,2017-10-22,Stockport,3,25 25 25 - -,York Vikings,0,17 17 19 - -,division_3,men,Life Leisure Priestnall,unknown,unknown
+2017-2018,2017-10-22,MK City,2,23 25 19 25 9,Tamworth Spartans,3,25 23 25 19 15,division_3,men,Woughton Leisure Centre,unknown,unknown
+2017-2018,2017-10-22,MK City,3,25 25 22 16 19,Stowmarket,2,19 19 25 25 17,division_3,men,Woughton Leisure Centre,unknown,unknown
+2017-2018,2017-10-22,Team Sunderland,3,25 25 19 25 15,University of Nottingham,2,16 27 25 20 11,division_2,men,Sunderland University (Cityspace),unknown,unknown
+2017-2018,2017-10-22,Leeds Gorse,3,19 25 25 27 0,London Aces,1,25 11 17 25 0,division_1,men,The Ruth Gorse Academy,unknown,unknown
+2017-2018,2017-10-22,Essex Estonians,2,25 19 25 23 12,City of Bristol,3,22 25 23 25 15,division_2,men,St John Payne School,unknown,unknown
+2017-2018,2017-10-22,Newmarket,3,25 25 25 - -,Lincoln Cannons,0,23 18 22 - -,division_3,men,Newmarket Leisure Centre,unknown,unknown
+2017-2018,2017-10-22,Tamworth Spartans,3,25 19 25 27 0,Stowmarket,1,22 25 17 25 0,division_3,men,Woughton Leisure Centre,unknown,unknown
+2017-2018,2017-10-22,Loughborough Students,2,25 22 17 25 10,Lincoln Cannons,3,23 25 25 17 15,division_3,men,Newmarket Leisure Centre,unknown,unknown
+2017-2018,2017-10-22,Newmarket,3,25 25 25 - -,Loughborough Students,0,17 20 21 - -,division_3,men,Newmarket Leisure Centre,unknown,unknown
+2017-2018,2017-10-22,Team Sunderland,3,25 25 25 - -,Loughborough Students,0,15 20 13 - -,division_2,women,Sunderland University (Cityspace),unknown,unknown
+2017-2018,2017-10-22,Reading Aces,3,25 23 25 25 0,Cardiff Falcons,1,11 25 17 18 0,division_2,women,Kendrick School,unknown,unknown
+2017-2018,2017-10-22,Manchester Marvels Mayhem,0,21 24 26 - -,Chester Amazons,3,25 26 28 - -,division_3,women,Dean Trust Ardwick,unknown,unknown
+2017-2018,2017-10-28,Newcastle Staffs,2,18 25 24 29 9,Durham Palatinates,3,25 22 26 27 15,division_1,men,Keele University Sports Centre,unknown,unknown
+2017-2018,2017-10-28,Newmarket,2,25 24 25 17 12,MK City,3,17 26 18 25 15,division_3,men,Cleobury Mortimer Sports Centre,unknown,unknown
+2017-2018,2017-10-28,Newcastle Staffs,2,22 25 25 24 10,Coventry & Warwick Riga,3,25 20 15 26 15,division_2,women,Keele University Sports Centre,unknown,unknown
+2017-2018,2017-10-28,University of Nottingham Volleyball,3,25 25 20 25 0,DARKSTAR Derbyshire,1,10 22 25 18 0,division_2,women,David Ross Sports Village,unknown,unknown
+2017-2018,2017-10-29,Essex Trinity,2,23 19 29 25 13,Herts,3,25 25 27 21 15,division_1,women,St John Payne School,unknown,unknown
+2017-2018,2017-10-29,Tamworth Spartans,0,18 23 31 - -,Cambridge ARU,3,25 25 33 - -,cup,men,unknown,unknown,unknown
+2017-2018,2017-11-02,Ashcombe Dorking,1,25 15 18 24 0,Sussex Dolphins 1,3,16 25 25 26 0,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2017-11-04,Loughborough Students,0,18 18 18 - -,Team Sunderland,3,25 25 25 - -,division_2,women,Loughborough University Netball Centre,unknown,unknown
+2017-2018,2017-11-04,Essex Blaze,2,21 17 25 25 12,Malory Eagles UEL,3,25 25 23 22 15,superleague,men,University of Essex Sports Centre,unknown,unknown
+2017-2018,2017-11-04,Northumbria University,3,25 25 25 - -,Sheffield,0,17 23 16 - -,superleague,men,Sports Central,unknown,unknown
+2017-2018,2017-11-04,City of Bristol,3,25 25 25 - -,London Baks,0,17 21 15 - -,division_2,men,Oasis Academy Brislington,unknown,unknown
+2017-2018,2017-11-04,Nottingham Rockets,0,13 10 21 - -,Team Sunderland,3,25 25 25 - -,division_2,men,Southglade Leisure Centre,unknown,unknown
+2017-2018,2017-11-04,Sheffield 2,3,25 25 25 - -,Southampton,0,19 19 19 - -,division_1,men,Sheffield - U18 Boys,unknown,unknown
+2017-2018,2017-11-04,Newcastle Staffs,3,25 25 23 25 0,Black Country,1,15 20 25 22 0,division_1,men,Keele University Sports Centre,unknown,unknown
+2017-2018,2017-11-04,University of Nottingham,3,25 25 25 - -,Manchester Marvels,0,21 21 21 - -,division_2,men,David Ross Sports Village,unknown,unknown
+2017-2018,2017-11-04,Norwich Spikers,3,25 25 25 - -,Coventry and Warwick Riga,0,20 22 16 - -,division_2,men,Easton & Otley College,unknown,unknown
+2017-2018,2017-11-04,Malory Eagles UEL,3,26 25 25 - -,Cambridge ARU,0,24 21 23 - -,division_1,women,Ernest Bevin College,unknown,unknown
+2017-2018,2017-11-04,Leeds Gorse,1,25 13 14 9 0,DARKSTAR Derbyshire,3,23 25 25 25 0,division_2,women,The Ruth Gorse Academy,unknown,unknown
+2017-2018,2017-11-04,University of Nottingham Volleyball,3,18 26 25 25 0,Manchester Marvels Mystics,1,25 24 21 16 0,division_2,women,David Ross Sports Village,unknown,unknown
+2017-2018,2017-11-04,Northumbria University,3,25 25 25 - -,Durham Palatinates,0,11 9 14 - -,superleague,women,Sports Central,unknown,unknown
+2017-2018,2017-11-05,Cardiff Falcons,3,25 25 25 - -,Dartford Chargers,0,9 23 21 - -,division_2,women,Cathedral School,unknown,unknown
+2017-2018,2017-11-05,Bristol,2,25 20 25 25 14,Essex Trinity,3,16 25 20 27 16,division_1,women,Abbeywood School,unknown,unknown
+2017-2018,2017-11-05,Leeds Gorse,3,25 25 18 17 15,Southampton,2,17 9 25 25 7,division_1,men,The Ruth Gorse Academy,unknown,unknown
+2017-2018,2017-11-05,University of Nottingham,0,21 21 23 - -,Team Sunderland,3,25 25 25 - -,division_2,men,David Ross Sports Village,unknown,unknown
+2017-2018,2017-11-05,Tamworth Spartans,3,19 25 25 25 0,Lincoln Cannons,1,25 22 18 21 0,division_3,men,Wilnecote Leisure Centre,unknown,unknown
+2017-2018,2017-11-05,Stockport,3,25 25 25 - -,Manchester Marvels Marauders,0,9 16 16 - -,division_3,men,Life Leisure Priestnall,unknown,unknown
+2017-2018,2017-11-05,The Miners Doncaster,3,19 25 27 25 0,Hull Thunder,1,25 17 25 22 0,division_3,men,Campsmount Academy,unknown,unknown
+2017-2018,2017-11-05,York Vikings,3,21 25 24 25 15,Newcastle Staffs 2,2,25 17 26 19 12,division_3,men,Joseph Rowntree School,unknown,unknown
+2017-2018,2017-11-05,Loughborough Students,0,22 18 17 - -,Leeds Gorse,3,25 25 25 - -,division_2,women,Loughborough College,unknown,unknown
+2017-2018,2017-11-05,University of Nottingham Volleyball,3,25 25 25 - -,Team Sunderland,0,6 15 22 - -,division_2,women,David Ross Sports Village,unknown,unknown
+2017-2018,2017-11-09,Northumbria University,3,25 25 25 - -,Sheffield 2,0,0 0 0 - -,cup,men,Sports Central,unknown,unknown
+2017-2018,2017-11-11,London Inter Orcas,2,17 25 16 25 14,Team SideOut Polonia (London),3,25 16 25 20 16,superleague,women,unknown,unknown,unknown
+2017-2018,2017-11-11,Black Country,1,25 24 17 24 0,Lincoln Cannons,3,17 26 25 26 0,division_3,women,Redhill School Sports Hall,unknown,unknown
+2017-2018,2017-11-11,Coventry and Warwick Riga,3,25 25 25 - -,Newcastle Staffs 2,0,14 20 8 - -,shield,men,Centre AT7,unknown,unknown
+2017-2018,2017-11-11,Cambridge ARU,0,15 17 16 - -,Malory Eagles UEL,3,25 25 25 - -,cup,men,North Cambridge Academy,unknown,unknown
+2017-2018,2017-11-11,Richmond Docklands,3,25 25 25 - -,Wombourne 1,0,9 6 10 - -,cup,men,Kingston Arena,unknown,unknown
+2017-2018,2017-11-11,Newcastle Staffs,2,25 23 25 18 10,Sheffield,3,15 25 21 25 15,cup,men,Keele University Sports Centre,unknown,unknown
+2017-2018,2017-11-11,Exeter Storm,0,19 12 28 - -,City of Bristol,3,25 25 30 - -,division_2,men,Ashmoor Recreation Centre,unknown,unknown
+2017-2018,2017-11-11,Weymouth Volleyball Club,3,25 25 21 25 0,Urbond VC Portsmouth,1,16 20 25 18 0,shield,men,Redlands Community Sports Hub,unknown,unknown
+2017-2018,2017-11-12,Reading Aces,3,25 25 25 - -,Southampton,0,21 14 22 - -,cup,women,Kendrick School,unknown,unknown
+2017-2018,2017-11-12,Richmond 2,0,9 11 18 - -,Team SideOut Polonia (London),3,25 25 25 - -,cup,women,Kingston Arena,unknown,unknown
+2017-2018,2017-11-12,Durham Palatinates,3,25 25 25 - -,Leeds Gorse,0,8 13 5 - -,cup,women,unknown,unknown,unknown
+2017-2018,2017-11-12,Ashfield Vipers,0,10 3 11 - -,London Inter Orcas,3,25 25 25 - -,cup,women,Nottingham Academy,unknown,unknown
+2017-2018,2017-11-12,Hull Thunder,0,17 11 19 - -,Northumbria University,3,25 25 25 - -,cup,women,Hull Holy Trinity House Academy,unknown,unknown
+2017-2018,2017-11-12,Cambridge ARU,3,25 25 25 - -,Coventry & Warwick Riga,0,13 18 10 - -,cup,women,North Cambridge Academy,unknown,unknown
+2017-2018,2017-11-12,South Hants,1,8 15 25 13 0,Richmond Bucks,3,25 25 16 25 0,division_3,men,Purbrook Park School,unknown,unknown
+2017-2018,2017-11-12,Manchester Marvels Mystics,3,25 25 25 - -,DARKSTAR Derbyshire,0,23 20 23 - -,cup,women,Dean Trust Ardwick,unknown,unknown
+2017-2018,2017-11-18,Coventry & Warwick Riga,3,25 25 25 - -,Leeds Gorse,0,12 15 11 - -,division_2,women,Alan Higgs Centre,unknown,unknown
+2017-2018,2017-11-18,DARKSTAR Derbyshire,3,25 33 25 - -,Manchester Marvels Mystics,0,14 31 21 - -,division_2,women,Southglade Leisure Centre,unknown,unknown
+2017-2018,2017-11-18,IBB Polonia London,0,22 22 19 - -,Northumbria University,3,25 25 25 - -,superleague,men,Brentford Fountain Leisure Centre,unknown,unknown
+2017-2018,2017-11-18,DARKSTAR Derbyshire,1,25 23 17 21 0,Manchester Marvels,3,19 25 25 25 0,division_2,men,Southglade Leisure Centre,unknown,unknown
+2017-2018,2017-11-18,Durham Palatinates,3,25 25 25 - -,Newcastle Staffs,0,14 22 16 - -,division_1,men,Durham University Sport (Queens Campus),unknown,unknown
+2017-2018,2017-11-18,Black Country,2,19 17 25 25 14,London Aces,3,25 25 22 20 16,division_1,men,Redhill School Sports Hall,unknown,unknown
+2017-2018,2017-11-18,Richmond Docklands,0,15 20 19 - -,Malory Eagles UEL,3,25 25 25 - -,superleague,men,Kingston Arena,unknown,unknown
+2017-2018,2017-11-18,Team South Wales,1,25 18 14 18 0,Cambridge ARU,3,22 25 25 25 0,division_1,women,Cardiff Metropolitan University Cyncoed Campus Sports Hall,unknown,unknown
+2017-2018,2017-11-18,Team SideOut Polonia (London),3,25 17 25 15 15,Northumbria University,2,22 25 21 25 10,superleague,women,Brentford Fountain Leisure Centre,unknown,unknown
+2017-2018,2017-11-19,Plymouth,3,25 25 19 25 0,Wessex,1,15 20 25 19 0,division_3,women,Wellsway School,unknown,unknown
+2017-2018,2017-11-19,University of Bristol,3,25 25 25 - -,Wessex,0,14 9 7 - -,division_3,women,Wellsway School,unknown,unknown
+2017-2018,2017-11-19,Manchester Marvels Mayhem,0,10 13 20 - -,Sheffield,3,25 25 25 - -,division_3,women,Dean Trust Ardwick,unknown,unknown
+2017-2018,2017-11-19,Ashcombe Dorking 2,3,25 25 25 - -,Portsmouth,0,10 18 21 - -,division_3,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2017-11-19,Portsmouth,0,8 20 15 - -,Richmond 2,3,25 25 25 - -,division_3,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2017-11-19,Ashcombe Dorking 2,0,24 21 18 - -,Richmond 2,3,26 25 25 - -,division_3,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2017-11-19,Ashfield Vipers,3,22 25 25 23 16,Black Country,2,25 23 17 25 14,division_3,women,Voyager Academy,unknown,unknown
+2017-2018,2017-11-19,Lincoln Cannons,1,11 24 27 13 0,Tamworth Spartans,3,25 26 25 25 0,division_3,women,Vision West Nottinghamshire College,unknown,unknown
+2017-2018,2017-11-19,Nottingham Rockets,1,10 25 15 18 0,Tamworth Spartans,3,25 22 25 25 0,division_3,women,Vision West Nottinghamshire College,unknown,unknown
+2017-2018,2017-11-19,Dartford Chargers,3,25 25 29 - -,Reading Aces,0,23 21 27 - -,division_2,women,Dartford Technology College,unknown,unknown
+2017-2018,2017-11-19,Richmond Bucks,3,25 25 25 - -,University of Bristol,0,17 21 15 - -,division_3,men,Kingston Arena,unknown,unknown
+2017-2018,2017-11-19,University of Bristol,3,25 22 25 25 0,Urbond VC Portsmouth,1,21 25 16 20 0,division_3,men,Kingston Arena,unknown,unknown
+2017-2018,2017-11-19,Richmond Bucks,3,25 21 25 25 0,Urbond VC Portsmouth,1,21 25 19 21 0,division_3,men,Kingston Arena,unknown,unknown
+2017-2018,2017-11-19,DARKSTAR Derbyshire,3,25 24 25 16 18,Intervolley Manchester,2,19 26 22 25 16,division_2,men,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
+2017-2018,2017-11-19,Southampton,3,22 25 25 25 0,Leeds Gorse,1,25 20 19 20 0,division_1,men,Itchen College Sports Centre,unknown,unknown
+2017-2018,2017-11-19,London Baks,1,15 12 26 21 0,Essex Rebels,3,25 25 24 25 0,division_2,men,Castle Green Sport Centre,unknown,unknown
+2017-2018,2017-11-19,Herts,3,25 17 25 16 15,Essex Trinity,2,20 25 23 25 13,division_1,women,Queens School,unknown,unknown
+2017-2018,2017-11-19,Newcastle Staffs,3,26 25 25 25 0,Loughborough Students,1,28 12 11 21 0,division_2,women,Madeley High School,unknown,unknown
+2017-2018,2017-11-19,Nottingham Rockets,0,13 21 16 - -,Lincoln Cannons,3,25 25 25 - -,division_3,women,Vision West Nottinghamshire College,unknown,unknown
+2017-2018,2017-11-19,York Falcons,3,25 25 25 - -,Chester Amazons,0,15 17 15 - -,division_3,women,Joseph Rowntree School,unknown,unknown
+2017-2018,2017-11-19,Plymouth Mayflower VC,2,25 24 23 25 14,City of Bristol,3,22 26 25 13 16,division_3,women,Petroc College,unknown,unknown
+2017-2018,2017-11-19,University of Bristol,0,20 19 26 - -,Plymouth,3,25 25 28 - -,division_3,women,Wellsway School,unknown,unknown
+2017-2018,2017-11-25,Cambridge ARU,3,25 25 27 25 0,Herts,1,19 18 29 23 0,division_1,women,North Cambridge Academy,unknown,unknown
+2017-2018,2017-11-25,Essex Rebels,3,25 25 25 - -,Exeter Storm,0,15 17 19 - -,division_2,men,Tendring Technology College,unknown,unknown
+2017-2018,2017-11-25,Team Sunderland,3,25 25 25 - -,Norwich Spikers,0,19 17 22 - -,division_2,men,Sunderland University (Cityspace),unknown,unknown
+2017-2018,2017-11-25,Nottingham Rockets,2,27 27 19 20 8,Manchester Marvels,3,25 25 25 25 15,division_2,men,Southglade Leisure Centre,unknown,unknown
+2017-2018,2017-11-26,Ashcombe Dorking,3,27 25 19 25 0,Reading Aces,1,25 20 25 23 0,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2017-11-26,Bristol 2,2,25 25 24 20 2,Dartford Chargers,3,16 16 26 25 15,division_2,women,Abbeywood School,unknown,unknown
+2017-2018,2017-11-26,Coventry & Warwick Riga,0,23 23 21 - -,Manchester Marvels Mystics,3,25 25 25 - -,division_2,women,Centre AT7,unknown,unknown
+2017-2018,2017-11-26,South Hants,0,11 19 16 - -,University of Bristol,3,25 25 25 - -,division_3,men,Lavington School,unknown,unknown
+2017-2018,2017-11-26,Newmarket,2,25 24 26 15 11,Stowmarket,3,17 26 24 25 15,division_3,men,Newmarket Leisure Centre,unknown,unknown
+2017-2018,2017-11-26,Essex Estonians,3,25 25 25 - -,Exeter Storm,0,15 22 17 - -,division_2,men,St John Payne School,unknown,unknown
+2017-2018,2017-11-26,Intervolley Manchester,0,17 23 19 - -,University of Nottingham,3,25 25 25 - -,division_2,men,Woughton Leisure Centre,unknown,unknown
+2017-2018,2017-11-26,Coventry and Warwick Riga,2,23 25 25 22 13,Manchester Marvels,3,25 17 19 25 15,division_2,men,Centre AT7,unknown,unknown
+2017-2018,2017-11-26,Wiltshire Mavericks,0,11 18 20 - -,University of Bristol,3,25 25 25 - -,division_3,men,Lavington School,unknown,unknown
+2017-2018,2017-11-26,Wiltshire Mavericks,3,19 26 15 25 15,South Hants,2,25 24 25 16 8,division_3,men,Lavington School,unknown,unknown
+2017-2018,2017-12-01,University of Nottingham,0,18 18 20 - -,Loughborough Students,3,25 25 25 - -,shield,men,David Ross Sports Village,unknown,unknown
+2017-2018,2017-12-02,IBB Polonia London,2,20 25 25 18 12,Malory Eagles UEL,3,25 19 23 25 15,superleague,men,Brentford Fountain Leisure Centre,unknown,unknown
+2017-2018,2017-12-02,Essex Rebels,3,19 25 25 25 0,Onyx London,1,25 15 18 19 0,shield,men,Tendring Technology College,unknown,unknown
+2017-2018,2017-12-02,London Baks,1,23 16 25 16 0,Newmarket,3,25 25 22 25 0,shield,men,Castle Green Sport Centre,unknown,unknown
+2017-2018,2017-12-02,London Aces,1,20 22 25 24 0,Durham Palatinates,3,25 25 21 26 0,division_1,men,Lambeth Academy,unknown,unknown
+2017-2018,2017-12-02,Exeter Storm,0,14 17 18 - -,Bristol,3,25 25 25 - -,division_2,men,Riverside Leisure Centre,unknown,unknown
+2017-2018,2017-12-02,UK Armed Forces,0,22 19 24 - -,Black Country,3,25 25 26 - -,shield,men,RAF Cranwell,unknown,unknown
+2017-2018,2017-12-02,York Vikings,0,14 18 17 - -,Team Sunderland,3,25 25 25 - -,shield,men,Joseph Rowntree School,unknown,unknown
+2017-2018,2017-12-02,Stockport,3,25 25 25 - -,Manchester Marvels,0,17 19 21 - -,shield,men,Life Leisure Priestnall,unknown,unknown
+2017-2018,2017-12-02,Nottingham Rockets,0,21 18 26 - -,Lincoln Cannons,3,25 25 28 - -,shield,men,Southglade Leisure Centre,unknown,unknown
+2017-2018,2017-12-02,Sheffield,3,25 25 25 - -,Essex Blaze,0,8 13 22 - -,superleague,men,Sheffield - U18 Boys,unknown,unknown
+2017-2018,2017-12-02,Northumbria University,3,25 25 25 - -,Manchester Marvels Mystics,0,11 11 9 - -,cup,women,Middlesbrough College,unknown,unknown
+2017-2018,2017-12-02,Loughborough Students,0,17 12 7 - -,DARKSTAR Derbyshire,3,25 25 25 - -,division_2,women,Loughborough University Netball Centre,unknown,unknown
+2017-2018,2017-12-03,Leicester Athena Phoenix,1,21 20 25 12 0,MK City,3,25 25 21 25 0,shield,women,The Queen Elizabeth II Diamond Jubilee Leisure Centre,unknown,unknown
+2017-2018,2017-12-03,Ashcombe Dorking,3,24 25 19 25 15,Cardiff Falcons,2,26 18 25 16 7,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2017-12-03,London Inter Orcas,3,25 25 25 - -,Reading Aces,0,10 13 11 - -,cup,women,unknown,unknown,unknown
+2017-2018,2017-12-03,Urbond VC Portsmouth,3,25 25 25 - -,Wiltshire Mavericks,0,23 19 22 - -,division_3,men,Priory Community Sports Centre,unknown,unknown
+2017-2018,2017-12-03,Hull Thunder,2,14 25 25 16 8,York Vikings,3,25 17 22 25 15,division_3,men,Life Leisure Priestnall,unknown,unknown
+2017-2018,2017-12-03,Stockport,3,25 25 25 - -,York Vikings,0,15 23 7 - -,division_3,men,Life Leisure Priestnall,unknown,unknown
+2017-2018,2017-12-03,Tamworth Spartans,1,25 22 20 21 0,Newmarket,3,22 25 25 25 0,division_3,men,Wilnecote Leisure Centre,unknown,unknown
+2017-2018,2017-12-03,Stockport,3,25 25 25 - -,Hull Thunder,0,5 12 17 - -,division_3,men,Life Leisure Priestnall,unknown,unknown
+2017-2018,2017-12-03,Team SideOut Polonia (London),3,25 25 25 - -,Cambridge ARU,0,20 16 15 - -,cup,women,St Benedicts School,unknown,unknown
+2017-2018,2017-12-03,Tamworth Spartans,1,25 18 17 16 0,Loughborough Students,3,20 25 25 25 0,shield,women,Rawlett Community Sports College,unknown,unknown
+2017-2018,2017-12-09,Essex Rebels,2,25 24 22 25 12,London Inter Orcas,3,19 26 25 20 15,superleague,women,unknown,unknown,unknown
+2017-2018,2017-12-09,Leeds Gorse,3,25 25 25 - -,Team Sunderland,0,20 16 22 - -,division_2,women,The Ruth Gorse Academy,unknown,unknown
+2017-2018,2017-12-09,Malory Eagles UEL,3,25 25 25 - -,Team South Wales,0,21 20 16 - -,division_1,women,Ernest Bevin College,unknown,unknown
+2017-2018,2017-12-09,Essex Blaze,3,25 25 25 - -,Richmond Docklands,0,22 17 23 - -,superleague,men,Boswells School,unknown,unknown
+2017-2018,2017-12-09,City of Bristol,2,26 17 25 13 11,Essex Rebels,3,24 25 16 25 15,division_2,men,Oasis Academy Brislington,unknown,unknown
+2017-2018,2017-12-09,London Aces,1,16 25 18 20 0,Sheffield 2,3,25 22 25 25 0,division_1,men,Lambeth Academy,unknown,unknown
+2017-2018,2017-12-09,Newcastle Staffs,3,25 25 24 25 0,Southampton,1,18 20 26 19 0,division_1,men,Keele University Sports Centre,unknown,unknown
+2017-2018,2017-12-09,Nottingham Rockets,1,25 23 17 22 0,Intervolley Manchester,3,20 25 25 25 0,division_2,men,Southglade Leisure Centre,unknown,unknown
+2017-2018,2017-12-10,Richmond 2,3,25 25 25 - -,Sussex Dolphins,0,21 22 8 - -,division_3,women,Maidstone Leisure Centre,unknown,unknown
+2017-2018,2017-12-10,Ashcombe Dorking,3,23 23 26 25 15,Dartford Chargers,2,25 25 24 13 12,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2017-12-10,Lionhearts Vinarius,0,0 0 0 - -,Tamworth Spartans,3,25 25 25 - -,shield,men,unknown,unknown,unknown
+2017-2018,2017-12-10,Dartford Crossers,3,25 19 15 25 15,South Hants,2,16 25 25 15 8,division_3,men,Itchen College Sports Centre,unknown,unknown
+2017-2018,2017-12-10,Hull Thunder,3,25 25 26 - -,Manchester Marvels Marauders,0,15 17 24 - -,division_3,men,Hull Holy Trinity House Academy,unknown,unknown
+2017-2018,2017-12-10,Bristol,0,21 23 18 - -,Essex Rebels,3,25 25 25 - -,division_2,men,Abbeywood School,unknown,unknown
+2017-2018,2017-12-10,The Miners Doncaster,3,25 22 25 24 15,Stockport,2,21 25 18 26 8,division_3,men,Campsmount Academy,unknown,unknown
+2017-2018,2017-12-10,Sussex Dolphins 1,1,13 10 25 15 0,London Inter Orcas,3,25 25 19 25 0,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2017-12-16,Coventry & Warwick Riga,2,21 25 25 11 13,DARKSTAR Derbyshire,3,25 13 21 25 15,division_2,women,Alan Higgs Centre,unknown,unknown
+2017-2018,2017-12-16,Richmond Docklands,1,18 25 22 21 0,Sheffield,3,25 21 25 25 0,superleague,men,Christ's School,unknown,unknown
+2017-2018,2017-12-16,Nottingham Rockets,3,25 25 22 28 0,University of Nottingham,1,17 22 25 26 0,division_2,men,Southglade Leisure Centre,unknown,unknown
+2017-2018,2017-12-16,Coventry and Warwick Riga,1,13 15 25 23 0,DARKSTAR Derbyshire,3,25 25 17 25 0,division_2,men,Alan Higgs Centre,unknown,unknown
+2017-2018,2017-12-16,Sheffield 2,1,18 17 25 28 0,Newcastle Staffs,3,25 25 23 30 0,division_1,men,Sheffield - U18 Boys,unknown,unknown
+2017-2018,2017-12-16,Southampton,2,25 22 19 25 9,London Aces,3,22 25 25 13 15,division_1,men,Itchen College Sports Centre,unknown,unknown
+2017-2018,2017-12-16,Team Sunderland,3,25 25 25 - -,Manchester Marvels,0,21 20 18 - -,division_2,men,Sunderland University (Cityspace),unknown,unknown
+2017-2018,2017-12-16,Essex Rebels,3,25 25 23 17 15,Bristol,2,20 18 25 25 9,division_2,men,Tendring Technology College,unknown,unknown
+2017-2018,2017-12-16,Malory Eagles UEL,1,23 23 25 23 0,IBB Polonia London,3,25 25 22 25 0,superleague,men,Ernest Bevin College,unknown,unknown
+2017-2018,2017-12-16,Malory Eagles UEL,3,20 19 25 25 15,Bristol,2,25 25 20 22 12,division_1,women,Ernest Bevin College,unknown,unknown
+2017-2018,2017-12-16,Team Sunderland,1,23 25 20 23 0,Manchester Marvels Mystics,3,25 22 25 25 0,division_2,women,Sunderland University (Cityspace),unknown,unknown
+2017-2018,2017-12-17,City of Bristol,0,17 14 22 - -,Plymouth,3,25 25 25 - -,division_3,women,Oasis Academy Brislington,unknown,unknown
+2017-2018,2017-12-17,Plymouth,3,25 25 25 - -,Wessex,0,0 0 0 - -,division_3,women,Oasis Academy Brislington,unknown,unknown
+2017-2018,2017-12-17,City of Bristol,3,25 25 25 - -,Wessex,0,0 0 0 - -,division_3,women,Oasis Academy Brislington,unknown,unknown
+2017-2018,2017-12-17,Ashcombe Dorking 2,1,19 26 18 14 0,Portsmouth,3,25 24 25 25 0,division_3,women,Woodlands Community School,unknown,unknown
+2017-2018,2017-12-17,Intervolley Manchester,3,25 26 25 - -,Norwich Spikers,0,16 24 20 - -,division_2,men,The Y Club,unknown,unknown
+2017-2018,2017-12-17,London Baks,0,17 20 15 - -,Cambridge ARU,3,25 25 25 - -,division_2,men,Castle Green Sport Centre,unknown,unknown
+2017-2018,2017-12-17,Reading Aces,3,18 14 25 25 15,Ashcombe Dorking,2,25 25 20 15 11,division_2,women,Loddon Valley Leisure Centre,unknown,unknown
+2017-2018,2017-12-17,Sussex Dolphins 1,3,29 21 18 25 15,Dartford Chargers,2,27 25 25 13 12,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2017-12-17,Norwich Spikers,3,25 25 12 25 0,Black Country,1,17 20 25 21 0,division_3,women,Easton & Otley College,unknown,unknown
+2017-2018,2017-12-17,Norwich Spikers,3,25 25 25 - -,Ashfield Vipers,0,21 13 11 - -,division_3,women,Easton & Otley College,unknown,unknown
+2017-2018,2017-12-17,Southampton 2,3,21 25 25 25 0,Portsmouth,1,25 17 20 6 0,division_3,women,Woodlands Community School,unknown,unknown
+2017-2018,2017-12-17,Southampton 2,3,24 22 25 25 15,Ashcombe Dorking 2,2,26 25 20 14 12,division_3,women,Woodlands Community School,unknown,unknown
+2017-2018,2017-12-17,York Falcons,3,25 25 25 - -,Manchester Marvels Mayhem,0,23 17 23 - -,division_3,women,Joseph Rowntree School,unknown,unknown
+2017-2018,2017-12-17,Southampton,1,25 18 16 23 0,Plymouth Mayflower VC,3,21 25 25 25 0,division_3,women,Itchen College Sports Centre,unknown,unknown
+2017-2018,2017-12-17,London Inter Orcas,2,23 28 25 23 11,Durham Palatinates,3,25 26 20 25 15,superleague,women,unknown,unknown,unknown
+2017-2018,2018-01-06,Stockport,3,25 25 25 - -,Loughborough Students,0,12 13 20 - -,shield,men,Life Leisure Priestnall,unknown,unknown
+2017-2018,2018-01-06,Team Sunderland,0,19 20 24 - -,Intervolley Manchester,3,25 25 26 - -,shield,men,Sunderland University (Cityspace),unknown,unknown
+2017-2018,2018-01-06,Lincoln Cannons,3,25 22 21 25 15,Black Country,2,20 25 25 21 10,division_3,women,RAF Cranwell,unknown,unknown
+2017-2018,2018-01-07,Newcastle Staffs,2,25 25 21 23 13,UK Armed Forces,3,19 21 25 25 15,shield,women,Madeley High School,unknown,unknown
+2017-2018,2018-01-07,Coventry & Warwick Riga,3,25 25 25 - -,University of Nottingham Volleyball,0,0 0 0 - -,shield,women,Alan Higgs Centre,unknown,unknown
+2017-2018,2018-01-07,Ashfield Vipers,0,18 5 17 - -,Leeds Gorse,3,25 25 25 - -,shield,women,Southglade Leisure Centre,unknown,unknown
+2017-2018,2018-01-07,Lincoln Cannons,3,25 25 25 - -,Nottingham Rockets,0,13 12 18 - -,shield,women,Riseholme College (Showground Campus),unknown,unknown
+2017-2018,2018-01-07,London Aces,3,21 25 25 25 0,Newmarket,1,25 20 20 22 0,shield,men,Battersea Youth Centre,unknown,unknown
+2017-2018,2018-01-07,Lincoln Cannons,1,20 17 25 16 0,Tamworth Spartans,3,25 25 19 25 0,shield,men,Riseholme College (Showground Campus),unknown,unknown
+2017-2018,2018-01-07,South Hants,0,17 19 19 - -,Richmond Bucks,3,25 25 25 - -,division_3,men,Brune Park Community School,unknown,unknown
+2017-2018,2018-01-07,Sussex Dolphins 1,0,0 0 0 - -,Dartford Chargers,3,25 25 25 - -,shield,women,unknown,unknown,unknown
+2017-2018,2018-01-07,Northampton,1,7 26 25 17 0,MK City,3,25 28 21 25 0,shield,women,Moulton college,unknown,unknown
+2017-2018,2018-01-07,Southampton,3,25 25 25 - -,Cardiff Falcons,0,9 19 18 - -,shield,women,Woodlands Community School,unknown,unknown
+2017-2018,2018-01-13,Durham Palatinates,0,16 17 16 - -,Northumbria University,3,25 25 25 - -,superleague,women,Durham University Sport (Queens Campus),unknown,unknown
+2017-2018,2018-01-13,Essex Rebels,3,25 21 25 26 0,Southampton,1,16 25 18 24 0,shield,men,Tendring Technology College,unknown,unknown
+2017-2018,2018-01-13,Sheffield 2,3,25 25 25 - -,London Aces,0,21 17 22 - -,division_1,men,Sheffield - U18 Boys,unknown,unknown
+2017-2018,2018-01-13,Malory Eagles UEL,1,30 25 22 24 0,Essex Blaze,3,32 22 25 26 0,superleague,men,Ernest Bevin College,unknown,unknown
+2017-2018,2018-01-13,Loughborough Students,0,9 19 14 - -,DARKSTAR Derbyshire,3,25 25 25 - -,shield,women,Loughborough University Netball Centre,unknown,unknown
+2017-2018,2018-01-13,London Inter Orcas,3,20 25 21 25 15,Essex Rebels,2,25 19 25 12 11,superleague,women,unknown,unknown,unknown
+2017-2018,2018-01-14,Ashfield Vipers,2,17 25 18 32 8,Norwich Spikers,3,25 21 25 30 15,division_3,women,RAF Cranwell,unknown,unknown
+2017-2018,2018-01-14,Lincoln Cannons,3,25 26 25 - -,Nottingham Rockets,0,21 24 13 - -,division_3,women,Riseholme College (Showground Campus),unknown,unknown
+2017-2018,2018-01-14,Bristol 2,3,26 25 25 - -,Reading Aces,0,24 16 20 - -,division_2,women,Abbeywood School,unknown,unknown
+2017-2018,2018-01-14,Bristol,3,25 24 25 25 0,Herts,1,20 26 18 14 0,division_1,women,Abbeywood School,unknown,unknown
+2017-2018,2018-01-14,Dartford Crossers,0,25 13 25 - -,Urbond VC Portsmouth,3,27 25 27 - -,division_3,men,Dartford Technology College,unknown,unknown
+2017-2018,2018-01-14,Essex Estonians,1,22 25 13 22 0,Essex Rebels,3,25 23 25 25 0,division_2,men,St John Payne School,unknown,unknown
+2017-2018,2018-01-14,Bristol,3,25 25 25 - -,London Baks,0,11 23 18 - -,division_2,men,Abbeywood School,unknown,unknown
+2017-2018,2018-01-14,Manchester Marvels,3,25 18 25 18 15,Nottingham Rockets,2,21 25 16 25 5,division_2,men,Dean Trust Ardwick,unknown,unknown
+2017-2018,2018-01-14,Team Sunderland,3,25 27 25 - -,Coventry and Warwick Riga,0,19 25 14 - -,division_2,men,Sunderland University (Cityspace),unknown,unknown
+2017-2018,2018-01-14,Newmarket,3,20 25 28 22 17,MK City,2,25 17 26 25 15,division_3,men,RAF Cranwell,unknown,unknown
+2017-2018,2018-01-14,Stowmarket,3,25 25 25 - -,Loughborough Students,0,22 14 23 - -,division_3,men,Stowupland Sports Centre,unknown,unknown
+2017-2018,2018-01-14,Richmond Docklands,3,17 25 25 25 0,Essex Blaze,1,25 16 17 18 0,superleague,men,Kingston Arena,unknown,unknown
+2017-2018,2018-01-14,Sheffield,3,24 24 25 25 15,Northumbria University,2,26 26 21 20 11,superleague,men,Sheffield - U18 Boys,unknown,unknown
+2017-2018,2018-01-14,Team Sunderland,0,13 16 18 - -,DARKSTAR Derbyshire,3,25 25 25 - -,division_2,women,Sunderland University (Cityspace),unknown,unknown
+2017-2018,2018-01-14,Sussex Dolphins 1,2,13 25 19 25 9,Ashcombe Dorking,3,25 18 25 20 15,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2018-01-14,Tamworth Spartans,1,23 25 23 23 0,Black Country,3,25 12 25 25 0,division_3,women,Wilnecote Leisure Centre,unknown,unknown
+2017-2018,2018-01-14,Northampton,1,31 17 24 18 0,Black Country,3,29 25 26 25 0,division_3,women,Wilnecote Leisure Centre,unknown,unknown
+2017-2018,2018-01-14,Tamworth Spartans,3,25 25 25 - -,Northampton,0,17 15 16 - -,division_3,women,Wilnecote Leisure Centre,unknown,unknown
+2017-2018,2018-01-20,Durham Palatinates,3,26 25 25 - -,Team SideOut Polonia (London),0,24 9 18 - -,superleague,women,Durham University Sport (Queens Campus),unknown,unknown
+2017-2018,2018-01-20,Coventry & Warwick Riga,3,25 25 25 - -,Team Sunderland,0,20 14 15 - -,division_2,women,Alan Higgs Centre,unknown,unknown
+2017-2018,2018-01-20,Leeds Gorse,3,25 25 25 - -,Loughborough Students,0,20 12 15 - -,division_2,women,The Ruth Gorse Academy,unknown,unknown
+2017-2018,2018-01-20,Coventry and Warwick Riga,0,18 21 19 - -,Team Sunderland,3,25 25 25 - -,division_2,men,Alan Higgs Centre,unknown,unknown
+2017-2018,2018-01-20,Black Country,0,19 22 18 - -,Durham Palatinates,3,25 25 25 - -,division_1,men,Redhill School Sports Hall,unknown,unknown
+2017-2018,2018-01-20,Sheffield,1,25 21 17 19 0,IBB Polonia London,3,21 25 25 25 0,superleague,men,Sheffield - U18 Boys,unknown,unknown
+2017-2018,2018-01-20,Newcastle Staffs,0,21 14 17 - -,DARKSTAR Derbyshire,3,25 25 25 - -,division_2,women,Keele University Sports Centre,unknown,unknown
+2017-2018,2018-01-21,Northumbria University,3,25 25 21 25 0,Team SideOut Polonia (London),1,17 19 25 20 0,superleague,women,Sports Central,unknown,unknown
+2017-2018,2018-01-21,Plymouth,3,25 25 25 - -,Plymouth Mayflower VC,0,12 15 17 - -,division_3,women,Coombe Dean School,unknown,unknown
+2017-2018,2018-01-21,Lincoln Cannons,1,25 23 19 21 0,Norwich Spikers,3,19 25 25 25 0,division_3,women,Moulton College,unknown,unknown
+2017-2018,2018-01-21,Northampton,3,25 25 9 25 0,Norwich Spikers,1,23 21 25 19 0,division_3,women,Moulton College,unknown,unknown
+2017-2018,2018-01-21,Cardiff Falcons,0,14 21 19 - -,London Inter Orcas,3,25 25 25 - -,division_2,women,Cathedral School,unknown,unknown
+2017-2018,2018-01-21,Essex Estonians,3,25 23 25 25 0,London Baks,1,22 25 17 13 0,division_2,men,St John Payne School,unknown,unknown
+2017-2018,2018-01-21,Intervolley Manchester,3,28 25 25 - -,DARKSTAR Derbyshire,0,26 16 21 - -,division_2,men,The Y Club,unknown,unknown
+2017-2018,2018-01-21,University of Bristol,3,25 25 25 - -,Hounslow,0,20 11 20 - -,division_3,men,Centre for Sport & Exercise Science,unknown,unknown
+2017-2018,2018-01-21,Malory Eagles UEL,3,25 25 25 - -,Herts,0,23 23 20 - -,division_1,women,Ernest Bevin College,unknown,unknown
+2017-2018,2018-01-21,Dartford Chargers,3,24 25 25 25 0,Bristol 2,1,26 19 8 18 0,division_2,women,Dartford Technology College,unknown,unknown
+2017-2018,2018-01-21,Northampton,0,18 14 20 - -,Lincoln Cannons,3,25 25 25 - -,division_3,women,Moulton College,unknown,unknown
+2017-2018,2018-01-21,Richmond 2,3,25 25 25 - -,Ashcombe Dorking 2,0,15 5 7 - -,division_3,women,Kingston Arena,unknown,unknown
+2017-2018,2018-01-27,London Aces,3,25 25 24 25 0,Tamworth Spartans,1,16 12 26 15 0,shield,men,Lambeth Academy,unknown,unknown
+2017-2018,2018-01-27,Intervolley Manchester,3,25 25 25 - -,The Miners Doncaster,0,20 23 21 - -,shield,men,The Y Club,unknown,unknown
+2017-2018,2018-01-27,Durham Palatinates,0,13 24 25 - -,Northumbria University,3,25 26 27 - -,cup,men,unknown,unknown,unknown
+2017-2018,2018-01-27,Sheffield,3,25 25 25 - -,Richmond Docklands,0,17 19 17 - -,cup,men,Sheffield - U18 Boys,unknown,unknown
+2017-2018,2018-01-28,DARKSTAR Derbyshire,3,25 25 25 - -,Lincoln Cannons,0,13 22 22 - -,shield,women,Derby Arena,unknown,unknown
+2017-2018,2018-01-28,Dartford Chargers,3,25 25 25 - -,Southampton,0,12 15 18 - -,shield,women,unknown,unknown,unknown
+2017-2018,2018-01-28,Coventry & Warwick Riga,1,21 22 25 12 0,UK Armed Forces,3,25 25 19 25 0,shield,women,Alan Higgs Centre,unknown,unknown
+2017-2018,2018-01-28,Hull Thunder,1,21 25 18 15 0,Leeds Gorse,3,25 23 25 25 0,shield,women,Hull Holy Trinity House Academy,unknown,unknown
+2017-2018,2018-01-28,Essex Rebels,0,15 25 22 - -,Team SideOut Polonia (London),3,25 27 25 - -,cup,women,University of Essex Sports Centre,unknown,unknown
+2017-2018,2018-01-28,Urbond VC Portsmouth,0,0 0 0 - -,South Hants,3,25 25 25 - -,division_3,men,Priory Community Sports Centre,unknown,unknown
+2017-2018,2018-01-28,South Hants,3,25 25 19 18 15,Hounslow,2,19 23 25 25 12,division_3,men,Priory Community Sports Centre,unknown,unknown
+2017-2018,2018-01-28,Urbond VC Portsmouth,2,21 25 25 20 18,Hounslow,3,25 15 12 25 20,division_3,men,Priory Community Sports Centre,unknown,unknown
+2017-2018,2018-01-28,Malory Eagles UEL,2,25 13 25 17 11,London Inter Orcas,3,23 25 23 25 15,cup,women,unknown,unknown,unknown
+2017-2018,2018-01-28,MK City,0,13 25 15 - -,Essex Trinity,3,25 27 25 - -,shield,women,Woughton Leisure Centre,unknown,unknown
+2017-2018,2018-01-28,Richmond 2,3,25 25 25 - -,Ashcombe Dorking,0,16 22 19 - -,shield,women,Kingston Arena,unknown,unknown
+2017-2018,2018-02-03,Black Country,2,25 24 29 15 13,Stockport,3,23 26 27 25 15,shield,men,Redhill School Sports Hall,unknown,unknown
+2017-2018,2018-02-03,Sheffield,3,25 25 29 - -,Richmond Docklands,0,12 22 27 - -,superleague,men,Sheffield - U18 Boys,unknown,unknown
+2017-2018,2018-02-03,Team South Wales,3,25 25 25 - -,Essex Trinity,0,21 16 20 - -,division_1,women,Cardiff Metropolitan University Cyncoed Campus Sports Hall,unknown,unknown
+2017-2018,2018-02-03,Wessex,3,25 25 25 - -,Southampton,0,12 17 15 - -,division_3,women,LeAF Academy,unknown,unknown
+2017-2018,2018-02-04,Chester Amazons,0,12 19 22 - -,York Falcons,3,25 25 25 - -,division_3,women,The Ruth Gorse Academy,unknown,unknown
+2017-2018,2018-02-04,Bristol 2,0,10 17 25 - -,London Inter Orcas,3,25 25 27 - -,division_2,women,Abbeywood School,unknown,unknown
+2017-2018,2018-02-04,Bristol 2,3,25 16 15 25 15,Cardiff Falcons,2,20 25 25 15 12,division_2,women,Abbeywood School,unknown,unknown
+2017-2018,2018-02-04,Northumbria University,3,26 25 25 - -,Richmond Docklands,0,24 12 14 - -,superleague,men,Sports Central,unknown,unknown
+2017-2018,2018-02-04,Norwich Spikers,0,20 18 15 - -,Nottingham Rockets,3,25 25 25 - -,division_2,men,Easton & Otley College,unknown,unknown
+2017-2018,2018-02-04,Manchester Marvels,0,20 15 20 - -,Intervolley Manchester,3,25 25 25 - -,division_2,men,Dean Trust Ardwick,unknown,unknown
+2017-2018,2018-02-04,Essex Estonians,0,18 12 21 - -,Bristol,3,25 25 25 - -,division_2,men,St John Payne School,unknown,unknown
+2017-2018,2018-02-04,Hounslow,1,26 25 13 22 0,Dartford Crossers,3,28 10 25 25 0,division_3,men,Spelthorne Leisure Centre,unknown,unknown
+2017-2018,2018-02-04,Manchester Marvels Mystics,3,25 25 25 - -,Loughborough Students,0,13 18 15 - -,division_2,women,Dean Trust Ardwick,unknown,unknown
+2017-2018,2018-02-04,London Inter Orcas,3,25 25 25 - -,Cardiff Falcons,0,21 20 20 - -,division_2,women,Abbeywood School,unknown,unknown
+2017-2018,2018-02-10,Essex Rebels,0,24 17 14 - -,Team SideOut Polonia (London),3,26 25 25 - -,superleague,women,University of Essex Sports Centre,unknown,unknown
+2017-2018,2018-02-10,Ashfield Vipers,3,21 20 25 25 15,Nottingham Rockets,2,25 25 20 21 10,division_3,women,Cleobury Mortimer Sports Centre,unknown,unknown
+2017-2018,2018-02-10,Black Country,3,25 25 25 - -,Nottingham Rockets,0,20 12 15 - -,division_3,women,Cleobury Mortimer Sports Centre,unknown,unknown
+2017-2018,2018-02-10,Loughborough Students,2,18 25 21 25 12,Manchester Marvels Mystics,3,25 22 25 17 15,division_2,women,Loughborough University Netball Centre,unknown,unknown
+2017-2018,2018-02-10,Bristol,3,25 25 25 - -,Cambridge ARU,0,22 20 23 - -,division_1,women,Abbeywood School,unknown,unknown
+2017-2018,2018-02-10,Essex Blaze,0,22 24 21 - -,IBB Polonia London,3,25 26 25 - -,superleague,men,University of Essex Sports Centre,unknown,unknown
+2017-2018,2018-02-10,University of Bristol,3,25 25 27 - -,Urbond VC Portsmouth,0,14 19 25 - -,division_3,men,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2018-02-10,Lincoln Cannons,3,25 25 20 25 0,Tamworth Spartans,1,18 16 25 20 0,division_3,men,Riseholme College (Showground Campus),unknown,unknown
+2017-2018,2018-02-10,Essex Rebels,3,25 25 25 - -,London Baks,0,16 12 14 - -,division_2,men,Tendring Technology College,unknown,unknown
+2017-2018,2018-02-10,Newcastle Staffs,3,25 25 25 - -,London Aces,0,15 23 22 - -,division_1,men,Keele University Sports Centre,unknown,unknown
+2017-2018,2018-02-10,Southampton,3,30 25 25 18 15,Black Country,2,32 17 16 25 11,division_1,men,Itchen College Sports Centre,unknown,unknown
+2017-2018,2018-02-10,University of Nottingham,3,25 25 25 - -,Coventry and Warwick Riga,0,18 16 16 - -,division_2,men,David Ross Sports Village,unknown,unknown
+2017-2018,2018-02-10,Team Sunderland,3,29 21 25 26 0,DARKSTAR Derbyshire,1,27 25 21 24 0,division_2,men,Sunderland University (Cityspace),unknown,unknown
+2017-2018,2018-02-10,Nottingham Rockets,3,25 26 25 - -,Norwich Spikers,0,21 24 21 - -,division_2,men,Southglade Leisure Centre,unknown,unknown
+2017-2018,2018-02-10,City of Bristol,1,25 12 18 21 0,Cambridge ARU,3,21 25 25 25 0,division_2,men,Oasis Academy Brislington,unknown,unknown
+2017-2018,2018-02-10,Richmond Docklands,1,25 17 17 14 0,Northumbria University,3,16 25 25 25 0,superleague,men,Kingston Arena,unknown,unknown
+2017-2018,2018-02-10,Team South Wales,3,25 25 23 25 0,Herts,1,20 20 25 20 0,division_1,women,Cardiff Metropolitan University Cyncoed Campus Sports Hall,unknown,unknown
+2017-2018,2018-02-10,Malory Eagles UEL,3,25 25 25 - -,Essex Trinity,0,7 18 10 - -,division_1,women,Ernest Bevin College,unknown,unknown
+2017-2018,2018-02-10,Team Sunderland,3,25 25 25 - -,Newcastle Staffs,0,18 23 21 - -,division_2,women,Sunderland University (Cityspace),unknown,unknown
+2017-2018,2018-02-10,University of Nottingham Volleyball,3,25 25 25 - -,Coventry & Warwick Riga,0,23 22 16 - -,division_2,women,David Ross Sports Village,unknown,unknown
+2017-2018,2018-02-10,Bristol 2,3,25 25 19 13 16,Ashcombe Dorking,2,20 16 25 25 14,division_2,women,Abbeywood School,unknown,unknown
+2017-2018,2018-02-10,Black Country,3,25 25 25 - -,Ashfield Vipers,0,7 23 21 - -,division_3,women,Cleobury Mortimer Sports Centre,unknown,unknown
+2017-2018,2018-02-11,London Inter Orcas,0,14 24 16 - -,Northumbria University,3,25 26 25 - -,superleague,women,unknown,unknown,unknown
+2017-2018,2018-02-11,Ashcombe Dorking 2,3,25 24 25 25 0,Sussex Dolphins,1,15 26 14 20 0,division_3,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2018-02-11,Lincoln Cannons,3,25 25 25 - -,Norwich Spikers,0,16 23 19 - -,division_3,women,Wilnecote Leisure Centre,unknown,unknown
+2017-2018,2018-02-11,London Inter Orcas,3,28 25 25 - -,Reading Aces,0,26 12 11 - -,division_2,women,Island Sports Trust,unknown,unknown
+2017-2018,2018-02-11,Loughborough Students,0,0 0 0 - -,Newcastle Staffs,3,25 25 25 - -,division_2,women,Loughborough University Netball Centre,unknown,unknown
+2017-2018,2018-02-11,Malory Eagles UEL,0,18 24 17 - -,Northumbria University,3,25 26 25 - -,superleague,men,Ernest Bevin College,unknown,unknown
+2017-2018,2018-02-11,MK City,2,18 25 25 21 7,Stowmarket,3,25 16 14 25 15,division_3,men,Cranfield Fitness Centre,unknown,unknown
+2017-2018,2018-02-11,Leeds Gorse,1,21 25 20 15 0,Sheffield 2,3,25 19 25 25 0,division_1,men,The Ruth Gorse Academy,unknown,unknown
+2017-2018,2018-02-11,Exeter Storm,2,25 25 11 16 5,Cambridge ARU,3,20 23 25 25 15,division_2,men,Riverside Leisure Centre,unknown,unknown
+2017-2018,2018-02-11,Newmarket,3,25 25 25 - -,Loughborough Students,0,23 19 11 - -,division_3,men,Newmarket Leisure Centre,unknown,unknown
+2017-2018,2018-02-11,The Miners Doncaster,3,25 25 25 - -,Newcastle Staffs 2,0,12 15 22 - -,division_3,men,The Education Village Academy Trust,unknown,unknown
+2017-2018,2018-02-11,Tamworth Spartans,1,25 12 22 12 0,Norwich Spikers,3,22 25 25 25 0,division_3,women,Wilnecote Leisure Centre,unknown,unknown
+2017-2018,2018-02-11,Tamworth Spartans,3,25 25 26 - -,Lincoln Cannons,0,20 17 24 - -,division_3,women,Wilnecote Leisure Centre,unknown,unknown
+2017-2018,2018-02-11,Sheffield,3,25 25 25 - -,Manchester Marvels Mayhem,0,17 18 13 - -,division_3,women,Sheffield - U18 Boys,unknown,unknown
+2017-2018,2018-02-11,University of Bristol,3,25 26 30 - -,Plymouth,0,15 24 28 - -,division_3,women,Oasis Academy Brislington,unknown,unknown
+2017-2018,2018-02-11,Plymouth Mayflower VC,3,25 25 25 - -,City of Bristol,0,20 20 22 - -,division_3,women,Plymstock School Sports Centre,unknown,unknown
+2017-2018,2018-02-17,DARKSTAR Derbyshire,3,25 25 25 - -,Loughborough Students,0,12 15 17 - -,division_2,women,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
+2017-2018,2018-02-17,Leeds Gorse,2,25 25 10 23 16,University of Nottingham Volleyball,3,22 23 25 25 18,division_2,women,The Ruth Gorse Academy,unknown,unknown
+2017-2018,2018-02-17,Essex Trinity,2,25 13 18 25 8,Team South Wales,3,23 25 25 22 15,division_1,women,St John Payne School,unknown,unknown
+2017-2018,2018-02-17,DARKSTAR Derbyshire,3,25 12 24 25 15,Nottingham Rockets,2,17 25 26 21 6,division_2,men,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
+2017-2018,2018-02-17,Coventry and Warwick Riga,2,17 17 25 25 12,Intervolley Manchester,3,25 25 21 21 15,division_2,men,Alan Higgs Centre,unknown,unknown
+2017-2018,2018-02-17,Durham Palatinates,3,25 25 23 25 0,Southampton,1,23 21 25 11 0,division_1,men,Durham University Sport (Queens Campus),unknown,unknown
+2017-2018,2018-02-17,Leeds Gorse,2,25 21 25 23 13,Newcastle Staffs,3,19 25 18 25 15,division_1,men,The Ruth Gorse Academy,unknown,unknown
+2017-2018,2018-02-17,Black Country,0,8 15 16 - -,Sheffield 2,3,25 25 25 - -,division_1,men,Redhill School Sports Hall,unknown,unknown
+2017-2018,2018-02-17,Cambridge ARU,3,25 15 25 25 0,Bristol,1,13 25 10 19 0,division_2,men,North Cambridge Academy,unknown,unknown
+2017-2018,2018-02-17,IBB Polonia London,3,25 25 28 - -,Essex Blaze,0,19 13 26 - -,superleague,men,Brentford Fountain Leisure Centre,unknown,unknown
+2017-2018,2018-02-17,Cambridge ARU,1,27 22 16 26 0,Bristol,3,25 25 25 28 0,division_1,women,North Cambridge Academy,unknown,unknown
+2017-2018,2018-02-18,Portsmouth,0,23 17 17 - -,Richmond 2,3,25 25 25 - -,division_3,women,Ernest Bevin College,unknown,unknown
+2017-2018,2018-02-18,Cardiff Falcons,3,25 14 23 25 15,Sussex Dolphins 1,2,20 25 25 22 11,division_2,women,Cathedral School,unknown,unknown
+2017-2018,2018-02-18,Dartford Chargers,1,25 26 18 17 0,London Inter Orcas,3,18 28 25 25 0,division_2,women,Dartford Technology College,unknown,unknown
+2017-2018,2018-02-18,Coventry & Warwick Riga,3,25 25 25 - -,University of Nottingham Volleyball,0,21 15 16 - -,division_2,women,Alan Higgs Centre,unknown,unknown
+2017-2018,2018-02-18,DARKSTAR Derbyshire,3,25 25 25 - -,Team Sunderland,0,15 13 20 - -,division_2,women,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
+2017-2018,2018-02-18,Manchester Marvels Mystics,3,25 23 25 25 0,Newcastle Staffs,1,14 25 16 17 0,division_2,women,Dean Trust Ardwick,unknown,unknown
+2017-2018,2018-02-18,Cambridge ARU,3,22 27 22 25 15,Team South Wales,2,25 25 25 8 12,division_1,women,North Cambridge Academy,unknown,unknown
+2017-2018,2018-02-18,Dartford Crossers,0,15 19 18 - -,Richmond Bucks,3,25 25 25 - -,division_3,men,Dartford Technology College,unknown,unknown
+2017-2018,2018-02-18,Cambridge ARU,3,25 25 25 - -,City of Bristol,0,19 19 21 - -,division_2,men,North Cambridge Academy,unknown,unknown
+2017-2018,2018-02-18,Manchester Marvels,3,23 25 25 25 0,Norwich Spikers,1,25 15 23 23 0,division_2,men,Dean Trust Ardwick,unknown,unknown
+2017-2018,2018-02-18,Coventry and Warwick Riga,2,21 17 25 25 12,University of Nottingham,3,25 25 21 18 15,division_2,men,Alan Higgs Centre,unknown,unknown
+2017-2018,2018-02-18,Newcastle Staffs,3,25 26 23 25 0,Sheffield 2,1,22 24 25 18 0,division_1,men,Madeley High School,unknown,unknown
+2017-2018,2018-02-18,Leeds Gorse,1,25 13 25 21 0,Durham Palatinates,3,23 25 27 25 0,division_1,men,The Ruth Gorse Academy,unknown,unknown
+2017-2018,2018-02-18,Exeter Storm,0,11 15 9 - -,Essex Rebels,3,25 25 25 - -,division_2,men,Ashmoor Recreation Centre,unknown,unknown
+2017-2018,2018-02-18,Herts,3,25 17 25 23 15,Bristol,2,22 25 14 25 11,division_1,women,Queens School,unknown,unknown
+2017-2018,2018-02-18,Team SideOut Polonia (London),3,25 30 25 - -,Essex Rebels,0,16 28 22 - -,superleague,women,St Benedicts School,unknown,unknown
+2017-2018,2018-02-24,Intervolley Manchester,3,22 25 25 25 0,Stockport,1,25 20 20 19 0,shield,men,Oasis Academy (Salford),unknown,unknown
+2017-2018,2018-02-24,Exeter Storm,2,26 10 19 25 9,London Baks,3,24 25 25 11 15,division_2,men,Riverside Leisure Centre,unknown,unknown
+2017-2018,2018-02-24,Sheffield,0,25 13 20 - -,Northumbria University,3,27 25 25 - -,cup,men,Sheffield - U18 Boys,unknown,unknown
+2017-2018,2018-02-24,London Aces,3,25 25 25 - -,Essex Rebels,0,19 21 13 - -,shield,men,Lambeth Academy,unknown,unknown
+2017-2018,2018-02-24,London Inter Orcas,2,23 26 19 25 12,Durham Palatinates,3,25 24 25 13 15,cup,women,unknown,unknown,unknown
+2017-2018,2018-02-24,Wessex,1,22 26 20 18 0,Plymouth Mayflower VC,3,25 24 25 25 0,division_3,women,LeAF Academy,unknown,unknown
+2017-2018,2018-02-24,Southampton,2,31 16 19 25 9,Plymouth Mayflower VC,3,29 25 25 19 15,division_3,women,LeAF Academy,unknown,unknown
+2017-2018,2018-02-24,Wessex,3,25 25 13 25 0,Southampton,1,16 18 25 23 0,division_3,women,LeAF Academy,unknown,unknown
+2017-2018,2018-02-24,UK Armed Forces,0,17 14 10 - -,DARKSTAR Derbyshire,3,25 25 25 - -,shield,women,RAF Cranwell,unknown,unknown
+2017-2018,2018-02-24,Richmond 2,0,23 19 23 - -,Essex Trinity,3,25 25 25 - -,shield,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2018-02-25,City of Bristol,1,13 16 25 15 0,Plymouth,3,25 25 22 25 0,division_3,women,Oasis Academy Brislington,unknown,unknown
+2017-2018,2018-02-25,Chester Amazons,2,25 25 20 16 6,Sheffield,3,19 21 25 25 15,division_3,women,The Academy of St. Nicholas,unknown,unknown
+2017-2018,2018-02-25,Ashfield Vipers,1,18 20 26 19 0,Nottingham Rockets,3,25 25 24 25 0,division_3,women,Vision West Nottinghamshire College,unknown,unknown
+2017-2018,2018-02-25,Bristol 2,1,23 25 22 22 0,Sussex Dolphins 1,3,25 18 25 25 0,division_2,women,Abbeywood School,unknown,unknown
+2017-2018,2018-02-25,Northumbria University,3,25 25 25 - -,Team SideOut Polonia (London),0,12 22 22 - -,cup,women,Sports Central,unknown,unknown
+2017-2018,2018-02-25,Dartford Crossers,2,33 22 25 15 12,Wiltshire Mavericks,3,31 25 21 25 15,division_3,men,Dartford Technology College,unknown,unknown
+2017-2018,2018-02-25,Dartford Crossers,1,25 17 21 12 0,University of Bristol,3,22 25 25 25 0,division_3,men,Dartford Technology College,unknown,unknown
+2017-2018,2018-02-25,Hull Thunder,3,25 25 25 - -,Manchester Marvels Marauders,0,21 19 17 - -,division_3,men,Hull Holy Trinity House Academy,unknown,unknown
+2017-2018,2018-02-25,Manchester Marvels Marauders,2,20 25 25 25 11,York Vikings,3,25 23 27 23 15,division_3,men,Hull Holy Trinity House Academy,unknown,unknown
+2017-2018,2018-02-25,Hull Thunder,3,20 23 25 25 15,York Vikings,2,25 25 13 18 11,division_3,men,Hull Holy Trinity House Academy,unknown,unknown
+2017-2018,2018-02-25,Lincoln Cannons,2,20 24 25 25 10,MK City,3,25 26 21 20 15,division_3,men,Riseholme College (Showground Campus),unknown,unknown
+2017-2018,2018-02-25,Leeds Gorse,3,25 25 26 - -,Black Country,0,17 16 24 - -,division_1,men,The Ruth Gorse Academy,unknown,unknown
+2017-2018,2018-02-25,The Miners Doncaster,3,25 25 24 15 15,Stockport,2,23 21 26 25 13,division_3,men,The Education Village Academy Trust,unknown,unknown
+2017-2018,2018-02-25,Wiltshire Mavericks,1,13 18 25 14 0,University of Bristol,3,25 25 23 25 0,division_3,men,Dartford Technology College,unknown,unknown
+2017-2018,2018-02-25,Essex Trinity,0,22 12 21 - -,Cambridge ARU,3,25 25 25 - -,division_1,women,St John Payne School,unknown,unknown
+2017-2018,2018-02-25,Manchester Marvels Mystics,3,21 25 19 25 15,Leeds Gorse,2,25 17 25 22 9,division_2,women,Dean Trust Ardwick,unknown,unknown
+2017-2018,2018-02-26,Northampton,3,25 25 25 - -,Norwich Spikers,0,0 0 0 - -,division_3,women,Moulton College,unknown,unknown
+2017-2018,2018-03-03,Essex Blaze,0,23 22 23 - -,Sheffield,3,25 25 25 - -,superleague,men,University of Essex Sports Centre,unknown,unknown
+2017-2018,2018-03-03,IBB Polonia London,3,18 25 26 25 0,Richmond Docklands,1,25 18 24 23 0,superleague,men,Brentford Fountain Leisure Centre,unknown,unknown
+2017-2018,2018-03-03,Loughborough Students,0,24 16 22 - -,Stowmarket,3,26 25 25 - -,division_3,men,Loughborough University Netball Centre,unknown,unknown
+2017-2018,2018-03-03,City of Bristol,3,25 25 25 - -,Essex Estonians,0,0 0 0 - -,division_2,men,Oasis Academy Brislington,unknown,unknown
+2017-2018,2018-03-03,London Aces,3,25 23 26 25 0,Leeds Gorse,1,13 25 24 15 0,division_1,men,Lambeth Academy,unknown,unknown
+2017-2018,2018-03-04,Dartford Crossers,0,19 17 12 - -,University of Bristol,3,25 25 25 - -,division_3,men,Bournside School,unknown,unknown
+2017-2018,2018-03-04,University of Nottingham Volleyball,3,25 25 25 - -,Loughborough Students,0,20 19 18 - -,division_2,women,unknown,unknown,unknown
+2017-2018,2018-03-04,London Inter Orcas,3,17 25 25 25 0,Ashcombe Dorking,1,25 11 19 21 0,division_2,women,Island Sports Trust,unknown,unknown
+2017-2018,2018-03-04,Team SideOut Polonia (London),2,17 25 26 17 14,London Inter Orcas,3,25 18 24 25 16,superleague,women,unknown,unknown,unknown
+2017-2018,2018-03-10,Team Sunderland,0,21 23 10 - -,University of Nottingham Volleyball,3,25 25 25 - -,division_2,women,Sunderland College,unknown,unknown
+2017-2018,2018-03-10,Manchester Marvels Marauders,0,14 16 17 - -,Newcastle Staffs 2,3,25 25 25 - -,division_3,men,Dean Trust Ardwick,unknown,unknown
+2017-2018,2018-03-10,Newcastle Staffs 2,0,18 17 16 - -,Stockport,3,25 25 25 - -,division_3,men,Dean Trust Ardwick,unknown,unknown
+2017-2018,2018-03-10,Manchester Marvels Marauders,0,15 16 11 - -,Stockport,3,25 25 25 - -,division_3,men,Dean Trust Ardwick,unknown,unknown
+2017-2018,2018-03-10,Black Country,3,25 18 26 25 15,Leeds Gorse,2,19 25 28 21 9,division_1,men,Redhill School Sports Hall,unknown,unknown
+2017-2018,2018-03-10,City of Bristol,3,25 25 25 - -,Bristol,0,23 20 22 - -,division_2,men,Oasis Academy Brislington,unknown,unknown
+2017-2018,2018-03-10,Sheffield,3,23 25 22 25 15,Malory Eagles UEL,2,25 23 25 21 6,superleague,men,Sheffield - U18 Boys,unknown,unknown
+2017-2018,2018-03-10,Team South Wales,0,14 23 22 - -,Bristol,3,25 25 25 - -,division_1,women,Cardiff Metropolitan University Cyncoed Campus Sports Hall,unknown,unknown
+2017-2018,2018-03-10,Southampton 2,1,25 21 15 17 0,Ashcombe Dorking 2,3,17 25 25 25 0,division_3,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2018-03-11,Hull Thunder,3,25 25 25 - -,The Miners Doncaster,0,23 17 23 - -,division_3,men,Hull Holy Trinity House Academy,unknown,unknown
+2017-2018,2018-03-11,Lincoln Cannons,2,25 21 31 28 11,MK City,3,22 25 33 26 15,division_3,men,Riseholme College (Showground Campus),unknown,unknown
+2017-2018,2018-03-11,Lincoln Cannons,3,25 25 25 - -,Loughborough Students,0,0 0 0 - -,division_3,men,Riseholme College (Showground Campus),unknown,unknown
+2017-2018,2018-03-11,Intervolley Manchester,3,25 25 25 - -,Team Sunderland,0,16 19 13 - -,division_2,men,Woughton Leisure Centre,unknown,unknown
+2017-2018,2018-03-11,Durham Palatinates,3,25 25 25 - -,Leeds Gorse,0,11 16 13 - -,division_1,men,Durham University Sport (Queens Campus),unknown,unknown
+2017-2018,2018-03-11,Manchester Marvels,3,23 23 26 25 15,Coventry and Warwick Riga,2,25 25 24 18 13,division_2,men,Dean Trust Ardwick,unknown,unknown
+2017-2018,2018-03-11,MK City,3,25 25 25 - -,Loughborough Students,0,0 0 0 - -,division_3,men,Riseholme College (Showground Campus),unknown,unknown
+2017-2018,2018-03-11,Manchester Marvels Mystics,0,24 21 26 - -,Coventry & Warwick Riga,3,26 25 28 - -,division_2,women,Dean Trust Ardwick,unknown,unknown
+2017-2018,2018-03-11,Reading Aces,2,25 17 27 27 15,Bristol 2,3,23 25 25 29 17,division_2,women,Kendrick School,unknown,unknown
+2017-2018,2018-03-12,Essex Rebels,3,25 28 28 - -,Cambridge ARU,0,14 26 26 - -,division_2,men,Tendring Technology College,unknown,unknown
+2017-2018,2018-03-17,Essex Rebels,0,12 21 22 - -,Northumbria University,3,25 25 25 - -,superleague,women,University of Essex Sports Centre,unknown,unknown
+2017-2018,2018-03-17,Plymouth Mayflower VC,0,7 10 10 - -,University of Bristol,3,25 25 25 - -,division_3,women,LeAF Academy,unknown,unknown
+2017-2018,2018-03-17,DARKSTAR Derbyshire,3,25 25 25 - -,Leeds Gorse,0,18 15 13 - -,division_2,women,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
+2017-2018,2018-03-17,Coventry & Warwick Riga,3,25 22 25 25 0,Newcastle Staffs,1,19 25 10 22 0,division_2,women,Alan Higgs Centre,unknown,unknown
+2017-2018,2018-03-17,Manchester Marvels Mystics,3,7 24 29 25 15,University of Nottingham Volleyball,2,25 26 27 21 9,division_2,women,Dean Trust Ardwick,unknown,unknown
+2017-2018,2018-03-17,Cambridge ARU,0,13 11 18 - -,Malory Eagles UEL,3,25 25 25 - -,division_1,women,North Cambridge Academy,unknown,unknown
+2017-2018,2018-03-17,Essex Blaze,1,22 23 28 19 0,Northumbria University,3,25 25 26 25 0,superleague,men,University of Essex Sports Centre,unknown,unknown
+2017-2018,2018-03-17,Cambridge ARU,2,19 25 24 25 19,Essex Rebels,3,25 21 26 17 21,division_2,men,North Cambridge Academy,unknown,unknown
+2017-2018,2018-03-17,Manchester Marvels,2,25 19 25 26 6,University of Nottingham,3,22 25 19 28 15,division_2,men,Dean Trust Ardwick,unknown,unknown
+2017-2018,2018-03-17,Coventry and Warwick Riga,1,24 19 25 19 0,Norwich Spikers,3,26 25 20 25 0,division_2,men,Alan Higgs Centre,unknown,unknown
+2017-2018,2018-03-17,Black Country,2,25 17 18 25 9,Newcastle Staffs,3,20 25 25 19 15,division_1,men,Cleobury Mortimer Sports Centre,unknown,unknown
+2017-2018,2018-03-17,Durham Palatinates,3,25 25 25 - -,London Aces,0,0 0 0 - -,division_1,men,Durham University Sport (Queens Campus),unknown,unknown
+2017-2018,2018-03-17,Southampton,1,21 22 26 13 0,Sheffield 2,3,25 25 24 25 0,division_1,men,Itchen College Sports Centre,unknown,unknown
+2017-2018,2018-03-17,Essex Trinity,3,22 25 25 21 17,Bristol,2,25 16 23 25 15,division_1,women,St John Payne School,unknown,unknown
+2017-2018,2018-03-17,Wessex,2,25 18 25 16 11,University of Bristol,3,22 25 20 25 15,division_3,women,LeAF Academy,unknown,unknown
+2017-2018,2018-03-17,Wessex,1,19 18 25 20 0,Plymouth Mayflower VC,3,25 25 23 25 0,division_3,women,LeAF Academy,unknown,unknown
+2017-2018,2018-03-18,Richmond 2,3,25 25 25 - -,Southampton 2,0,9 13 19 - -,division_3,women,Kingston Arena,unknown,unknown
+2017-2018,2018-03-18,Reading Aces,3,26 25 20 25 0,Sussex Dolphins 1,1,24 16 25 21 0,division_2,women,Bradfield College,unknown,unknown
+2017-2018,2018-03-18,Essex Trinity,0,12 17 27 - -,Malory Eagles UEL,3,25 25 29 - -,division_1,women,St John Payne School,unknown,unknown
+2017-2018,2018-03-18,Manchester Marvels Marauders,0,10 9 20 - -,York Vikings,3,25 25 25 - -,division_3,men,Dean Trust Ardwick,unknown,unknown
+2017-2018,2018-03-18,Manchester Marvels Marauders,1,19 15 25 16 0,The Miners Doncaster,3,25 25 22 25 0,division_3,men,Dean Trust Ardwick,unknown,unknown
+2017-2018,2018-03-18,London Baks,0,18 19 14 - -,City of Bristol,3,25 25 25 - -,division_2,men,Castle Green Sport Centre,unknown,unknown
+2017-2018,2018-03-18,York Vikings,1,20 25 17 30 0,The Miners Doncaster,3,25 20 25 32 0,division_3,men,Dean Trust Ardwick,unknown,unknown
+2017-2018,2018-03-18,Urbond VC Portsmouth,3,18 25 25 25 0,Hounslow,1,25 17 14 23 0,division_3,men,Priory Community Sports Centre,unknown,unknown
+2017-2018,2018-03-18,South Hants,0,19 24 16 - -,Hounslow,3,25 26 25 - -,division_3,men,Priory Community Sports Centre,unknown,unknown
+2017-2018,2018-03-18,Urbond VC Portsmouth,3,20 25 25 25 0,South Hants,1,25 17 20 18 0,division_3,men,Priory Community Sports Centre,unknown,unknown
+2017-2018,2018-03-18,Dartford Chargers,3,25 20 25 25 0,Cardiff Falcons,1,19 25 16 19 0,division_2,women,Dartford Technology College,unknown,unknown
+2017-2018,2018-03-23,Essex Rebels,0,13 20 24 - -,Durham Palatinates,3,25 25 26 - -,superleague,women,University of Essex Sports Centre,unknown,unknown
+2017-2018,2018-03-24,Cardiff Falcons,3,27 25 25 - -,Reading Aces,0,25 20 12 - -,division_2,women,Cathedral School,unknown,unknown
+2017-2018,2018-03-24,Leeds Gorse,3,25 25 25 - -,Manchester Marvels Mystics,0,11 18 21 - -,division_2,women,The Ruth Gorse Academy,unknown,unknown
+2017-2018,2018-03-24,Newcastle Staffs,3,24 25 25 25 0,Team Sunderland,1,26 9 13 17 0,division_2,women,Keele University Sports Centre,unknown,unknown
+2017-2018,2018-03-24,Malory Eagles UEL,0,25 21 20 - -,Richmond Docklands,3,27 25 25 - -,superleague,men,Ernest Bevin College,unknown,unknown
+2017-2018,2018-03-24,Norwich Spikers,2,25 25 20 18 9,Team Sunderland,3,22 22 25 25 15,division_2,men,Easton & Otley College,unknown,unknown
+2017-2018,2018-03-24,Sheffield 2,0,23 21 19 - -,Durham Palatinates,3,25 25 25 - -,division_1,men,Sheffield - U18 Boys,unknown,unknown
+2017-2018,2018-03-24,London Aces,3,25 25 25 - -,Black Country,0,15 21 19 - -,division_1,men,Lambeth Academy,unknown,unknown
+2017-2018,2018-03-24,University of Nottingham,1,25 13 19 21 0,Intervolley Manchester,3,20 25 25 25 0,division_2,men,David Ross Sports Village,unknown,unknown
+2017-2018,2018-03-24,Exeter Storm,3,25 25 25 - -,Essex Estonians,0,0 0 0 - -,division_2,men,Riverside Leisure Centre,unknown,unknown
+2017-2018,2018-03-24,Leeds Gorse,2,25 12 18 25 6,Coventry & Warwick Riga,3,22 25 25 18 15,division_2,women,The Ruth Gorse Academy,unknown,unknown
+2017-2018,2018-03-25,City of Bristol,3,25 25 25 - -,University of Bristol,0,19 12 17 - -,division_3,women,Itchen College Sports Centre,unknown,unknown
+2017-2018,2018-03-25,Southampton,0,19 20 16 - -,University of Bristol,3,25 25 25 - -,division_3,women,Itchen College Sports Centre,unknown,unknown
+2017-2018,2018-03-25,Hull Thunder,0,21 23 21 - -,Manchester Marvels Mayhem,3,25 25 25 - -,division_3,women,Hull Holy Trinity House Academy,unknown,unknown
+2017-2018,2018-03-25,Northampton,3,25 25 25 - -,Nottingham Rockets,0,0 0 0 - -,division_3,women,Moulton college,unknown,unknown
+2017-2018,2018-03-25,Northampton,3,25 25 25 - -,Nottingham Rockets,0,0 0 0 - -,division_3,women,Moulton college,unknown,unknown
+2017-2018,2018-03-25,Malory Eagles UEL,0,16 22 19 - -,Sheffield,3,25 25 25 - -,superleague,men,St Benedicts School,unknown,unknown
+2017-2018,2018-03-25,Bristol,3,25 25 25 - -,Essex Estonians,0,0 0 0 - -,division_2,men,Steiner Academy Sportshall,unknown,unknown
+2017-2018,2018-03-25,Bristol,3,25 11 15 25 15,Cambridge ARU,2,19 25 25 21 11,division_2,men,Steiner Academy Sportshall,unknown,unknown
+2017-2018,2018-03-25,University of Nottingham,0,16 21 24 - -,DARKSTAR Derbyshire,3,25 25 26 - -,division_2,men,David Ross Sports Village,unknown,unknown
+2017-2018,2018-03-25,Norwich Spikers,3,25 20 25 25 0,Manchester Marvels,1,13 25 19 23 0,division_2,men,Easton & Otley College,unknown,unknown
+2017-2018,2018-03-25,Team Sunderland,0,21 23 28 - -,Coventry & Warwick Riga,3,25 25 30 - -,division_2,women,Sunderland College,unknown,unknown
+2017-2018,2018-03-25,Sussex Dolphins 1,3,25 25 17 25 0,Bristol 2,1,23 20 25 14 0,division_2,women,The Ashcombe Volleyball Centre,unknown,unknown
+2017-2018,2018-03-25,Reading Aces,3,25 25 19 25 0,Dartford Chargers,1,21 14 25 23 0,division_2,women,Kendrick School,unknown,unknown
+2017-2018,2018-03-25,London Inter Orcas,3,25 25 25 - -,Bristol 2,0,18 10 16 - -,division_2,women,Island Sports Trust,unknown,unknown
+2017-2018,2018-03-25,Cardiff Falcons,1,18 25 22 12 0,Ashcombe Dorking,3,25 16 25 25 0,division_2,women,Cathedral School,unknown,unknown
+2017-2018,2018-03-25,Sussex Dolphins,0,0 0 0 - -,Southampton 2,3,25 25 25 - -,division_3,women,Kingston Arena,unknown,unknown
+2017-2018,2018-03-25,Hull Thunder,3,17 25 25 27 15,Chester Amazons,2,25 23 15 29 12,division_3,women,Hull Holy Trinity House Academy,unknown,unknown
+2017-2018,2018-03-25,Manchester Marvels Mayhem,3,25 21 25 25 0,Chester Amazons,1,23 25 16 19 0,division_3,women,Hull Holy Trinity House Academy,unknown,unknown
+2017-2018,2018-03-25,Plymouth Mayflower VC,0,16 20 16 - -,Plymouth,3,25 25 25 - -,division_3,women,Plymstock School Sports Centre,unknown,unknown
+2017-2018,2018-03-25,Southampton,0,22 24 23 - -,City of Bristol,3,25 26 25 - -,division_3,women,Itchen College Sports Centre,unknown,unknown
+2017-2018,2018-04-07,DARKSTAR Derbyshire,1,23 22 25 23 0,University of Nottingham Volleyball,3,25 25 22 25 0,division_2,women,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
+2017-2018,2018-04-07,DARKSTAR Derbyshire,3,25 25 25 - -,University of Nottingham,0,0 0 0 - -,division_2,men,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
+2017-2018,2018-04-07,Southampton,3,25 18 25 25 0,Newcastle Staffs,1,22 25 17 22 0,division_1,men,Itchen College Sports Centre,unknown,unknown
+2017-2018,2018-04-07,London Baks,0,22 23 21 - -,Exeter Storm,3,25 25 25 - -,division_2,men,Castle Green Sport Centre,unknown,unknown
+2017-2018,2018-04-07,Newcastle Staffs 2,3,25 25 25 - -,Hull Thunder,0,20 14 16 - -,division_3,men,Madeley High School,unknown,unknown
+2017-2018,2018-04-07,Richmond Docklands,0,20 0 0 - -,Malory Eagles UEL,3,25 25 25 - -,superleague,men,Kingston Arena,unknown,unknown
+2017-2018,2018-04-07,Team Sunderland,0,11 22 23 - -,Leeds Gorse,3,25 25 25 - -,division_2,women,Sunderland University (Cityspace),unknown,unknown
+2017-2018,2018-04-07,London Inter Orcas,3,26 25 22 25 0,Essex Rebels,1,24 9 25 22 0,superleague,women,unknown,unknown,unknown
+2017-2018,2018-04-08,Plymouth,3,25 25 25 - -,Southampton,0,20 18 22 - -,division_3,women,Coombe Dean School,unknown,unknown
+2017-2018,2018-04-08,Sheffield,0,12 12 16 - -,York Falcons,3,25 25 25 - -,division_3,women,Sheffield - U18 Boys,unknown,unknown
+2017-2018,2018-04-08,Dartford Chargers,3,16 25 25 18 15,Sussex Dolphins 1,2,25 15 19 25 9,division_2,women,Dartford Technology College,unknown,unknown
+2017-2018,2018-04-08,South Hants,1,25 16 20 20 0,Wiltshire Mavericks,3,20 25 25 25 0,division_3,men,Brune Park Community School,unknown,unknown
+2017-2018,2018-04-08,MK City,3,25 25 25 - -,Tamworth Spartans,0,22 22 17 - -,division_3,men,Cranfield Fitness Centre,unknown,unknown
+2017-2018,2018-04-08,Intervolley Manchester,3,25 15 25 23 15,Nottingham Rockets,2,18 25 14 25 10,division_2,men,The Y Club,unknown,unknown
+2017-2018,2018-04-08,Essex Estonians,0,17 18 22 - -,Cambridge ARU,3,25 25 25 - -,division_2,men,St John Payne School,unknown,unknown
+2017-2018,2018-04-08,Hounslow,2,25 21 25 22 6,Dartford Crossers,3,21 25 17 25 15,division_3,men,Spelthorne Leisure Centre,unknown,unknown
+2017-2018,2018-04-08,Tamworth Spartans,0,26 20 17 - -,Black Country,3,28 25 25 - -,division_3,women,Wilnecote Leisure Centre,unknown,unknown
+2017-2018,2018-04-08,Norwich Spikers,1,25 23 13 18 0,Black Country,3,16 25 25 25 0,division_3,women,Wilnecote Leisure Centre,unknown,unknown
+2017-2018,2018-04-08,Tamworth Spartans,1,22 24 25 20 0,Norwich Spikers,3,25 26 17 25 0,division_3,women,Wilnecote Leisure Centre,unknown,unknown
+2017-2018,2018-04-14,Loughborough Students,0,0 0 0 - -,Tamworth Spartans,3,25 25 25 - -,division_3,men,Loughborough University Netball Centre,unknown,unknown
+2017-2018,2018-04-14,IBB Polonia London,0,23 23 25 - -,Northumbria University,3,25 25 27 - -,cup,men,National Volleyball Centre,unknown,unknown
+2017-2018,2018-04-14,London Aces,3,25 25 26 25 0,Intervolley Manchester,1,20 17 28 21 0,shield,men,National Volleyball Centre,unknown,unknown
+2017-2018,2018-04-14,Northumbria University,3,24 25 25 25 0,Durham Palatinates,1,26 18 20 20 0,cup,women,National Volleyball Centre,unknown,unknown
+2017-2018,2018-04-15,Chester Amazons,3,25 25 25 - -,Sheffield,0,0 0 0 - -,division_3,women,The Academy of St. Nicholas,unknown,unknown
+2017-2018,2018-04-15,Chester Amazons,2,25 18 25 21 13,Hull Thunder,3,18 25 18 25 15,division_3,women,The Academy of St. Nicholas,unknown,unknown
+2017-2018,2018-04-15,Lincoln Cannons,2,16 25 25 22 10,Northampton,3,25 22 22 25 15,division_3,women,Riseholme College (Showground Campus),unknown,unknown
+2017-2018,2018-04-15,Manchester Marvels Mystics,3,25 25 25 - -,Team Sunderland,0,17 18 19 - -,division_2,women,Dean Trust Ardwick,unknown,unknown
+2017-2018,2018-04-15,Herts,1,16 19 25 19 0,Team South Wales,3,25 25 19 25 0,division_1,women,Queens School,unknown,unknown
+2017-2018,2018-04-15,Lincoln Cannons,0,12 21 23 - -,Newmarket,3,25 25 25 - -,division_3,men,Stowupland Sports Centre,unknown,unknown
+2017-2018,2018-04-15,Manchester Marvels,1,25 15 17 21 0,Team Sunderland,3,21 25 25 25 0,division_2,men,Dean Trust Ardwick,unknown,unknown
+2017-2018,2018-04-15,Norwich Spikers,3,25 17 25 23 15,DARKSTAR Derbyshire,2,23 25 16 25 11,division_2,men,UEA Norwich Sportspark,unknown,unknown
+2017-2018,2018-04-15,Stowmarket,1,25 24 23 11 0,Lincoln Cannons,3,19 26 25 25 0,division_3,men,Stowupland Sports Centre,unknown,unknown
+2017-2018,2018-04-15,Stowmarket,0,21 16 20 - -,Newmarket,3,25 25 25 - -,division_3,men,Stowupland Sports Centre,unknown,unknown
+2017-2018,2018-04-15,Wiltshire Mavericks,3,25 25 25 - -,Dartford Crossers,0,18 15 19 - -,division_3,men,Lavington School,unknown,unknown
+2017-2018,2018-04-15,Sheffield,0,0 0 0 - -,Hull Thunder,3,25 25 25 - -,division_3,women,The Academy of St. Nicholas,unknown,unknown
+2017-2018,2018-04-21,Durham Palatinates,2,24 25 19 25 18,Team SideOut Polonia (London),3,26 17 25 14 20,superleague,women,Durham University Sport (Queens Campus),unknown,unknown
+2017-2018,2018-04-21,Cambridge ARU,0,24 20 23 - -,Essex Trinity,3,26 25 25 - -,division_1,women,North Cambridge Academy,unknown,unknown
+2017-2018,2018-04-21,IBB Polonia London,3,26 25 25 - -,Sheffield,0,24 20 20 - -,superleague,men,Brentford Fountain Leisure Centre,unknown,unknown
+2017-2018,2018-04-21,Cambridge ARU,3,25 25 25 - -,London Baks,0,7 9 15 - -,division_2,men,North Cambridge Academy,unknown,unknown
+2017-2018,2018-04-21,London Aces,3,22 17 25 25 16,Southampton,2,25 25 17 22 14,division_1,men,Lambeth Academy,unknown,unknown
+2017-2018,2018-04-21,University of Nottingham,2,25 25 21 20 14,Nottingham Rockets,3,20 23 25 25 16,division_2,men,David Ross Sports Village,unknown,unknown
+2017-2018,2018-04-21,Norwich Spikers,0,13 25 22 - -,Intervolley Manchester,3,25 27 25 - -,division_2,men,Easton & Otley College,unknown,unknown
+2017-2018,2018-04-21,DARKSTAR Derbyshire,3,25 25 25 - -,Coventry and Warwick Riga,0,22 22 18 - -,division_2,men,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
+2017-2018,2018-04-21,Essex Rebels,3,25 25 25 - -,City of Bristol,0,0 0 0 - -,division_2,men,Tendring Technology College,unknown,unknown
+2017-2018,2018-04-21,Northumbria University,3,25 25 25 - -,Malory Eagles UEL,0,13 20 12 - -,superleague,men,Sports Central,unknown,unknown
+2017-2018,2018-04-21,Team South Wales,0,16 22 18 - -,Malory Eagles UEL,3,25 25 25 - -,division_1,women,Cardiff Metropolitan University Cyncoed Campus Sports Hall,unknown,unknown
+2017-2018,2018-04-21,DARKSTAR Derbyshire,3,25 22 25 25 0,Coventry & Warwick Riga,1,23 25 10 10 0,division_2,women,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
+2017-2018,2018-04-21,Northumbria University,3,22 25 25 25 0,London Inter Orcas,1,25 18 17 14 0,superleague,women,unknown,unknown,unknown
+2017-2018,2018-04-22,Durham Palatinates,3,25 25 25 - -,Team SideOut Polonia (London),0,23 16 22 - -,superleague,women,Durham University Sport (Queens Campus),unknown,unknown
+2017-2018,2018-04-22,City of Bristol,0,9 12 9 - -,University of Bristol,3,25 25 25 - -,division_3,women,Oasis Academy Brislington,unknown,unknown
+2017-2018,2018-04-22,City of Bristol,3,25 25 21 25 0,Southampton,1,12 22 25 14 0,division_3,women,Oasis Academy Brislington,unknown,unknown
+2017-2018,2018-04-22,Norwich Spikers,3,25 25 25 - -,Nottingham Rockets,0,23 11 12 - -,division_3,women,Easton & Otley College,unknown,unknown
+2017-2018,2018-04-22,Norwich Spikers,3,25 25 25 - -,Nottingham Rockets,0,12 9 10 - -,division_3,women,Easton & Otley College,unknown,unknown
+2017-2018,2018-04-22,Ashfield Vipers,0,22 14 15 - -,Lincoln Cannons,3,25 25 25 - -,division_3,women,Vision West Nottinghamshire College,unknown,unknown
+2017-2018,2018-04-22,London Inter Orcas,3,25 25 25 - -,Sussex Dolphins 1,0,19 21 11 - -,division_2,women,Island Sports Trust,unknown,unknown
+2017-2018,2018-04-22,Bristol,0,21 15 19 - -,Malory Eagles UEL,3,25 25 25 - -,division_1,women,Steiner Academy Sportshall,unknown,unknown
+2017-2018,2018-04-22,IBB Polonia London,3,25 25 25 - -,Sheffield,0,22 20 21 - -,superleague,men,Brentford Fountain Leisure Centre,unknown,unknown
+2017-2018,2018-04-22,Loughborough Students,3,25 19 25 25 0,Tamworth Spartans,1,23 25 21 21 0,division_3,men,Loughborough University Netball Centre,unknown,unknown
+2017-2018,2018-04-22,Manchester Marvels,0,19 23 22 - -,DARKSTAR Derbyshire,3,25 25 25 - -,division_2,men,Dean Trust Ardwick,unknown,unknown
+2017-2018,2018-04-22,Northumbria University,3,25 25 25 - -,Malory Eagles UEL,0,23 15 16 - -,superleague,men,Sports Central,unknown,unknown
+2017-2018,2018-04-22,Manchester Marvels Mystics,1,25 22 18 10 0,DARKSTAR Derbyshire,3,20 25 25 25 0,division_2,women,Dean Trust Ardwick,unknown,unknown
+2017-2018,2018-04-22,Loughborough Students,0,18 14 17 - -,Coventry & Warwick Riga,3,25 25 25 - -,division_2,women,Loughborough University Netball Centre,unknown,unknown
+2017-2018,2018-04-22,Dartford Chargers,0,22 16 16 - -,Ashcombe Dorking,3,25 25 25 - -,division_2,women,Dartford Technology College,unknown,unknown
+2017-2018,2018-04-22,Cardiff Falcons,0,18 15 12 - -,Bristol 2,3,25 25 25 - -,division_2,women,Cathedral School,unknown,unknown
+2017-2018,2018-04-22,Northampton,1,25 22 20 17 0,Black Country,3,22 25 25 25 0,division_3,women,Moulton College,unknown,unknown
+2017-2018,2018-04-22,Sussex Dolphins,2,25 17 25 9 10,Portsmouth,3,20 25 23 25 15,division_3,women,Michael Hall School,unknown,unknown
+2017-2018,2018-04-22,Sheffield,0,18 18 15 - -,Hull Thunder,3,25 25 25 - -,division_3,women,The Ruth Gorse Academy,unknown,unknown
+2017-2018,2018-04-22,University of Bristol,3,25 25 25 - -,Southampton,0,19 16 18 - -,division_3,women,Oasis Academy Brislington,unknown,unknown
+2017-2018,2018-04-22,Northumbria University,3,23 25 25 25 0,London Inter Orcas,1,25 19 19 12 0,superleague,women,unknown,unknown,unknown
+2017-2018,2018-04-24,Northampton,1,24 13 25 12 0,Ashfield Vipers,3,26 25 19 25 0,division_3,women,Moulton College,unknown,unknown
+2017-2018,2018-04-26,Newcastle Staffs,0,23 21 22 - -,Leeds Gorse,3,25 25 25 - -,division_2,women,The Ruth Gorse Academy,unknown,unknown
+2017-2018,2018-04-28,Richmond Bucks,2,25 16 10 25 11,University of Bristol,3,19 25 25 21 15,division_3,men,Oasis Academy Brislington,unknown,unknown
+2017-2018,2018-04-28,Team Sunderland,3,25 25 25 - -,Nottingham Rockets,0,12 11 16 - -,division_2,men,Sunderland University (Cityspace),unknown,unknown
+2017-2018,2018-04-28,Wiltshire Mavericks,3,21 25 25 25 0,Urbond VC Portsmouth,1,25 11 13 18 0,division_3,men,Lavington School,unknown,unknown
+2017-2018,2018-04-29,Hounslow,0,15 16 20 - -,Richmond Bucks,3,25 25 25 - -,division_3,men,Kingston Arena,unknown,unknown
+2017-2018,2018-04-29,DARKSTAR Derbyshire,3,25 22 25 25 0,Team Sunderland,1,22 25 17 18 0,division_2,men,Derbyshire Volleyball Centre (Derby Moor),unknown,unknown
+2017-2018,2018-04-29,MK City,3,25 25 25 - -,Loughborough Students,0,0 0 0 - -,division_3,men,RAF Cranwell,unknown,unknown
+2017-2018,2018-04-29,Tamworth Spartans,0,17 24 21 - -,Stowmarket,3,25 26 25 - -,division_3,men,St. Albans High School For Girls,unknown,unknown
+2017-2018,2018-05-05,Northumbria University,3,22 25 25 25 0,IBB Polonia London,1,25 23 22 20 0,superleague,men,National Volleyball Centre,unknown,unknown
+2017-2018,2018-05-05,Northumbria University,0,20 10 15 - -,Durham Palatinates,3,25 25 25 - -,superleague,women,National Volleyball Centre,unknown,unknown
+2017-2018,2018-05-06,Northumbria University,3,25 25 25 - -,IBB Polonia London,0,17 18 12 - -,superleague,men,National Volleyball Centre,unknown,unknown
+2017-2018,2018-05-06,Northumbria University,3,22 20 27 25 15,Durham Palatinates,2,25 25 25 21 10,superleague,women,National Volleyball Centre,unknown,unknown
