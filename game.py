@@ -1,5 +1,4 @@
 import logging
-import sys
 from datetime import datetime
 
 DIVISIONS = {
@@ -21,10 +20,10 @@ DIVISIONS = {
     "196062": "Division 3 North Women",
     "196063": "Division 3 South East Women",
     "196064": "Division 3 South West Women",
-    # "196511": "National Cup Men",
-    # "196552": "National Cup Women",
-    # "196557": "National Shield Men",
-    # "196560": "National Shield Women",
+    "196511": "National Cup Men",
+    "196552": "National Cup Women",
+    "196557": "National Shield Men",
+    "196560": "National Shield Women",
 }
 
 
@@ -42,9 +41,8 @@ class Game(object):
         self.r1 = attrs["r1"] if "r1" in attrs else ""
         self.r2 = attrs["r2"] if "r2" in attrs else ""
         self.venue = attrs["venue"] if "venue" in attrs else ""
-        self.number = attrs["number"] if "number" in attrs else ""
+        # self.number = attrs["number"] if "number" in attrs else ""
         self.division = attrs["division"] if "division" in attrs else ""
-        self.set_category()
         self.home_sets = attrs["home_sets"] if "home_sets" in attrs else 0
         self.away_sets = attrs["away_sets"] if "away_sets" in attrs else 0
 
@@ -54,16 +52,17 @@ class Game(object):
         self.home_points.extend("-" * (5 - len(self.home_points)))
         self.away_points.extend("-" * (5 - len(self.away_points)))
 
-        self.logger = logging.getLogger("nvl")
+        self.logger = logging.getLogger(self.__class__.__name__)
 
     def __str__(self):
         return " | ".join(
             [
                 self.date(),
-                self.time(),
-                f"{self.number:8}",
-                f"{self.home} vs {self.away}",
+                # self.time(),
+                f"{self.home} {self.home_sets} [{self.home_points}]",
+                f"{self.away} {self.away_sets} [{self.away_points}]",
                 self.division,
+                self.category,
                 self.venue,
                 self.r1,
                 self.r2,
@@ -78,16 +77,20 @@ class Game(object):
             return False
 
         return (
-            self.division == other.division
-            and self.date() == other.date()
-            and self.home == other.home
-            and self.away == other.away
+                self.division == other.division
+                and self.date() == other.date()
+                and self.home == other.home
+                and self.away == other.away
             # and self.r1 == other.r1
             # and self.r2 == other.r2
         )
 
     def __lt__(self, other):
-        return self.timestamp < other.timestamp
+        if self.timestamp < other.timestamp:
+            return True
+        if self.timestamp > other.timestamp:
+            return False
+        return self.home < self.away
 
     def __add__(self, other):
         """
@@ -99,11 +102,11 @@ class Game(object):
             )
         if self.division != other.division:
             self.logger.error(f"Divisions differ!: {self.division} / {other.division}")
-        if self.number != other.number:
-            if self.number and other.number:
-                self.logger.error(
-                    f"Game Numbers differ!: {self.number} / {other.number}"
-                )
+        # if self.number != other.number:
+        #     if self.number and other.number:
+        #         self.logger.error(
+        #             f"Game Numbers differ!: {self.number} / {other.number}"
+        #         )
         if self.home != other.home:
             self.logger.error(f"Home Teams differ!: {self.home} / {other.home}")
         if self.away != other.away:
@@ -118,7 +121,7 @@ class Game(object):
         game = Game()
         game.season = self.season
         game.timestamp = self.pick(self.timestamp, other.timestamp, "time")
-        game.number = self.pick(self.number, other.number, "number")
+        # game.number = self.pick(self.number, other.number, "number")
         game.home = self.pick(self.home, other.home, "home")
         game.away = self.pick(self.away, other.away, "away")
         game.home_sets = self.pick(self.home_sets, other.home_sets, "home sets")
@@ -169,11 +172,11 @@ class Game(object):
             "away": self.away,
             "timestamp": self.timestamp.timestamp(),
             "date": self.date(),
-            "time": self.time(),
+            # "time": self.time(),
             "r1": self.r1,
             "r2": self.r2,
             "venue": self.venue,
-            "number": self.number,
+            # "number": self.number,
             "division": self.division,
             "category": self.category,
             "home_sets": self.home_sets,
@@ -189,8 +192,8 @@ class Game(object):
                 [
                     self.season,
                     self.date(),
-                    self.time(),
-                    self.number,
+                    # self.time(),
+                    # self.number,
                     self.home,
                     str(self.home_sets),
                     " ".join(self.home_points),
@@ -243,8 +246,8 @@ class Game(object):
     def date(self):
         return self.timestamp.date().isoformat()
 
-    def time(self):
-        return self.timestamp.time().strftime("%H:%M")
+    # def time(self):
+    #     return self.timestamp.time().strftime("%H:%M")
 
     def set_results(self, results):
         if not results:
@@ -263,8 +266,8 @@ class Game(object):
         return (
             f"<tr><div>\n"
             f"<td rowspan='2'>{self.date()}</td>\n"
-            f"<td rowspan='2'>{self.time()}</td>\n"
-            f"<td rowspan='2'>{self.number}</td>\n"
+            # f"<td rowspan='2'>{self.time()}</td>\n"
+            # f"<td rowspan='2'>{self.number}</td>\n"
             f"<td rowspan='2'>{self.division}</td>\n"
             f"<td>{self.home}</td>\n"
             f"<td class='sets'>{self.home_sets}</td>\n"
@@ -278,11 +281,3 @@ class Game(object):
             f"<td>{'</td><td>'.join(self.away_points)}</td>\n"
             "</div></tr>\n"
         )
-
-    def set_category(self):
-        if "Women" in self.division:
-            self.category = "women"
-        elif "Men" in self.division:
-            self.category = "men"
-        else:
-            self.category = "boh"
