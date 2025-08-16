@@ -1,3 +1,4 @@
+import inspect
 from collections import Counter
 
 import pandas
@@ -6,6 +7,8 @@ import igraph as ig
 from history_plotter import HistoryPlotter
 import matplotlib.pyplot as plt
 
+from nvl import HtmlGameParser
+
 
 class SeasonPlotter(HistoryPlotter):
     """Generate charts for a particular season"""
@@ -13,37 +16,501 @@ class SeasonPlotter(HistoryPlotter):
     def __init__(self, filename):
         super().__init__(filename)
 
+    # def plot_total_games_per_referee(self):
+    #     """Bar chart of the total number of games per referee"""
+    #     from collections import Counter
+    #
+    #     refs = []
+    #     for g in self.games:
+    #         if g.r2 and not g.r2.isnumeric() and not g.r2 == "TBC":
+    #             refs.append(g.r2)
+    #         if g.r1 and not g.r1.isnumeric() and not g.r1 == "TBC":
+    #             refs.append(g.r1)
+    #
+    #     c = Counter(refs)
+    #
+    #     df = pandas.DataFrame(dict(refs=c.keys(), count=c.values()))
+    #
+    #     fig = px.bar(
+    #         df,
+    #         y="count",
+    #         x="refs",
+    #         title="Games per referee",
+    #         color="count",
+    #         color_continuous_scale="rdbu",
+    #     )
+    #     fig.update_layout(
+    #         xaxis={"categoryorder": "total descending", "title": "Referee"},
+    #         yaxis={"title": "Number of Games"},
+    #     )
+    #
+    # if self.publish:
+    #     fig.write_html(f"{inspect.stack()[0][3]}.html")
+    # else:
+    #     fig.show()
+
     def plot_total_games_per_referee(self):
         """Bar chart of the total number of games per referee"""
         from collections import Counter
 
-        refs = []
+        subset = {
+            "Abdul Salam Safadi": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Adrian Chan": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Alexandru Calin": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Alex Iftime": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Alex Pavkov": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Aliaksandr Siarheyeu": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Amy Dimmock": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Ana Pal": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Andres Hernandez": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Anna Justkowska": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Bee Yusuf": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Boriss Bovkuns": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Carl Padayachee": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Cherie Cheung": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Cheryl Whittles": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Chon Lam Ieong": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Chris Tsui": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Daniel Harrison": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Daniel Sarnik": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Daryl Carrott": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "David Gardner": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "David Topacho": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Dickson Yiu": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Domitilla Di Stefano": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Edward Arnott": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Elia Gironacci": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Farid Yousof-Nejad": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Fiona Cotterill": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Francesca Bentley": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Francesca Hossain": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Gianni Sutton": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Giordano Marchi": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Giulia Bellan": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Heiner Alzate": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Herman Prada": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Hiroko Turner": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Huaxi Liu": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Ian Hetheringon": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Ignacio Diez": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Igors Maksimovs": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "James Cole": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Jayne Jones": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "John Boughton": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "John Wycliffe": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Kirat Thorat": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Lauren Jingyi Goh": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Lenny Barry": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Ludwik Kowalewski": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Maddie Vararu": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Man Chung Ng": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Martin Mierzwa": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Milan Hak": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Nicolas Vecchione": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Pete Whyard": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Peter Parsons": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Rachel Duerden": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Rita Grimes": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Rommel Medenilla": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Ruben Duarte": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Sam Yip": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Sarah Hanrahan": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Sebastian Struski": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Simon Cowie": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Sneha Saileshkumar": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Socrates Tiaga": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Sorin Ratiu": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Stanislaw Dunat": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Stephen Smith": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Stephen Watts": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Timothy Hebborn": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Tomasz Gierlach": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Vitalijs Kondrasovs": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+            "Zachary Johnson": {
+                "superleague": 0,
+                "division_1": 0,
+                "division_2": 0,
+                "division_3": 0,
+            },
+        }
+
+        h = HtmlGameParser()
         for g in self.games:
-            if g.r2 and not g.r2.isnumeric() and not g.r2 == "TBC":
-                refs.append(g.r2)
-            if g.r1 and not g.r1.isnumeric() and not g.r1 == "TBC":
-                refs.append(g.r1)
+            division = h.find_division(g.division)
+            if g.r1 in subset:
+                subset[g.r1][division] += 1
+            if g.r2 in subset:
+                subset[g.r2][division] += 1
 
-        c = Counter(refs)
+        for name, count in subset.items():
+            print(
+                f"{name},{count['superleague']},{count['division_1']},{count['division_2']},{count['division_3']}"
+            )
 
-        df = pandas.DataFrame(dict(refs=c.keys(), count=c.values()))
+        # TODO: complete this
+        return
 
-        fig = px.bar(
-            df,
-            y="count",
-            x="refs",
-            title="Games per referee",
-            color="count",
-            color_continuous_scale="rdbu",
-        )
-        fig.update_layout(
-            xaxis={"categoryorder": "total descending", "title": "Referee"},
-            yaxis={"title": "Number of Games"},
-        )
-
-        fig.show()
-
-    # todo: plot total referees per division (pie chart?)
+    # TODO: plot total referees per division (pie chart?)
 
     def generate_community_graph(self):
         # Extract edges between Home and Away teams
@@ -200,7 +667,10 @@ class SeasonPlotter(HistoryPlotter):
             xaxis={"title": "Referees", "categoryorder": "total descending"},
             yaxis={"title": "Number of Teams"},
         )
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()
 
     def plot_referee_team_diversity_index(self):
         """
@@ -243,4 +713,7 @@ class SeasonPlotter(HistoryPlotter):
             xaxis={"title": "Referees", "categoryorder": "total descending"},
             yaxis={"title": "Diversity Index"},
         )
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()

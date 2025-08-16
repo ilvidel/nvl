@@ -1,3 +1,4 @@
+import inspect
 import statistics
 from collections import Counter
 
@@ -58,7 +59,10 @@ class HistoryPlotter(NvlPlotter):
             title="Total points per category",
         )
         fig.update_layout(barmode="overlay")  # stack, group, overlay or relative
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()
 
     def plot_total_points_per_number_of_sets(self):
         """
@@ -89,7 +93,10 @@ class HistoryPlotter(NvlPlotter):
             title="Total points played per number of sets",
         )
         fig.update_layout(barmode="overlay")  # stack, group, overlay or relative
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()
 
     def plot_home_victories(self):
         """Percentage of home victories vs away victories"""
@@ -114,7 +121,10 @@ class HistoryPlotter(NvlPlotter):
         fig = px.pie(
             df, values="count", names="where", title="Home vs Away victories", hole=0.5
         )
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()
 
     def plot_home_victories_per_division(self):
         """Percentage of home victories vs away victories, by division"""
@@ -195,14 +205,20 @@ class HistoryPlotter(NvlPlotter):
             pattern_shape="where",
             title="Home vs Away victories, per division",
         )
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()
 
     def plot_number_of_games_per_season(self):
         """Number of games played per season"""
         seasons = [g.season for g in self.games]
         fig = px.histogram(seasons, title="Number of games per season")
         fig.update_layout(bargap=0.2)
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()
 
     def plot_number_of_games_per_season_by_division(self):
         """Number of games played per season, per division"""
@@ -236,7 +252,10 @@ class HistoryPlotter(NvlPlotter):
             barmode="stack",
             color_discrete_sequence=px.colors.qualitative.Bold,
         )
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()
 
     def plot_number_of_teams_per_season(self):
         """Plot number of teams per year"""
@@ -256,7 +275,10 @@ class HistoryPlotter(NvlPlotter):
             title="Number of Teams per year",
             color_discrete_sequence=px.colors.qualitative.Bold,
         )
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()
 
     def plot_number_of_teams_per_season_by_division(self):
         """Number of teams registered each year, per division"""
@@ -290,7 +312,10 @@ class HistoryPlotter(NvlPlotter):
             barmode="stack",
             color_discrete_sequence=px.colors.qualitative.Bold,
         )
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()
 
     def plot_frequency_of_results(self):
         """Frequency of each possible result"""
@@ -341,7 +366,10 @@ class HistoryPlotter(NvlPlotter):
         fig.update_traces(
             textposition="inside", textinfo="percent+label", textfont_size=20
         )
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()
         return fig
 
     def plot_referees_per_year(self):
@@ -382,7 +410,10 @@ class HistoryPlotter(NvlPlotter):
             hover_data=["refs"],
             title="Number of Referees",
         )
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()
 
     # todo: plot referees per year by division
 

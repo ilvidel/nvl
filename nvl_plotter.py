@@ -6,8 +6,9 @@ from game import Game
 
 
 class NvlPlotter:
-    def __init__(self, filename):
+    def __init__(self, filename: str, write_files=False):
         self.games = []
+        self.publish = write_files
         with open(filename, "r") as csv_file:
             csv_games = csv.DictReader(csv_file)
             for g in csv_games:

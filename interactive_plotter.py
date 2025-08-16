@@ -1,3 +1,4 @@
+import inspect
 from collections import Counter
 
 import pandas
@@ -54,10 +55,12 @@ class InteractivePlotter(NvlPlotter):
                     "args": [
                         {
                             "visible": [
-                                True
-                                if i // len(grouped_data.columns)
-                                == list(referees).index(referee)
-                                else False
+                                (
+                                    True
+                                    if i // len(grouped_data.columns)
+                                    == list(referees).index(referee)
+                                    else False
+                                )
                                 for i in range(
                                     len(referees) * len(grouped_data.columns)
                                 )
@@ -80,7 +83,10 @@ class InteractivePlotter(NvlPlotter):
             ],
         )
 
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()
 
     def referee_plot_role_count(self, ref_name):
         """Plot the number of R1 vs R2 roles for a particular referee"""
@@ -108,7 +114,10 @@ class InteractivePlotter(NvlPlotter):
         fig.update_traces(
             textinfo="label+percent+value", marker=dict(colors=donut_colors)
         )
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()
 
     def referee_plot_division_count(self, ref_name):
         """Plot the number of games by a particular referee, per division"""
@@ -136,7 +145,10 @@ class InteractivePlotter(NvlPlotter):
         fig.update_traces(
             textinfo="label+percent+value", marker=dict(colors=donut_colors)
         )
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()
 
     def referee_plot_category_count(self, ref_name):
         """Plot the number of games by a particular referee, per category"""
@@ -161,7 +173,10 @@ class InteractivePlotter(NvlPlotter):
         fig.update_traces(
             textinfo="label+percent+value", marker=dict(colors=donut_colors)
         )
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()
 
     def referee_plot_team_count(self, ref_name):
         """Plot the number of times a referee has officiated each team"""
@@ -189,7 +204,10 @@ class InteractivePlotter(NvlPlotter):
             yaxis={"categoryorder": "total ascending", "title": "Teams"},
             xaxis={"title": "Times refereed"},
         )
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()
 
     def referee_plot_venue_count(self):
         """Bar chart of venues where a referee has officiated"""
@@ -255,7 +273,10 @@ class InteractivePlotter(NvlPlotter):
             ]
         )
 
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()
 
     def referee_plot_pairigs_barchart(self):
         """
@@ -322,7 +343,10 @@ class InteractivePlotter(NvlPlotter):
             ],
         )
 
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()
 
     def referee_plot_pairings_piechart(self):
         """
@@ -384,7 +408,10 @@ class InteractivePlotter(NvlPlotter):
             ],
         )
 
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()
 
     def team_plot_referee_count(self, team_name):
         # TODO: esto es una movida porque por ejemplo,
@@ -415,4 +442,7 @@ class InteractivePlotter(NvlPlotter):
             yaxis={"categoryorder": "total ascending", "title": "Referees"},
             xaxis={"title": "Times refereed"},
         )
-        fig.show()
+        if self.publish:
+            fig.write_html(f"{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()

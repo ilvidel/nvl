@@ -2,6 +2,7 @@ bs4
 datetime
 holoviews
 html5lib
+inspect313
 matplotlib
 pandas
 plotly
