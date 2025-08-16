@@ -22,6 +22,7 @@ def check_unknown(token):
         return "unknown"
     return token
 
+
 def are_results_valid(results):
     """
     Validates if a volleyball game result is valid.
@@ -110,6 +111,7 @@ def are_results_valid(results):
     # return sets_home == calculated_home_sets and sets_away == calculated_away_sets
     return True
 
+
 class HtmlGameParser(object):
 
     def __init__(self):
@@ -152,16 +154,29 @@ class HtmlGameParser(object):
                     token = tag.text.split(":")[1].strip().replace(",", "")
                     game.venue = check_unknown(token)
                     self.logger.debug(f"Found game venue: {game.venue}")
-                if any([keyword in tag.text for keyword in ["Division", "Super", "Playoffs", "Cup", "Shield"]]):
+                if any(
+                    [
+                        keyword in tag.text
+                        for keyword in [
+                            "Division",
+                            "Super",
+                            "Playoffs",
+                            "Cup",
+                            "Shield",
+                        ]
+                    ]
+                ):
                     game.category = self.find_category(tag.text)
                     game.division = self.find_division(tag.text)
-                    self.logger.debug(f"Found game category: {game.division} {game.category}")
+                    self.logger.debug(
+                        f"Found game category: {game.division} {game.category}"
+                    )
 
             game.set_results(results)
             self.logger.debug(f"Found game results: {results}")
             if not are_results_valid(results):
                 self.logger.warning(f"Invalid resutls: {game}")
-                discarded+=1
+                discarded += 1
                 continue
 
             game_list.append(game)
@@ -179,7 +194,9 @@ class HtmlGameParser(object):
             self.logger.info(f"Parsing {filename}")
             html = self.load_file(filename)
             soup = bs4.BeautifulSoup(html, features="html5lib")
-            raw_games = soup.findAll("div", attrs={"class": "col-12 mb-4 resultContents"})
+            raw_games = soup.findAll(
+                "div", attrs={"class": "col-12 mb-4 resultContents"}
+            )
             parsed_games, discarded = self.parse_games(raw_games)
             invalid += discarded
             total_games.extend(parsed_games)

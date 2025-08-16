@@ -77,10 +77,10 @@ class Game(object):
             return False
 
         return (
-                self.division == other.division
-                and self.date() == other.date()
-                and self.home == other.home
-                and self.away == other.away
+            self.division == other.division
+            and self.date() == other.date()
+            and self.home == other.home
+            and self.away == other.away
             # and self.r1 == other.r1
             # and self.r2 == other.r2
         )
