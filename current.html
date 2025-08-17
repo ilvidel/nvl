@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Interactive Charts</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: auto; width: 85%; }
+      .chart-container {
+          margin: 30px 0;
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          padding: 20px;
+      }
+      iframe {
+          width: 100%;
+          height: 500px;
+          border: none;
+      }
+      .chart-link {
+          display: inline-block;
+          margin: 10px 0;
+          padding: 10px 20px;
+          background: #007bff;
+          color: white;
+          text-decoration: none;
+          border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+	<h1>Season 24/25 Visualization</h1>
+	<h3>Explore the data for the 24/25 season</h3>
+
+	<table>
+      <tr>
+        <td>
+          <div class="chart-container">
+            <h2>Games by Referee, per category</h2>
+            <h4>Number of games officiated by a referee</h4>
+            <iframe src="charts/referee_plot_category_count.html"></iframe>
+            <a href="charts/referee_plot_category_count.html" class="chart-link" target="_blank">
+              Open Full Screen
+            </a>
+          </div>
+        </td>
+
+        <td>
+          <div class="chart-container">
+            <h2>Games by Referee, per Division</h2>
+            <h4>Number of games officiated by a referee in each division</h4>
+            <iframe src="charts/referee_plot_division_count.html"></iframe>
+            <a href="charts/referee_plot_division_count.html" class="chart-link" target="_blank">
+              Open Full Screen
+            </a>
+          </div>
+        </td>
+
+        <td>
+          <div class="chart-container">
+            <h2>Games per referee over time</h2>
+            <h4>Only since 2023</h4>
+            <iframe src="charts/plot_referees_per_year.html"></iframe>
+            <a href="charts/plot_referees_per_year.html" class="chart-link" target="_blank">
+              Open Full Screen
+            </a>
+          </div>
+      </tr>
+
+      <tr>
+<!--        <td>-->
+<!--          <div class="chart-container">-->
+<!--            <h2>Referee Pairings</h2>-->
+<!--            <h4>Show the number of times each referee has been paired with other referees</h4>-->
+<!--            <iframe src="charts/referee_plot_pairigs_barchart.html"></iframe>-->
+<!--            <a href="charts/referee_plot_pairigs_barchart.html" class="chart-link" target="_blank">-->
+<!--              Open Full Screen-->
+<!--            </a>-->
+<!--          </div>-->
+<!--        </td>-->
+
+        <td>
+          <div class="chart-container">
+            <h2>Referee Pairings</h2>
+            <h4>Show the number of times each referee has been paired with other referees</h4>
+            <iframe src="charts/referee_plot_pairings_piechart.html"></iframe>
+            <a href="charts/referee_plot_pairings_piechart.html" class="chart-link" target="_blank">
+              Open Full Screen
+            </a>
+          </div>
+        </td>
+
+        <td>
+          <div class="chart-container">
+            <h2>Referee roles</h2>
+            <h4>How often a referee acts as R1 vs R2</h4>
+            <iframe src="charts/referee_plot_role_count.html"></iframe>
+            <a href="charts/referee_plot_role_count.html" class="chart-link" target="_blank">
+              Open Full Screen
+            </a>
+          </div>
+        </td>
+
+      <tr>
+        <td>
+          <div class="chart-container">
+            <h2>Referee vs Teams</h2>
+            <h4>How many times a particular official has refereed each team</h4>
+            <iframe src="charts/referee_plot_team_count.html"></iframe>
+            <a href="charts/referee_plot_team_count.html" class="chart-link" target="_blank">
+              Open Full Screen
+            </a>
+          </div>
+        </td>
+
+        <td>
+          <div class="chart-container">
+            <h2>Referees vs Venues</h2>
+            <h4>How often a referees has travelled to each venue</h4>
+            <iframe src="charts/referee_plot_venue_count.html"></iframe>
+            <a href="charts/referee_plot_venue_count.html" class="chart-link" target="_blank">
+              Open Full Screen
+            </a>
+          </div>
+        </td>
+
+<!--        <td>-->
+<!--          <div class="chart-container">-->
+<!--            <h2>Home Victories per Division</h2>-->
+<!--            <h4>Same as before, split by division</h4>-->
+<!--            <iframe src="charts/plot_home_victories_per_division.html"></iframe>-->
+<!--            <a href="charts/plot_home_victories_per_division.html" class="chart-link" target="_blank">-->
+<!--              Open Full Screen-->
+<!--            </a>-->
+<!--          </div>-->
+<!--        </td>-->
+      </tr>
+	</table>
+  </body>
+</html>

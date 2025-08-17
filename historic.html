@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Interactive Charts</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: auto; width: 85%; }
+      .chart-container {
+          margin: 30px 0;
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          padding: 20px;
+      }
+      iframe {
+          width: 100%;
+          height: 500px;
+          border: none;
+      }
+      .chart-link {
+          display: inline-block;
+          margin: 10px 0;
+          padding: 10px 20px;
+          background: #007bff;
+          color: white;
+          text-decoration: none;
+          border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+	<h1>Historic Data Visualization</h1>
+	<h3>Explore the Volleyball England data for the past 20 years</h3>
+
+	<table>
+      <tr>
+        <td>
+          <div class="chart-container">
+            <h2>Total Points</h2>
+            <h4>Visualization of the total points in a match, by category</h4>
+            <iframe src="charts/plot_total_points_by_category.html"></iframe>
+            <a href="charts/plot_total_points_by_category.html" class="chart-link" target="_blank">
+              Open Full Screen
+            </a>
+          </div>
+        </td>
+
+        <td>
+          <div class="chart-container">
+            <h2>Total Points, per number of sets</h2>
+            <h4>Total points played, by number of sets</h4>
+            <iframe src="charts/plot_total_points_per_number_of_sets.html"></iframe>
+            <a href="charts/plot_total_points_per_number_of_sets.html" class="chart-link" target="_blank">
+              Open Full Screen
+            </a>
+          </div>
+        </td>
+
+        <td>
+          <div class="chart-container">
+            <h2>Number of Referees per year</h2>
+            <h4>How many referees officiated at least one mach, each season</h4>
+            <iframe src="charts/plot_referees_per_year.html"></iframe>
+            <a href="charts/plot_referees_per_year.html" class="chart-link" target="_blank">
+              Open Full Screen
+            </a>
+          </div>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="chart-container">
+            <h2>Number of Games per Season </h2>
+            <h4>How many games were played each season?</h4>
+            <iframe src="charts/plot_number_of_games_per_season.html"></iframe>
+            <a href="charts/plot_number_of_games_per_season.html" class="chart-link" target="_blank">
+              Open Full Screen
+            </a>
+          </div>
+        </td>
+
+        <td>
+          <div class="chart-container">
+            <h2>Number of Games per Season, per Division</h2>
+            <h4>Same, split by Division</h4>
+            <iframe src="charts/plot_number_of_games_per_season_by_division.html"></iframe>
+            <a href="charts/plot_number_of_games_per_season_by_division" class="chart-link" target="_blank">
+              Open Full Screen
+            </a>
+          </div>
+        </td>
+
+        <td>
+          <div class="chart-container">
+            <h2>Number of Teams per Season, per Division</h2>
+            <h4>How many teams participated, split by division</h4>
+            <iframe src="charts/plot_number_of_teams_per_season_by_division.html"></iframe>
+            <a href="charts/plot_number_of_teams_per_season_by_division.html" class="chart-link" target="_blank">
+              Open Full Screen
+            </a>
+          </div>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="chart-container">
+            <h2>Frequency of Results</h2>
+            <h4>How frequent is each possible result</h4>
+            <iframe src="charts/plot_frequency_of_results.html"></iframe>
+            <a href="charts/plot_frequency_of_results.html" class="chart-link" target="_blank">
+              Open Full Screen
+            </a>
+          </div>
+        </td>
+
+        <td>
+          <div class="chart-container">
+            <h2>Home Victories</h2>
+            <h4>How likely are teams to win when they play at home?</h4>
+            <iframe src="charts/plot_home_victories.html"></iframe>
+            <a href="charts/plot_home_victories.html" class="chart-link" target="_blank">
+              Open Full Screen
+            </a>
+          </div>
+        </td>
+
+        <td>
+          <div class="chart-container">
+            <h2>Home Victories per Division</h2>
+            <h4>Same as before, split by division</h4>
+            <iframe src="charts/plot_home_victories_per_division.html"></iframe>
+            <a href="charts/plot_home_victories_per_division.html" class="chart-link" target="_blank">
+              Open Full Screen
+            </a>
+          </div>
+        </td>
+      </tr>
+	</table>
+  </body>
+</html>
