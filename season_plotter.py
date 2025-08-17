@@ -13,9 +13,6 @@ from nvl import HtmlGameParser
 class SeasonPlotter(HistoryPlotter):
     """Generate charts for a particular season"""
 
-    def __init__(self, filename):
-        super().__init__(filename)
-
     # def plot_total_games_per_referee(self):
     #     """Bar chart of the total number of games per referee"""
     #     from collections import Counter
@@ -45,7 +42,7 @@ class SeasonPlotter(HistoryPlotter):
     #     )
     #
     # if self.publish:
-    #     fig.write_html(f"{inspect.stack()[0][3]}.html")
+    #     fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
     # else:
     #     fig.show()
 
@@ -668,7 +665,7 @@ class SeasonPlotter(HistoryPlotter):
             yaxis={"title": "Number of Teams"},
         )
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -714,6 +711,6 @@ class SeasonPlotter(HistoryPlotter):
             yaxis={"title": "Diversity Index"},
         )
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()

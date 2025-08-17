@@ -1,11 +1,17 @@
+import argparse
+
 from interactive_plotter import InteractivePlotter
 from history_plotter import HistoryPlotter
 from season_plotter import SeasonPlotter
 
 if __name__ == "__main__":
-    history = HistoryPlotter("past.csv")
-    season = SeasonPlotter("nvl.csv")
-    actionable = InteractivePlotter("nvl.csv")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--publish", action="store_true", help="Create HTML files")
+    args = parser.parse_args()
+
+    history = HistoryPlotter("past.csv", write_files=args.publish)
+    season = SeasonPlotter("nvl.csv", write_files=args.publish)
+    actionable = InteractivePlotter("nvl.csv", write_files=args.publish)
 
     history.plot_total_points_by_category()
     history.plot_total_points_per_number_of_sets()

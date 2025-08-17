@@ -9,10 +9,6 @@ from plotly import express as px
 
 class InteractivePlotter(NvlPlotter):
     """Generate interactive charts, where you can choose from a dropdown"""
-
-    def __init__(self, filename):
-        super().__init__(filename)
-
     def referee_plot_game_count_over_time(self):
         """
         Interactive bar chart, showing the number of games
@@ -84,7 +80,7 @@ class InteractivePlotter(NvlPlotter):
         )
 
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -115,7 +111,7 @@ class InteractivePlotter(NvlPlotter):
             textinfo="label+percent+value", marker=dict(colors=donut_colors)
         )
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -146,7 +142,7 @@ class InteractivePlotter(NvlPlotter):
             textinfo="label+percent+value", marker=dict(colors=donut_colors)
         )
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -156,7 +152,7 @@ class InteractivePlotter(NvlPlotter):
         men = len(list(filter(lambda g: "men" == g.category, games)))
         ladies = len(list(filter(lambda g: "women" == g.category, games)))
 
-        donut_colors = ["#26547C", "#EF476F", "#FFD166", "#06D6A0"]
+        donut_colors = ["#26547C", "#EF476F", "#FF66", "#06D6A0"]
         labels = ["Men", "Ladies"]
         values = [men, ladies]
         fig = go.Figure(
@@ -174,7 +170,7 @@ class InteractivePlotter(NvlPlotter):
             textinfo="label+percent+value", marker=dict(colors=donut_colors)
         )
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -205,7 +201,7 @@ class InteractivePlotter(NvlPlotter):
             xaxis={"title": "Times refereed"},
         )
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -274,7 +270,7 @@ class InteractivePlotter(NvlPlotter):
         )
 
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -344,7 +340,7 @@ class InteractivePlotter(NvlPlotter):
         )
 
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -409,7 +405,7 @@ class InteractivePlotter(NvlPlotter):
         )
 
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -443,6 +439,6 @@ class InteractivePlotter(NvlPlotter):
             xaxis={"title": "Times refereed"},
         )
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()

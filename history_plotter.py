@@ -3,6 +3,7 @@ import statistics
 from collections import Counter
 
 import pandas
+from matplotlib.pyplot import legend
 from plotly import express as px
 
 from nvl_plotter import NvlPlotter
@@ -12,10 +13,6 @@ class HistoryPlotter(NvlPlotter):
     """
     Generate charts from all the data (i.e. 20 years)
     """
-
-    def __init__(self, filename):
-        super().__init__(filename)
-
     def plot_total_points_by_category(self):
         """
         Histogram of the total number of points per game, by category
@@ -52,7 +49,7 @@ class HistoryPlotter(NvlPlotter):
             df,
             x="points",
             color="gender",
-            color_discrete_sequence=["dodgerblue", "hotpink"],
+            color_discrete_sequence=["orange", "yellowgreen"],
             opacity=0.5,
             nbins=300,
             marginal="violin",  # can be `box`, `violin` or 'rug'
@@ -60,7 +57,7 @@ class HistoryPlotter(NvlPlotter):
         )
         fig.update_layout(barmode="overlay")  # stack, group, overlay or relative
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -94,7 +91,7 @@ class HistoryPlotter(NvlPlotter):
         )
         fig.update_layout(barmode="overlay")  # stack, group, overlay or relative
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -122,7 +119,7 @@ class HistoryPlotter(NvlPlotter):
             df, values="count", names="where", title="Home vs Away victories", hole=0.5
         )
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -206,7 +203,7 @@ class HistoryPlotter(NvlPlotter):
             title="Home vs Away victories, per division",
         )
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -214,9 +211,9 @@ class HistoryPlotter(NvlPlotter):
         """Number of games played per season"""
         seasons = [g.season for g in self.games]
         fig = px.histogram(seasons, title="Number of games per season")
-        fig.update_layout(bargap=0.2)
+        fig.update_layout(bargap=0.2, showlegend=False)
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -253,7 +250,7 @@ class HistoryPlotter(NvlPlotter):
             color_discrete_sequence=px.colors.qualitative.Bold,
         )
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -276,7 +273,7 @@ class HistoryPlotter(NvlPlotter):
             color_discrete_sequence=px.colors.qualitative.Bold,
         )
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -313,7 +310,7 @@ class HistoryPlotter(NvlPlotter):
             color_discrete_sequence=px.colors.qualitative.Bold,
         )
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -367,7 +364,7 @@ class HistoryPlotter(NvlPlotter):
             textposition="inside", textinfo="percent+label", textfont_size=20
         )
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
         return fig
@@ -411,7 +408,7 @@ class HistoryPlotter(NvlPlotter):
             title="Number of Referees",
         )
         if self.publish:
-            fig.write_html(f"{inspect.stack()[0][3]}.html")
+            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 

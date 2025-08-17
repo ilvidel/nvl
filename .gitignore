@@ -12,6 +12,7 @@ super*html
 .idea/
 bin/
 etc/
+charts/
 include/
 share/
 lib*
