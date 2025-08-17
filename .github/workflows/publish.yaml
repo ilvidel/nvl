@@ -40,7 +40,9 @@ jobs:
           pip install -r requirements.txt
 
       - name: Generate charts
-        run: python3 generate_charts.py --publish
+        run: |
+          mkdir -p web/charts/
+          python3 generate_charts.py --publish
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
