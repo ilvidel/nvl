@@ -57,7 +57,7 @@ class HistoryPlotter(NvlPlotter):
         )
         fig.update_layout(barmode="overlay")  # stack, group, overlay or relative
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -91,7 +91,7 @@ class HistoryPlotter(NvlPlotter):
         )
         fig.update_layout(barmode="overlay")  # stack, group, overlay or relative
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -119,7 +119,7 @@ class HistoryPlotter(NvlPlotter):
             df, values="count", names="where", title="Home vs Away victories", hole=0.5
         )
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -203,7 +203,7 @@ class HistoryPlotter(NvlPlotter):
             title="Home vs Away victories, per division",
         )
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -213,7 +213,7 @@ class HistoryPlotter(NvlPlotter):
         fig = px.histogram(seasons, title="Number of games per season")
         fig.update_layout(bargap=0.2, showlegend=False)
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -250,7 +250,7 @@ class HistoryPlotter(NvlPlotter):
             color_discrete_sequence=px.colors.qualitative.Bold,
         )
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -273,7 +273,7 @@ class HistoryPlotter(NvlPlotter):
             color_discrete_sequence=px.colors.qualitative.Bold,
         )
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -310,7 +310,7 @@ class HistoryPlotter(NvlPlotter):
             color_discrete_sequence=px.colors.qualitative.Bold,
         )
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -364,7 +364,7 @@ class HistoryPlotter(NvlPlotter):
             textposition="inside", textinfo="percent+label", textfont_size=20
         )
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
         return fig
@@ -408,7 +408,7 @@ class HistoryPlotter(NvlPlotter):
             title="Number of Referees",
         )
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 

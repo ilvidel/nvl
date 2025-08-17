@@ -80,7 +80,7 @@ class InteractivePlotter(NvlPlotter):
         )
 
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -111,7 +111,7 @@ class InteractivePlotter(NvlPlotter):
             textinfo="label+percent+value", marker=dict(colors=donut_colors)
         )
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -142,7 +142,7 @@ class InteractivePlotter(NvlPlotter):
             textinfo="label+percent+value", marker=dict(colors=donut_colors)
         )
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -170,7 +170,7 @@ class InteractivePlotter(NvlPlotter):
             textinfo="label+percent+value", marker=dict(colors=donut_colors)
         )
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -201,7 +201,7 @@ class InteractivePlotter(NvlPlotter):
             xaxis={"title": "Times refereed"},
         )
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -270,7 +270,7 @@ class InteractivePlotter(NvlPlotter):
         )
 
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -340,7 +340,7 @@ class InteractivePlotter(NvlPlotter):
         )
 
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -405,7 +405,7 @@ class InteractivePlotter(NvlPlotter):
         )
 
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -439,6 +439,6 @@ class InteractivePlotter(NvlPlotter):
             xaxis={"title": "Times refereed"},
         )
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()

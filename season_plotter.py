@@ -42,7 +42,7 @@ class SeasonPlotter(HistoryPlotter):
     #     )
     #
     # if self.publish:
-    #     fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+    #     fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
     # else:
     #     fig.show()
 
@@ -665,7 +665,7 @@ class SeasonPlotter(HistoryPlotter):
             yaxis={"title": "Number of Teams"},
         )
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
 
@@ -711,6 +711,6 @@ class SeasonPlotter(HistoryPlotter):
             yaxis={"title": "Diversity Index"},
         )
         if self.publish:
-            fig.write_html(f"charts/{inspect.stack()[0][3]}.html")
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
         else:
             fig.show()
