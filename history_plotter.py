@@ -3,7 +3,7 @@ import statistics
 from collections import Counter
 
 import pandas
-from matplotlib.pyplot import legend
+import plotly.graph_objects as go
 from plotly import express as px
 
 from nvl_plotter import NvlPlotter
@@ -13,6 +13,7 @@ class HistoryPlotter(NvlPlotter):
     """
     Generate charts from all the data (i.e. 20 years)
     """
+
     def plot_total_points_by_category(self):
         """
         Histogram of the total number of points per game, by category
@@ -147,15 +148,15 @@ class HistoryPlotter(NvlPlotter):
         for div in divs:
             total = len(list(filter(lambda f: f["division"] == div, results)))
             home_victories = (
-                len(
-                    list(
-                        filter(
-                            lambda g: g["home"] > g["away"] and g["division"] == div,
-                            results,
+                    len(
+                        list(
+                            filter(
+                                lambda g: g["home"] > g["away"] and g["division"] == div,
+                                results,
+                            )
                         )
                     )
-                )
-                / total
+                    / total
             )
             away_victories = 1 - home_victories
             data.extend([home_victories, away_victories])
@@ -533,3 +534,93 @@ class HistoryPlotter(NvlPlotter):
     #         # vertex_label_size=10,
     #         # vertex_size=10,
     #     )
+
+    def create_referee_treemap(self):
+        """
+        Creates a treemap chart showing how many games each referee has officiated,
+        with a dropdown to select which season to display.
+        """
+
+        # Get all unique seasons for dropdown
+        seasons = sorted(list(set(game.season for game in self.games)))
+
+        # Function to get referee counts for a specific season
+        def get_referee_counts(season):
+            referee_counts = Counter()
+
+            for game in self.games:
+                if game.season == season:
+                    # Count both r1 and r2 referees
+                    if game.r1 and game.r1 != 'unknown':  # Check if r1 is not empty
+                        referee_counts[game.r1] += 1
+                    if game.r2 and game.r2 != 'unknown':  # Check if r2 is not empty
+                        referee_counts[game.r2] += 1
+
+            return referee_counts
+
+        # Create initial treemap for first season
+        initial_season = seasons[0] if seasons else None
+        if not initial_season:
+            # Return empty figure if no seasons found
+            fig = go.Figure()
+            fig.update_layout(title="No data available")
+            return
+
+        initial_counts = get_referee_counts(initial_season)
+
+        # Prepare data for treemap
+        referees = list(initial_counts.keys())
+        games_count = list(initial_counts.values())
+
+        # Create treemap using go.Treemap for better control
+        fig = go.Figure(go.Treemap(
+            labels=referees,
+            values=games_count,
+            marker_colorscale='balance',
+            parents=[''] * len(referees)  # All items are top-level
+        ))
+        fig.update_layout(title=f'Games Officiated by Referees - Season {initial_season}')
+
+        # Create dropdown buttons for all seasons
+        dropdown_buttons = []
+        for season in seasons:
+            season_counts = get_referee_counts(season)
+            season_referees = list(season_counts.keys())
+            season_games = list(season_counts.values())
+
+            if not season_counts:
+                continue
+
+            dropdown_buttons.append({
+                'label': f'Season {season}',
+                'method': 'restyle',
+                'args': [{
+                    'labels': [season_referees],
+                    'values': [season_games],
+                    'parents': [[''] * len(season_referees)]
+                }]
+            })
+
+        # Update layout with dropdown
+        fig.update_layout(
+            updatemenus=[{
+                'buttons': dropdown_buttons,
+                'direction': 'down',
+                'showactive': True,
+                'x': 0.1,
+                'y': 1.15,
+                'xanchor': 'left',
+                'yanchor': 'top'
+            }],
+            title={
+                'text': f'Games Officiated by Referees - Season {initial_season}',
+                'x': 0.5,
+                'xanchor': 'center'
+            },
+            margin=dict(t=100)  # Add top margin for dropdown
+        )
+
+        if self.publish:
+            fig.write_html(f"web/charts/{inspect.stack()[0][3]}.html")
+        else:
+            fig.show()

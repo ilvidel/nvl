@@ -1,12 +1,12 @@
 import inspect
 from collections import Counter
 
+import igraph as ig
+import matplotlib.pyplot as plt
 import pandas
 from plotly import express as px
-import igraph as ig
-from history_plotter import HistoryPlotter
-import matplotlib.pyplot as plt
 
+from history_plotter import HistoryPlotter
 from nvl import HtmlGameParser
 
 
@@ -48,7 +48,6 @@ class SeasonPlotter(HistoryPlotter):
 
     def plot_total_games_per_referee(self):
         """Bar chart of the total number of games per referee"""
-        from collections import Counter
 
         subset = {
             "Abdul Salam Safadi": {

@@ -1,7 +1,7 @@
 import argparse
 
-from interactive_plotter import InteractivePlotter
 from history_plotter import HistoryPlotter
+from interactive_plotter import InteractivePlotter
 from season_plotter import SeasonPlotter
 
 if __name__ == "__main__":
@@ -22,6 +22,7 @@ if __name__ == "__main__":
     history.plot_number_of_games_per_season_by_division()
     history.plot_number_of_teams_per_season_by_division()
     history.plot_number_of_teams_per_season()
+    history.create_referee_treemap()
 
     history.plot_referees_per_year()  # fixme: github issue #5
 
