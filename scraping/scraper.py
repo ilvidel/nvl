@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import json
 import logging
+import re
 import time
 from dataclasses import dataclass, field
 from typing import Optional
@@ -124,33 +125,47 @@ def _post(session: requests.Session, action: str, data: dict, retries: int = 3, 
     raise last_exc
 
 
+_CATEGORY_RE = re.compile(r"\b(mens|men's|womens|women's)\b", re.IGNORECASE)
+
+
 def _split_category_division(name: str) -> tuple[str, str]:
-    parts = name.strip().split(maxsplit=1)
-    if not parts:
-        return "", name
-    first = parts[0]
-    rest = parts[1] if len(parts) > 1 else ""
-    lowered = first.lower()
-    if lowered.startswith("mens"):
-        return "Men", rest
-    if lowered.startswith("womens"):
-        return "Women", rest
-    # Fallback: couldn't confidently split (e.g. "Cup", "Shield" alone)
-    return "", name
+    """
+    Handles both naming styles seen across seasons:
+      - old style:  "Mens Division 3 North" / "Womens Cup"
+      - new style:  "Women's | National Shield" / "Men's | Division 1 North | 26-27"
+    """
+    match = _CATEGORY_RE.search(name)
+    if not match:
+        return "", name.strip()
+
+    category = "Women" if match.group(1).lower().startswith("women") else "Men"
+
+    # Remove the matched category token, then clean up leftover separators
+    # (pipes, extra whitespace) and drop a trailing "| <season>" suffix
+    # (e.g. "| 26-27") if present.
+    rest = name[: match.start()] + name[match.end() :]
+    parts = [p.strip() for p in rest.split("|")]
+    parts = [p for p in parts if p and not re.fullmatch(r"\d{2}-\d{2}", p)]
+    division = " ".join(parts).strip(" |").strip()
+    return category, division
 
 
-def fetch_competitions(session: requests.Session, season_name: str, season_id: str) -> list[Competition]:
-    """Get every competition/division available for a given season."""
-    data = {
-        "seasonID": season_id,
-        "pageTitle": "Fixture and Results",
-        "lastSegment": "fixture-and-results",
-    }
-    resp = _post(session, "fetch_season_competitions", data)
-    payload = resp.json()
-    html = payload.get("competitions", "")
+@dataclass
+class Group:
+    id: str
+    slug: str  # e.g. "nvl", "cups" -- the data-seasonname attribute
+    label: str  # display text, e.g. "NVL", "Cups"
+
+
+# Group slugs (data-seasonname) we consider part of "the NVL" for this
+# project. Recent seasons bundle many other competition types (juniors,
+# beach, sitting, NEVZA, etc.) into the same season, so we filter down to
+# just these groups rather than trying to guess from division names.
+NVL_GROUP_SLUGS = {"nvl", "cups", "shield", "challenge"}
+
+
+def _options_to_competitions(html: str) -> list[Competition]:
     soup = bs4.BeautifulSoup(html, features="html.parser")
-
     competitions = []
     for option in soup.find_all("option"):
         value = option.get("value", "").strip()
@@ -161,8 +176,107 @@ def fetch_competitions(session: requests.Session, season_name: str, season_id: s
         competitions.append(
             Competition(id=value, name=name, category=category, division=division)
         )
-    logger.info(f"[{season_name}] Found {len(competitions)} competitions")
     return competitions
+
+
+def fetch_season_payload(session: requests.Session, season_id: str) -> dict:
+    """Raw call to fetch_season_competitions -- returns the full JSON payload
+    (competitions list AND groups_season), so callers can inspect both."""
+    data = {
+        "seasonID": season_id,
+        "pageTitle": "Fixture and Results",
+        "lastSegment": "fixture-and-results",
+    }
+    resp = _post(session, "fetch_season_competitions", data)
+    return resp.json()
+
+
+def parse_groups(payload: dict) -> list[Group]:
+    groups = []
+    for option_html in payload.get("groups_season", []):
+        soup = bs4.BeautifulSoup(option_html, features="html.parser")
+        option = soup.find("option")
+        if option is None:
+            continue
+        value = option.get("value", "").strip()
+        if not value:
+            continue  # skip the "All competitions" placeholder
+        slug = (option.get("data-seasonname") or "").strip().lower()
+        groups.append(Group(id=value, slug=slug, label=option.text.strip()))
+    return groups
+
+
+def fetch_competitions(session: requests.Session, season_name: str, season_id: str) -> list[Competition]:
+    """Get every competition/division available for a given season,
+    UNFILTERED (recent seasons include junior/beach/etc. competitions
+    alongside NVL ones under this same call). Prefer
+    fetch_nvl_competitions() unless you specifically want everything."""
+    payload = fetch_season_payload(session, season_id)
+    competitions = _options_to_competitions(payload.get("competitions", ""))
+    logger.info(f"[{season_name}] Found {len(competitions)} competitions (unfiltered)")
+    return competitions
+
+
+def fetch_competitions_for_group(
+    session: requests.Session, season_id: str, group_id: str
+) -> list[Competition]:
+    """Get divisions scoped to one competition group (e.g. just 'NVL').
+    Note: unlike the other admin-ajax actions, this one returns a raw HTML
+    fragment, not JSON."""
+    data = {
+        "seasonidgrp": season_id,
+        "fix_compgrpID": group_id,
+        "pageTitle": "Fixture and Results",
+        "lastSegment": "fixture-and-results",
+    }
+    resp = _post(session, "fetch_fixture_by_competitiongrp", data)
+    return _options_to_competitions(resp.text)
+
+
+def fetch_nvl_competitions(
+    session: requests.Session, season_name: str, season_id: str
+) -> list[Competition]:
+    """
+    Get NVL-relevant divisions for a season, filtering out junior/beach/
+    sitting/regional/etc. competitions that recent seasons bundle in
+    alongside NVL under the same seasonID.
+
+    Falls back to the unfiltered competitions list if no recognisable
+    NVL-like group is found (e.g. older seasons that only ever had NVL +
+    Cups, with no other group types to filter out).
+    """
+    payload = fetch_season_payload(session, season_id)
+    groups = parse_groups(payload)
+    nvl_groups = [g for g in groups if g.slug in NVL_GROUP_SLUGS]
+
+    if not groups or not nvl_groups:
+        # No group info, or nothing matched our known slugs -- fall back
+        # to the plain competitions list (this is expected/fine for older
+        # seasons where NVL + Cups was ~everything anyway).
+        competitions = _options_to_competitions(payload.get("competitions", ""))
+        logger.info(
+            f"[{season_name}] No NVL-specific groups found "
+            f"(groups seen: {[g.slug or g.label for g in groups]}); "
+            f"using unfiltered list of {len(competitions)} competitions"
+        )
+        return competitions
+
+    all_competitions: list[Competition] = []
+    seen_ids = set()
+    for group in nvl_groups:
+        time.sleep(1.0)
+        comps = fetch_competitions_for_group(session, season_id, group.id)
+        for c in comps:
+            if c.id not in seen_ids:
+                seen_ids.add(c.id)
+                all_competitions.append(c)
+        logger.info(f"[{season_name}] Group '{group.slug}' ({group.label}): {len(comps)} divisions")
+
+    logger.info(
+        f"[{season_name}] {len(all_competitions)} NVL-relevant competitions "
+        f"(filtered from groups: {[g.slug for g in nvl_groups]})"
+    )
+    return all_competitions
 
 
 def fetch_results_raw(session: requests.Session, season_id: str, competition_id: str) -> dict:

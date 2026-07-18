@@ -22,7 +22,14 @@ import json
 import os
 import time
 
-from scraper import make_session, fetch_competitions, fetch_results_raw, parse_compresults
+from scraper import (
+    make_session,
+    fetch_season_payload,
+    parse_groups,
+    fetch_nvl_competitions,
+    fetch_results_raw,
+    parse_compresults,
+)
 from seasons import SEASONS
 
 # A spread of seasons to probe: oldest available, a couple of mid-range
@@ -48,7 +55,20 @@ def probe_season(session, season_name: str):
     print(f"\n=== {season_name} (seasonID={season_id}) ===")
 
     try:
-        competitions = fetch_competitions(session, season_name, season_id)
+        payload = fetch_season_payload(session, season_id)
+        groups = parse_groups(payload)
+        print(f"  Groups found: {[(g.slug, g.label, g.id) for g in groups] or 'none'}")
+
+        unfiltered_count = len(payload.get("competitions", "").split("<option"))  # rough count
+        competitions = fetch_nvl_competitions(session, season_name, season_id)
+        print(f"  {len(competitions)} NVL-relevant competitions after group filtering "
+              f"(unfiltered list had ~{max(unfiltered_count - 1, 0)} options)")
+
+        os.makedirs(RAW_DIR, exist_ok=True)
+        season_payload_path = os.path.join(RAW_DIR, f"{season_name}_season_payload.json")
+        with open(season_payload_path, "w") as f:
+            json.dump(payload, f, indent=2)
+        print(f"  Saved season payload -> {season_payload_path}")
     except Exception as e:
         print(f"  ERROR fetching competitions: {e}")
         return
@@ -57,7 +77,7 @@ def probe_season(session, season_name: str):
         print("  No competitions found for this season.")
         return
 
-    print(f"  {len(competitions)} competitions found. Sample:")
+    print("  Sample:")
     for c in competitions[:5]:
         print(f"    - [{c.id}] {c.name}  (category={c.category!r}, division={c.division!r})")
 
