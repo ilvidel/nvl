@@ -157,11 +157,13 @@ class Group:
     label: str  # display text, e.g. "NVL", "Cups"
 
 
-# Group slugs (data-seasonname) we consider part of "the NVL" for this
+# Substrings (data-seasonname) we consider part of "the NVL" for this
 # project. Recent seasons bundle many other competition types (juniors,
 # beach, sitting, NEVZA, etc.) into the same season, so we filter down to
-# just these groups rather than trying to guess from division names.
-NVL_GROUP_SLUGS = {"nvl", "cups", "shield", "challenge"}
+# groups matching these rather than trying to guess from division names.
+# Substring (not exact) match, since slugs vary release to release, e.g.
+# "nvl" vs "nvl-draft-fixtures", "cups" vs "national-cup-and-shield".
+NVL_GROUP_SUBSTRINGS = ("nvl", "cup", "shield", "challenge")
 
 
 def _options_to_competitions(html: str) -> list[Competition]:
@@ -247,7 +249,9 @@ def fetch_nvl_competitions(
     """
     payload = fetch_season_payload(session, season_id)
     groups = parse_groups(payload)
-    nvl_groups = [g for g in groups if g.slug in NVL_GROUP_SLUGS]
+    nvl_groups = [
+        g for g in groups if any(s in g.slug for s in NVL_GROUP_SUBSTRINGS)
+    ]
 
     if not groups or not nvl_groups:
         # No group info, or nothing matched our known slugs -- fall back
